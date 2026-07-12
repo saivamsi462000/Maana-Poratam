@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maana Poratam — My Profile</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #201a30;
+    --ink-soft: #5c5570;
+    --paper: #f5f5f8;
+    --card: #ffffff;
+    --line: #e4e1ec;
+    --accent: #c17f1f;
+    --accent-dark: #93610f;
+    --accent-soft: #fbf0dd;
+    --success: #1c7a58;
+    --success-soft: #e5f4ee;
+    --radius: 14px;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Work Sans', -apple-system, sans-serif;
+    line-height: 1.5;
+  }
+  h1, h2, h3, .display { font-family: 'Fraunces', serif; font-weight: 600; }
+
+  .topbar {
+    background: var(--ink);
+    color: white;
+    padding: 20px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .topbar .brand {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 1.15rem;
+    letter-spacing: -0.01em;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+  }
+  .topbar .brand .mark {
+    display: inline-block;
+    width: 9px; height: 9px;
+    background: var(--accent);
+    border-radius: 2px;
+    transform: rotate(45deg);
+  }
+  .topbar .brand .telugu {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.78rem;
+    color: #a79bd1;
+  }
+  #auth-status { font-size: 0.85rem; color: #b3abcf; }
+
+
+  main { max-width: 720px; margin: 0 auto; padding: 40px 20px 80px; }
+
+  .hero { margin-bottom: 32px; }
+  .hero h1 {
+    font-size: 1.9rem;
+    font-weight: 700;
+    margin: 0 0 8px;
+    letter-spacing: -0.02em;
+  }
+  .hero p { color: var(--ink-soft); margin: 0; font-size: 1rem; }
+
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 28px 28px 24px;
+    margin-bottom: 20px;
+  }
+  .card h2 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin: 0 0 4px;
+  }
+  .card .hint {
+    font-size: 0.85rem;
+    color: var(--ink-soft);
+    margin: 0 0 18px;
+  }
+
+  label {
+    display: block;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--ink);
+    margin: 16px 0 6px;
+  }
+  label:first-of-type { margin-top: 0; }
+  input[type=text], input[type=email], input[type=tel], textarea, select {
+    width: 100%;
+    padding: 11px 13px;
+    border: 1px solid var(--line);
+    border-radius: 9px;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.92rem;
+    background: #fcfcfd;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+  }
+  input:focus, textarea:focus, select:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-soft);
+    background: white;
+  }
+  textarea { resize: vertical; min-height: 90px; font-family: 'Work Sans', sans-serif; }
+
+  .row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  @media (max-width: 560px) { .row { grid-template-columns: 1fr; } }
+
+  .chip-field {
+    display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px;
+  }
+  .chip {
+    background: var(--accent-soft);
+    color: var(--accent-dark);
+    border: 1px solid transparent;
+    border-radius: 999px;
+    padding: 6px 13px;
+    font-size: 0.82rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: transform 0.12s ease, background 0.15s ease;
+    user-select: none;
+  }
+  .chip:hover { transform: translateY(-1px); background: #f5e2bd; }
+  .chip.active {
+    background: var(--ink);
+    color: white;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 13px 26px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 0.94rem;
+    cursor: pointer;
+    transition: transform 0.12s cubic-bezier(.2,.8,.2,1), box-shadow 0.15s ease, background 0.15s ease;
+  }
+  .btn-primary {
+    background: var(--ink);
+    color: white;
+    box-shadow: 0 1px 2px rgba(32,26,48,0.18);
+  }
+  .btn-primary:hover { background: #33284d; transform: translateY(-1px); box-shadow: 0 6px 16px rgba(32,26,48,0.28); }
+  .btn-primary:active { transform: translateY(0) scale(0.98); }
+  .btn-primary:disabled { background: #a79bc4; cursor: not-allowed; transform: none; box-shadow: none; }
+
+  .btn-google {
+    background: white;
+    border: 1px solid var(--line);
+    color: var(--ink);
+    width: 100%;
+    padding: 13px;
+  }
+  .btn-google:hover { border-color: #c3cbdb; transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.06); }
+
+  .save-bar {
+    position: sticky;
+    bottom: 16px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 8px;
+  }
+
+  #status-msg {
+    font-size: 0.85rem;
+    padding: 10px 14px;
+    border-radius: 8px;
+    margin-top: 12px;
+    display: none;
+  }
+  #status-msg.show { display: block; }
+  #status-msg.ok { background: var(--success-soft); color: var(--success); }
+  #status-msg.err { background: #fdeceb; color: #b3261e; }
+
+  #signin-wrap { max-width: 380px; margin: 80px auto; text-align: center; }
+  #signin-wrap .card { text-align: left; }
+
+  .app { display: none; }
+  .app.show { display: block; }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="brand"><span class="mark"></span>Maana Poratam<span class="telugu">మన పోరాటం</span></div>
+  <div id="auth-status">Not signed in</div>
+</div>
+
+<div id="signin-wrap">
+  <h1 class="display" style="font-size:1.5rem;margin-bottom:6px;">Your fight starts here</h1>
+  <p style="color:var(--ink-soft);font-size:0.92rem;margin-bottom:20px;">Sign in to build your profile and get matched to fresh Milwaukee job posts — built by students, for students.</p>
+  <div class="card">
+    <button class="btn btn-google" id="google-signin-btn">Continue with Google</button>
+    <p id="signin-error" style="color:#b3261e;font-size:0.82rem;margin-top:12px; display:none;"></p>
+  </div>
+</div>
+
+<main class="app" id="app">
+  <div class="hero">
+    <h1>Your profile</h1>
+    <p>This powers your job matches and your auto-drafted resumes. Only you can see this.</p>
+  </div>
+
+  <div class="card">
+    <h2>Basic info</h2>
+    <p class="hint">Used on your resume header and applications.</p>
+    <div class="row">
+      <div>
+        <label for="fullname">Full name</label>
+        <input type="text" id="fullname" placeholder="Jane Doe">
+      </div>
+      <div>
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" placeholder="414-555-0139">
+      </div>
+    </div>
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="jane@email.com">
+    <label for="visa">Work authorization status</label>
+    <select id="visa">
+      <option value="">Select...</option>
+      <option value="f1-opt">F-1 OPT</option>
+      <option value="f1-opt-stem">F-1 OPT (STEM extension)</option>
+      <option value="f1-cpt">F-1 CPT</option>
+      <option value="h1b">H-1B</option>
+      <option value="citizen">US Citizen / Green Card</option>
+      <option value="other">Other</option>
+    </select>
+  </div>
+
+  <div class="card">
+    <h2>Target roles</h2>
+    <p class="hint">Tap all that apply — this drives your job matching.</p>
+    <div class="chip-field" id="role-chips">
+      <div class="chip" data-value="help-desk">Help Desk Technician</div>
+      <div class="chip" data-value="technical-support">Technical Support Specialist</div>
+      <div class="chip" data-value="desktop-support">Desktop Support Technician</div>
+      <div class="chip" data-value="qa-technician">QA / Debugging Technician</div>
+      <div class="chip" data-value="it-support">IT Support Specialist</div>
+      <div class="chip" data-value="data-analyst">Data Analyst</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Skills</h2>
+    <p class="hint">Comma-separated. Be specific — this feeds your tailored resume drafts.</p>
+    <textarea id="skills" placeholder="SQL, Excel, Windows troubleshooting, Active Directory, ticketing systems, customer service"></textarea>
+  </div>
+
+  <div class="card">
+    <h2>Experience summary</h2>
+    <p class="hint">A few sentences per role. This becomes the base your resume drafts pull from — keep it accurate, since it'll be reused for every application.</p>
+    <textarea id="experience" style="min-height:140px;" placeholder="Data Analyst, iEnergizer (Jun 2021 - Jun 2023): resolved data-quality issues across X records/month, built dashboards in SQL/Excel, root-caused recurring reporting errors..."></textarea>
+  </div>
+
+  <div class="card">
+    <h2>Education</h2>
+    <textarea id="education" style="min-height:80px;" placeholder="MS Information Science and Technology, University of Wisconsin-Milwaukee (Sep 2023 - Dec 2024)&#10;BTech Computer Science, LPU (Aug 2018 - Jun 2022)"></textarea>
+  </div>
+
+  <div id="status-msg"></div>
+  <div class="save-bar">
+    <button class="btn btn-primary" id="save-btn">Save profile</button>
+  </div>
+</main>
+
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+<script>
+  // ---- REPLACE THIS with your own Firebase project config ----
+  // Get this from: Firebase Console -> Project Settings -> General -> Your apps -> Web app
+  const firebaseConfig = {
+    apiKey: "AIzaSyDWzylnLBKfcsVqB6v-1xmxP7r3-HqFtUQ",
+    authDomain: "maana-poratam.firebaseapp.com",
+    projectId: "maana-poratam",
+    storageBucket: "maana-poratam.firebasestorage.app",
+    messagingSenderId: "573084519495",
+    appId: "1:573084519495:web:0eb73fc512013cf7e43562"
+  };
+  firebase.initializeApp(firebaseConfig);
+  const auth = firebase.auth();
+  const db = firebase.firestore();
+
+  let currentUser = null;
+  const selectedRoles = new Set();
+
+  document.getElementById('google-signin-btn').addEventListener('click', () => {
+    const provider = new firebase.auth.GoogleAuthProvider();
+    auth.signInWithPopup(provider).catch(err => {
+      const el = document.getElementById('signin-error');
+      el.textContent = err.message;
+      el.style.display = 'block';
+    });
+  });
+
+  auth.onAuthStateChanged(async user => {
+    if (user) {
+      currentUser = user;
+      document.getElementById('signin-wrap').style.display = 'none';
+      document.getElementById('app').classList.add('show');
+      document.getElementById('auth-status').textContent = user.displayName || user.email;
+      await loadProfile();
+    } else {
+      currentUser = null;
+      document.getElementById('signin-wrap').style.display = 'block';
+      document.getElementById('app').classList.remove('show');
+      document.getElementById('auth-status').textContent = 'Not signed in';
+    }
+  });
+
+  document.querySelectorAll('.chip').forEach(chip => {
+    chip.addEventListener('click', () => {
+      const val = chip.dataset.value;
+      if (selectedRoles.has(val)) {
+        selectedRoles.delete(val);
+        chip.classList.remove('active');
+      } else {
+        selectedRoles.add(val);
+        chip.classList.add('active');
+      }
+    });
+  });
+
+  async function loadProfile() {
+    if (!currentUser) return;
+    try {
+      const doc = await db.collection('profiles').doc(currentUser.uid).get();
+      if (doc.exists) {
+        const p = doc.data();
+        document.getElementById('fullname').value = p.fullname || '';
+        document.getElementById('phone').value = p.phone || '';
+        document.getElementById('email').value = p.email || currentUser.email || '';
+        document.getElementById('visa').value = p.visa || '';
+        document.getElementById('skills').value = p.skills || '';
+        document.getElementById('experience').value = p.experience || '';
+        document.getElementById('education').value = p.education || '';
+        (p.targetRoles || []).forEach(r => {
+          selectedRoles.add(r);
+          const chip = document.querySelector(`.chip[data-value="${r}"]`);
+          if (chip) chip.classList.add('active');
+        });
+      } else {
+        document.getElementById('email').value = currentUser.email || '';
+      }
+    } catch (e) {
+      showStatus('Could not load your saved profile: ' + e.message, false);
+    }
+  }
+
+  document.getElementById('save-btn').addEventListener('click', async () => {
+    if (!currentUser) return;
+    const btn = document.getElementById('save-btn');
+    btn.disabled = true;
+    btn.textContent = 'Saving...';
+
+    const profile = {
+      fullname: document.getElementById('fullname').value.trim(),
+      phone: document.getElementById('phone').value.trim(),
+      email: document.getElementById('email').value.trim(),
+      visa: document.getElementById('visa').value,
+      targetRoles: Array.from(selectedRoles),
+      skills: document.getElementById('skills').value.trim(),
+      experience: document.getElementById('experience').value.trim(),
+      education: document.getElementById('education').value.trim(),
+      updatedAt: firebase.firestore.FieldValue.serverTimestamp(),
+    };
+
+    try {
+      await db.collection('profiles').doc(currentUser.uid).set(profile, { merge: true });
+      showStatus('Profile saved.', true);
+    } catch (e) {
+      showStatus('Save failed: ' + e.message, false);
+    } finally {
+      btn.disabled = false;
+      btn.textContent = 'Save profile';
+    }
+  });
+
+  function showStatus(msg, ok) {
+    const el = document.getElementById('status-msg');
+    el.textContent = msg;
+    el.className = 'show ' + (ok ? 'ok' : 'err');
+    setTimeout(() => el.classList.remove('show'), 4000);
+  }
+</script>
+
+</body>
+</html>
