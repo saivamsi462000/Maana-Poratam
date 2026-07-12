@@ -62,6 +62,7 @@
   }
   #auth-status { font-size: 0.85rem; color: #b3abcf; }
 
+
   main { max-width: 720px; margin: 0 auto; padding: 40px 20px 80px; }
 
   .hero { margin-bottom: 32px; }
@@ -140,6 +141,62 @@
     background: var(--ink);
     color: white;
   }
+  .chip.disabled {
+    opacity: 0.4;
+    cursor: default;
+    pointer-events: none;
+  }
+
+  .tag-input-wrap {
+    border: 1px solid var(--line);
+    border-radius: 9px;
+    padding: 8px 10px;
+    background: #fcfcfd;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+  }
+  .tag-input-wrap:focus-within {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-soft);
+    background: white;
+  }
+  .tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 6px;
+  }
+  .tag-list:empty { margin-bottom: 0; }
+  .tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--ink);
+    color: white;
+    border-radius: 999px;
+    padding: 5px 8px 5px 12px;
+    font-size: 0.82rem;
+    font-weight: 500;
+  }
+  .tag button {
+    background: rgba(255,255,255,0.18);
+    border: none;
+    color: white;
+    width: 17px; height: 17px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 0.75rem;
+    line-height: 1;
+    display: flex; align-items: center; justify-content: center;
+    transition: background 0.12s ease;
+  }
+  .tag button:hover { background: rgba(255,255,255,0.32); }
+  #role-input {
+    border: none;
+    padding: 6px 3px;
+    width: 100%;
+    background: transparent;
+  }
+  #role-input:focus { outline: none; box-shadow: none; }
 
   .btn {
     display: inline-flex;
@@ -250,14 +307,25 @@
 
   <div class="card">
     <h2>Target roles</h2>
-    <p class="hint">Tap all that apply — this drives your job matching.</p>
-    <div class="chip-field" id="role-chips">
-      <div class="chip" data-value="help-desk">Help Desk Technician</div>
-      <div class="chip" data-value="technical-support">Technical Support Specialist</div>
-      <div class="chip" data-value="desktop-support">Desktop Support Technician</div>
-      <div class="chip" data-value="qa-technician">QA / Debugging Technician</div>
-      <div class="chip" data-value="it-support">IT Support Specialist</div>
-      <div class="chip" data-value="data-analyst">Data Analyst</div>
+    <p class="hint">Type any role you're aiming for and press Enter — not limited to IT roles, add whatever matches your own background.</p>
+    <div class="tag-input-wrap">
+      <div id="role-tags" class="tag-list"></div>
+      <input type="text" id="role-input" placeholder="Type a role and press Enter (e.g. Registered Nurse, Business Analyst, Mechanical Engineer)">
+    </div>
+    <p class="hint" style="margin:14px 0 6px;">Or quick-add a common one:</p>
+    <div class="chip-field" id="role-suggestions">
+      <div class="chip" data-value="Help Desk Technician">Help Desk Technician</div>
+      <div class="chip" data-value="Technical Support Specialist">Technical Support Specialist</div>
+      <div class="chip" data-value="Desktop Support Technician">Desktop Support Technician</div>
+      <div class="chip" data-value="QA / Debugging Technician">QA / Debugging Technician</div>
+      <div class="chip" data-value="IT Support Specialist">IT Support Specialist</div>
+      <div class="chip" data-value="Data Analyst">Data Analyst</div>
+      <div class="chip" data-value="Business Analyst">Business Analyst</div>
+      <div class="chip" data-value="Accountant">Accountant</div>
+      <div class="chip" data-value="Registered Nurse">Registered Nurse</div>
+      <div class="chip" data-value="Mechanical Engineer">Mechanical Engineer</div>
+      <div class="chip" data-value="Software Developer">Software Developer</div>
+      <div class="chip" data-value="Marketing Coordinator">Marketing Coordinator</div>
     </div>
   </div>
 
@@ -301,7 +369,45 @@
   const db = firebase.firestore();
 
   let currentUser = null;
-  const selectedRoles = new Set();
+  let targetRoles = [];
+
+  function renderTags() {
+    const wrap = document.getElementById('role-tags');
+    wrap.innerHTML = '';
+    targetRoles.forEach((role, idx) => {
+      const tag = document.createElement('span');
+      tag.className = 'tag';
+      tag.innerHTML = `${role} <button type="button" aria-label="Remove">&times;</button>`;
+      tag.querySelector('button').addEventListener('click', () => {
+        targetRoles.splice(idx, 1);
+        renderTags();
+      });
+      wrap.appendChild(tag);
+    });
+    document.querySelectorAll('#role-suggestions .chip').forEach(chip => {
+      chip.classList.toggle('disabled', targetRoles.includes(chip.dataset.value));
+    });
+  }
+
+  function addRole(value) {
+    const trimmed = value.trim();
+    if (trimmed && !targetRoles.includes(trimmed)) {
+      targetRoles.push(trimmed);
+      renderTags();
+    }
+  }
+
+  document.getElementById('role-input').addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      addRole(e.target.value);
+      e.target.value = '';
+    }
+  });
+
+  document.querySelectorAll('#role-suggestions .chip').forEach(chip => {
+    chip.addEventListener('click', () => addRole(chip.dataset.value));
+  });
 
   document.getElementById('google-signin-btn').addEventListener('click', () => {
     const provider = new firebase.auth.GoogleAuthProvider();
@@ -327,19 +433,6 @@
     }
   });
 
-  document.querySelectorAll('.chip').forEach(chip => {
-    chip.addEventListener('click', () => {
-      const val = chip.dataset.value;
-      if (selectedRoles.has(val)) {
-        selectedRoles.delete(val);
-        chip.classList.remove('active');
-      } else {
-        selectedRoles.add(val);
-        chip.classList.add('active');
-      }
-    });
-  });
-
   async function loadProfile() {
     if (!currentUser) return;
     try {
@@ -353,11 +446,7 @@
         document.getElementById('skills').value = p.skills || '';
         document.getElementById('experience').value = p.experience || '';
         document.getElementById('education').value = p.education || '';
-        (p.targetRoles || []).forEach(r => {
-          selectedRoles.add(r);
-          const chip = document.querySelector(`.chip[data-value="${r}"]`);
-          if (chip) chip.classList.add('active');
-        });
+        (p.targetRoles || []).forEach(r => addRole(r));
       } else {
         document.getElementById('email').value = currentUser.email || '';
       }
@@ -377,7 +466,7 @@
       phone: document.getElementById('phone').value.trim(),
       email: document.getElementById('email').value.trim(),
       visa: document.getElementById('visa').value,
-      targetRoles: Array.from(selectedRoles),
+      targetRoles: targetRoles,
       skills: document.getElementById('skills').value.trim(),
       experience: document.getElementById('experience').value.trim(),
       education: document.getElementById('education').value.trim(),
