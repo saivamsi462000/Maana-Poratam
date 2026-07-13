@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maana Poratam — My Matches</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #201a30;
+    --ink-soft: #5c5570;
+    --paper: #f5f5f8;
+    --card: #ffffff;
+    --line: #e4e1ec;
+    --accent: #c17f1f;
+    --accent-dark: #93610f;
+    --accent-soft: #fbf0dd;
+    --success: #1c7a58;
+    --success-soft: #e5f4ee;
+    --radius: 14px;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Work Sans', -apple-system, sans-serif;
+    line-height: 1.5;
+  }
+  h1, h2, h3, .display { font-family: 'Fraunces', serif; font-weight: 600; }
+
+  .topbar {
+    background: var(--ink);
+    color: white;
+    padding: 18px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 10px;
+  }
+  .topbar .brand {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .topbar .brand .mark {
+    display: inline-block;
+    width: 9px; height: 9px;
+    background: var(--accent);
+    border-radius: 2px;
+    transform: rotate(45deg);
+  }
+  .topbar .brand .telugu {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    color: #a79bd1;
+  }
+  .topbar-right {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    flex-wrap: wrap;
+  }
+  .topbar nav a {
+    color: #cfc9e3;
+    text-decoration: none;
+    font-size: 0.86rem;
+    margin-right: 16px;
+    white-space: nowrap;
+  }
+  .topbar nav a:last-child { margin-right: 0; }
+  .topbar nav a:hover { color: white; }
+
+  @media (max-width: 560px) {
+    .topbar {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 16px 18px;
+    }
+    .topbar .brand { font-size: 1rem; }
+    .topbar .brand .telugu { display: block; width: 100%; margin-top: 2px; }
+    .topbar-right {
+      width: 100%;
+      justify-content: space-between;
+    }
+  }
+
+  main { max-width: 780px; margin: 0 auto; padding: 40px 20px 80px; }
+
+  .hero h1 { font-size: 1.7rem; margin: 0 0 6px; }
+  .hero p { color: var(--ink-soft); margin: 0 0 24px; }
+
+  .banner {
+    background: white;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 12px 18px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+    font-size: 0.85rem;
+    color: var(--ink-soft);
+    margin-bottom: 20px;
+  }
+  .banner b { color: var(--ink); }
+
+  .job-card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 18px 20px;
+    margin-bottom: 12px;
+  }
+  .job-card .row-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .job-title { font-size: 1.05rem; font-weight: 700; margin: 0 0 3px; }
+  .job-company { font-size: 0.92rem; color: var(--ink-soft); margin: 0 0 2px; }
+  .job-meta { font-size: 0.8rem; color: #8a84a0; }
+
+  .score-badge {
+    font-size: 0.72rem;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 999px;
+    white-space: nowrap;
+  }
+  .score-strong { background: var(--success-soft); color: var(--success); }
+  .score-good { background: var(--accent-soft); color: var(--accent-dark); }
+
+  .matched-on {
+    font-size: 0.78rem;
+    color: var(--ink-soft);
+    margin-top: 8px;
+  }
+  .matched-on span {
+    background: #f1eef8;
+    border-radius: 6px;
+    padding: 2px 7px;
+    margin-right: 4px;
+  }
+
+  .apply-btn {
+    display: inline-block;
+    margin-top: 12px;
+    background: var(--ink);
+    color: white;
+    text-decoration: none;
+    padding: 9px 18px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: transform 0.12s ease, background 0.15s ease;
+  }
+  .apply-btn:hover { background: #33284d; transform: translateY(-1px); }
+
+  #empty-state, #loading-state, #no-roles-state {
+    text-align: center;
+    color: var(--ink-soft);
+    padding: 40px 24px;
+    background: white;
+    border-radius: var(--radius);
+    border: 1px solid var(--line);
+  }
+  #no-roles-state a { color: var(--accent-dark); font-weight: 600; }
+
+  #signin-wrap { max-width: 380px; margin: 80px auto; text-align: center; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 24px;
+    text-align: left;
+  }
+  .btn-google {
+    background: white;
+    border: 1px solid var(--line);
+    color: var(--ink);
+    width: 100%;
+    padding: 13px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 0.94rem;
+  }
+  .btn-google:hover { border-color: #c3cbdb; }
+
+  .app { display: none; }
+  .app.show { display: block; }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="brand"><span class="mark"></span>Maana Poratam<span class="telugu">మన పోరాటం</span></div>
+  <div class="topbar-right">
+    <nav>
+      <a href="index.html">My Profile</a>
+      <a href="matches.html">My Matches</a>
+    </nav>
+  </div>
+</div>
+
+<div id="signin-wrap">
+  <h1 class="display" style="font-size:1.4rem;margin-bottom:6px;">Sign in to see your matches</h1>
+  <div class="card">
+    <button class="btn-google" id="google-signin-btn">Continue with Google</button>
+  </div>
+</div>
+
+<main class="app" id="app">
+  <div class="hero">
+    <h1>Your matches</h1>
+    <p>Fresh Milwaukee jobs scored against the roles in your profile.</p>
+  </div>
+
+  <div class="banner">
+    <div>Jobs last refreshed: <b id="jobs-updated">–</b></div>
+    <div>Matches found: <b id="match-count">–</b></div>
+  </div>
+
+  <div id="loading-state">Loading your matches…</div>
+  <div id="no-roles-state" style="display:none;">
+    You haven't added any target roles yet. <a href="index.html">Go to your profile</a> and add at least one to start seeing matches.
+  </div>
+  <div id="empty-state" style="display:none;">No fresh jobs currently match your target roles. Check back after the next update, or add more roles to your profile.</div>
+  <div id="job-list"></div>
+</main>
+
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+<script>
+  const firebaseConfig = {
+    apiKey: "AIzaSyDWzylnLBKfcsVqB6v-1xmxP7r3-HqFtUQ",
+    authDomain: "maana-poratam.firebaseapp.com",
+    projectId: "maana-poratam",
+    storageBucket: "maana-poratam.firebasestorage.app",
+    messagingSenderId: "573084519495",
+    appId: "1:573084519495:web:0eb73fc512013cf7e43562"
+  };
+  firebase.initializeApp(firebaseConfig);
+  const auth = firebase.auth();
+  const db = firebase.firestore();
+
+  const JOBS_JSON_URL = "jobs.json";
+
+  const STOPWORDS = new Set(['and','or','the','a','an','of','for','to','in','on','with','is','are','will','you','your','we','our']);
+
+  function tokenize(str) {
+    return (str || '')
+      .toLowerCase()
+      .replace(/[^a-z0-9\s]/g, ' ')
+      .split(/\s+/)
+      .filter(w => w && w.length > 1 && !STOPWORDS.has(w));
+  }
+
+  function roleScore(job, targetRoles) {
+    const titleWords = new Set(tokenize(job.title));
+    const matches = [];
+    targetRoles.forEach(role => {
+      const roleWords = tokenize(role);
+      if (roleWords.length === 0) return;
+      const matched = roleWords.filter(w => titleWords.has(w));
+      const score = matched.length / roleWords.length;
+      if (score > 0) matches.push({ role, score, matchedWords: matched });
+    });
+    matches.sort((a, b) => b.score - a.score);
+    const best = matches.length ? matches[0].score : 0;
+    return { best, matches };
+  }
+
+  function skillsScore(job, skillsText, experienceText) {
+    const description = job.description || '';
+    if (!description.trim()) return { score: null, matchedTerms: [] };
+
+    const descWords = new Set(tokenize(description));
+    const candidateTerms = new Set([
+      ...tokenize(skillsText),
+      ...tokenize(experienceText),
+    ]);
+    if (candidateTerms.size === 0) return { score: null, matchedTerms: [] };
+
+    const matchedTerms = [...candidateTerms].filter(t => descWords.has(t));
+    const score = matchedTerms.length / candidateTerms.size;
+    return { score, matchedTerms };
+  }
+
+  function overallScore(job, targetRoles, skillsText, experienceText) {
+    const role = roleScore(job, targetRoles);
+    const skills = skillsScore(job, skillsText, experienceText);
+    const overall = skills.score === null
+      ? role.best
+      : (role.best * 0.5) + (skills.score * 0.5);
+    return { overall, role, skills };
+  }
+
+  document.getElementById('google-signin-btn').addEventListener('click', () => {
+    const provider = new firebase.auth.GoogleAuthProvider();
+    auth.signInWithPopup(provider);
+  });
+
+  auth.onAuthStateChanged(async user => {
+    if (user) {
+      document.getElementById('signin-wrap').style.display = 'none';
+      document.getElementById('app').classList.add('show');
+      await runMatching(user);
+    } else {
+      document.getElementById('signin-wrap').style.display = 'block';
+      document.getElementById('app').classList.remove('show');
+    }
+  });
+
+  async function runMatching(user) {
+    const loading = document.getElementById('loading-state');
+    const noRoles = document.getElementById('no-roles-state');
+    const empty = document.getElementById('empty-state');
+    const list = document.getElementById('job-list');
+
+    try {
+      const profileDoc = await db.collection('profiles').doc(user.uid).get();
+      const profile = profileDoc.exists ? profileDoc.data() : {};
+      const targetRoles = profile.targetRoles || [];
+      const skillsText = profile.skills || '';
+      const experienceText = profile.experience || '';
+
+      if (targetRoles.length === 0) {
+        loading.style.display = 'none';
+        noRoles.style.display = 'block';
+        return;
+      }
+
+      const res = await fetch(JOBS_JSON_URL + '?_=' + Date.now());
+      const data = await res.json();
+      const jobs = data.jobs || [];
+
+      document.getElementById('jobs-updated').textContent =
+        data.last_updated ? new Date(data.last_updated).toLocaleString('en-US') : 'unknown';
+
+      const scored = jobs
+        .map(job => ({ job, match: overallScore(job, targetRoles, skillsText, experienceText) }))
+        .filter(x => x.match.overall >= 0.35)
+        .sort((a, b) => b.match.overall - a.match.overall);
+
+      loading.style.display = 'none';
+      document.getElementById('match-count').textContent = scored.length;
+
+      if (scored.length === 0) {
+        empty.style.display = 'block';
+        return;
+      }
+
+      list.innerHTML = '';
+      scored.forEach(({ job, match }) => {
+        const pct = Math.round(match.overall * 100);
+        const badgeCls = pct >= 75 ? 'score-strong' : 'score-good';
+
+        const rolesLine = match.role.matches.length
+          ? match.role.matches.map(m => `<span>${m.role} (${Math.round(m.score * 100)}%)</span>`).join('')
+          : '';
+
+        const skillsLine = match.skills.score === null
+          ? `<p class="matched-on" style="opacity:0.65;">No job description available for this posting — score is based on title only.</p>`
+          : `<p class="matched-on">Skills/experience overlap (${Math.round(match.skills.score * 100)}%): ${
+              match.skills.matchedTerms.length
+                ? match.skills.matchedTerms.slice(0, 10).map(w => `<span>${w}</span>`).join('')
+                : '<em>no direct keyword overlap found</em>'
+            }</p>`;
+
+        const card = document.createElement('div');
+        card.className = 'job-card';
+        card.innerHTML = `
+          <div class="row-top">
+            <div>
+              <p class="job-title">${job.title}</p>
+              <p class="job-company">${job.company} — ${job.location}</p>
+              <p class="job-meta">Posted: ${job.posted ? new Date(job.posted).toLocaleDateString('en-US') : 'unknown'} · ${job.source || ''}</p>
+            </div>
+            <span class="score-badge ${badgeCls}">${pct}% overall match</span>
+          </div>
+          <p class="matched-on">Matched target role(s): ${rolesLine}</p>
+          ${skillsLine}
+          <a class="apply-btn" href="${job.url}" target="_blank" rel="noopener">View & Apply →</a>
+        `;
+        list.appendChild(card);
+      });
+    } catch (e) {
+      loading.style.display = 'none';
+      empty.style.display = 'block';
+      empty.textContent = 'Could not load matches: ' + e.message;
+    }
+  }
+</script>
+
+</body>
+</html>
