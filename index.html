@@ -61,7 +61,13 @@
     color: #a79bd1;
   }
   #auth-status { font-size: 0.85rem; color: #b3abcf; }
-
+  .topbar nav a {
+    color: #cfc9e3;
+    text-decoration: none;
+    font-size: 0.88rem;
+    margin-right: 18px;
+  }
+  .topbar nav a:hover { color: white; }
 
   main { max-width: 720px; margin: 0 auto; padding: 40px 20px 80px; }
 
@@ -260,7 +266,15 @@
 
 <div class="topbar">
   <div class="brand"><span class="mark"></span>Maana Poratam<span class="telugu">మన పోరాటం</span></div>
+  <nav>
+    <a href="index.html">My Profile</a>
+    <a href="matches.html">My Matches</a>
+  </nav>
   <div id="auth-status">Not signed in</div>
+</div>
+
+<div id="inapp-warning" style="display:none; background:#fdeceb; color:#8a2a20; padding:12px 20px; font-size:0.85rem; text-align:center;">
+  ⚠️ You're viewing this inside an app's built-in browser (WhatsApp, Instagram, etc.) — Google Sign-In will not work here. Please tap the menu (••• or share icon) and choose <b>"Open in Safari"</b> or <b>"Open in Chrome"</b> to continue.
 </div>
 
 <div id="signin-wrap">
@@ -347,6 +361,10 @@
   </div>
 
   <div id="status-msg"></div>
+  <div id="next-step-banner" style="display:none; background:var(--success-soft); border-radius:12px; padding:18px 20px; margin-top:6px; text-align:center;">
+    <p style="margin:0 0 10px; color:var(--success); font-weight:600;">Profile saved — you're ready for the next step.</p>
+    <a href="matches.html" class="btn btn-primary" style="text-decoration:none; display:inline-flex;">See my matches →</a>
+  </div>
   <div class="save-bar">
     <button class="btn btn-primary" id="save-btn">Save profile</button>
   </div>
@@ -370,6 +388,14 @@
 
   let currentUser = null;
   let targetRoles = [];
+
+  (function checkInAppBrowser() {
+    const ua = navigator.userAgent || '';
+    const isInApp = /FBAN|FBAV|Instagram|WhatsApp|Line\//i.test(ua);
+    if (isInApp) {
+      document.getElementById('inapp-warning').style.display = 'block';
+    }
+  })();
 
   function renderTags() {
     const wrap = document.getElementById('role-tags');
@@ -412,9 +438,16 @@
   document.getElementById('google-signin-btn').addEventListener('click', () => {
     const provider = new firebase.auth.GoogleAuthProvider();
     auth.signInWithPopup(provider).catch(err => {
-      const el = document.getElementById('signin-error');
-      el.textContent = err.message;
-      el.style.display = 'block';
+      const msg = (err && err.message) || '';
+      const isStorageBlocked = /missing initial state|sessionStorage|storage-partitioned|popup-blocked|operation-not-supported-in-this-environment/i.test(msg);
+      if (isStorageBlocked) {
+        document.getElementById('inapp-warning').style.display = 'block';
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      } else {
+        const el = document.getElementById('signin-error');
+        el.textContent = err.message;
+        el.style.display = 'block';
+      }
     });
   });
 
@@ -476,6 +509,7 @@
     try {
       await db.collection('profiles').doc(currentUser.uid).set(profile, { merge: true });
       showStatus('Profile saved.', true);
+      document.getElementById('next-step-banner').style.display = 'block';
     } catch (e) {
       showStatus('Save failed: ' + e.message, false);
     } finally {
