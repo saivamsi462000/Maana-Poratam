@@ -160,6 +160,9 @@
     text-decoration: none;
     padding: 9px 18px;
     border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Work Sans', sans-serif;
     font-size: 0.85rem;
     font-weight: 600;
     transition: transform 0.12s ease, background 0.15s ease;
@@ -200,6 +203,112 @@
 
   .app { display: none; }
   .app.show { display: block; }
+
+  .card-buttons { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 12px; }
+  .btn-secondary {
+    display: inline-block;
+    background: white;
+    color: var(--ink);
+    border: 1px solid var(--line);
+    padding: 9px 16px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Work Sans', sans-serif;
+    transition: border-color 0.15s ease, transform 0.12s ease;
+  }
+  .btn-secondary:hover { border-color: #b8b0d0; transform: translateY(-1px); }
+
+  .applied-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--success-soft);
+    color: var(--success);
+    padding: 9px 16px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-top: 12px;
+  }
+
+  .modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(20,16,32,0.55);
+    z-index: 100;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  .modal-overlay.show { display: flex; }
+  .modal-box {
+    background: white;
+    border-radius: 14px;
+    max-width: 700px;
+    width: 100%;
+    max-height: 88vh;
+    overflow-y: auto;
+    padding: 0;
+  }
+  .modal-header {
+    position: sticky;
+    top: 0;
+    background: white;
+    border-bottom: 1px solid var(--line);
+    padding: 16px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .modal-header h3 { margin: 0; font-size: 1.05rem; }
+  .modal-header .actions { display: flex; gap: 8px; }
+  .modal-header button {
+    border: none;
+    border-radius: 8px;
+    padding: 8px 14px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Work Sans', sans-serif;
+  }
+  #print-resume-btn { background: var(--ink); color: white; }
+  #close-resume-btn { background: #f1eef8; color: var(--ink); }
+
+  #resume-content { padding: 30px 34px; font-size: 0.9rem; line-height: 1.55; color: #26202f; }
+  #resume-content h2 { font-family: 'Fraunces', serif; font-size: 1.3rem; margin: 0 0 2px; }
+  #resume-content .resume-contact { font-size: 0.82rem; color: var(--ink-soft); margin-bottom: 16px; }
+  #resume-content h4 {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--accent-dark);
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 4px;
+    margin: 18px 0 8px;
+  }
+  #resume-content .skill-pill {
+    display: inline-block;
+    background: #f1eef8;
+    border-radius: 6px;
+    padding: 2px 9px;
+    margin: 0 6px 6px 0;
+    font-size: 0.82rem;
+  }
+  #resume-content .skill-pill.matched {
+    background: var(--success-soft);
+    color: var(--success);
+    font-weight: 600;
+  }
+
+  @media print {
+    body * { visibility: hidden; }
+    #resume-content, #resume-content * { visibility: visible; }
+    #resume-content { position: absolute; top: 0; left: 0; width: 100%; padding: 0; }
+    .no-print { display: none !important; }
+  }
 </style>
 </head>
 <body>
@@ -224,7 +333,7 @@
 <main class="app" id="app">
   <div class="hero">
     <h1>Your matches</h1>
-    <p>Fresh Milwaukee jobs scored against the roles in your profile.</p>
+    <p>Fresh US jobs scored against the roles in your profile.</p>
   </div>
 
   <div class="banner">
@@ -239,6 +348,19 @@
   <div id="empty-state" style="display:none;">No fresh jobs currently match your target roles. Check back after the next update, or add more roles to your profile.</div>
   <div id="job-list"></div>
 </main>
+
+<div class="modal-overlay" id="resume-modal">
+  <div class="modal-box">
+    <div class="modal-header no-print">
+      <h3>Tailored Resume Preview</h3>
+      <div class="actions">
+        <button id="print-resume-btn">Print / Save as PDF</button>
+        <button id="close-resume-btn">Close</button>
+      </div>
+    </div>
+    <div id="resume-content"></div>
+  </div>
+</div>
 
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
@@ -308,6 +430,111 @@
     return { overall, role, skills };
   }
 
+  function hashId(str) {
+    let hash = 0;
+    for (let i = 0; i < str.length; i++) {
+      hash = (hash << 5) - hash + str.charCodeAt(i);
+      hash |= 0;
+    }
+    return 'j' + Math.abs(hash).toString(36);
+  }
+
+  function generateResumeHTML(profile, job, match) {
+    const allSkills = (profile.skills || '').split(',').map(s => s.trim()).filter(Boolean);
+    const matchedSet = new Set((match.skills.matchedTerms || []).map(t => t.toLowerCase()));
+    const isMatched = (skill) => {
+      const words = tokenize(skill);
+      return words.some(w => matchedSet.has(w));
+    };
+    const sortedSkills = [...allSkills].sort((a, b) => (isMatched(b) ? 1 : 0) - (isMatched(a) ? 1 : 0));
+
+    const skillPills = sortedSkills.map(s =>
+      `<span class="skill-pill ${isMatched(s) ? 'matched' : ''}">${s}</span>`
+    ).join('');
+
+    const bestRole = match.role.matches.length ? match.role.matches[0].role : (profile.targetRoles || [])[0] || 'this role';
+
+    return `
+      <h2>${profile.fullname || 'Your Name'}</h2>
+      <div class="resume-contact">${profile.email || ''} ${profile.phone ? '· ' + profile.phone : ''} ${profile.visa ? '· ' + profile.visa.toUpperCase() : ''}</div>
+
+      <h4>Applying for</h4>
+      <p>${job.title} — ${job.company} (${job.location})</p>
+
+      <h4>Professional Summary</h4>
+      <p>Candidate for ${bestRole} roles, bringing the following relevant skills and experience to ${job.company}.</p>
+
+      <h4>Skills</h4>
+      <div>${skillPills || '<em>No skills listed in your profile yet — add some for a stronger resume.</em>'}</div>
+
+      <h4>Experience</h4>
+      <p style="white-space:pre-line;">${profile.experience || '<em>No experience listed in your profile yet.</em>'}</p>
+
+      <h4>Education</h4>
+      <p style="white-space:pre-line;">${profile.education || '<em>No education listed in your profile yet.</em>'}</p>
+    `;
+  }
+
+  let currentUserRef = null;
+  let currentProfile = null;
+  let appliedJobIds = new Set();
+  let pendingApplyJob = null;
+  let pendingApplyMatch = null;
+
+  function openResumeModal(html) {
+    document.getElementById('resume-content').innerHTML = html;
+    document.getElementById('resume-modal').classList.add('show');
+  }
+  document.getElementById('close-resume-btn').addEventListener('click', () => {
+    document.getElementById('resume-modal').classList.remove('show');
+  });
+  document.getElementById('print-resume-btn').addEventListener('click', () => window.print());
+
+  async function markApplied(job, match) {
+    if (!currentUserRef) return;
+    const id = hashId(job.url);
+    const resumeHTML = generateResumeHTML(currentProfile, job, match);
+    try {
+      await db.collection('profiles').doc(currentUserRef.uid)
+        .collection('applications').doc(id).set({
+          title: job.title,
+          company: job.company,
+          location: job.location,
+          url: job.url,
+          matchPercent: Math.round(match.overall * 100),
+          resumeSnapshot: resumeHTML,
+          appliedAt: firebase.firestore.FieldValue.serverTimestamp(),
+        });
+      appliedJobIds.add(id);
+      const btn = document.querySelector(`[data-job-id="${id}"]`);
+      if (btn) {
+        const wrap = btn.closest('.card-buttons');
+        wrap.innerHTML = `<span class="applied-badge">✓ Applied</span>`;
+      }
+    } catch (e) {
+      alert('Could not save your application record: ' + e.message);
+    }
+  }
+
+  function handleApplyClick(job, match) {
+    window.open(job.url, '_blank', 'noopener');
+    pendingApplyJob = job;
+    pendingApplyMatch = match;
+    window.addEventListener('focus', onReturnFromApply, { once: true });
+  }
+
+  function onReturnFromApply() {
+    if (!pendingApplyJob) return;
+    const job = pendingApplyJob;
+    const match = pendingApplyMatch;
+    pendingApplyJob = null;
+    pendingApplyMatch = null;
+    setTimeout(() => {
+      const applied = confirm(`Did you apply to "${job.title}" at ${job.company}?`);
+      if (applied) markApplied(job, match);
+    }, 300);
+  }
+
   document.getElementById('google-signin-btn').addEventListener('click', () => {
     const provider = new firebase.auth.GoogleAuthProvider();
     auth.signInWithPopup(provider);
@@ -331,8 +558,10 @@
     const list = document.getElementById('job-list');
 
     try {
+      currentUserRef = user;
       const profileDoc = await db.collection('profiles').doc(user.uid).get();
       const profile = profileDoc.exists ? profileDoc.data() : {};
+      currentProfile = profile;
       const targetRoles = profile.targetRoles || [];
       const skillsText = profile.skills || '';
       const experienceText = profile.experience || '';
@@ -342,6 +571,9 @@
         noRoles.style.display = 'block';
         return;
       }
+
+      const appsSnap = await db.collection('profiles').doc(user.uid).collection('applications').get();
+      appliedJobIds = new Set(appsSnap.docs.map(d => d.id));
 
       const res = await fetch(JOBS_JSON_URL + '?_=' + Date.now());
       const data = await res.json();
@@ -367,6 +599,8 @@
       scored.forEach(({ job, match }) => {
         const pct = Math.round(match.overall * 100);
         const badgeCls = pct >= 75 ? 'score-strong' : 'score-good';
+        const id = hashId(job.url);
+        const alreadyApplied = appliedJobIds.has(id);
 
         const rolesLine = match.role.matches.length
           ? match.role.matches.map(m => `<span>${m.role} (${Math.round(m.score * 100)}%)</span>`).join('')
@@ -379,6 +613,11 @@
                 ? match.skills.matchedTerms.slice(0, 10).map(w => `<span>${w}</span>`).join('')
                 : '<em>no direct keyword overlap found</em>'
             }</p>`;
+
+        const buttonsHTML = alreadyApplied
+          ? `<span class="applied-badge">✓ Applied</span>`
+          : `<button class="btn-secondary" data-action="resume">See tailored resume</button>
+             <button class="apply-btn" data-job-id="${id}" data-action="apply" style="margin-top:0;">View & Apply →</button>`;
 
         const card = document.createElement('div');
         card.className = 'job-card';
@@ -393,8 +632,18 @@
           </div>
           <p class="matched-on">Matched target role(s): ${rolesLine}</p>
           ${skillsLine}
-          <a class="apply-btn" href="${job.url}" target="_blank" rel="noopener">View & Apply →</a>
+          <div class="card-buttons">${buttonsHTML}</div>
         `;
+
+        if (!alreadyApplied) {
+          card.querySelector('[data-action="resume"]').addEventListener('click', () => {
+            openResumeModal(generateResumeHTML(currentProfile, job, match));
+          });
+          card.querySelector('[data-action="apply"]').addEventListener('click', () => {
+            handleApplyClick(job, match);
+          });
+        }
+
         list.appendChild(card);
       });
     } catch (e) {
