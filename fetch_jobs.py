@@ -1,8 +1,8 @@
 """
-Milwaukee Fresh Jobs — data collector
+Maana Poratam — job collector
 
-Pulls current job postings for support/help-desk/technician roles in the
-Milwaukee, WI area from THREE legitimate, free sources — not scraping:
+Pulls current job postings nationwide across the US from THREE legitimate,
+free sources — not scraping:
 
   1. Greenhouse (boards-api.greenhouse.io) — public API, returns the real
      direct apply link with no redirect.
@@ -43,11 +43,12 @@ SEARCH_TERMS = [
     "IT support specialist",
     "QA technician",
     "debugging technician",
+    "data analyst",
+    "business analyst",
 ]
 
-LOCATION = "Milwaukee"
 COUNTRY = "us"
-RESULTS_PER_TERM = 15
+RESULTS_PER_TERM = 20
 FRESHNESS_DAYS = 5
 OUTPUT_FILE = os.path.join(os.path.dirname(__file__), "jobs.json")
 
@@ -70,8 +71,6 @@ def fetch_for_term(term):
         "app_key": APP_KEY,
         "results_per_page": RESULTS_PER_TERM,
         "what": term,
-        "where": LOCATION,
-        "distance": 25,
         "content-type": "application/json",
     }
     url = f"https://api.adzuna.com/v1/api/jobs/{COUNTRY}/search/1?" + urllib.parse.urlencode(params)
@@ -94,7 +93,7 @@ def normalize_adzuna(raw):
         jobs.append({
             "title": item.get("title", "").strip(),
             "company": (item.get("company") or {}).get("display_name", "Unknown"),
-            "location": (item.get("location") or {}).get("display_name", "Milwaukee, WI"),
+            "location": (item.get("location") or {}).get("display_name", "Not specified"),
             "posted": item.get("created"),
             "url": url,
             "description": (item.get("description") or "").strip(),
@@ -116,14 +115,12 @@ def fetch_greenhouse(company_token):
     jobs = []
     for item in data.get("jobs", []):
         location = (item.get("location") or {}).get("name", "")
-        if "milwaukee" not in location.lower() and "wisconsin" not in location.lower() and "wi" not in location.lower():
-            continue
         raw_content = item.get("content") or ""
         plain_description = re.sub("<[^<]+?>", " ", raw_content).strip()
         jobs.append({
             "title": item.get("title", "").strip(),
             "company": company_token.replace("-", " ").title(),
-            "location": location or "Milwaukee, WI",
+            "location": location or "Not specified",
             "posted": item.get("updated_at"),
             "url": item.get("absolute_url"),
             "description": plain_description[:3000],
@@ -145,8 +142,6 @@ def fetch_lever(company_token):
     jobs = []
     for item in data:
         location = ((item.get("categories") or {}).get("location")) or ""
-        if "milwaukee" not in location.lower() and "wisconsin" not in location.lower():
-            continue
         posted_ms = item.get("createdAt")
         posted_iso = (
             datetime.fromtimestamp(posted_ms / 1000, tz=timezone.utc).isoformat()
@@ -155,7 +150,7 @@ def fetch_lever(company_token):
         jobs.append({
             "title": item.get("text", "").strip(),
             "company": company_token.replace("-", " ").title(),
-            "location": location or "Milwaukee, WI",
+            "location": location or "Not specified",
             "posted": posted_iso,
             "url": item.get("hostedUrl"),
             "description": (item.get("descriptionPlain") or "")[:3000],
