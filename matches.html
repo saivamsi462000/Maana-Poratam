@@ -298,8 +298,20 @@
   #print-resume-btn { background: var(--ink); color: white; }
   #close-resume-btn { background: #f1eef8; color: var(--ink); }
 
-  #resume-content { padding: 30px 34px; font-size: 0.9rem; line-height: 1.55; color: #26202f; }
-  #resume-content h2 { font-family: 'Fraunces', serif; font-size: 1.3rem; margin: 0 0 2px; }
+  #resume-content {
+    padding: 30px 34px;
+    font-size: 0.92rem;
+    line-height: 1.5;
+    color: #1a1a1a;
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+  }
+  #resume-content h2 {
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 0 0 2px;
+    letter-spacing: 0.01em;
+  }
   #resume-content .resume-contact { font-size: 0.82rem; color: var(--ink-soft); margin-bottom: 16px; }
   #resume-content h4 {
     font-size: 0.8rem;
@@ -310,18 +322,12 @@
     padding-bottom: 4px;
     margin: 18px 0 8px;
   }
-  #resume-content .skill-pill {
-    display: inline-block;
-    background: #f1eef8;
-    border-radius: 6px;
-    padding: 2px 9px;
-    margin: 0 6px 6px 0;
-    font-size: 0.82rem;
+  #resume-content .skills-line {
+    line-height: 1.7;
   }
-  #resume-content .skill-pill.matched {
-    background: var(--success-soft);
-    color: var(--success);
-    font-weight: 600;
+  #resume-content .skills-line strong {
+    color: #1a1a1a;
+    font-weight: 700;
   }
   #resume-content .resume-title {
     font-size: 0.95rem;
@@ -488,11 +494,21 @@
       return words.some(w => matchedSet.has(w));
     };
     const sortedSkills = [...allSkills].sort((a, b) => (isMatched(b) ? 1 : 0) - (isMatched(a) ? 1 : 0));
-    const skillPills = sortedSkills.map(s =>
-      `<span class="skill-pill ${isMatched(s) ? 'matched' : ''}">${s}</span>`
-    ).join('');
+    const skillsLineHTML = sortedSkills.length
+      ? sortedSkills.map(s => isMatched(s) ? `<strong>${s}</strong>` : s).join('  •  ')
+      : '<em>No skills listed in your profile yet — add some for a stronger resume.</em>';
 
-    const bestRole = match.role.matches.length ? match.role.matches[0].role : (profile.targetRoles || [])[0] || 'this role';
+    const bestRole = match.role.matches.length ? match.role.matches[0].role : (profile.targetRoles || [])[0] || profile.title || 'this field';
+
+    const topSkills = sortedSkills.slice(0, 5).join(', ');
+    const summaryParts = [];
+    if (profile.title) {
+      summaryParts.push(`${profile.title} with hands-on expertise in ${topSkills || 'a range of relevant skills'}.`);
+    } else {
+      summaryParts.push(`Motivated candidate for ${bestRole} roles, with hands-on expertise in ${topSkills || 'a range of relevant skills'}.`);
+    }
+    summaryParts.push(`Proven ability to apply these skills in real-world scenarios, as detailed in the experience below.`);
+    const summaryHTML = summaryParts.join(' ');
 
     let expLines = (profile.experience || '').split(/\n+/).map(l => l.trim()).filter(Boolean);
     if (expLines.length <= 1 && profile.experience) {
@@ -522,14 +538,11 @@
       ${profile.title ? `<div class="resume-title">${profile.title}</div>` : ''}
       <div class="resume-contact">${profile.email || ''} ${profile.phone ? '· ' + profile.phone : ''} ${profile.linkedin ? '· ' + profile.linkedin : ''}</div>
 
-      <h4>Applying for</h4>
-      <p>${job.title} — ${job.company} (${job.location})</p>
-
       <h4>Professional Summary</h4>
-      <p>Candidate for ${bestRole} roles, bringing hands-on skills and experience directly relevant to the ${job.title} opening at ${job.company}.</p>
+      <p>${summaryHTML}</p>
 
       <h4>Technical Skills</h4>
-      <div>${skillPills || '<em>No skills listed in your profile yet — add some for a stronger resume.</em>'}</div>
+      <p class="skills-line">${skillsLineHTML}</p>
 
       <h4>Professional Experience</h4>
       ${expHTML}
