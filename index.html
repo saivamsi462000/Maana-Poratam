@@ -25,49 +25,99 @@
     margin: 0;
     background: var(--paper);
     color: var(--ink);
-    font-family: 'Work Sans', -apple-system, sans-serif;
+    font-family: 'Work Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
-  h1, h2, h3, .display { font-family: 'Fraunces', serif; font-weight: 600; }
+  h1, h2, h3, .display { font-family: 'Fraunces', Georgia, serif; font-weight: 600; }
 
   .topbar {
     background: var(--ink);
     color: white;
-    padding: 20px 24px;
+    padding: 14px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
+  .topbar-left {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .menu-btn {
+    background: rgba(255,255,255,0.08);
+    border: none;
+    color: white;
+    font-size: 1.3rem;
+    line-height: 1;
+    width: 34px; height: 34px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.15s ease;
+    flex-shrink: 0;
+  }
+  .menu-btn:hover { background: rgba(255,255,255,0.18); }
+  .menu-dropdown {
+    display: none;
+    position: fixed;
+    top: 60px;
+    left: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 28px rgba(20,16,32,0.22);
+    overflow: hidden;
+    z-index: 200;
+    min-width: 190px;
+  }
+  .menu-dropdown.show { display: block; }
+  .menu-dropdown a {
+    display: block;
+    padding: 13px 18px;
+    color: var(--ink);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-bottom: 1px solid var(--line);
+  }
+  .menu-dropdown a:last-child { border-bottom: none; }
+  .menu-dropdown a:hover { background: var(--paper); }
+
   .topbar .brand {
-    font-family: 'Fraunces', serif;
+    font-family: 'Fraunces', Georgia, serif;
     font-weight: 700;
-    font-size: 1.15rem;
+    font-size: 1.05rem;
     letter-spacing: -0.01em;
     display: flex;
     align-items: baseline;
-    gap: 10px;
+    gap: 7px;
   }
   .topbar .brand .mark {
     display: inline-block;
-    width: 9px; height: 9px;
+    width: 8px; height: 8px;
     background: var(--accent);
     border-radius: 2px;
     transform: rotate(45deg);
+    flex-shrink: 0;
   }
   .topbar .brand .telugu {
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
-    font-size: 0.78rem;
+    font-size: 0.72rem;
     color: #a79bd1;
   }
-  #auth-status { font-size: 0.85rem; color: #b3abcf; }
-  .topbar nav a {
-    color: #cfc9e3;
-    text-decoration: none;
-    font-size: 0.88rem;
-    margin-right: 18px;
+  #auth-status { font-size: 0.82rem; color: #b3abcf; white-space: nowrap; }
+
+  @media (max-width: 560px) {
+    .topbar { padding: 13px 16px; }
+    .topbar .brand { font-size: 0.95rem; }
+    .topbar .brand .telugu { display: none; }
+    #auth-status { font-size: 0.76rem; }
   }
-  .topbar nav a:hover { color: white; }
+
 
   main { max-width: 720px; margin: 0 auto; padding: 40px 20px 80px; }
 
@@ -265,12 +315,17 @@
 <body>
 
 <div class="topbar">
-  <div class="brand"><span class="mark"></span>Maana Poratam<span class="telugu">మన పోరాటం</span></div>
-  <nav>
-    <a href="index.html">My Profile</a>
-    <a href="matches.html">My Matches</a>
-  </nav>
+  <div class="topbar-left">
+    <button class="menu-btn" id="menu-btn" aria-label="Open menu">⋮</button>
+    <div class="brand"><span class="mark"></span>Maana Poratam<span class="telugu">మన పోరాటం</span></div>
+  </div>
   <div id="auth-status">Not signed in</div>
+</div>
+
+<div id="menu-dropdown" class="menu-dropdown">
+  <a href="index.html">My Profile</a>
+  <a href="matches.html">My Matches</a>
+  <a href="dashboard.html">Dashboard</a>
 </div>
 
 <div id="inapp-warning" style="display:none; background:#fdeceb; color:#8a2a20; padding:12px 20px; font-size:0.85rem; text-align:center;">
@@ -279,7 +334,7 @@
 
 <div id="signin-wrap">
   <h1 class="display" style="font-size:1.5rem;margin-bottom:6px;">Your fight starts here</h1>
-  <p style="color:var(--ink-soft);font-size:0.92rem;margin-bottom:20px;">Sign in to build your profile and get matched to fresh Milwaukee job posts — built by students, for students.</p>
+  <p style="color:var(--ink-soft);font-size:0.92rem;margin-bottom:20px;">Sign in to build your profile and get matched to fresh job posts across the US — built by students, for students.</p>
   <div class="card">
     <button class="btn btn-google" id="google-signin-btn">Continue with Google</button>
     <p id="signin-error" style="color:#b3261e;font-size:0.82rem;margin-top:12px; display:none;"></p>
@@ -305,8 +360,12 @@
         <input type="tel" id="phone" placeholder="414-555-0139">
       </div>
     </div>
+    <label for="title">Professional title / tagline</label>
+    <input type="text" id="title" placeholder="e.g. Data & Business Intelligence Analyst">
     <label for="email">Email</label>
     <input type="email" id="email" placeholder="jane@email.com">
+    <label for="linkedin">LinkedIn URL <span style="font-weight:400;color:var(--ink-soft);">(optional)</span></label>
+    <input type="text" id="linkedin" placeholder="linkedin.com/in/yourname">
     <label for="visa">Work authorization status</label>
     <select id="visa">
       <option value="">Select...</option>
@@ -360,6 +419,18 @@
     <textarea id="education" style="min-height:80px;" placeholder="MS Information Science and Technology, University of Wisconsin-Milwaukee (Sep 2023 - Dec 2024)&#10;BTech Computer Science, LPU (Aug 2018 - Jun 2022)"></textarea>
   </div>
 
+  <div class="card">
+    <h2>Certifications <span style="font-weight:400;color:var(--ink-soft);">(optional)</span></h2>
+    <p class="hint">One per line. Leave blank if you don't have any yet — totally fine.</p>
+    <textarea id="certifications" style="min-height:70px;" placeholder="CompTIA A+&#10;Google IT Support Professional Certificate"></textarea>
+  </div>
+
+  <div class="card">
+    <h2>Project highlights / achievements <span style="font-weight:400;color:var(--ink-soft);">(optional, but strongly recommended)</span></h2>
+    <p class="hint">One line per project or achievement. This is what makes your resume stand out — think "what did I build or improve, and what was the result." One per line.</p>
+    <textarea id="highlights" style="min-height:100px;" placeholder="AI-Powered Reporting Assistant — built a prototype using LLM APIs to summarize dashboards into plain-language insights&#10;Customer Segmentation Model — developed ML models improving campaign targeting effectiveness"></textarea>
+  </div>
+
   <div id="status-msg"></div>
   <div id="next-step-banner" style="display:none; background:var(--success-soft); border-radius:12px; padding:18px 20px; margin-top:6px; text-align:center;">
     <p style="margin:0 0 10px; color:var(--success); font-weight:600;">Profile saved — you're ready for the next step.</p>
@@ -396,6 +467,18 @@
       document.getElementById('inapp-warning').style.display = 'block';
     }
   })();
+
+  const menuBtn = document.getElementById('menu-btn');
+  const menuDropdown = document.getElementById('menu-dropdown');
+  menuBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    menuDropdown.classList.toggle('show');
+  });
+  document.addEventListener('click', (e) => {
+    if (!menuDropdown.contains(e.target) && e.target !== menuBtn) {
+      menuDropdown.classList.remove('show');
+    }
+  });
 
   function renderTags() {
     const wrap = document.getElementById('role-tags');
@@ -474,11 +557,15 @@
         const p = doc.data();
         document.getElementById('fullname').value = p.fullname || '';
         document.getElementById('phone').value = p.phone || '';
+        document.getElementById('title').value = p.title || '';
         document.getElementById('email').value = p.email || currentUser.email || '';
+        document.getElementById('linkedin').value = p.linkedin || '';
         document.getElementById('visa').value = p.visa || '';
         document.getElementById('skills').value = p.skills || '';
         document.getElementById('experience').value = p.experience || '';
         document.getElementById('education').value = p.education || '';
+        document.getElementById('certifications').value = p.certifications || '';
+        document.getElementById('highlights').value = p.highlights || '';
         (p.targetRoles || []).forEach(r => addRole(r));
       } else {
         document.getElementById('email').value = currentUser.email || '';
@@ -497,12 +584,16 @@
     const profile = {
       fullname: document.getElementById('fullname').value.trim(),
       phone: document.getElementById('phone').value.trim(),
+      title: document.getElementById('title').value.trim(),
       email: document.getElementById('email').value.trim(),
+      linkedin: document.getElementById('linkedin').value.trim(),
       visa: document.getElementById('visa').value,
       targetRoles: targetRoles,
       skills: document.getElementById('skills').value.trim(),
       experience: document.getElementById('experience').value.trim(),
       education: document.getElementById('education').value.trim(),
+      certifications: document.getElementById('certifications').value.trim(),
+      highlights: document.getElementById('highlights').value.trim(),
       updatedAt: firebase.firestore.FieldValue.serverTimestamp(),
     };
 
