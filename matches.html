@@ -33,63 +33,84 @@
   .topbar {
     background: var(--ink);
     color: white;
-    padding: 18px 24px;
+    padding: 14px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
-    row-gap: 10px;
   }
+  .topbar-left {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .menu-btn {
+    background: rgba(255,255,255,0.08);
+    border: none;
+    color: white;
+    font-size: 1.3rem;
+    line-height: 1;
+    width: 34px; height: 34px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.15s ease;
+    flex-shrink: 0;
+  }
+  .menu-btn:hover { background: rgba(255,255,255,0.18); }
+  .menu-dropdown {
+    display: none;
+    position: fixed;
+    top: 60px;
+    left: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 28px rgba(20,16,32,0.22);
+    overflow: hidden;
+    z-index: 200;
+    min-width: 190px;
+  }
+  .menu-dropdown.show { display: block; }
+  .menu-dropdown a {
+    display: block;
+    padding: 13px 18px;
+    color: var(--ink);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-bottom: 1px solid var(--line);
+  }
+  .menu-dropdown a:last-child { border-bottom: none; }
+  .menu-dropdown a:hover { background: var(--paper); }
+
   .topbar .brand {
-    font-family: 'Fraunces', serif;
+    font-family: 'Fraunces', Georgia, serif;
     font-weight: 700;
-    font-size: 1.1rem;
+    font-size: 1.05rem;
     display: flex;
     align-items: baseline;
-    gap: 8px;
-    flex-wrap: wrap;
+    gap: 7px;
   }
   .topbar .brand .mark {
     display: inline-block;
-    width: 9px; height: 9px;
+    width: 8px; height: 8px;
     background: var(--accent);
     border-radius: 2px;
     transform: rotate(45deg);
+    flex-shrink: 0;
   }
   .topbar .brand .telugu {
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
-    font-size: 0.75rem;
+    font-size: 0.72rem;
     color: #a79bd1;
   }
-  .topbar-right {
-    display: flex;
-    align-items: center;
-    gap: 18px;
-    flex-wrap: wrap;
-  }
-  .topbar nav a {
-    color: #cfc9e3;
-    text-decoration: none;
-    font-size: 0.86rem;
-    margin-right: 16px;
-    white-space: nowrap;
-  }
-  .topbar nav a:last-child { margin-right: 0; }
-  .topbar nav a:hover { color: white; }
 
   @media (max-width: 560px) {
-    .topbar {
-      flex-direction: column;
-      align-items: flex-start;
-      padding: 16px 18px;
-    }
-    .topbar .brand { font-size: 1rem; }
-    .topbar .brand .telugu { display: block; width: 100%; margin-top: 2px; }
-    .topbar-right {
-      width: 100%;
-      justify-content: space-between;
-    }
+    .topbar { padding: 13px 16px; }
+    .topbar .brand { font-size: 0.95rem; }
+    .topbar .brand .telugu { display: none; }
   }
 
   main { max-width: 780px; margin: 0 auto; padding: 40px 20px 80px; }
@@ -302,6 +323,18 @@
     color: var(--success);
     font-weight: 600;
   }
+  #resume-content .resume-title {
+    font-size: 0.95rem;
+    color: var(--accent-dark);
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+  #resume-content .resume-bullets {
+    margin: 0 0 4px;
+    padding-left: 18px;
+  }
+  #resume-content .resume-bullets li { margin-bottom: 5px; }
+  #resume-content .resume-edu-line { margin: 0 0 6px; }
 
   @media print {
     body * { visibility: hidden; }
@@ -314,13 +347,16 @@
 <body>
 
 <div class="topbar">
-  <div class="brand"><span class="mark"></span>Maana Poratam<span class="telugu">మన పోరాటం</span></div>
-  <div class="topbar-right">
-    <nav>
-      <a href="index.html">My Profile</a>
-      <a href="matches.html">My Matches</a>
-    </nav>
+  <div class="topbar-left">
+    <button class="menu-btn" id="menu-btn" aria-label="Open menu">⋮</button>
+    <div class="brand"><span class="mark"></span>Maana Poratam<span class="telugu">మన పోరాటం</span></div>
   </div>
+</div>
+
+<div id="menu-dropdown" class="menu-dropdown">
+  <a href="index.html">My Profile</a>
+  <a href="matches.html">My Matches</a>
+  <a href="dashboard.html">Dashboard</a>
 </div>
 
 <div id="signin-wrap">
@@ -390,13 +426,18 @@
       .filter(w => w && w.length > 1 && !STOPWORDS.has(w));
   }
 
+  function stem(word) {
+    return word.replace(/(ing|edly|ies|ed|es|s)$/, '');
+  }
+
   function roleScore(job, targetRoles) {
-    const titleWords = new Set(tokenize(job.title));
+    const titleTokens = tokenize(job.title);
+    const titleStems = new Set(titleTokens.map(stem));
     const matches = [];
     targetRoles.forEach(role => {
       const roleWords = tokenize(role);
       if (roleWords.length === 0) return;
-      const matched = roleWords.filter(w => titleWords.has(w));
+      const matched = roleWords.filter(w => titleStems.has(stem(w)));
       const score = matched.length / roleWords.length;
       if (score > 0) matches.push({ role, score, matchedWords: matched });
     });
@@ -409,15 +450,15 @@
     const description = job.description || '';
     if (!description.trim()) return { score: null, matchedTerms: [] };
 
-    const descWords = new Set(tokenize(description));
-    const candidateTerms = new Set([
+    const descStems = new Set(tokenize(description).map(stem));
+    const candidateTerms = [...new Set([
       ...tokenize(skillsText),
       ...tokenize(experienceText),
-    ]);
-    if (candidateTerms.size === 0) return { score: null, matchedTerms: [] };
+    ])];
+    if (candidateTerms.length === 0) return { score: null, matchedTerms: [] };
 
-    const matchedTerms = [...candidateTerms].filter(t => descWords.has(t));
-    const score = matchedTerms.length / candidateTerms.size;
+    const matchedTerms = candidateTerms.filter(t => descStems.has(stem(t)));
+    const score = matchedTerms.length / candidateTerms.length;
     return { score, matchedTerms };
   }
 
@@ -447,31 +488,58 @@
       return words.some(w => matchedSet.has(w));
     };
     const sortedSkills = [...allSkills].sort((a, b) => (isMatched(b) ? 1 : 0) - (isMatched(a) ? 1 : 0));
-
     const skillPills = sortedSkills.map(s =>
       `<span class="skill-pill ${isMatched(s) ? 'matched' : ''}">${s}</span>`
     ).join('');
 
     const bestRole = match.role.matches.length ? match.role.matches[0].role : (profile.targetRoles || [])[0] || 'this role';
 
+    let expLines = (profile.experience || '').split(/\n+/).map(l => l.trim()).filter(Boolean);
+    if (expLines.length <= 1 && profile.experience) {
+      expLines = profile.experience.split(/(?<=[.!?])\s+/).map(l => l.trim()).filter(Boolean);
+    }
+    const expHTML = expLines.length
+      ? `<ul class="resume-bullets">${expLines.map(l => `<li>${l}</li>`).join('')}</ul>`
+      : `<p><em>No experience listed in your profile yet — add some in your profile for a stronger resume.</em></p>`;
+
+    const highlightLines = (profile.highlights || '').split(/\n+/).map(l => l.trim()).filter(Boolean);
+    const highlightsHTML = highlightLines.length
+      ? `<h4>Project Highlights</h4><ul class="resume-bullets">${highlightLines.map(l => `<li>${l}</li>`).join('')}</ul>`
+      : '';
+
+    const eduLines = (profile.education || '').split(/\n+/).map(l => l.trim()).filter(Boolean);
+    const eduHTML = eduLines.length
+      ? eduLines.map(l => `<p class="resume-edu-line">${l}</p>`).join('')
+      : `<p><em>No education listed in your profile yet.</em></p>`;
+
+    const certLines = (profile.certifications || '').split(/\n+/).map(l => l.trim()).filter(Boolean);
+    const certsHTML = certLines.length
+      ? `<h4>Certifications</h4><ul class="resume-bullets">${certLines.map(l => `<li>${l}</li>`).join('')}</ul>`
+      : '';
+
     return `
       <h2>${profile.fullname || 'Your Name'}</h2>
-      <div class="resume-contact">${profile.email || ''} ${profile.phone ? '· ' + profile.phone : ''} ${profile.visa ? '· ' + profile.visa.toUpperCase() : ''}</div>
+      ${profile.title ? `<div class="resume-title">${profile.title}</div>` : ''}
+      <div class="resume-contact">${profile.email || ''} ${profile.phone ? '· ' + profile.phone : ''} ${profile.linkedin ? '· ' + profile.linkedin : ''}</div>
 
       <h4>Applying for</h4>
       <p>${job.title} — ${job.company} (${job.location})</p>
 
       <h4>Professional Summary</h4>
-      <p>Candidate for ${bestRole} roles, bringing the following relevant skills and experience to ${job.company}.</p>
+      <p>Candidate for ${bestRole} roles, bringing hands-on skills and experience directly relevant to the ${job.title} opening at ${job.company}.</p>
 
-      <h4>Skills</h4>
+      <h4>Technical Skills</h4>
       <div>${skillPills || '<em>No skills listed in your profile yet — add some for a stronger resume.</em>'}</div>
 
-      <h4>Experience</h4>
-      <p style="white-space:pre-line;">${profile.experience || '<em>No experience listed in your profile yet.</em>'}</p>
+      <h4>Professional Experience</h4>
+      ${expHTML}
+
+      ${highlightsHTML}
+
+      ${certsHTML}
 
       <h4>Education</h4>
-      <p style="white-space:pre-line;">${profile.education || '<em>No education listed in your profile yet.</em>'}</p>
+      ${eduHTML}
     `;
   }
 
@@ -485,6 +553,18 @@
     document.getElementById('resume-content').innerHTML = html;
     document.getElementById('resume-modal').classList.add('show');
   }
+  const menuBtn = document.getElementById('menu-btn');
+  const menuDropdown = document.getElementById('menu-dropdown');
+  menuBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    menuDropdown.classList.toggle('show');
+  });
+  document.addEventListener('click', (e) => {
+    if (!menuDropdown.contains(e.target) && e.target !== menuBtn) {
+      menuDropdown.classList.remove('show');
+    }
+  });
+
   document.getElementById('close-resume-btn').addEventListener('click', () => {
     document.getElementById('resume-modal').classList.remove('show');
   });
