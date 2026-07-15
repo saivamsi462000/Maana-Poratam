@@ -420,6 +420,8 @@
   const auth = firebase.auth();
   const db = firebase.firestore();
 
+  // Job data lives in this same repo's jobs.json, refreshed automatically
+  // twice a day by the GitHub Actions workflow.
   const JOBS_JSON_URL = "jobs.json";
 
   const STOPWORDS = new Set(['and','or','the','a','an','of','for','to','in','on','with','is','are','will','you','your','we','our']);
@@ -432,10 +434,16 @@
       .filter(w => w && w.length > 1 && !STOPWORDS.has(w));
   }
 
+  // Light stemming so genuinely equivalent words count as a match —
+  // "troubleshooting" vs "troubleshoot", "reports" vs "report", etc.
+  // This only recognizes different forms of words the person ALREADY
+  // listed — it never adds new skills or keywords that weren't there.
   function stem(word) {
     return word.replace(/(ing|edly|ies|ed|es|s)$/, '');
   }
 
+  // ROLE SCORE: checks the job title against ALL of the user's target roles
+  // (not just the closest one) and returns every role that meaningfully matched.
   function roleScore(job, targetRoles) {
     const titleTokens = tokenize(job.title);
     const titleStems = new Set(titleTokens.map(stem));
@@ -452,6 +460,9 @@
     return { best, matches };
   }
 
+  // SKILLS/EXPERIENCE SCORE: overlaps the user's skills + experience text
+  // against the job description (when we have one). This is keyword overlap,
+  // not true AI semantic understanding — an honest approximation, free to run.
   function skillsScore(job, skillsText, experienceText) {
     const description = job.description || '';
     if (!description.trim()) return { score: null, matchedTerms: [] };
@@ -468,6 +479,9 @@
     return { score, matchedTerms };
   }
 
+  // OVERALL SCORE: blends role-title fit and skills/experience fit.
+  // If we have no description for a job, we fall back to role score alone
+  // rather than penalizing the job for missing data.
   function overallScore(job, targetRoles, skillsText, experienceText) {
     const role = roleScore(job, targetRoles);
     const skills = skillsScore(job, skillsText, experienceText);
@@ -477,6 +491,7 @@
     return { overall, role, skills };
   }
 
+  // Stable short ID for a job, used as its Firestore document key.
   function hashId(str) {
     let hash = 0;
     for (let i = 0; i < str.length; i++) {
@@ -486,6 +501,10 @@
     return 'j' + Math.abs(hash).toString(36);
   }
 
+  // Builds an honest, tailored, professionally-formatted resume: real
+  // profile content, organized and highlighted based on genuine overlap
+  // with this job's description. Never invents skills, projects, or
+  // experience the person didn't actually enter in their profile.
   function generateResumeHTML(profile, job, match) {
     const allSkills = (profile.skills || '').split(',').map(s => s.trim()).filter(Boolean);
     const matchedSet = new Set((match.skills.matchedTerms || []).map(t => t.toLowerCase()));
@@ -500,6 +519,9 @@
 
     const bestRole = match.role.matches.length ? match.role.matches[0].role : (profile.targetRoles || [])[0] || profile.title || 'this field';
 
+    // Build a real, specific-sounding summary from ONLY what's actually in
+    // the profile — top matched skills plus the person's own title — never
+    // invented years of experience or unlisted skills.
     const topSkills = sortedSkills.slice(0, 5).join(', ');
     const summaryParts = [];
     if (profile.title) {
@@ -510,6 +532,8 @@
     summaryParts.push(`Proven ability to apply these skills in real-world scenarios, as detailed in the experience below.`);
     const summaryHTML = summaryParts.join(' ');
 
+    // Experience: split into bullet points. Prefer line breaks the person
+    // already typed; fall back to splitting on sentence boundaries.
     let expLines = (profile.experience || '').split(/\n+/).map(l => l.trim()).filter(Boolean);
     if (expLines.length <= 1 && profile.experience) {
       expLines = profile.experience.split(/(?<=[.!?])\s+/).map(l => l.trim()).filter(Boolean);
@@ -746,6 +770,106 @@
     }
   }
 </script>
+
+
+<button id="ai-fab" aria-label="Open assistant">💬</button>
+<div id="ai-panel">
+  <div id="ai-panel-header">
+    <span>Maana Poratam Assistant</span>
+    <button id="ai-close">&times;</button>
+  </div>
+  <div id="ai-messages"></div>
+  <div id="ai-input-row">
+    <input id="ai-input" type="text" placeholder="Ask a question...">
+    <button id="ai-send">Send</button>
+  </div>
+</div>
+
+<style>
+#ai-fab {
+  position: fixed; bottom: 20px; right: 20px;
+  width: 54px; height: 54px; border-radius: 50%;
+  background: #201a30; color: white; border: none;
+  font-size: 1.4rem; cursor: pointer; z-index: 300;
+  box-shadow: 0 6px 18px rgba(20,16,32,0.3);
+}
+#ai-panel {
+  display: none;
+  position: fixed; bottom: 86px; right: 20px;
+  width: 320px; max-width: 90vw; height: 420px;
+  background: white; border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(20,16,32,0.25);
+  z-index: 300; flex-direction: column; overflow: hidden;
+}
+#ai-panel.show { display: flex; }
+#ai-panel-header {
+  background: #201a30; color: white; padding: 12px 16px;
+  display: flex; justify-content: space-between; align-items: center;
+  font-size: 0.9rem; font-weight: 600; font-family: sans-serif;
+}
+#ai-panel-header button { background: none; border: none; color: white; font-size: 1.1rem; cursor: pointer; }
+#ai-messages { flex: 1; overflow-y: auto; padding: 12px; font-size: 0.85rem; font-family: sans-serif; }
+.ai-msg { margin-bottom: 10px; line-height: 1.4; }
+.ai-msg.user { text-align: right; color: #201a30; }
+.ai-msg.bot { text-align: left; color: #5c5570; }
+#ai-input-row { display: flex; border-top: 1px solid #e4e1ec; padding: 8px; gap: 6px; }
+#ai-input { flex: 1; border: 1px solid #e4e1ec; border-radius: 8px; padding: 8px 10px; font-size: 0.85rem; }
+#ai-send { background: #201a30; color: white; border: none; border-radius: 8px; padding: 8px 12px; cursor: pointer; font-size: 0.85rem; }
+</style>
+
+<script>
+  const AI_WORKER_URL = "https://maana-poratam-ai.saivamsiscts.workers.dev";
+  const aiFab = document.getElementById('ai-fab');
+  const aiPanel = document.getElementById('ai-panel');
+  const aiClose = document.getElementById('ai-close');
+  const aiMessages = document.getElementById('ai-messages');
+  const aiInput = document.getElementById('ai-input');
+  const aiSend = document.getElementById('ai-send');
+  let aiHistory = [];
+
+  aiFab.addEventListener('click', () => aiPanel.classList.toggle('show'));
+  aiClose.addEventListener('click', () => aiPanel.classList.remove('show'));
+
+  function addMsg(text, who) {
+    const div = document.createElement('div');
+    div.className = 'ai-msg ' + who;
+    div.textContent = text;
+    aiMessages.appendChild(div);
+    aiMessages.scrollTop = aiMessages.scrollHeight;
+  }
+
+  async function sendMsg() {
+    const text = aiInput.value.trim();
+    if (!text) return;
+    addMsg(text, 'user');
+    aiInput.value = '';
+    aiSend.disabled = true;
+    addMsg('Thinking...', 'bot');
+
+    try {
+      const res = await fetch(AI_WORKER_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ message: text, history: aiHistory }),
+      });
+      const data = await res.json();
+      aiMessages.removeChild(aiMessages.lastChild);
+      addMsg(data.reply || 'Sorry, something went wrong.', 'bot');
+      aiHistory.push({ role: 'user', content: text });
+      aiHistory.push({ role: 'assistant', content: data.reply || '' });
+    } catch (e) {
+      aiMessages.removeChild(aiMessages.lastChild);
+      addMsg('Could not reach the assistant. Try again later.', 'bot');
+    } finally {
+      aiSend.disabled = false;
+    }
+  }
+
+  aiSend.addEventListener('click', sendMsg);
+  aiInput.addEventListener('keydown', (e) => { if (e.key === 'Enter') sendMsg(); });
+</script>
+
+
 
 </body>
 </html>
