@@ -542,24 +542,75 @@
   // profile content, organized and highlighted based on genuine overlap
   // with this job's description. Never invents skills, projects, or
   // experience the person didn't actually enter in their profile.
+  // Splits on commas but never inside parentheses, so "Office 365 (Excel,
+  // Word, Teams)" stays one item instead of shredding into fragments.
+  function smartSplitSkills(text) {
+    const items = [];
+    let depth = 0, current = '';
+    for (const ch of (text || '')) {
+      if (ch === '(') depth++;
+      if (ch === ')') depth = Math.max(0, depth - 1);
+      if (ch === ',' && depth === 0) {
+        if (current.trim()) items.push(current.trim());
+        current = '';
+      } else {
+        current += ch;
+      }
+    }
+    if (current.trim()) items.push(current.trim());
+    return items;
+  }
+
+  // Detects category labels like "Operating Systems: Windows 10/11" and
+  // groups subsequent items under that category, so a resume shows real
+  // categorized skill groups instead of one flat run-on sentence.
+  function groupSkillsByCategory(rawItems) {
+    const CATEGORY_RE = /^([A-Z][A-Za-z &\/]{2,40}):\s*(.*)$/;
+    const groups = [];
+    let current = null;
+    rawItems.forEach(item => {
+      const m = item.match(CATEGORY_RE);
+      if (m) {
+        current = { category: m[1].trim(), items: [] };
+        groups.push(current);
+        if (m[2].trim()) current.items.push(m[2].trim());
+      } else if (current) {
+        current.items.push(item);
+      } else {
+        if (!groups.length || groups[0].category !== null) groups.unshift({ category: null, items: [] });
+        groups[0].items.push(item);
+      }
+    });
+    return groups;
+  }
+
   function generateResumeHTML(profile, job, match) {
-    const allSkills = (profile.skills || '').split(',').map(s => s.trim()).filter(Boolean);
     const matchedSet = new Set((match.skills.matchedTerms || []).map(t => t.toLowerCase()));
     const isMatched = (skill) => {
       const words = tokenize(skill);
       return words.some(w => matchedSet.has(w));
     };
-    const sortedSkills = [...allSkills].sort((a, b) => (isMatched(b) ? 1 : 0) - (isMatched(a) ? 1 : 0));
-    const skillsLineHTML = sortedSkills.length
-      ? sortedSkills.map(s => isMatched(s) ? `<strong>${s}</strong>` : s).join('  •  ')
-      : '<em>No skills listed in your profile yet — add some for a stronger resume.</em>';
+
+    const rawSkillItems = smartSplitSkills(profile.skills || '');
+    const skillGroups = groupSkillsByCategory(rawSkillItems);
+    const flatSkillItems = skillGroups.flatMap(g => g.items);
+
+    const skillsHTML = skillGroups.length
+      ? skillGroups.map(g => {
+          const itemsHTML = g.items.map(it => isMatched(it) ? `<strong>${it}</strong>` : it).join(', ');
+          return g.category
+            ? `<p class="skills-line"><strong>${g.category}:</strong> ${itemsHTML}</p>`
+            : `<p class="skills-line">${itemsHTML}</p>`;
+        }).join('')
+      : '<p class="skills-line"><em>No skills listed in your profile yet — add some for a stronger resume.</em></p>';
 
     const bestRole = match.role.matches.length ? match.role.matches[0].role : (profile.targetRoles || [])[0] || profile.title || 'this field';
 
     // Build a real, specific-sounding summary from ONLY what's actually in
     // the profile — top matched skills plus the person's own title — never
     // invented years of experience or unlisted skills.
-    const topSkills = sortedSkills.slice(0, 5).join(', ');
+    const sortedFlatSkills = [...flatSkillItems].sort((a, b) => (isMatched(b) ? 1 : 0) - (isMatched(a) ? 1 : 0));
+    const topSkills = sortedFlatSkills.slice(0, 5).join(', ');
     const summaryParts = [];
     if (profile.title) {
       summaryParts.push(`${profile.title} with hands-on expertise in ${topSkills || 'a range of relevant skills'}.`);
@@ -603,7 +654,7 @@
       <p>${summaryHTML}</p>
 
       <h4>Technical Skills</h4>
-      <p class="skills-line">${skillsLineHTML}</p>
+      ${skillsHTML}
 
       <h4>Professional Experience</h4>
       ${expHTML}
@@ -742,7 +793,12 @@
       const scored = jobs
         .map(job => ({ job, match: overallScore(job, targetRoles, skillsText, experienceText) }))
         .filter(x => x.match.overall >= 0.35)
-        .sort((a, b) => b.match.overall - a.match.overall);
+        .sort((a, b) => {
+          const dateA = a.job.posted ? new Date(a.job.posted).getTime() : 0;
+          const dateB = b.job.posted ? new Date(b.job.posted).getTime() : 0;
+          if (dateB !== dateA) return dateB - dateA;
+          return b.match.overall - a.match.overall;
+        });
 
       loading.style.display = 'none';
       document.getElementById('match-count').textContent = scored.length;
