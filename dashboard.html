@@ -52,6 +52,10 @@
   }
   .sidebar-brand .brand-name { font-weight: 800; font-size: 1.02rem; letter-spacing: -0.01em; }
   .sidebar-brand .brand-sub { font-size: 0.68rem; color: #a79bd1; margin-top: 1px; }
+  .sidebar-logo-img { width: 100%; height: auto; display: block; }
+  .mobile-logo-img { height: 34px; width: auto; display: block; }
+  .sidebar-footer .credit-line { margin-top: 6px; opacity: 0.75; font-size: 0.72rem; }
+
 
   .sidebar-nav { padding: 8px 12px; display: flex; flex-direction: column; gap: 2px; }
   .nav-item {
@@ -266,11 +270,19 @@
   #resume-content .resume-bullets li { margin-bottom: 5px; }
   #resume-content .resume-edu-line { margin: 0 0 6px; }
 
+  #print-resume-doc { display: none; }
   @media print {
-    body * { visibility: hidden; }
-    #resume-content, #resume-content * { visibility: visible; }
-    #resume-content { position: absolute; top: 0; left: 0; width: 100%; padding: 0; }
-    .no-print { display: none !important; }
+    body > *:not(#print-resume-doc) { display: none !important; }
+    #print-resume-doc {
+      display: block !important;
+      position: static !important;
+      padding: 20px;
+      font-family: Calibri, Arial, Helvetica, sans-serif;
+      font-size: 0.92rem;
+      line-height: 1.5;
+      color: #1a1a1a;
+    }
+    #print-resume-doc * { display: revert !important; }
   }
 </style>
 </head>
@@ -279,11 +291,7 @@
 <div class="app-shell">
   <aside class="sidebar" id="sidebar">
     <div class="sidebar-brand">
-      <span class="mark"></span>
-      <div>
-        <div class="brand-name">Maana Poratam</div>
-        <div class="brand-sub">మన పోరాటం</div>
-      </div>
+      <img src="logo.png" alt="Maana Poratam" class="sidebar-logo-img">
     </div>
     <nav class="sidebar-nav">
       <a href="index.html?edit=1" class="nav-item">
@@ -299,14 +307,14 @@
         Dashboard
       </a>
     </nav>
-    <div class="sidebar-footer" id="auth-status">Not signed in</div>
+    <div class="sidebar-footer"><div id="auth-status">Not signed in</div><div class="credit-line">Built by SAI VAMSI</div></div>
   </aside>
   <div class="sidebar-overlay" id="sidebar-overlay"></div>
 
   <div class="main-wrap">
     <div class="mobile-topbar">
       <button id="mobile-menu-btn" aria-label="Open menu">☰</button>
-      <div class="brand-name">Maana Poratam</div>
+      <img src="logo.png" alt="Maana Poratam" class="mobile-logo-img">
     </div>
 
 <div id="signin-wrap">
@@ -386,7 +394,10 @@
   document.getElementById('close-resume-btn').addEventListener('click', () => {
     document.getElementById('resume-modal').classList.remove('show');
   });
-  document.getElementById('print-resume-btn').addEventListener('click', () => window.print());
+  document.getElementById('print-resume-btn').addEventListener('click', () => {
+    document.getElementById('print-resume-doc').innerHTML = document.getElementById('resume-content').innerHTML;
+    window.print();
+  });
 
   document.getElementById('google-signin-btn').addEventListener('click', () => {
     const provider = new firebase.auth.GoogleAuthProvider();
@@ -566,6 +577,8 @@
   aiSend.addEventListener('click', sendMsg);
   aiInput.addEventListener('keydown', (e) => { if (e.key === 'Enter') sendMsg(); });
 </script>
+
+<div id="print-resume-doc"></div>
 
 </body>
 </html>
