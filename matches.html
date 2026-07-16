@@ -5,115 +5,116 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Maana Poratam — My Matches</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
   :root {
-    --ink: #201a30;
-    --ink-soft: #5c5570;
-    --paper: #f5f5f8;
+    --ink: #17141f;
+    --ink-soft: #6b6478;
+    --bg: #f6f5f9;
     --card: #ffffff;
-    --line: #e4e1ec;
+    --line: #e8e6ef;
     --accent: #c17f1f;
     --accent-dark: #93610f;
     --accent-soft: #fbf0dd;
     --success: #1c7a58;
     --success-soft: #e5f4ee;
-    --radius: 14px;
+    --sidebar-w: 232px;
+    --radius: 12px;
   }
   * { box-sizing: border-box; }
   body {
     margin: 0;
-    background: var(--paper);
+    background: var(--bg);
     color: var(--ink);
-    font-family: 'Work Sans', -apple-system, sans-serif;
+    font-family: 'Inter', -apple-system, sans-serif;
     line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
-  h1, h2, h3, .display { font-family: 'Fraunces', serif; font-weight: 600; }
 
-  .topbar {
+  .app-shell { display: flex; min-height: 100vh; }
+  .sidebar {
+    width: var(--sidebar-w);
     background: var(--ink);
     color: white;
-    padding: 14px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .topbar-left {
-    display: flex;
-    align-items: center;
-    gap: 14px;
-  }
-  .menu-btn {
-    background: rgba(255,255,255,0.08);
-    border: none;
-    color: white;
-    font-size: 1.3rem;
-    line-height: 1;
-    width: 34px; height: 34px;
-    border-radius: 8px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background 0.15s ease;
     flex-shrink: 0;
-  }
-  .menu-btn:hover { background: rgba(255,255,255,0.18); }
-  .menu-dropdown {
-    display: none;
+    display: flex;
+    flex-direction: column;
     position: fixed;
-    top: 60px;
-    left: 20px;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 10px 28px rgba(20,16,32,0.22);
-    overflow: hidden;
-    z-index: 200;
-    min-width: 190px;
+    top: 0; bottom: 0; left: 0;
+    z-index: 100;
+    transition: transform 0.2s ease;
   }
-  .menu-dropdown.show { display: block; }
-  .menu-dropdown a {
-    display: block;
-    padding: 13px 18px;
-    color: var(--ink);
-    text-decoration: none;
-    font-size: 0.9rem;
-    font-weight: 500;
-    border-bottom: 1px solid var(--line);
+  .sidebar-brand { display: flex; align-items: center; gap: 10px; padding: 22px 20px 18px; }
+  .sidebar-brand .mark {
+    width: 9px; height: 9px; background: var(--accent);
+    border-radius: 3px; transform: rotate(45deg); flex-shrink: 0;
   }
-  .menu-dropdown a:last-child { border-bottom: none; }
-  .menu-dropdown a:hover { background: var(--paper); }
+  .sidebar-brand .brand-name { font-weight: 800; font-size: 1.02rem; letter-spacing: -0.01em; }
+  .sidebar-brand .brand-sub { font-size: 0.68rem; color: #a79bd1; margin-top: 1px; }
 
-  .topbar .brand {
-    font-family: 'Fraunces', Georgia, serif;
-    font-weight: 700;
-    font-size: 1.05rem;
-    display: flex;
-    align-items: baseline;
-    gap: 7px;
+  .sidebar-nav { padding: 8px 12px; display: flex; flex-direction: column; gap: 2px; }
+  .nav-item {
+    display: flex; align-items: center; gap: 11px;
+    padding: 10px 12px; border-radius: 9px;
+    color: #cfc9e3; text-decoration: none;
+    font-size: 0.87rem; font-weight: 500;
+    transition: background 0.15s ease, color 0.15s ease;
   }
-  .topbar .brand .mark {
-    display: inline-block;
-    width: 8px; height: 8px;
-    background: var(--accent);
-    border-radius: 2px;
-    transform: rotate(45deg);
-    flex-shrink: 0;
-  }
-  .topbar .brand .telugu {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 400;
-    font-size: 0.72rem;
-    color: #a79bd1;
+  .nav-item svg { width: 17px; height: 17px; flex-shrink: 0; opacity: 0.85; }
+  .nav-item:hover { background: rgba(255,255,255,0.06); color: white; }
+  .nav-item.active { background: rgba(193,127,31,0.16); color: white; }
+  .nav-item.active svg { opacity: 1; }
+
+  .sidebar-footer {
+    margin-top: auto; padding: 16px 20px;
+    border-top: 1px solid rgba(255,255,255,0.08);
+    font-size: 0.78rem; color: #a79bd1;
   }
 
-  @media (max-width: 560px) {
-    .topbar { padding: 13px 16px; }
-    .topbar .brand { font-size: 0.95rem; }
-    .topbar .brand .telugu { display: none; }
+  .mobile-topbar {
+    display: none; background: var(--ink); color: white;
+    padding: 14px 18px; align-items: center; gap: 12px;
+    position: sticky; top: 0; z-index: 90;
+  }
+  .mobile-topbar button {
+    background: rgba(255,255,255,0.08); border: none; color: white;
+    width: 34px; height: 34px; border-radius: 8px; font-size: 1.1rem; cursor: pointer;
+  }
+  .mobile-topbar .brand-name { font-weight: 800; font-size: 0.98rem; }
+
+  .main-wrap { flex: 1; margin-left: var(--sidebar-w); min-width: 0; }
+
+  @media (max-width: 860px) {
+    .sidebar { transform: translateX(-100%); }
+    .sidebar.show { transform: translateX(0); }
+    .main-wrap { margin-left: 0; }
+    .mobile-topbar { display: flex; }
+    .sidebar-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.4); z-index: 99; }
+    .sidebar-overlay.show { display: block; }
   }
 
-  main { max-width: 780px; margin: 0 auto; padding: 40px 20px 80px; }
+  .stat-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 14px;
+    margin-bottom: 24px;
+  }
+  .stat-card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 18px 20px;
+    box-shadow: 0 1px 2px rgba(23,20,31,0.04);
+  }
+  .stat-card .stat-label { font-size: 0.78rem; color: var(--ink-soft); font-weight: 500; margin-bottom: 6px; }
+  .stat-card .stat-value { font-size: 1.7rem; font-weight: 800; letter-spacing: -0.02em; }
+  .stat-card .stat-value.accent { color: var(--accent-dark); }
+  .stat-card .stat-value.success { color: var(--success); }
+
+  h1, h2, h3, .display { font-family: 'Inter', sans-serif; font-weight: 700; letter-spacing: -0.02em; }
+
+  .content { max-width: 780px; margin: 0 auto; padding: 40px 32px 80px; }
 
   .hero h1 { font-size: 1.7rem; margin: 0 0 6px; }
   .hero p { color: var(--ink-soft); margin: 0 0 24px; }
@@ -352,18 +353,37 @@
 </head>
 <body>
 
-<div class="topbar">
-  <div class="topbar-left">
-    <button class="menu-btn" id="menu-btn" aria-label="Open menu">⋮</button>
-    <div class="brand"><span class="mark"></span>Maana Poratam<span class="telugu">మన పోరాటం</span></div>
-  </div>
-</div>
+<div class="app-shell">
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-brand">
+      <span class="mark"></span>
+      <div>
+        <div class="brand-name">Maana Poratam</div>
+        <div class="brand-sub">మన పోరాటం</div>
+      </div>
+    </div>
+    <nav class="sidebar-nav">
+      <a href="index.html?edit=1" class="nav-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21v-1a8 8 0 0 1 16 0v1"/></svg>
+        Profile
+      </a>
+      <a href="matches.html" class="nav-item active">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3 8-8"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+        Matches
+      </a>
+      <a href="dashboard.html" class="nav-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="9"/><rect x="14" y="3" width="7" height="5"/><rect x="14" y="12" width="7" height="9"/><rect x="3" y="16" width="7" height="5"/></svg>
+        Dashboard
+      </a>
+    </nav>
+  </aside>
+  <div class="sidebar-overlay" id="sidebar-overlay"></div>
 
-<div id="menu-dropdown" class="menu-dropdown">
-  <a href="index.html">My Profile</a>
-  <a href="matches.html">My Matches</a>
-  <a href="dashboard.html">Dashboard</a>
-</div>
+  <div class="main-wrap">
+    <div class="mobile-topbar">
+      <button id="mobile-menu-btn" aria-label="Open menu">☰</button>
+      <div class="brand-name">Maana Poratam</div>
+    </div>
 
 <div id="signin-wrap">
   <h1 class="display" style="font-size:1.4rem;margin-bottom:6px;">Sign in to see your matches</h1>
@@ -372,15 +392,21 @@
   </div>
 </div>
 
-<main class="app" id="app">
+<main class="app content" id="app">
   <div class="hero">
     <h1>Your matches</h1>
     <p>Fresh US jobs scored against the roles in your profile.</p>
   </div>
 
-  <div class="banner">
-    <div>Jobs last refreshed: <b id="jobs-updated">–</b></div>
-    <div>Matches found: <b id="match-count">–</b></div>
+  <div class="stat-row">
+    <div class="stat-card">
+      <div class="stat-label">Jobs last refreshed</div>
+      <div class="stat-value" id="jobs-updated" style="font-size:1.05rem;">–</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Matches found</div>
+      <div class="stat-value accent" id="match-count">–</div>
+    </div>
   </div>
 
   <div id="loading-state">Loading your matches…</div>
@@ -401,6 +427,8 @@
       </div>
     </div>
     <div id="resume-content"></div>
+  </div>
+</div>
   </div>
 </div>
 
@@ -590,16 +618,16 @@
     document.getElementById('resume-content').innerHTML = html;
     document.getElementById('resume-modal').classList.add('show');
   }
-  const menuBtn = document.getElementById('menu-btn');
-  const menuDropdown = document.getElementById('menu-dropdown');
-  menuBtn.addEventListener('click', (e) => {
-    e.stopPropagation();
-    menuDropdown.classList.toggle('show');
+  const sidebar = document.getElementById('sidebar');
+  const sidebarOverlay = document.getElementById('sidebar-overlay');
+  const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+  mobileMenuBtn.addEventListener('click', () => {
+    sidebar.classList.add('show');
+    sidebarOverlay.classList.add('show');
   });
-  document.addEventListener('click', (e) => {
-    if (!menuDropdown.contains(e.target) && e.target !== menuBtn) {
-      menuDropdown.classList.remove('show');
-    }
+  sidebarOverlay.addEventListener('click', () => {
+    sidebar.classList.remove('show');
+    sidebarOverlay.classList.remove('show');
   });
 
   document.getElementById('close-resume-btn').addEventListener('click', () => {
