@@ -303,22 +303,22 @@
   #print-resume-btn { background: var(--ink); color: white; }
   #close-resume-btn { background: #f1eef8; color: var(--ink); }
 
-  #resume-content {
+  #resume-content,   #print-resume-doc {
     padding: 30px 34px;
     font-size: 0.92rem;
     line-height: 1.5;
     color: #1a1a1a;
     font-family: Calibri, Arial, Helvetica, sans-serif;
   }
-  #resume-content h2 {
+  #resume-content h2,   #print-resume-doc h2 {
     font-family: Calibri, Arial, Helvetica, sans-serif;
     font-size: 1.4rem;
     font-weight: 700;
     margin: 0 0 2px;
     letter-spacing: 0.01em;
   }
-  #resume-content .resume-contact { font-size: 0.82rem; color: var(--ink-soft); margin-bottom: 16px; }
-  #resume-content h4 {
+  #resume-content .resume-contact,   #print-resume-doc .resume-contact { font-size: 0.82rem; color: var(--ink-soft); margin-bottom: 16px; }
+  #resume-content h4,   #print-resume-doc h4 {
     font-size: 0.8rem;
     text-transform: uppercase;
     letter-spacing: 0.04em;
@@ -327,25 +327,44 @@
     padding-bottom: 4px;
     margin: 18px 0 8px;
   }
-  #resume-content .skills-line {
+  #resume-content .skills-line,   #print-resume-doc .skills-line {
     line-height: 1.7;
   }
-  #resume-content .skills-line strong {
+  #resume-content .skills-line strong,   #print-resume-doc .skills-line strong {
     color: #1a1a1a;
     font-weight: 700;
   }
-  #resume-content .resume-title {
+  #resume-content .resume-title,   #print-resume-doc .resume-title {
     font-size: 0.95rem;
     color: var(--accent-dark);
     font-weight: 600;
     margin-bottom: 6px;
   }
-  #resume-content .resume-bullets {
-    margin: 0 0 4px;
-    padding-left: 18px;
+  #resume-content .resume-block-title,   #print-resume-doc .resume-block-title {
+    font-weight: 700;
+    margin: 12px 0 4px;
+    font-size: 0.94rem;
   }
-  #resume-content .resume-bullets li { margin-bottom: 5px; }
-  #resume-content .resume-edu-line { margin: 0 0 6px; }
+  #resume-content .resume-block-title:first-child,   #print-resume-doc .resume-block-title:first-child { margin-top: 0; }
+  #resume-content .resume-bullets,   #print-resume-doc .resume-bullets {
+    list-style: none;
+    margin: 0 0 4px;
+    padding-left: 4px;
+  }
+  #resume-content .resume-bullets li,   #print-resume-doc .resume-bullets li {
+    margin-bottom: 5px;
+    padding-left: 16px;
+    position: relative;
+  }
+  #resume-content .resume-bullets li::before,   #print-resume-doc .resume-bullets li::before {
+    content: "●";
+    position: absolute;
+    left: 0;
+    font-size: 0.6rem;
+    top: 0.4em;
+    color: var(--accent-dark);
+  }
+  #resume-content .resume-edu-line,   #print-resume-doc .resume-edu-line { margin: 0 0 6px; }
 
   #print-resume-doc { display: none; }
   @media print {
@@ -607,32 +626,65 @@
     const bestRole = match.role.matches.length ? match.role.matches[0].role : (profile.targetRoles || [])[0] || profile.title || 'this field';
 
     // Build a real, specific-sounding summary from ONLY what's actually in
-    // the profile — top matched skills plus the person's own title — never
-    // invented years of experience or unlisted skills.
+    // the profile — representative skills plus the person's own title and
+    // target roles — never invented years of experience or unlisted skills.
     const sortedFlatSkills = [...flatSkillItems].sort((a, b) => (isMatched(b) ? 1 : 0) - (isMatched(a) ? 1 : 0));
-    const topSkills = sortedFlatSkills.slice(0, 5).join(', ');
+    const topSkills = sortedFlatSkills.slice(0, 6).join(', ');
+    const otherRoles = (profile.targetRoles || []).filter(r => r.toLowerCase() !== bestRole.toLowerCase());
+    const roleList = [bestRole, ...otherRoles].slice(0, 4);
+    const roleListText = roleList.length > 1
+      ? roleList.slice(0, -1).join(', ') + ', or ' + roleList[roleList.length - 1]
+      : (roleList[0] || 'this field');
+
     const summaryParts = [];
     if (profile.title) {
       summaryParts.push(`${profile.title} with hands-on expertise in ${topSkills || 'a range of relevant skills'}.`);
     } else {
-      summaryParts.push(`Motivated candidate for ${bestRole} roles, with hands-on expertise in ${topSkills || 'a range of relevant skills'}.`);
+      summaryParts.push(`Motivated candidate with hands-on expertise in ${topSkills || 'a range of relevant skills'}.`);
     }
     summaryParts.push(`Proven ability to apply these skills in real-world scenarios, as detailed in the experience below.`);
+    summaryParts.push(`Seeking to apply this experience in a ${roleListText} role.`);
     const summaryHTML = summaryParts.join(' ');
 
-    // Experience: split into bullet points. Prefer line breaks the person
-    // already typed; fall back to splitting on sentence boundaries.
-    let expLines = (profile.experience || '').split(/\n+/).map(l => l.trim()).filter(Boolean);
-    if (expLines.length <= 1 && profile.experience) {
-      expLines = profile.experience.split(/(?<=[.!?])\s+/).map(l => l.trim()).filter(Boolean);
+    // Parses "title line, then bullets, blank line between entries" format
+    // for both Experience and Projects. Falls back gracefully to the old
+    // flat-bullet style if no blank-line-separated blocks are found, so
+    // existing profiles keep working without requiring a re-edit.
+    function parseNamedBlocks(text) {
+      const raw = (text || '').trim();
+      if (!raw) return [];
+      const chunks = raw.split(/\n\s*\n/).map(b => b.trim()).filter(Boolean);
+      if (chunks.length <= 1) {
+        let lines = raw.split(/\n+/).map(l => l.trim()).filter(Boolean);
+        if (lines.length <= 1) {
+          lines = raw.split(/(?<=[.!?])\s+/).map(l => l.trim()).filter(Boolean);
+        }
+        return [{ title: null, bullets: lines }];
+      }
+      return chunks.map(chunk => {
+        const lines = chunk.split(/\n+/).map(l => l.trim()).filter(Boolean);
+        return { title: lines[0] || null, bullets: lines.slice(1) };
+      });
     }
-    const expHTML = expLines.length
-      ? `<ul class="resume-bullets">${expLines.map(l => `<li>${l}</li>`).join('')}</ul>`
+
+    function renderBlocks(blocks, titleClass) {
+      return blocks.map(b => {
+        const bulletsHTML = b.bullets.length
+          ? `<ul class="resume-bullets">${b.bullets.map(l => `<li>${l}</li>`).join('')}</ul>`
+          : '';
+        const titleHTML = b.title ? `<p class="${titleClass}">${b.title}</p>` : '';
+        return titleHTML + bulletsHTML;
+      }).join('');
+    }
+
+    const expBlocks = parseNamedBlocks(profile.experience);
+    const expHTML = expBlocks.length
+      ? renderBlocks(expBlocks, 'resume-block-title')
       : `<p><em>No experience listed in your profile yet — add some in your profile for a stronger resume.</em></p>`;
 
-    const highlightLines = (profile.highlights || '').split(/\n+/).map(l => l.trim()).filter(Boolean);
-    const highlightsHTML = highlightLines.length
-      ? `<h4>Project Highlights</h4><ul class="resume-bullets">${highlightLines.map(l => `<li>${l}</li>`).join('')}</ul>`
+    const projectBlocks = parseNamedBlocks(profile.highlights);
+    const highlightsHTML = projectBlocks.length
+      ? `<h4>Projects</h4>${renderBlocks(projectBlocks, 'resume-block-title')}`
       : '';
 
     const eduLines = (profile.education || '').split(/\n+/).map(l => l.trim()).filter(Boolean);
@@ -648,7 +700,7 @@
     return `
       <h2>${profile.fullname || 'Your Name'}</h2>
       ${profile.title ? `<div class="resume-title">${profile.title}</div>` : ''}
-      <div class="resume-contact">${profile.email || ''} ${profile.phone ? '· ' + profile.phone : ''} ${profile.linkedin ? '· ' + profile.linkedin : ''}</div>
+      <div class="resume-contact">${profile.location ? profile.location + ' | ' : ''}${profile.phone ? profile.phone + ' | ' : ''}${profile.email || ''}${profile.linkedin ? ' | ' + profile.linkedin : ''}</div>
 
       <h4>Professional Summary</h4>
       <p>${summaryHTML}</p>
