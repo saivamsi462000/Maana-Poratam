@@ -410,6 +410,8 @@
     <input type="email" id="email" placeholder="jane@email.com">
     <label for="linkedin">LinkedIn URL <span style="font-weight:400;color:var(--ink-soft);">(optional)</span></label>
     <input type="text" id="linkedin" placeholder="linkedin.com/in/yourname">
+    <label for="location">Location <span style="font-weight:400;color:var(--ink-soft);">(optional, shown on your resume)</span></label>
+    <input type="text" id="location" placeholder="Milwaukee, WI">
     <label for="visa">Work authorization status</label>
     <select id="visa">
       <option value="">Select...</option>
@@ -453,9 +455,16 @@
   </div>
 
   <div class="card">
-    <h2>Experience summary</h2>
-    <p class="hint">A few sentences per role. This becomes the base your resume drafts pull from — keep it accurate, since it'll be reused for every application.</p>
-    <textarea id="experience" style="min-height:140px;" placeholder="Data Analyst, iEnergizer (Jun 2021 - Jun 2023): resolved data-quality issues across X records/month, built dashboards in SQL/Excel, root-caused recurring reporting errors..."></textarea>
+    <h2>Experience</h2>
+    <p class="hint">For each job: first line = job title, company, location, and dates. Then one bullet per line describing what you did. Leave a <b>blank line</b> between different jobs — this is what turns into properly formatted, separate job entries on your resume.</p>
+    <textarea id="experience" style="min-height:180px;" placeholder="Data Analyst — iEnergizer, India (Jun 2021 - Jun 2023)
+Analyzed and resolved data-quality issues across 10,000+ monthly records, maintaining 98% accuracy
+Built Power BI dashboards and Excel/SQL reports to track KPIs
+Diagnosed reporting errors, reducing recurring issues by approximately 20%
+
+Data Entry Assistant — ABC Corp (Jan 2020 - May 2021)
+Processed 200+ records daily with high accuracy
+Assisted team with monthly reporting"></textarea>
   </div>
 
   <div class="card">
@@ -470,9 +479,15 @@
   </div>
 
   <div class="card">
-    <h2>Project highlights / achievements <span style="font-weight:400;color:var(--ink-soft);">(optional, but strongly recommended)</span></h2>
-    <p class="hint">One line per project or achievement. This is what makes your resume stand out — think "what did I build or improve, and what was the result." One per line.</p>
-    <textarea id="highlights" style="min-height:100px;" placeholder="AI-Powered Reporting Assistant — built a prototype using LLM APIs to summarize dashboards into plain-language insights&#10;Customer Segmentation Model — developed ML models improving campaign targeting effectiveness"></textarea>
+    <h2>Projects <span style="font-weight:400;color:var(--ink-soft);">(optional, but strongly recommended)</span></h2>
+    <p class="hint">For each project: first line = project name. Then one bullet per line describing it. Leave a <b>blank line</b> between different projects — same format as Experience above.</p>
+    <textarea id="highlights" style="min-height:160px;" placeholder="AI-Powered Reporting Assistant
+Built a prototype using LLM APIs to summarize dashboards into plain-language insights
+Designed prompt templates to turn raw KPI data into clear, actionable narratives
+
+Customer Segmentation Model
+Developed ML models in Python to segment customers based on behavioral data
+Improved campaign targeting effectiveness through clustering-based segmentation"></textarea>
   </div>
 
   <div id="status-msg"></div>
@@ -622,6 +637,7 @@
         document.getElementById('title').value = p.title || '';
         document.getElementById('email').value = p.email || currentUser.email || '';
         document.getElementById('linkedin').value = p.linkedin || '';
+        document.getElementById('location').value = p.location || '';
         document.getElementById('visa').value = p.visa || '';
         document.getElementById('skills').value = p.skills || '';
         document.getElementById('experience').value = p.experience || '';
@@ -649,6 +665,7 @@
       title: document.getElementById('title').value.trim(),
       email: document.getElementById('email').value.trim(),
       linkedin: document.getElementById('linkedin').value.trim(),
+      location: document.getElementById('location').value.trim(),
       visa: document.getElementById('visa').value,
       targetRoles: targetRoles,
       skills: document.getElementById('skills').value.trim(),
