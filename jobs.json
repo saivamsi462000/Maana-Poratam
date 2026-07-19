@@ -1,41 +1,185 @@
 {
-  "last_updated": "2026-07-19T13:05:02.037825+00:00",
+  "last_updated": "2026-07-19T23:52:34.083846+00:00",
   "freshness_window_days": 5,
   "jobs": [
+    {
+      "title": "NM Capital - Investment Data Analyst",
+      "company": "Northwestern Mutual",
+      "location": "Milwaukee, Milwaukee County",
+      "posted": "2026-07-19T16:58:26Z",
+      "url": "https://www.adzuna.com/land/ad/5807359707?se=1sq158yD8RGFMa6bWHzthQ&utm_medium=api&utm_source=9f1063e3&v=C92876AC0D7C97D181DF01003062600D161CEA95",
+      "description": "About the Job: This role will focus on the data associated with NMC\u2019s investment transaction lifecycle; including deal sourcing, due diligence, valuation, portfolio monitoring, portfolio performance, and reporting to clients. Manage, transform, and integrate portfolio and benchmark data to support advanced quantitative analysis, ensuring information is accurate, auditable, and analytically robust. Develop and maintain investment performance measurement frameworks, including returns, benchmarks,\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "Business Analyst",
+      "company": "Robert Half",
+      "location": "Memphis, Clark County",
+      "posted": "2026-07-19T13:00:28Z",
+      "url": "https://www.adzuna.com/land/ad/5807281050?se=nPfB6MyD8RGFMa6bWHzthQ&utm_medium=api&utm_source=9f1063e3&v=261FCBFCD35F95925699EC3051C77146B05569CD",
+      "description": "Job Description Job Description We are looking for a Compliance Analyst to support budgeting, contract compliance, and procurement oversight for information technology operations in Memphis, Tennessee. This Long-term Contract position will focus on financial analysis, contract administration, and policy adherence while partnering with internal leaders, purchasing teams, and vendors. The role is ideal for someone who can interpret budget data, manage documentation with accuracy, and help maintai\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "Business Analyst",
+      "company": "Robert Half",
+      "location": "Philadelphia, Philadelphia County",
+      "posted": "2026-07-19T13:00:09Z",
+      "url": "https://www.adzuna.com/land/ad/5807280681?se=nPfB6MyD8RGFMa6bWHzthQ&utm_medium=api&utm_source=9f1063e3&v=19C54A230F0958EC380BAA3FEAA02B8E60F5C743",
+      "description": "Job Description Job Description We are looking for a detail-oriented Business Analyst to support contract operations in Philadelphia, Pennsylvania. This Long-term Contract position focuses on translating business needs into reliable system processes, maintaining high standards for testing and documentation, and helping users work effectively within the platform. The role will partner across operations, legal support, and IT to promote accurate data, controlled change management, and dependable \u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "Business Analyst",
+      "company": "Robert Half",
+      "location": "Newport Beach, Orange County",
+      "posted": "2026-07-19T12:53:17Z",
+      "url": "https://www.adzuna.com/land/ad/5807272541?se=nPfB6MyD8RGFMa6bWHzthQ&utm_medium=api&utm_source=9f1063e3&v=907E0E993E461F1204B6EB34F0175F5072611F22",
+      "description": "Job Description Job Description We are looking for a Business Analyst to support operational improvement and digital enablement initiatives in Newport Beach, California. This role works across business and technology teams to uncover process gaps, define more effective ways of working, and help deliver scalable solutions that improve performance across core supply chain activities. The position is well suited for someone who can connect business goals with system capabilities, guide cross-funct\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "QA Technician II, Operations",
+      "company": "Cellipont Bioservices",
+      "location": "Spring, Harris County",
+      "posted": "2026-07-19T12:52:36Z",
+      "url": "https://www.adzuna.com/land/ad/5807271647?se=9uS55cyD8RGFMa6bWHzthQ&utm_medium=api&utm_source=9f1063e3&v=FBFF06094CE516DDC4195D46A1FC68899FCEDBD5",
+      "description": "Job Description Job Description Job Summary Cellipont Bioservices is growing, and we are looking for a QA Technician II, Operations who believes in the potential of bridging client's discoveries to patient cures and who wants to challenge the status quo and take Cellipont and its clients to the next level. The QA Technician II, Operations will be responsible for monitoring systems and procedures to ensure compliance where applicable. The QA Technician II, Operations is responsible to provide Qu\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "QA Technician",
+      "company": "WALKER'S FRESH FOODS",
+      "location": "North Kansas City, Clay County",
+      "posted": "2026-07-19T12:52:23Z",
+      "url": "https://www.adzuna.com/land/ad/5807271022?se=9uS55cyD8RGFMa6bWHzthQ&utm_medium=api&utm_source=9f1063e3&v=239F98A7BBA757E1B24698A3769799DE23476D8A",
+      "description": "Job Description Job Description Job description: I. Main duties and responsibilities: \u00b7 Under general direction, plan and organize daily activity of assigned area. \u00b7 Follow through on set processes and procedures to ensure compliance with good manufacturing practices (GMP), food safety, FDA, USDA requirements. \u00b7 Ensure that work descriptions are being followed. \u00b7 Responsible for monitoring, evaluating, and reporting qualitative and quantitative results of products, including alerting out of com\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "QA TECHNICIAN I $23.00",
+      "company": "JBS USA",
+      "location": "Manteca, San Joaquin County",
+      "posted": "2026-07-19T12:51:30Z",
+      "url": "https://www.adzuna.com/land/ad/5807267354?se=9uS55cyD8RGFMa6bWHzthQ&utm_medium=api&utm_source=9f1063e3&v=5C7C5D0EC6B01EC92839358F9435FF18609734AE",
+      "description": "Job Description Job Description Position Title: Quality Control Technician Shift: 1st Wage Range: $23 Differential: none Status : Full Time Responsible for supporting the QA department through product control, verification procedures, organization, compliance and inspection of finished goods. PRINCIPAL ROLES and RESPONSIBILITIES Online quality checks (dates, lots, labels, nutritional information, weights). Slice count verification checks (average slices per lb.) Finished product quality checks.\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "QA Technician/ Quality Control",
+      "company": "Elite Staffing",
+      "location": "Forest Park, Cook County",
+      "posted": "2026-07-19T06:27:52Z",
+      "url": "https://www.adzuna.com/land/ad/5807124925?se=9uS55cyD8RGFMa6bWHzthQ&utm_medium=api&utm_source=9f1063e3&v=3F9030FE36570B11A9440A2221923B474B8213FB",
+      "description": "QA Technician/ Quality Control Key Responsibilities: Quality Inspections: Regularly inspect raw materials, in-process items, and finished products to ensure they comply with quality standards and specifications. Testing: Perform various tests (e.g., dimensional, functional, visual) to evaluate product quality and performance. Documentation: Accurately document inspection results, test data, and any deviations from quality standards. Maintain detailed records of quality control activities. Defec\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "Desktop Support Technician",
+      "company": "Raas Info Solutions Pvt Ltd",
+      "location": "Phoenix, Maricopa County",
+      "posted": "2026-07-19T06:27:22Z",
+      "url": "https://www.adzuna.com/land/ad/5807122220?se=sp6q48yD8RGFMa6bWHzthQ&utm_medium=api&utm_source=9f1063e3&v=40BF4A40F91177F91A9A40F0128D36408FAA2391",
+      "description": "Hi I hope you are doing well. We have an urgent position listed below. Please send your most recent resume along with the expected rate if you are interested. Role: Desk Side Support Engineer Location: Phoenix, AZ (Onsite) Job Description Vendor Management - To have a cordial relation with the vendors and ensure all dispatch and schedule tickets are being handled as the defined SLA SLA & KPI Management - To ensure all SLA and KPI for the project has been over and above achieved Client Managemen\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "Desktop Support Technician",
+      "company": "STAND 8",
+      "location": "Chicago, Cook County",
+      "posted": "2026-07-19T06:26:53Z",
+      "url": "https://www.adzuna.com/land/ad/5807119602?se=sp6q48yD8RGFMa6bWHzthQ&utm_medium=api&utm_source=9f1063e3&v=CEAEC3017B935B5AFC152B081EB4E4A5C22EA0A8",
+      "description": "STAND 8 provides end to end IT solutions to enterprise partners across the United States and with offices in Los Angeles, New York, New Jersey, Atlanta, and more including internationally in Mexico and India. We are seeking a skilled and customer-oriented Desktop Support Technician to provide Level 1 and Level 2 onsite, in-person, phone, and remote technical support for a large enterprise user base. This role supports Windows and macOS environments, end-user hardware, software, mobile devices, \u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "IT Support Specialist",
+      "company": "Legal Monkeys",
+      "location": "College Station, Brazos County",
+      "posted": "2026-07-19T06:26:15Z",
+      "url": "https://www.adzuna.com/land/ad/5807115566?se=wMKu5MyD8RGF5LNal_k3gA&utm_medium=api&utm_source=9f1063e3&v=23CC67C4AC57FE84F4EC8F35D02FFC27DFEEF73D",
+      "description": "Job description Join our team as an IT Support Specialist, where you\u2019ll play a key role in managing hardware and software resources and troubleshooting escalated issues across systems, integrations, and business applications. You will ensure the secure and reliable operation of technology infrastructure across our growing organization. We are seeking a detail-oriented and proactive IT professional with strong technical troubleshooting skills and the ability to support end users in a fast-paced \u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "Desktop Support Technician",
+      "company": "The Peak Organization",
+      "location": "K-Town, Chicago",
+      "posted": "2026-07-19T06:25:37Z",
+      "url": "https://www.adzuna.com/land/ad/5807111614?se=sp6q48yD8RGFMa6bWHzthQ&utm_medium=api&utm_source=9f1063e3&v=359F116A9D876CBF2C6C42EF1410A5B06E95A5AF",
+      "description": "We are Peak Systems, a technology staffing and managed services consulting firm connecting technical consultants with various industry opportunities. Technicians who join us may receive new certifications for working with our clients; we issue payments weekly, offer direct deposit, and have many nationwide opportunities. Desktop Support Technician - we are looking for a L2 Desktop Support Technician who has prior experience in desktop support, including troubleshooting support for MAC & Windows\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "Technical Support Specialist",
+      "company": "Collabera",
+      "location": "Chandler, Maricopa County",
+      "posted": "2026-07-19T06:25:26Z",
+      "url": "https://www.adzuna.com/land/ad/5807110345?se=RFSl4syD8RGF5LNal_k3gA&utm_medium=api&utm_source=9f1063e3&v=B79D6F33070084518CDB07D5C05FFB820760F325",
+      "description": "Job Title: Technical Support Specialist Location: Chandler, AZ Work Arrangement: Hybrid Client Industry: Banking Duration: 12 Months Contract Quick Interviews and Offer. About the Role: This role involves providing high-quality customer service and client support, ensuring smooth communication with global partners. It requires handling multiple tasks efficiently, prioritizing workload, and meeting performance goals. The position suits someone who thrives in a fast-paced environment while mainta\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "Technical Support Specialist I",
+      "company": "Misti Pett",
+      "location": "South Paris, Oxford County",
+      "posted": "2026-07-19T06:25:20Z",
+      "url": "https://www.adzuna.com/land/ad/5807109674?se=RFSl4syD8RGF5LNal_k3gA&utm_medium=api&utm_source=9f1063e3&v=F9FE642435A24564681AD7DEA53965648DE339DF",
+      "description": "Nucor is North America's largest recycler and most diversified steel and steel products company. Since 1969, we've led the industry in developing innovative technologies for recycling scrap into high-quality steels that are all around us, from bridges and buildings to cars and appliances. Basic Job Functions: The Technical Support Specialist I is responsible for providing technical problem resolution to the dealers and end-users. The Technical Support Specialist will strive to provide the highe\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "QA Technician - 3rd Shift",
+      "company": "Alpha Baking Co., Inc.",
+      "location": "La Porte, LaPorte County",
+      "posted": "2026-07-19T06:25:00Z",
+      "url": "https://www.adzuna.com/land/ad/5807107504?se=9uS55cyD8RGFMa6bWHzthQ&utm_medium=api&utm_source=9f1063e3&v=954E2790871D7C9FFA561F34E071950094040332",
+      "description": "Duties and Responsibilities: - Understand all of the operations of the production line - Demonstrate a working knowledge of all essential Quality and Food Safety Programs and assist in Regulatory audits - Member of the plant Internal Audit Team - Understand, monitor, and report violations of GMP, Food Safety Compliance, plant security, and safety policies - Work with production to ensure all products meet specifications - Monitor finished product specifications as required - Enact HOLD procedur\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "QA Technician, 2nd shift",
+      "company": "Alpha Baking Co., Inc.",
+      "location": "Manitowoc, Manitowoc County",
+      "posted": "2026-07-19T06:24:53Z",
+      "url": "https://www.adzuna.com/land/ad/5807106789?se=9uS55cyD8RGFMa6bWHzthQ&utm_medium=api&utm_source=9f1063e3&v=98EB13DDB65F01E115871435BCE98995FF20CDA9",
+      "description": "We are seeking a detail-oriented and dedicated Quality Assurance Technician to join our team at a high-volume commercial bakery operating 24/7. The QA Technician will be responsible for monitoring and ensuring that all food safety and quality standards are met in compliance with company policies and regulatory requirements. Key Responsibilities: Conduct routine quality checks on raw materials, in-process products, and finished goods to ensure compliance with company and regulatory standards. Mo\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "QA Technician - 2nd and 3rd Shift",
+      "company": "Alpha Baking Co., Inc.",
+      "location": "Hanson Park, Chicago",
+      "posted": "2026-07-19T06:24:53Z",
+      "url": "https://www.adzuna.com/land/ad/5807106731?se=9uS55cyD8RGFMa6bWHzthQ&utm_medium=api&utm_source=9f1063e3&v=F5BD483430929F1A4FBD44834ECA197F70C2DD3D",
+      "description": "We are seeking a detail-oriented and dedicated Quality Assurance Technician to join our team at a high-volume commercial bakery operating 24/7. The QA Technician will be responsible for monitoring and ensuring that all food safety and quality standards are met in compliance with company policies and regulatory requirements. Key Responsibilities: Conduct routine quality checks on raw materials, in-process products, and finished goods to ensure compliance with company and regulatory standards. Mo\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "Technical Support Specialist",
+      "company": "Collabera",
+      "location": "Chandler, Maricopa County",
+      "posted": "2026-07-19T06:24:22Z",
+      "url": "https://www.adzuna.com/land/ad/5807104137?se=RFSl4syD8RGF5LNal_k3gA&utm_medium=api&utm_source=9f1063e3&v=AD21342BFFFDDE6E61F686CD47C8C4AF03DC6EF5",
+      "description": "Job Title: Tech Support Location: Chandler, AZ Work Arrangement: Hybrid Client Industry: Enterprise BFSI client Duration: 12 Months Contract Schedule: Monday to Friday, Standard working hours Top Three skills: Customer Service & Client Support \u2013 Excellent client care, phone/chat support, strong communication, and delivering a high-quality customer experience. Technical Troubleshooting \u2013 Hands-on experience supporting Windows 10/11, MS Office 365, SharePoint, VPN/Citrix, and basic hardware/softw\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "QA Technician/ Quality Control",
+      "company": "Elite Staffing",
+      "location": "Northbrook, Cook County",
+      "posted": "2026-07-19T06:23:42Z",
+      "url": "https://www.adzuna.com/land/ad/5807100502?se=9uS55cyD8RGFMa6bWHzthQ&utm_medium=api&utm_source=9f1063e3&v=721F772DBE80F5CED77BA04350DB52A05BABEBA7",
+      "description": "QA Technician/ Quality Control Key Responsibilities: Quality Inspections: Regularly inspect raw materials, in-process items, and finished products to ensure they comply with quality standards and specifications. Testing: Perform various tests (e.g., dimensional, functional, visual) to evaluate product quality and performance. Documentation: Accurately document inspection results, test data, and any deviations from quality standards. Maintain detailed records of quality control activities. Defec\u2026",
+      "source": "Adzuna (redirect link)"
+    },
     {
       "title": "Data Analyst, Specialist",
       "company": "Vanguard",
       "location": "Frazer, Chester County",
       "posted": "2026-07-19T04:52:16Z",
-      "url": "https://www.adzuna.com/land/ad/5806988189?se=3ppYcnKD8RGF5LNal_k3gA&utm_medium=api&utm_source=9f1063e3&v=482C6D99D5ABDB4DC7EAAD7486B617831E809077",
+      "url": "https://www.adzuna.com/land/ad/5806988189?se=1sq158yD8RGFMa6bWHzthQ&utm_medium=api&utm_source=9f1063e3&v=482C6D99D5ABDB4DC7EAAD7486B617831E809077",
       "description": "hackajob is collaborating with Vanguard to connect them with exceptional professionals for this role. Analyzes data, assesses trends and develops actionable insights and recommendations in support of large strategic business initiatives. Actively develops the analytics community at Vanguard by coaching others internally and participating in external events. PW Growth Strategy Analytics is growing! We\u2019re opening a new role to support some of the most important questions facing the Personal Wealt\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "QA Technician I (2nd shift)",
-      "company": "Sioux Manufacturing",
-      "location": "US",
-      "posted": "2026-07-19T00:45:25Z",
-      "url": "https://www.adzuna.com/land/ad/5806802801?se=cFWBcHKD8RGF5LNal_k3gA&utm_medium=api&utm_source=9f1063e3&v=E6DACB35CD68CC11A0F3FEED9349B07FBFEAA6BC",
-      "description": "Job Description Job Description If you have any questions, please contact Madyson at mscrivener@siouxmanufacturing.com POSITION SUMMARY The QA Technician supports internal and external customers utilizing prescribed quality assurance tools and inspection practices, perform analytical tests and evaluate test results to determine conformance to requirements in support of the quality management system. This job requires training on day shift (8am to 4:30pm) up to 6 months before transferring to 2n\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "QA Technician- Warehouse Operations",
-      "company": "Granules",
-      "location": "Manassas, Prince William County",
-      "posted": "2026-07-19T00:44:19Z",
-      "url": "https://www.adzuna.com/land/ad/5806797043?se=cFWBcHKD8RGF5LNal_k3gA&utm_medium=api&utm_source=9f1063e3&v=97720C8FEA2F0DC78815F13A4DE263D979056140",
-      "description": "Job Description Job Description Description: Granules Consumer Health LLC is located in Manassas, Virginia. We have 106 employees and annual revenue of $76.64 million. We serve as Granules\u2019 front-end division for private label over the counter (OTC) products in the US. We offer OTC generics that meet the highest level of quality at an affordable cost. As such, we are well-established on bulk supply through efficiencies garnered through manufacturing, integration and a high level of regulatory c\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "QA Technician Lead",
-      "company": "PPC Flex",
-      "location": "Payson, Utah County",
-      "posted": "2026-07-19T00:44:12Z",
-      "url": "https://www.adzuna.com/land/ad/5806796695?se=cFWBcHKD8RGF5LNal_k3gA&utm_medium=api&utm_source=9f1063e3&v=6DC32AB01135F1472868C1CF8069B819DC2AA103",
-      "description": "Job Description Job Description Join a Team Where Quality Matters At PPC Flex, quality is at the center of everything we do. We are seeking a motivated and detail-oriented QA/QC Technician Lead to help drive product quality, food safety, and continuous improvement throughout our manufacturing operations. This position is ideal for an experienced quality professional who enjoys working closely with production teams, solving problems, improving processes, and ensuring our products meet customer e\u2026",
       "source": "Adzuna (redirect link)"
     },
     {
@@ -43,7 +187,7 @@
       "company": "ManpowerGroup",
       "location": "Wheat Ridge, Jefferson County",
       "posted": "2026-07-18T22:40:02Z",
-      "url": "https://www.adzuna.com/land/ad/5806721150?se=IhDSbHKD8RGkdKG2M6Y4kQ&utm_medium=api&utm_source=9f1063e3&v=3C6DDD166697BA6906CA4422E0BE3983CF20F8BE",
+      "url": "https://www.adzuna.com/land/ad/5806721150?se=IjiF4cyD8RGFMa6bWHzthQ&utm_medium=api&utm_source=9f1063e3&v=3C6DDD166697BA6906CA4422E0BE3983CF20F8BE",
       "description": "Pay $26 hour 2 to 3 month project In office in Arvada, CO The Help Desk II Technician is responsible for providing intermediate to advanced technical support to end users by troubleshooting hardware, software, network, and system-related issues. This role manages support requests through a ticketing system, ensuring timely resolution, proper documentation, and adherence to service level agreements (SLAs). The technician serves as an escalation point for Help Desk I staff and collaborates with I\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -52,7 +196,7 @@
       "company": "Leidos",
       "location": "US",
       "posted": "2026-07-18T15:02:50Z",
-      "url": "https://www.adzuna.com/land/ad/5806324519?se=7F29bnKD8RGcoYke4_5k4g&utm_medium=api&utm_source=9f1063e3&v=87DD53AA90D13239BFC21B835EAADE05FB96F586",
+      "url": "https://www.adzuna.com/land/ad/5806324519?se=sp6q48yD8RGFMa6bWHzthQ&utm_medium=api&utm_source=9f1063e3&v=87DD53AA90D13239BFC21B835EAADE05FB96F586",
       "description": "Job Description Description \\n More About the Role: \\n NGEN is the largest IT services program for the Navy. Under the Service Management, Integration, and Transport (SMIT) portion of NGEN, the Leidos team will deliver the core backbone of the Navy-Marine Corps Intranet, including cybersecurity services, network operations, service desk, and data transport. Ultimately, Leidos will support the Navy in unifying its shore-based networks and data management to improve capability and service while a\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -61,17 +205,8 @@
       "company": "ColumbiaCare Services",
       "location": "Springfield, Effingham County",
       "posted": "2026-07-18T14:56:31Z",
-      "url": "https://www.adzuna.com/land/ad/5806322506?se=xvqpb3KD8RGH07FgnNXjjA&utm_medium=api&utm_source=9f1063e3&v=FDDBEA86412E3BBC6EF8F8DD4F6D0C51D79F204A",
+      "url": "https://www.adzuna.com/land/ad/5806322506?se=wMKu5MyD8RGF5LNal_k3gA&utm_medium=api&utm_source=9f1063e3&v=FDDBEA86412E3BBC6EF8F8DD4F6D0C51D79F204A",
       "description": "Job Description Job Description APPLY TODAY AND MAKE A DIFFERENCE IN THE MENTAL HEALTH FIELD! What We Offer Enjoy our many benefits and incentives including: Affordable Medical/Dental/Vision plansFlexible Spending AccountGenerous Paid Time OffWhole Health &Wellness Reimbursement ProgramProfessional development and training opportunities100% Vested Retirement Plan w/ up to 6% MatchHoliday Pay (9)Paid Time Off for Mental HealthCompany Paid Life InsuranceSpontaneous & Longevity BonusesLoan Forgive\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Korean Bilingual Data Analyst",
-      "company": "BTI Solutions",
-      "location": "Santa Ana, Orange County",
-      "posted": "2026-07-18T14:26:25Z",
-      "url": "https://www.adzuna.com/land/ad/5806310999?se=3ppYcnKD8RGF5LNal_k3gA&utm_medium=api&utm_source=9f1063e3&v=1091CB2C1FD219AD53BF60B1855E6CF65A75A62C",
-      "description": "Job Description Top Skills: Python, Data Modeling, Tableau \\n Korean/Bilingual \\n \\n Top 4 things to focus on: \\n 1. Experience in logistics, distribution center, warehouse, and/or supply chain environments \\n 2. High proficiency in MS Excel, SQL, Access, PowerPoint, and BI Tools \\n 3. Proficiency in SAP and WMS (Warehouse Management Systems) \\n 4. Report automation & design \\n \\n Job Description: \\n \\n The Sr. Data & Reporting Analyst is responsible for all points of data mining, extraction, m\u2026",
       "source": "Adzuna (redirect link)"
     },
     {
@@ -79,17 +214,8 @@
       "company": "ColumbiaCare Services",
       "location": "Springfield, Lane County",
       "posted": "2026-07-18T06:43:48Z",
-      "url": "https://www.adzuna.com/land/ad/5806107343?se=xvqpb3KD8RGH07FgnNXjjA&utm_medium=api&utm_source=9f1063e3&v=8D9CDDBB2DAB97D91D8E6741FEDE6A148E6163E8",
+      "url": "https://www.adzuna.com/land/ad/5806107343?se=wMKu5MyD8RGF5LNal_k3gA&utm_medium=api&utm_source=9f1063e3&v=8D9CDDBB2DAB97D91D8E6741FEDE6A148E6163E8",
       "description": "ColumbiaCare Services is seeking an IT Support Specialist II to deliver reliable, compassionate technical support for our behavioral health and supported housing programs. In this role, you will provide Tier II support for staff across multiple sites, troubleshooting hardware, software, network, and EHR application issues in a timely, customer-focused manner. You will install and maintain workstations and mobile devices, manage user accounts, and support telehealth and collaboration tools that \u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Data Analyst",
-      "company": "Solace",
-      "location": "US",
-      "posted": "2026-07-18T04:36:34Z",
-      "url": "https://www.adzuna.com/land/ad/5805946719?se=3ppYcnKD8RGF5LNal_k3gA&utm_medium=api&utm_source=9f1063e3&v=46A9F8D0FAA018E5FE46233B5B1A091FD0E238E0",
-      "description": "hackajob is collaborating with Solace to connect them with exceptional professionals for this role. About Solace Healthcare in the U.S. is fundamentally broken. The system is so complex that 88% of U.S. adults do not have the health literacy necessary to navigate it without help. Solace cuts through the red tape of healthcare by pairing patients with expert advocates and giving them the tools to make better decisions\u2014and get better outcomes. We're a Series C startup, founded in 2022 and backed \u2026",
       "source": "Adzuna (redirect link)"
     },
     {
@@ -97,26 +223,8 @@
       "company": "Robert Half",
       "location": "Pennsylvania, US",
       "posted": "2026-07-17T21:54:44Z",
-      "url": "https://www.adzuna.com/land/ad/5805616749?se=7F29bnKD8RGcoYke4_5k4g&utm_medium=api&utm_source=9f1063e3&v=22AC82D29754A51AACA58FF0BA684B170EB7060A",
+      "url": "https://www.adzuna.com/land/ad/5805616749?se=sp6q48yD8RGFMa6bWHzthQ&utm_medium=api&utm_source=9f1063e3&v=22AC82D29754A51AACA58FF0BA684B170EB7060A",
       "description": "Description We are looking for a Desktop Support Technician to provide hands-on technical support for end users in Moon Township, Pennsylvania. This Long-term Contract opportunity is ideal for someone with strong desktop support experience who can maintain reliable device performance, resolve user issues efficiently, and contribute to a stable IT environment. The role focuses on supporting Windows-based systems, workplace productivity tools, device deployment activities, and core infrastructure\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Desktop Support Technician",
-      "company": "Acro Service Corp.",
-      "location": "Spokane, Spokane County",
-      "posted": "2026-07-17T18:03:20Z",
-      "url": "https://www.adzuna.com/land/ad/5805403281?se=7F29bnKD8RGcoYke4_5k4g&utm_medium=api&utm_source=9f1063e3&v=1727DCF6E94E5F28468F247E41CE34837F4A9BFB",
-      "description": "Job Title : Client Support - Associate Duration: 3 Months Contract with possibility of extension (Contract to hire role) Shift Time : 8am-5pm first 90 days and then 3 days 8am-5pm and 2 days 10am-7pm (M-F) Location: Loveland, CO, 80538 (Onsite) Pay rate: $28/hr on W2 terms without any other benefits/holiday/vacation Job description: The IT Specialist serves as a frontline technical support resource for corporate infrastructure and enterprise applications. This role provides hands-on and remote \u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Business Analyst",
-      "company": "MANTECH",
-      "location": "Springfield, Effingham County",
-      "posted": "2026-07-17T16:31:19Z",
-      "url": "https://www.adzuna.com/land/ad/5805158448?se=lEJAc3KD8RGF5LNal_k3gA&utm_medium=api&utm_source=9f1063e3&v=DFF3F43886EF1606FB3432864CDC31329B39A11F",
-      "description": "hackajob is collaborating with MANTECH to connect them with exceptional professionals for this role. MANTECH seeks a motivated, career and customer-oriented Business Analyst to join our team in Springfield, VA. This role is 100% on-site. The Business Analyst is a subject matter expert and program leader responsible for analyzing organizational needs, managing complex initiatives, and driving significant improvements across the enterprise. This role blends hands-on analytical and staff support f\u2026",
       "source": "Adzuna (redirect link)"
     },
     {
@@ -124,8 +232,17 @@
       "company": "Infinitice, LLC",
       "location": "Troy, Oakland County",
       "posted": "2026-07-17T15:46:19Z",
-      "url": "https://www.adzuna.com/land/ad/5805155124?se=xvqpb3KD8RGH07FgnNXjjA&utm_medium=api&utm_source=9f1063e3&v=E17EE302C5A90FE12BA8A098E16ACE04030CAD63",
+      "url": "https://www.adzuna.com/land/ad/5805155124?se=wMKu5MyD8RGF5LNal_k3gA&utm_medium=api&utm_source=9f1063e3&v=E17EE302C5A90FE12BA8A098E16ACE04030CAD63",
       "description": "This on-site position will support the Troy District Court located at 520 W Big Beaver Road, Troy, Michigan 48084. The Application Support Specialist will be responsible for providing end-user technical support for personal computers, software applications, courtroom audio and visual systems, and related technologies used by court personnel and members of the public. The selected candidate must be able to learn, support, and troubleshoot MiFILE and other court-specific applications, including c\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "Business Analyst",
+      "company": "Computer Management And Information Solutions Inc",
+      "location": "Austin, Travis County",
+      "posted": "2026-07-17T12:54:12Z",
+      "url": "https://www.adzuna.com/land/ad/5805055539?se=nPfB6MyD8RGFMa6bWHzthQ&utm_medium=api&utm_source=9f1063e3&v=1ECEA51F561DFF62BDCD7EF992BEAF7FDF538EB7",
+      "description": "Job Description Job Description Business Analyst 3 (State of Texas) Location: Austin, TX (Onsite) - LOCALS ONLY Must Have: Current Austin resident (Strictly Local) 8 years BA exp with Business Process Reengineering Strong Data Analysis skills (analyzing raw data) SAFe / Agile experience Texas Medicaid/CHIP experience (Required)",
       "source": "Adzuna (redirect link)"
     },
     {
@@ -133,7 +250,7 @@
       "company": "Capgemini",
       "location": "Garden, Weld County",
       "posted": "2026-07-17T09:13:35Z",
-      "url": "https://www.adzuna.com/land/ad/5804902287?se=lEJAc3KD8RGF5LNal_k3gA&utm_medium=api&utm_source=9f1063e3&v=AB77AF9D4706D18F613FB6A52BA7CF79B85206A4",
+      "url": "https://www.adzuna.com/land/ad/5804902287?se=nPfB6MyD8RGFMa6bWHzthQ&utm_medium=api&utm_source=9f1063e3&v=AB77AF9D4706D18F613FB6A52BA7CF79B85206A4",
       "description": "Choosing Capgemini means choosing a company where you will be empowered to shape your career in the way you\u2019d like, where you\u2019ll be supported and inspired by a collaborative community of colleagues around the world, and where you\u2019ll be able to reimagine what\u2019s possible. Join us and help the world\u2019s leading organizations unlock the value of technology and build a more sustainable, more inclusive world.Location: New York/Atlanta, GA/Chicago, IL Job Description Requirements & Analysis Gather, docu\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -142,7 +259,7 @@
       "company": "Judge Group, Inc.",
       "location": "Haslet, Tarrant County",
       "posted": "2026-07-16T21:53:46Z",
-      "url": "https://www.adzuna.com/land/ad/5804149360?se=IhDSbHKD8RGkdKG2M6Y4kQ&utm_medium=api&utm_source=9f1063e3&v=4231CEA5A53BA5C338ED6086692693FFA2BBF52B",
+      "url": "https://www.adzuna.com/land/ad/5804149360?se=IjiF4cyD8RGFMa6bWHzthQ&utm_medium=api&utm_source=9f1063e3&v=4231CEA5A53BA5C338ED6086692693FFA2BBF52B",
       "description": "Location: Haslet, TX Salary: $20.00 USD Hourly - $24.00 USD Hourly Description: About the Company A dynamic and fast-growing retail company based in Fort Worth, Texas, operating a robust network of convenience stores across multiple states. With ongoing expansion, the company is poised to strengthen its market presence nationwide. Opportunity Overview The Call Center Technician is pivotal in providing exemplary IT Help Desk support. This role involves handling inbound calls, documenting issues,\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -151,7 +268,7 @@
       "company": "Milestone Technologies, Inc.",
       "location": "Phoenix, Maricopa County",
       "posted": "2026-07-16T21:44:48Z",
-      "url": "https://www.adzuna.com/land/ad/5804140271?se=zPLVbXKD8RGH07FgnNXjjA&utm_medium=api&utm_source=9f1063e3&v=AC6CF4155E7565BEB820430A0968573C3CF362EE",
+      "url": "https://www.adzuna.com/land/ad/5804140271?se=RFSl4syD8RGF5LNal_k3gA&utm_medium=api&utm_source=9f1063e3&v=AC6CF4155E7565BEB820430A0968573C3CF362EE",
       "description": "Company Overview Milestone Technologies is a global IT managed services firm that partners with organizations to scale their technology, infrastructure and services to drive specific business outcomes such as digital transformation, innovation, and operational agility. Milestone is focused on building an employee-first, performance-based culture and for over 25 years, we have a demonstrated history of supporting category-defining enterprise clients that are growing ahead of the market. The comp\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -160,7 +277,7 @@
       "company": "Actalent",
       "location": "Davenport, Scott County",
       "posted": "2026-07-16T21:40:43Z",
-      "url": "https://www.adzuna.com/land/ad/5804137241?se=cFWBcHKD8RGF5LNal_k3gA&utm_medium=api&utm_source=9f1063e3&v=493330284F40DB98893A0E426EB949F74908FD70",
+      "url": "https://www.adzuna.com/land/ad/5804137241?se=9uS55cyD8RGFMa6bWHzthQ&utm_medium=api&utm_source=9f1063e3&v=493330284F40DB98893A0E426EB949F74908FD70",
       "description": "Description Perform quality inspections on raw materials, in-process products, and finished goods to ensure compliance with food safety and quality standards. Monitor and document product weights, temperatures, and case specifications throughout the manufacturing process. Verify packaging accuracy, including product codes, date codes, and labeling requirements. Collect, test, and document product samples for laboratory analysis and quality evaluations. Identify, document, and hold non-conformin\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -169,7 +286,7 @@
       "company": "CAI",
       "location": "Pennsylvania, US",
       "posted": "2026-07-16T19:50:12Z",
-      "url": "https://www.adzuna.com/land/ad/5803994533?se=zPLVbXKD8RGH07FgnNXjjA&utm_medium=api&utm_source=9f1063e3&v=DB5762AD2C5312B0D9ACE55C7F25F1AC25581162",
+      "url": "https://www.adzuna.com/land/ad/5803994533?se=RFSl4syD8RGF5LNal_k3gA&utm_medium=api&utm_source=9f1063e3&v=DB5762AD2C5312B0D9ACE55C7F25F1AC25581162",
       "description": "Technical Support Specialist Req number: R8105 Employment type: Full time Worksite flexibility: Hybrid Who we are CAI is a global services firm with over 9,000 associates worldwide and a yearly revenue of $1.3 billion. We have over 40 years of excellence in uniting talent and technology to power the possible for our clients, colleagues, and communities. As a privately held company, we have the freedom and focus to do what is right-whatever it takes. Our tailor-made solutions create lasting resu\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -178,17 +295,8 @@
       "company": "Dale Workforce Solutions",
       "location": "Plainview, Nassau County",
       "posted": "2026-07-16T13:50:22Z",
-      "url": "https://www.adzuna.com/land/ad/5803519785?se=7F29bnKD8RGcoYke4_5k4g&utm_medium=api&utm_source=9f1063e3&v=BF3782EEC9BD8F70A80788EF71BCEF26852B6407",
+      "url": "https://www.adzuna.com/land/ad/5803519785?se=sp6q48yD8RGFMa6bWHzthQ&utm_medium=api&utm_source=9f1063e3&v=BF3782EEC9BD8F70A80788EF71BCEF26852B6407",
       "description": "Client: healthcare company Job: Desktop Support Technician Duration: 3-month contract to hire Location: on-site supporting office around Plainview, NY (mileage is reimbursed) Pay: $25-$30/hr W2 Job Summary: We are seeking a dedicated and knowledgeable Travel Help Desk Technician to provide technical support and assistance to our end-users. This role involves traveling to & from various offices in the Plainview area to troubleshoot hardware and software issues, answering inquiries, and ensuring \u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Financial Data Analyst",
-      "company": "CAI",
-      "location": "Miramar, Broward County",
-      "posted": "2026-07-16T04:37:25Z",
-      "url": "https://www.adzuna.com/land/ad/5802478131?se=3ppYcnKD8RGF5LNal_k3gA&utm_medium=api&utm_source=9f1063e3&v=2BBDE377DAAD5EE4376E54A24A7D6A6BCCA0A7C3",
-      "description": "hackajob is collaborating with CAI to connect them with exceptional professionals for this role. Financial Data Analyst Req number: R6473 Employment type: Full time Worksite flexibility: Onsite Who we are CAI is a global services firm with over 9,000 associates worldwide and a yearly revenue of $1.3 billion. We have over 40 years of excellence in uniting talent and technology to power the possible for our clients, colleagues, and communities. As a privately held company, we have the freedom and\u2026",
       "source": "Adzuna (redirect link)"
     },
     {
@@ -196,7 +304,7 @@
       "company": "Vanguard",
       "location": "Frazer, Chester County",
       "posted": "2026-07-16T04:37:25Z",
-      "url": "https://www.adzuna.com/land/ad/5802478133?se=3ppYcnKD8RGF5LNal_k3gA&utm_medium=api&utm_source=9f1063e3&v=8B554F2581738E301354422BC992368495C78BED",
+      "url": "https://www.adzuna.com/land/ad/5802478133?se=1sq158yD8RGFMa6bWHzthQ&utm_medium=api&utm_source=9f1063e3&v=8B554F2581738E301354422BC992368495C78BED",
       "description": "hackajob is collaborating with Vanguard to connect them with exceptional professionals for this role. This analyst will partner closely with business leaders to support Workplace Solutions client retention and service recovery efforts by analyzing client behavior, identifying risk signals, and uncovering drivers of attrition. The role focuses on translating complex data into actionable insights, monitoring client sentiment and service issues, and helping prioritize interventions that improve cl\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -205,17 +313,8 @@
       "company": "Kerry",
       "location": "Sturtevant, Racine County",
       "posted": "2026-07-16T01:27:43Z",
-      "url": "https://www.adzuna.com/land/ad/5802336781?se=cFWBcHKD8RGF5LNal_k3gA&utm_medium=api&utm_source=9f1063e3&v=FE65FA9179403A34151C747E2FCA9A34FBDBF02F",
+      "url": "https://www.adzuna.com/land/ad/5802336781?se=9uS55cyD8RGFMa6bWHzthQ&utm_medium=api&utm_source=9f1063e3&v=FE65FA9179403A34151C747E2FCA9A34FBDBF02F",
       "description": "?Requisition ID 65679 Position Type (US)Full Time Workplace Arrangement About Kerry Kerry is the world's leading taste and nutrition company for the food, beverage and pharmaceutical industries. Every day we partner with customers to create healthier, tastier and more sustainable products that are consumed by billions of people across the world. Our vision is to be our customers' most valued partner, creating a world of sustainable nutrition. A career with Kerry offers you an opportunity to sha\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Technical Support Specialist",
-      "company": "Aston Carter",
-      "location": "Beacon, Dutchess County",
-      "posted": "2026-07-15T22:40:12Z",
-      "url": "https://www.adzuna.com/land/ad/5802140255?se=zPLVbXKD8RGH07FgnNXjjA&utm_medium=api&utm_source=9f1063e3&v=436B9E55C0056FAC3F73D61D8CE564D5CB41D5C9",
-      "description": "Technical Support Specialist Our client is seeking a Technical Support Specialist to serve as a key point of contact for customers, contractors, distributors, and internal teams. This role focuses on delivering exceptional support for product inquiries, order assistance, and basic troubleshooting. This is an excellent opportunity for someone with experience in manufacturing, engineering, construction, industrial, or technical products who enjoys problem-solving, customer interaction, and expand\u2026",
       "source": "Adzuna (redirect link)"
     },
     {
@@ -223,7 +322,7 @@
       "company": "Robert Half",
       "location": "Bloomfield, Allegheny County",
       "posted": "2026-07-15T21:41:28Z",
-      "url": "https://www.adzuna.com/land/ad/5802060547?se=xvqpb3KD8RGH07FgnNXjjA&utm_medium=api&utm_source=9f1063e3&v=9C8CA8A348BD056CF868A45A96C7A3A9E03954E8",
+      "url": "https://www.adzuna.com/land/ad/5802060547?se=wMKu5MyD8RGF5LNal_k3gA&utm_medium=api&utm_source=9f1063e3&v=9C8CA8A348BD056CF868A45A96C7A3A9E03954E8",
       "description": "Description We are looking for an IT Support Specialist to provide hands-on technical assistance and dependable end-user support in Pittsburgh, Pennsylvania. This Long-term Contract position is ideal for someone who enjoys resolving day-to-day technology issues, maintaining workplace systems, and delivering a strong service experience across a dynamic business environment. The role will focus on desktop support, user access management, device setup, and troubleshooting across hardware, software\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -232,107 +331,8 @@
       "company": "ManpowerGroup",
       "location": "Temecula, Riverside County",
       "posted": "2026-07-15T19:26:16Z",
-      "url": "https://www.adzuna.com/land/ad/5801929402?se=cFWBcHKD8RGF5LNal_k3gA&utm_medium=api&utm_source=9f1063e3&v=362EA1C96129CFB2B7A36AC77EF35B2BBE1D60A1",
+      "url": "https://www.adzuna.com/land/ad/5801929402?se=9uS55cyD8RGFMa6bWHzthQ&utm_medium=api&utm_source=9f1063e3&v=362EA1C96129CFB2B7A36AC77EF35B2BBE1D60A1",
       "description": "Our client, a leading organization in the manufacturing and quality assurance industry, is seeking a QA Technician I to join their team. As a QA Technician I, you will be part of the Quality Assurance Department supporting the complaint investigation and device testing teams. The ideal candidate will demonstrate strong organizational skills, attention to detail, and the ability to work independently, which will align successfully in the organization. Job Title: QA Technician I Location: Temecul\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Manufacturing QA Technician II",
-      "company": "ManpowerGroup",
-      "location": "North Richmond, Contra Costa County",
-      "posted": "2026-07-15T19:26:15Z",
-      "url": "https://www.adzuna.com/land/ad/5801929343?se=cFWBcHKD8RGF5LNal_k3gA&utm_medium=api&utm_source=9f1063e3&v=DDBD4B5956C345E5C74802A43DC9028707112F41",
-      "description": "Our client, a leading organization in the food production industry, is seeking a Manufacturing QA Technician II to join their team. As a Manufacturing QA Technician II, you will be part of the Quality Control Department supporting the production and safety of food products. The ideal candidate will demonstrate attention to detail, strong organizational skills, and adaptability, which will align successfully in the organization. Job Title: Manufacturing QA Technician II Location: Richmond, CA Pa\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Business Analyst",
-      "company": "IO Datasphere",
-      "location": "Fitchburg, Dane County",
-      "posted": "2026-07-15T13:47:44Z",
-      "url": "https://www.adzuna.com/land/ad/5801459399?se=lEJAc3KD8RGF5LNal_k3gA&utm_medium=api&utm_source=9f1063e3&v=848B44615C0E6CA5B12E151819404EA2929A1757",
-      "description": "Our client is looking for a Senior Business Analyst with a strong background in Java/React application development. This position will be focused on application development projects using Java and PrimeReact on a Kubernetes platform. The selected candidate will serve as the critical link between business stakeholders and the technical engineering team, ensuring requirements are effectively translated into scalable, modern web applications. Tasks: \u00b7 Facilitate requirement-gathering workshops, in\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "3rd Shift QA Technician- CBG",
-      "company": "Dieffenbach s Potato Chips Inc",
-      "location": "Chambersburg, Franklin County",
-      "posted": "2026-07-15T12:54:31Z",
-      "url": "https://www.adzuna.com/land/ad/5801384906?se=cFWBcHKD8RGF5LNal_k3gA&utm_medium=api&utm_source=9f1063e3&v=F8EAD21DFBBBABE555A2BA60576E2BE988F95AFC",
-      "description": "Job Description Job Description Are you the kind of person who checks the toaster twice every morning\u2026 just to make sure the bread comes out perfect? You notice when something\u2019s just a little off\u2014when the flavor isn\u2019t perfectly balanced or the texture feels a bit too soft. And the truth? You like it that way. Because when it comes to doing things right, you\u2019re not picky\u2014you\u2019re passionate. At Dieffenbach\u2019s, quality is everything. We don\u2019t settle for \u201cgood enough.\u201d We aim for that \u201cgive me anothe\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Business Analyst",
-      "company": "Infinitice, LLC",
-      "location": "Tallahassee, Leon County",
-      "posted": "2026-07-15T01:35:28Z",
-      "url": "https://www.adzuna.com/land/ad/5800795307?se=lEJAc3KD8RGF5LNal_k3gA&utm_medium=api&utm_source=9f1063e3&v=683C4AC30D5BD421BA7EEE653D32819FBEFE1206",
-      "description": "Infinitice specializes in IT staff augmentation, connecting businesses with highly skilled professionals across data, analytics, and technology roles. We help organizations scale quickly with the right talent at the right time. Our client is seeking to add a Systems Analyst to their team for a long-term project. Below are the requirements. Please review and apply if you are a fit. Telecommuting is not allowed in this position. FDLE requires the services of one Business Analyst to work under the\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Technical Support Specialist",
-      "company": "Honeywell",
-      "location": "Trenton, Mercer County",
-      "posted": "2026-07-14T22:53:43Z",
-      "url": "https://www.adzuna.com/land/ad/5800655781?se=zPLVbXKD8RGH07FgnNXjjA&utm_medium=api&utm_source=9f1063e3&v=FAE83615DFBD8699C7DC9191864C4E090CD93850",
-      "description": "As a Technical Support Specialist here at Honeywell, you will be supporting our Onity hospitality and commercial products. In this customer-facing role, you'll provide technical assistance to a global customer base, troubleshoot electronic and networked systems, and deliver exceptional service. This position is ideal for someone who enjoys solving technical problems, working directly with customers, and supporting innovative hospitality technologies in a fast-paced support environment. You will\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Technical Support Specialist",
-      "company": "Honeywell",
-      "location": "Washington, D.C., US",
-      "posted": "2026-07-14T22:49:17Z",
-      "url": "https://www.adzuna.com/land/ad/5800647190?se=zPLVbXKD8RGH07FgnNXjjA&utm_medium=api&utm_source=9f1063e3&v=2337294C467C8CAE567584CAF921E0CCB02B90EB",
-      "description": "As a Technical Support Specialist here at Honeywell, you will be supporting our Onity hospitality and commercial products. In this customer-facing role, you'll provide technical assistance to a global customer base, troubleshoot electronic and networked systems, and deliver exceptional service. This position is ideal for someone who enjoys solving technical problems, working directly with customers, and supporting innovative hospitality technologies in a fast-paced support environment. You will\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "IT Support Specialist",
-      "company": "Robert Half",
-      "location": "San Diego, San Diego County",
-      "posted": "2026-07-14T21:39:00Z",
-      "url": "https://www.adzuna.com/land/ad/5800555353?se=xvqpb3KD8RGH07FgnNXjjA&utm_medium=api&utm_source=9f1063e3&v=8EDD2F1AB5EB7198A131F3AE8196311010A3151C",
-      "description": "Description We are looking for an IT Support Specialist to provide dependable technical assistance for end users in California. This long-term contract position is ideal for someone who enjoys resolving day-to-day hardware, software, and account access issues while delivering a strong support experience. The role focuses on maintaining smooth desktop operations, responding to service requests efficiently, and helping employees stay productive in a Microsoft-based environment. Responsibilities: \u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Data Analyst",
-      "company": "Eliassen Group",
-      "location": "Jacks Cabin, Gunnison County",
-      "posted": "2026-07-14T19:43:32Z",
-      "url": "https://www.adzuna.com/land/ad/5800473938?se=3ppYcnKD8RGF5LNal_k3gA&utm_medium=api&utm_source=9f1063e3&v=43D682B20A363B2111956FA68F8633A9EB8F335C",
-      "description": "Description: Remote Our client is seeking a highly skilled and intellectually curious Data Analyst. As the Data Analyst you will play a critical part in architecting and delivering data models, pipelines, and reporting that supports month-end close, enhances accounting workflows, and drives ongoing improvements in data quality, reliability, and efficiency. Due to client requirements, applicants must be willing and able to work on a w2 basis. For our w2 consultants, we offer a great benefits pac\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "IT Support Specialist",
-      "company": "Apetan Consulting",
-      "location": "Grand Central, Manhattan",
-      "posted": "2026-07-14T17:39:53Z",
-      "url": "https://www.adzuna.com/land/ad/5800323641?se=xvqpb3KD8RGH07FgnNXjjA&utm_medium=api&utm_source=9f1063e3&v=A03BF859D270D519F8DFDCFC5FDAFBBD4299FD51",
-      "description": "Job Title: IT Support Specialist Location : Onsite - New York, NY 10013 \u2013 Need Local Only Schedule : Mon \u2013 Thur (8 \u2013 5) 32 hours per week. Start Date: Last Week of August or Client can start earlier if they found solid candidates. Job Description: Our client is seeking an experienced IT Support Specialist (Level 1) to join their IT Infrastructure team supporting a fast-paced, enterprise environment. This role serves as the frontline technical resource responsible for delivering exceptional end-\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Business Analyst",
-      "company": "FutureSoft Consulting Inc.",
-      "location": "US",
-      "posted": "2026-07-14T15:46:57Z",
-      "url": "https://www.adzuna.com/land/ad/5800198842?se=lEJAc3KD8RGF5LNal_k3gA&utm_medium=api&utm_source=9f1063e3&v=B73F4A1D0AAD040F8EE8B85D592CEC683BD8BDB4",
-      "description": "Position Overview We are seeking an experienced Business Analyst to support an established software development team. The Business Analyst will collaborate with business users, customers, developers, testers, and the project team lead to ensure that software applications meet business, functional, accessibility, and quality requirements. The ideal candidate will have experience gathering and documenting requirements, creating Agile user stories, conducting system testing, supporting production\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Business Analyst/Guidewire Business Analyst",
-      "company": "VDart, Inc.",
-      "location": "Ralston, Douglas County",
-      "posted": "2026-07-14T13:37:09Z",
-      "url": "https://www.adzuna.com/land/ad/5800167972?se=lEJAc3KD8RGF5LNal_k3gA&utm_medium=api&utm_source=9f1063e3&v=C92041FD1468C101CCCC942DDA888348E70D552F",
-      "description": "Job Title: Business Analyst/Guidewire Business Analyst Location: Omaha, NE/Onsite Duration: 6 Months Job Description Requirements & Analysis Gather, document, and analyze business and functional requirements Conduct workshops/interviews to identify workflows and improvement areas Prepare BRDs, FRDs, and use cases Solution Design Map business processes to Guidewire capabilities Collaborate with architects/developers on solution design Define workflows, configurations, and business rules Integrat\u2026",
       "source": "Adzuna (redirect link)"
     }
   ]
