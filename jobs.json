@@ -1,13 +1,76 @@
 {
-  "last_updated": "2026-08-27T21:36:45.571594+00:00",
+  "last_updated": "2026-08-28T06:27:54.760822+00:00",
   "freshness_window_days": 5,
   "jobs": [
+    {
+      "title": "Data Analyst",
+      "company": "STEMboard",
+      "location": "Hurlburt Field, Okaloosa County",
+      "posted": "2026-08-28T00:32:31Z",
+      "url": "https://www.adzuna.com/land/ad/5859285354?se=aGWWmKmi8RGhLffPfv7Txw&utm_medium=api&utm_source=9f1063e3&v=F040903EA143435D4E59F7BC918A316260969155",
+      "description": "Job Description Job Description Program Overview: STEMBoard is a technology solutions company that creates smart systems and software solutions for government and large-scale private sector clients. We are growing fast and need passionate, innovative people who love working with technology and are ready to make an impact. Here\u2019s what you can expect from us: You will work with great people who love what they do: our team includes published authors, patent holders, and internationally renowned en\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "WCM - QA Technician",
+      "company": "Ashland Foundry & Machine Works LLC",
+      "location": "Weatherly, Carbon County",
+      "posted": "2026-08-27T22:16:09Z",
+      "url": "https://www.adzuna.com/land/ad/5859132214?se=kM7Alqmi8RGAZ_C7iRr_XQ&utm_medium=api&utm_source=9f1063e3&v=F023829DE99D59B192BA6D00DDD17C4DC94D00EB",
+      "description": "Description: DESCRIPTION The Quality Technician is responsible for providing service in support of quality and engineering initiatives by focusing on product testing, process improvement and customer satisfaction through the quality management system. ESSENTIAL FUNCTIONS OF THE POSITION NOTE: An employee assigned to this title shall perform a majority, but may not perform all, of the duties listed in this job description. Conversely, minor level duties performed on the job may not be listed. Wo\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "IT Support Specialist",
+      "company": "Robert Half",
+      "location": "Tampa Palms, Hillsborough County",
+      "posted": "2026-08-27T22:03:38Z",
+      "url": "https://www.adzuna.com/land/ad/5859115226?se=DofWlami8RGcCMO1kgn3BA&utm_medium=api&utm_source=9f1063e3&v=31A82B5B06288F2FF755EDEFAC40353FCD0556B9",
+      "description": "Description We are looking for an IT Support Specialist to join our team in Tampa, Florida in a contract-to-permanent position. This role is ideal for a hands-on technical specialist who enjoys helping employees stay productive by resolving day-to-day technology issues across computers, software, mobile devices, and related equipment. The person in this role will support end users in a fast-moving environment, contribute to broader IT initiatives, and deliver dependable service with clear commu\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Inizio Partners",
+      "location": "New York City, New York",
+      "posted": "2026-08-27T21:58:45Z",
+      "url": "https://www.adzuna.com/land/ad/5859108745?se=aGWWmKmi8RGhLffPfv7Txw&utm_medium=api&utm_source=9f1063e3&v=80FBF519F1C72633B5A3320EBB0A62DDD3CF855B",
+      "description": "Key Responsibilities 1. Data Product Ownership & Quality Assurance Own analytics-ready datasets and dashboards from requirements through delivery and adoption Lead QA and UAT processes for new datasets, pipelines, and data products Define acceptance criteria, test plans, and validation checks Ensure data accuracy, completeness, usability, and consistency Partner with data engineering to: Investigate root causes of data issues and bugs Prioritize fixes and enhancements Validate deployments befor\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "Data Analyst",
+      "company": "1st Dibs",
+      "location": "New York City, New York",
+      "posted": "2026-08-27T21:58:44Z",
+      "url": "https://www.adzuna.com/land/ad/5859108647?se=aGWWmKmi8RGhLffPfv7Txw&utm_medium=api&utm_source=9f1063e3&v=D3E61EA45BEE9B9C48BBE4A44168A858567496E1",
+      "description": "1stDibs is a one-of-a-kind online marketplace that connects design lovers to more than one million extraordinary pieces, from furniture and fine art to jewelry and fashion. As a leading global marketplace for design lovers, we enable shoppers to discover beautiful things and engage with top sellers from around the world. We encourage our shoppers to interact with sellers throughout all stages of the transaction, including item inquiries, price negotiations and customization requests. As a Data \u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "QA Technician 1- Nights",
+      "company": "Alpla Inc.",
+      "location": "Iowa City, Johnson County",
+      "posted": "2026-08-27T19:29:43Z",
+      "url": "https://www.adzuna.com/details/5858924201?utm_medium=api&utm_source=9f1063e3",
+      "description": "Join ALPLA, a global leader in sustainable packaging solutions serving some of the world's most recognized brands, including P&G, Unilever, L'Or\u00e9al, PepsiCo, and many more. As a family-owned company with locations around the world, ALPLA offers stable careers, hands-on training, competitive benefits, and opportunities for growth. Whether you're an experienced manufacturing professional or looking to start a new career, we provide the support and development you need to succeed. At ALPLA, we inv\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "ATM Technical Support Specialist",
+      "company": "Brinks",
+      "location": "Lockwood, Yellowstone County",
+      "posted": "2026-08-27T18:16:46Z",
+      "url": "https://www.adzuna.com/land/ad/5858883545?se=tNwElKmi8RGhLffPfv7Txw&utm_medium=api&utm_source=9f1063e3&v=3FB42F621C574CD296E8FCC676C9063B977305CD",
+      "description": "Brink\u2019s, a global leader in secure logistics and cash management, is seeking an ATM Technical Support Specialist in our Technical Support & Troubleshooting department. In this role, you will provide remote diagnostics, technical assistance, and incident resolution for ATMs across banking, insurance, and investment clients. Responsibilities include troubleshooting hardware/software issues, coordinating field service, documenting cases, and ensuring uptime and compliance. You\u2019ll work in a mission\u2026",
+      "source": "Adzuna (redirect link)"
+    },
     {
       "title": "Business Analyst- Remote",
       "company": "Generis Tek Inc",
       "location": "Springfield, Lane County",
       "posted": "2026-08-27T11:57:52Z",
-      "url": "https://www.adzuna.com/land/ad/5858498651?se=JPP7ZV-i8RGfx5bEd-nhPg&utm_medium=api&utm_source=9f1063e3&v=F33880B1973B49C57BEB17770122ECF366E368D6",
+      "url": "https://www.adzuna.com/land/ad/5858498651?se=lFF9mami8RG9fOraeINOfQ&utm_medium=api&utm_source=9f1063e3&v=F33880B1973B49C57BEB17770122ECF366E368D6",
       "description": "Job Description Please Contact: To discuss this amazing opportunity, reach out to our Talent Acquisition Specialist Bhupendra Chopade at email address Bhupendra.Chopade@generistek.com can be reached on  630-576-1937. \\n \\n We have Contract role Business Analyst- Remote for client at Salem OR. Please let me know if you or any of your friends would be interested in this position. \\n \\n Position Details: \\n Business Analyst- Remote \u2013 Salem OR \\n Location : Remote \u2013 Salem OR 97301 (Candidate must b\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -16,7 +79,7 @@
       "company": "Generis Tek Inc",
       "location": "Gresham, Multnomah County",
       "posted": "2026-08-27T11:57:13Z",
-      "url": "https://www.adzuna.com/land/ad/5858497892?se=JPP7ZV-i8RGfx5bEd-nhPg&utm_medium=api&utm_source=9f1063e3&v=8FD16CCB9AB166A03E1366CADD4A7353D7566556",
+      "url": "https://www.adzuna.com/land/ad/5858497892?se=lFF9mami8RG9fOraeINOfQ&utm_medium=api&utm_source=9f1063e3&v=8FD16CCB9AB166A03E1366CADD4A7353D7566556",
       "description": "Job Description Please Contact: To discuss this amazing opportunity, reach out to our Talent Acquisition Specialist Bhupendra Chopade at email address Bhupendra.Chopade@generistek.com can be reached on  630-576-1937. \\n \\n We have Contract role Business Analyst- Remote for client at Salem OR. Please let me know if you or any of your friends would be interested in this position. \\n \\n Position Details: \\n Business Analyst- Remote \u2013 Salem OR \\n Location : Remote \u2013 Salem OR 97301 (Candidate must b\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -25,8 +88,17 @@
       "company": "MESSERLI KRAMER P.A.",
       "location": "Medicine Lake, Hennepin County",
       "posted": "2026-08-27T11:55:47Z",
-      "url": "https://www.adzuna.com/land/ad/5858496096?se=JPP7ZV-i8RGfx5bEd-nhPg&utm_medium=api&utm_source=9f1063e3&v=CB9A6F5ED626B6EC176FF932EBD7A89D74EAAE3E",
+      "url": "https://www.adzuna.com/land/ad/5858496096?se=lFF9mami8RG9fOraeINOfQ&utm_medium=api&utm_source=9f1063e3&v=CB9A6F5ED626B6EC176FF932EBD7A89D74EAAE3E",
       "description": "Job Description Job Description Summary: Messerli Kramer, a trusted Twin Cities law firm since 1965, is looking for a full-time, SENIOR BUSINESS ANALYST to join our team in Plymouth, MN to serve as a critical liaison between business stakeholders and technology teams. This role is responsible for identifying business needs, analyzing processes, gathering requirements, and supporting the successful implementation of technology solutions that improve operational efficiency, client service, compli\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "Business Analyst",
+      "company": "Paydora Pay",
+      "location": "Highland Park, Dallas",
+      "posted": "2026-08-27T11:55:31Z",
+      "url": "https://www.adzuna.com/land/ad/5858495916?se=lFF9mami8RG9fOraeINOfQ&utm_medium=api&utm_source=9f1063e3&v=8502469F28474100E33F650B2ACD5F5B7176F79A",
+      "description": "Job Description About the Company \\n Paydora Pay is a nationwide merchant services provider dedicated to helping local businesses reduce payment processing expenses through innovative and cost-effective payment solutions. We believe our success is built on helping business owners succeed. Our team focuses on creating lasting relationships, delivering value, and providing exceptional support to merchants across the country. \\n About the Role \\n This is a field-based sales opportunity that allows\u2026",
       "source": "Adzuna (redirect link)"
     },
     {
@@ -34,7 +106,7 @@
       "company": "Generis Tek Inc",
       "location": "Hillsboro, Washington County",
       "posted": "2026-08-27T11:55:30Z",
-      "url": "https://www.adzuna.com/land/ad/5858495790?se=JPP7ZV-i8RGfx5bEd-nhPg&utm_medium=api&utm_source=9f1063e3&v=BEDED2F6B1DEC814A6E1E5C5269AC7A304CF832E",
+      "url": "https://www.adzuna.com/land/ad/5858495790?se=lFF9mami8RG9fOraeINOfQ&utm_medium=api&utm_source=9f1063e3&v=BEDED2F6B1DEC814A6E1E5C5269AC7A304CF832E",
       "description": "Job Description Please Contact: To discuss this amazing opportunity, reach out to our Talent Acquisition Specialist Bhupendra Chopade at email address Bhupendra.Chopade@generistek.com can be reached on  630-576-1937. \\n \\n We have Contract role Business Analyst- Remote for client at Salem OR. Please let me know if you or any of your friends would be interested in this position. \\n \\n Position Details: \\n Business Analyst- Remote \u2013 Salem OR \\n Location : Remote \u2013 Salem OR 97301 (Candidate must b\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -43,17 +115,8 @@
       "company": "Generis Tek Inc",
       "location": "Sunriver, Deschutes County",
       "posted": "2026-08-27T11:53:44Z",
-      "url": "https://www.adzuna.com/land/ad/5858493768?se=JPP7ZV-i8RGfx5bEd-nhPg&utm_medium=api&utm_source=9f1063e3&v=7EC501209F38284EA4B1B7D3C5684F71B636FDC0",
+      "url": "https://www.adzuna.com/land/ad/5858493768?se=lFF9mami8RG9fOraeINOfQ&utm_medium=api&utm_source=9f1063e3&v=7EC501209F38284EA4B1B7D3C5684F71B636FDC0",
       "description": "Job Description Please Contact: To discuss this amazing opportunity, reach out to our Talent Acquisition Specialist Bhupendra Chopade at email address Bhupendra.Chopade@generistek.com can be reached on  630-576-1937. \\n \\n We have Contract role Business Analyst- Remote for client at Salem OR. Please let me know if you or any of your friends would be interested in this position. \\n \\n Position Details: \\n Business Analyst- Remote \u2013 Salem OR \\n Location : Remote \u2013 Salem OR 97301 (Candidate must b\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Business Analyst III",
-      "company": "Trean Corporation",
-      "location": "Minnetonka Beach, Hennepin County",
-      "posted": "2026-08-27T11:50:21Z",
-      "url": "https://www.adzuna.com/land/ad/5858490029?se=JPP7ZV-i8RGfx5bEd-nhPg&utm_medium=api&utm_source=9f1063e3&v=E5B59067AAAD5C49A8FB2D8F876F2D157B745032",
-      "description": "Job Description POSITION SUMMARY: \\n The Business Analyst III, with a focus on accounting operations, is responsible for identifying, analyzing, and translating evolving business needs into actionable solutions. This role evaluates the impact of organizational and system changes, documents requirements, and facilitates effective communication among stakeholders to support successful project outcomes. \\n The position requires a balance of strategic insight and hands-on execution, with a strong u\u2026",
       "source": "Adzuna (redirect link)"
     },
     {
@@ -61,7 +124,7 @@
       "company": "Davies Talent Solutions",
       "location": "Milton, Norfolk County",
       "posted": "2026-08-27T11:48:06Z",
-      "url": "https://www.adzuna.com/land/ad/5858487674?se=JPP7ZV-i8RGfx5bEd-nhPg&utm_medium=api&utm_source=9f1063e3&v=386F84EA2CEC6B27545F9354DF353D29F930FB3C",
+      "url": "https://www.adzuna.com/land/ad/5858487674?se=lFF9mami8RG9fOraeINOfQ&utm_medium=api&utm_source=9f1063e3&v=386F84EA2CEC6B27545F9354DF353D29F930FB3C",
       "description": "Job Description Our client, a well-established Property & Casualty insurance carrier, is seeking a Business Analyst to join their growing team and play a key role in large-scale business and technology transformation initiatives across the Personal Lines division. \\n \\n This is an exciting opportunity to influence strategic change, work closely with senior leadership, and contribute to initiatives focused on system modernization, process improvement, automation, and AI adoption. \\n \\n This is a\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -70,7 +133,7 @@
       "company": "Generis Tek Inc",
       "location": "Turner, Marion County",
       "posted": "2026-08-27T11:47:47Z",
-      "url": "https://www.adzuna.com/land/ad/5858487011?se=JPP7ZV-i8RGfx5bEd-nhPg&utm_medium=api&utm_source=9f1063e3&v=F95F7CC377DE7DBF18595B0C5F5A32F9AFF10DCB",
+      "url": "https://www.adzuna.com/land/ad/5858487011?se=lFF9mami8RG9fOraeINOfQ&utm_medium=api&utm_source=9f1063e3&v=F95F7CC377DE7DBF18595B0C5F5A32F9AFF10DCB",
       "description": "Job Description Please Contact: To discuss this amazing opportunity, reach out to our Talent Acquisition Specialist Bhupendra Chopade at email address Bhupendra.Chopade@generistek.com can be reached on  630-576-1937. \\n \\n We have Contract role Business Analyst- Remote for client at Salem OR. Please let me know if you or any of your friends would be interested in this position. \\n \\n Position Details: \\n Business Analyst- Remote \u2013 Salem OR \\n Location : Remote \u2013 Salem OR 97301 (Candidate must b\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -79,7 +142,7 @@
       "company": "OculusIT",
       "location": "South Erie, Erie County",
       "posted": "2026-08-27T11:47:21Z",
-      "url": "https://www.adzuna.com/land/ad/5858484030?se=3APHXl-i8RGfx5bEd-nhPg&utm_medium=api&utm_source=9f1063e3&v=DE3492ECCE0E6CCD8DF02597686A59241301F58B",
+      "url": "https://www.adzuna.com/land/ad/5858484030?se=dDUGk6mi8RGudLSg-frChQ&utm_medium=api&utm_source=9f1063e3&v=DE3492ECCE0E6CCD8DF02597686A59241301F58B",
       "description": "Job Description The IT Technician will lead major projects to ensure they are completed to plan, identify and recommend procedural changes that would enhance the execution of the projects, and assists to ensure that established priorities are followed. They deliver excellent customer service to the Gannon community through providing second- and third-level technical support related to information technology. This technician will have a primary focus in either the Desktop Support or the Instruct\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -88,7 +151,7 @@
       "company": "Generis Tek Inc",
       "location": "Progress, Washington County",
       "posted": "2026-08-27T11:46:04Z",
-      "url": "https://www.adzuna.com/land/ad/5858471518?se=JPP7ZV-i8RGfx5bEd-nhPg&utm_medium=api&utm_source=9f1063e3&v=7B350D2F15916F4B39BAF64A41435EBC871D2B16",
+      "url": "https://www.adzuna.com/land/ad/5858471518?se=lFF9mami8RG9fOraeINOfQ&utm_medium=api&utm_source=9f1063e3&v=7B350D2F15916F4B39BAF64A41435EBC871D2B16",
       "description": "Job Description Please Contact: To discuss this amazing opportunity, reach out to our Talent Acquisition Specialist Bhupendra Chopade at email address Bhupendra.Chopade@generistek.com can be reached on  630-576-1937. \\n \\n We have Contract role Business Analyst- Remote for client at Salem OR. Please let me know if you or any of your friends would be interested in this position. \\n \\n Position Details: \\n Business Analyst- Remote \u2013 Salem OR \\n Location : Remote \u2013 Salem OR 97301 (Candidate must b\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -97,7 +160,7 @@
       "company": "TEKsystems c/o Allegis Group",
       "location": "Crompton Hill, Vermillion County",
       "posted": "2026-08-27T10:14:43Z",
-      "url": "https://www.adzuna.com/land/ad/5858308516?se=mJvtYV-i8RGJ35lZBgd8oQ&utm_medium=api&utm_source=9f1063e3&v=CC9BCC56F53971C6F8169AAFE918D121ADDF56C8",
+      "url": "https://www.adzuna.com/land/ad/5858308516?se=DofWlami8RGcCMO1kgn3BA&utm_medium=api&utm_source=9f1063e3&v=CC9BCC56F53971C6F8169AAFE918D121ADDF56C8",
       "description": "IT Support Technician Overview We are seeking an experienced IT Support Technician to join a high-demand operational environment supporting a large user base across multiple business systems and technologies. This role is ideal for a proactive problem solver who thrives in fast-paced settings and is passionate about delivering outstanding end-user support. Responsibilities Provide hands-on technical support for end users, including hardware, software, and peripheral devices. Troubleshoot and re\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -106,7 +169,7 @@
       "company": "Collabera LLC",
       "location": "Sun Lakes, Maricopa County",
       "posted": "2026-08-27T10:14:42Z",
-      "url": "https://www.adzuna.com/land/ad/5858308477?se=YIbYX1-i8RG9Pc28-W9g6w&utm_medium=api&utm_source=9f1063e3&v=CD75DD9C888231264FC4B59C43930C68840FA698",
+      "url": "https://www.adzuna.com/land/ad/5858308477?se=tNwElKmi8RGhLffPfv7Txw&utm_medium=api&utm_source=9f1063e3&v=CD75DD9C888231264FC4B59C43930C68840FA698",
       "description": "Job Title: IT Client Support Specialist Location: Chandler, AZ Work Arrangement: Hybrid Client Industry: Fortune 500 Technology/Financial Services Client Duration: Contract Schedule: Full-time; schedule to be determined based on business requirements About the Role We are hiring an IT Client Support Specialist to join a fast-paced technology support team on a contract basis. This is an excellent opportunity for a customer-focused professional who is interested in expanding their technical skill\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -115,7 +178,7 @@
       "company": "TEKsystems c/o Allegis Group",
       "location": "Minerva Park, Franklin County",
       "posted": "2026-08-27T10:03:15Z",
-      "url": "https://www.adzuna.com/land/ad/5858303187?se=DCDnYF-i8RGRQuEASXEi3g&utm_medium=api&utm_source=9f1063e3&v=9E57CF95FCF4B68FE2733585A6216924C70D1205",
+      "url": "https://www.adzuna.com/land/ad/5858303187?se=3J_mlKmi8RGEGvDUMCr61w&utm_medium=api&utm_source=9f1063e3&v=9E57CF95FCF4B68FE2733585A6216924C70D1205",
       "description": "Overview We are seeking a Desktop Support Technician to provide hands-on technical support in a fast-paced end-user environment. This individual will be responsible for troubleshooting hardware, software, and operating system issues while delivering exceptional customer service to employees across the organization. The ideal candidate will have experience supporting both Windows and Mac environments and a strong commitment to resolving technical issues efficiently. Responsibilities Provide desk\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -124,17 +187,8 @@
       "company": "Texas Health and Human Services Commission",
       "location": "Austin, Travis County",
       "posted": "2026-08-27T09:57:08Z",
-      "url": "https://www.adzuna.com/land/ad/5858290426?se=vpPqZF-i8RG9Pc28-W9g6w&utm_medium=api&utm_source=9f1063e3&v=AE953165EB2481DE0DB6FEBB51E53387F0BD24A1",
+      "url": "https://www.adzuna.com/land/ad/5858290426?se=aGWWmKmi8RGhLffPfv7Txw&utm_medium=api&utm_source=9f1063e3&v=AE953165EB2481DE0DB6FEBB51E53387F0BD24A1",
       "description": "Join the Texas Health and Human Services Commission (HHSC) and be part of a team committed to creating a positive impact in the lives of fellow Texans. At HHSC, your contributions matter, and we support you at each stage of your life and work journey. Our comprehensive benefits package includes 100% paid employee health insurance for full-time eligible employees, a defined benefit pension plan, generous time off benefits, numerous opportunities for career advancement and more. Explore more deta\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Business Analyst IV",
-      "company": "Waste Management",
-      "location": "Trammells, Harris County",
-      "posted": "2026-08-27T06:52:44Z",
-      "url": "https://www.adzuna.com/land/ad/5858178910?se=JPP7ZV-i8RGfx5bEd-nhPg&utm_medium=api&utm_source=9f1063e3&v=910D18B71FD5A177A993029FCD886FCEF6D75A58",
-      "description": "Waste Management (WM) seeks a Business Analyst IV to drive complex analysis initiatives supporting our environmental and waste management operations. In this senior role, you\u2019ll partner with operations, finance, and IT to translate business needs into requirements, dashboards, and process improvements that boost efficiency, safety, and sustainability. You will lead data-driven analyses, document workflows, support system enhancements, and present insights to leadership, helping WM optimize serv\u2026",
       "source": "Adzuna (redirect link)"
     },
     {
@@ -142,7 +196,7 @@
       "company": "Quali Tech LLC",
       "location": "Chaska, Carver County",
       "posted": "2026-08-27T06:51:42Z",
-      "url": "https://www.adzuna.com/land/ad/5858177473?se=ZN_hYl-i8RGhLffPfv7Txw&utm_medium=api&utm_source=9f1063e3&v=0567FE7C2EDB7EAE60E5B43B548581DC9EE80FDC",
+      "url": "https://www.adzuna.com/land/ad/5858177473?se=kM7Alqmi8RGAZ_C7iRr_XQ&utm_medium=api&utm_source=9f1063e3&v=0567FE7C2EDB7EAE60E5B43B548581DC9EE80FDC",
       "description": "Job Description Job Description Quali Tech, LLC is a manufacturer of plant nutrition, animal nutrition, and food ingredients products and services. Found in 1967, Quali Tech has been developing new techniques to formulate specialized combinations of ingredients resulting in high quality, cost-effective and innovative products and services guided by our values. World Class Customer Service Uncompromising Quality Family Feel/Professionally Run Qualitech is seeking experienced Quality Assurance Te\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -151,7 +205,7 @@
       "company": "MESSERLI KRAMER P.A.",
       "location": "Medicine Lake, Hennepin County",
       "posted": "2026-08-27T06:40:34Z",
-      "url": "https://www.adzuna.com/land/ad/5858146261?se=JPP7ZV-i8RGfx5bEd-nhPg&utm_medium=api&utm_source=9f1063e3&v=F1461A379FA5A9710AFC3494802C71BA485F150D",
+      "url": "https://www.adzuna.com/land/ad/5858146261?se=lFF9mami8RG9fOraeINOfQ&utm_medium=api&utm_source=9f1063e3&v=F1461A379FA5A9710AFC3494802C71BA485F150D",
       "description": "Messerli Kramer P.A., a Minneapolis-based law firm, seeks a Senior Business Analyst to drive data-informed decision-making across litigation, corporate, and financial services practices. In this professional, collaborative environment, you will partner with attorneys and firm leadership to analyze financial, operational, and client data, develop dashboards and KPIs, and support budgeting, forecasting, and profitability initiatives. You will translate business needs into actionable insights, pre\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -160,7 +214,7 @@
       "company": "Jobot",
       "location": "Textile Finance, Los Angeles County",
       "posted": "2026-08-27T06:23:26Z",
-      "url": "https://www.adzuna.com/land/ad/5858110481?se=DCDnYF-i8RGRQuEASXEi3g&utm_medium=api&utm_source=9f1063e3&v=7B6BF378F441FF8CB8F229C3AC98DA0E08222458",
+      "url": "https://www.adzuna.com/land/ad/5858110481?se=3J_mlKmi8RGEGvDUMCr61w&utm_medium=api&utm_source=9f1063e3&v=7B6BF378F441FF8CB8F229C3AC98DA0E08222458",
       "description": "Jobot is seeking a Desktop Support Technician to keep our fast-growing, tech-forward team productive and secure. In this role, you\u2019ll deliver hands-on and remote support for Windows and Mac workstations, peripherals, and mobile devices, resolving hardware, software, and connectivity issues in a professional services environment. You\u2019ll manage tickets, user accounts, and Office 365 tools while ensuring endpoints meet security and patching standards. Collaborating closely with a people-centric IT\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -169,7 +223,7 @@
       "company": "Jobot",
       "location": "Schiller Park, Cook County",
       "posted": "2026-08-27T06:14:50Z",
-      "url": "https://www.adzuna.com/land/ad/5858106673?se=vpPqZF-i8RG9Pc28-W9g6w&utm_medium=api&utm_source=9f1063e3&v=C2E07E8B97EE59F8864E5BE313983848C0A19D7A",
+      "url": "https://www.adzuna.com/land/ad/5858106673?se=aGWWmKmi8RGhLffPfv7Txw&utm_medium=api&utm_source=9f1063e3&v=C2E07E8B97EE59F8864E5BE313983848C0A19D7A",
       "description": "Jobot, a tech-forward recruiting and staffing firm in the Professional, Scientific & Technical Services industry, is seeking a Data Analyst to turn complex recruiting and business data into actionable insights. In this role, you will partner with leaders across recruiting, sales, and operations to design and maintain dashboards, track KPIs, and perform deep-dive analyses that drive performance and client outcomes. You\u2019ll work in a collaborative, people-centric culture that values transparency, \u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -178,7 +232,7 @@
       "company": "Jobot",
       "location": "Preuss, Los Angeles County",
       "posted": "2026-08-27T06:14:48Z",
-      "url": "https://www.adzuna.com/land/ad/5858106622?se=vpPqZF-i8RG9Pc28-W9g6w&utm_medium=api&utm_source=9f1063e3&v=F08C51CFDFB9D8BBB0E83894940AF1431FAB06E6",
+      "url": "https://www.adzuna.com/land/ad/5858106622?se=aGWWmKmi8RGhLffPfv7Txw&utm_medium=api&utm_source=9f1063e3&v=F08C51CFDFB9D8BBB0E83894940AF1431FAB06E6",
       "description": "Jobot, a tech-forward recruiting and staffing firm in the Professional, Scientific & Technical Services industry, is seeking a Data Analyst to turn complex recruiting and business data into actionable insights. In this role, you will partner with leaders across recruiting, sales, and operations to design and maintain dashboards, track KPIs, and perform deep-dive analyses that drive performance and client outcomes. You\u2019ll work in a collaborative, people-centric culture that values transparency, \u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -187,7 +241,7 @@
       "company": "TEKsystems",
       "location": "International, King County",
       "posted": "2026-08-27T01:55:53Z",
-      "url": "https://www.adzuna.com/land/ad/5857962821?se=3APHXl-i8RGfx5bEd-nhPg&utm_medium=api&utm_source=9f1063e3&v=7EF76E079BC674E64F7D680DC25F8C1435D40FBD",
+      "url": "https://www.adzuna.com/land/ad/5857962821?se=dDUGk6mi8RGudLSg-frChQ&utm_medium=api&utm_source=9f1063e3&v=7EF76E079BC674E64F7D680DC25F8C1435D40FBD",
       "description": "Description We are seeking a Technical Support Specialist to provide onsite IT support at its Seattle manufacturing facility. This individual will serve as the primary onsite IT resource, supporting end users with desktop, laptop, Microsoft 365, and hardware/software issues while partnering with remote L2/L3 support teams for escalations. Key Responsibilities Provide onsite desktop and technical support for end users Troubleshoot Windows 11, Microsoft 365, Outlook, Teams, OneDrive, and hardware\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -205,7 +259,7 @@
       "company": "System One",
       "location": "South Paterson, Passaic County",
       "posted": "2026-08-26T23:36:44Z",
-      "url": "https://www.adzuna.com/land/ad/5857854714?se=ZN_hYl-i8RGhLffPfv7Txw&utm_medium=api&utm_source=9f1063e3&v=DF95AD349E73AF14472C3D7B145A7A505DBEED21",
+      "url": "https://www.adzuna.com/land/ad/5857854714?se=kM7Alqmi8RGAZ_C7iRr_XQ&utm_medium=api&utm_source=9f1063e3&v=DF95AD349E73AF14472C3D7B145A7A505DBEED21",
       "description": "Job Title: QA Technician Location: Paterson, NJ Type: Direct Hire Compensation: $22-$25/hr Contractor Work Model: Onsite - onsite Hours: M-F 6a to 3:00pm (occasional weekends during production) Requirements  5 year of QA or food manufacturing experience (dry/powders/bakery/spice)  Experienced in GMPs, HACCP, and food safety standards  Strong attention to detail and organizational skills  Good communication and problem-solving abilities (bi lingual Spanish is a plus)  Ability to work in a fast-p\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -214,7 +268,7 @@
       "company": "Cargill",
       "location": "Nebraska City, Otoe County",
       "posted": "2026-08-26T23:34:26Z",
-      "url": "https://www.adzuna.com/land/ad/5857850524?se=ZN_hYl-i8RGhLffPfv7Txw&utm_medium=api&utm_source=9f1063e3&v=823CD611A0BE9C49E0266DF6792451F10778BA9E",
+      "url": "https://www.adzuna.com/land/ad/5857850524?se=kM7Alqmi8RGAZ_C7iRr_XQ&utm_medium=api&utm_source=9f1063e3&v=823CD611A0BE9C49E0266DF6792451F10778BA9E",
       "description": "New, easy-to-apply options are available for this role: chat with our recruiting assistant Ana at careers.cargill.com or text CargillJobs to 60196. Want to build a stronger, more sustainable future and cultivate your career? Join Cargill's global team of 160,000 employees who are committed to safe, responsible and sustainable ways to nourish the world. This position is in Cargill's protein and salt business, where we provide wholesome, high-quality food products to a wide range of customers, fr\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -223,7 +277,7 @@
       "company": "Adecco US, Inc.",
       "location": "Greenville, Pitt County",
       "posted": "2026-08-26T22:54:04Z",
-      "url": "https://www.adzuna.com/land/ad/5857807921?se=ZN_hYl-i8RGhLffPfv7Txw&utm_medium=api&utm_source=9f1063e3&v=2060E665A712EDF6FFB6089AE99B31C1821D2075",
+      "url": "https://www.adzuna.com/land/ad/5857807921?se=kM7Alqmi8RGAZ_C7iRr_XQ&utm_medium=api&utm_source=9f1063e3&v=2060E665A712EDF6FFB6089AE99B31C1821D2075",
       "description": "Adecco is currently assisting a local customer in their search for QA Technician positions in Greenville, NC. This is a great opportunity to further your existing skills as a QA Technician while learning new ones to assist you in your career. The best part is you would be joining a winning culture with Adecco while on assignment with our customer and have access to all our Adecco Perks! Perks:  Shift: Monday - Friday, 8:00 AM - 5:00 PM  Weekly paycheck  Pay: $18.00 / hr  Access to Adecco's Aspi\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -232,7 +286,7 @@
       "company": "System One",
       "location": "Brownsburg, Hendricks County",
       "posted": "2026-08-26T22:20:03Z",
-      "url": "https://www.adzuna.com/land/ad/5857771487?se=ZN_hYl-i8RGhLffPfv7Txw&utm_medium=api&utm_source=9f1063e3&v=58508901A5147DEFD56D916FCAEB05B93753253B",
+      "url": "https://www.adzuna.com/land/ad/5857771487?se=kM7Alqmi8RGAZ_C7iRr_XQ&utm_medium=api&utm_source=9f1063e3&v=58508901A5147DEFD56D916FCAEB05B93753253B",
       "description": "Job Title : QA Technician Location: Brownsburg, IN Work Model: Onsite Hours: M-Th, noon-10pm (10hr) or Th-Su, noon-10pm (10hr) Compensation: $22.70/hr Type: 12-month contract, Potential for extension or conversion to permanent Overview The Technician - QA - Manufacturing Logistics provides support to Regional Third-Party Logistics and Warehousing, based out of Brownsburg, IN. The QA Technician will support activities within Warehouse operations, focused on sampling of items (components, printed\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -241,7 +295,7 @@
       "company": "MESSERLI KRAMER P.A.",
       "location": "Plymouth, Hennepin County",
       "posted": "2026-08-26T22:16:56Z",
-      "url": "https://www.adzuna.com/land/ad/5857760840?se=JPP7ZV-i8RGfx5bEd-nhPg&utm_medium=api&utm_source=9f1063e3&v=3C8270A795BD1F84398CC0D65E7ACE652A3BCB2B",
+      "url": "https://www.adzuna.com/land/ad/5857760840?se=lFF9mami8RG9fOraeINOfQ&utm_medium=api&utm_source=9f1063e3&v=3C8270A795BD1F84398CC0D65E7ACE652A3BCB2B",
       "description": "Summary: Messerli Kramer, a trusted Twin Cities law firm since 1965, is looking for a full-time, SENIOR BUSINESS ANALYST to join our team in Plymouth, MN to serve as a critical liaison between business stakeholders and technology teams. This role is responsible for identifying business needs, analyzing processes, gathering requirements, and supporting the successful implementation of technology solutions that improve operational efficiency, client service, compliance, and business performance. \u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -250,7 +304,7 @@
       "company": "Robert Half",
       "location": "Maryland Heights, Saint Louis County",
       "posted": "2026-08-26T22:03:24Z",
-      "url": "https://www.adzuna.com/land/ad/5857728347?se=mJvtYV-i8RGJ35lZBgd8oQ&utm_medium=api&utm_source=9f1063e3&v=542C02B1103A5A4E9F1B6FAFE0153211106C4ACE",
+      "url": "https://www.adzuna.com/land/ad/5857728347?se=DofWlami8RGcCMO1kgn3BA&utm_medium=api&utm_source=9f1063e3&v=542C02B1103A5A4E9F1B6FAFE0153211106C4ACE",
       "description": "Description POSITION OVERVIEW We are seeking a dependable and versatile IT Support Specialist to manage the day-to-day technology needs of our car and home warranty company. This is a hands-on, in-office position for someone who is comfortable being the company's go-to person for a wide range of technical needs. Responsibilities include setting up equipment for new employees, resolving technology issues, maintaining the company's phone systems, tracking equipment, managing user accounts, and su\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -259,7 +313,7 @@
       "company": "Highmark Health",
       "location": "Pennsylvania, US",
       "posted": "2026-08-26T22:00:50Z",
-      "url": "https://www.adzuna.com/land/ad/5857723061?se=vpPqZF-i8RG9Pc28-W9g6w&utm_medium=api&utm_source=9f1063e3&v=E67738464D02810F80C41B5B485F7B53D0268F88",
+      "url": "https://www.adzuna.com/land/ad/5857723061?se=aGWWmKmi8RGhLffPfv7Txw&utm_medium=api&utm_source=9f1063e3&v=E67738464D02810F80C41B5B485F7B53D0268F88",
       "description": "Company : Highmark Inc. Job Description : JOB SUMMARY This job understands end-to-end data processes and flows and using that knowledge to design and implement data management solutions. Provides business process, system support and data quality governance through data coordination and integration to ensure efficient processes and consistent data flows to business and stakeholders. Ensures data integrity and compliance by performing data cleansing, data audit and/or data validation. Performs ro\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -268,7 +322,7 @@
       "company": "QuinStreet",
       "location": "US",
       "posted": "2026-08-26T22:00:49Z",
-      "url": "https://www.adzuna.com/land/ad/5857722999?se=vpPqZF-i8RG9Pc28-W9g6w&utm_medium=api&utm_source=9f1063e3&v=8F9BCEC08226843001ADC9AA7B5C23F7946C59E6",
+      "url": "https://www.adzuna.com/land/ad/5857722999?se=aGWWmKmi8RGhLffPfv7Txw&utm_medium=api&utm_source=9f1063e3&v=8F9BCEC08226843001ADC9AA7B5C23F7946C59E6",
       "description": "Powering Performance Marketplaces in Digital Media QuinStreet is a pioneer in powering decentralized online marketplaces that match searchers and \u201cresearch and compare\u201d consumers with brands . We run these virtual- and private-label marketplaces in one of the nation\u2019s largest media networks. Our industry leading segmentation and AI-driven matching technologies help consumers find better solutions and brands faster. They allow brands to target and reach in-market customer prospects with pinpoint\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -277,7 +331,7 @@
       "company": "Harris Associates L.P.",
       "location": "Chicago, Cook County",
       "posted": "2026-08-26T22:00:47Z",
-      "url": "https://www.adzuna.com/land/ad/5857722654?se=vpPqZF-i8RG9Pc28-W9g6w&utm_medium=api&utm_source=9f1063e3&v=A26B4B8F71E88B9B3C751EC41071B1C413BD86AA",
+      "url": "https://www.adzuna.com/land/ad/5857722654?se=aGWWmKmi8RGhLffPfv7Txw&utm_medium=api&utm_source=9f1063e3&v=A26B4B8F71E88B9B3C751EC41071B1C413BD86AA",
       "description": "At Harris, the true value of what makes us successful is found in our people. It is our unique mix of cultures, experiences, beliefs and backgrounds that sets Harris apart from the rest. We constantly strive to cultivate, nurture and amplify an unparalleled environment, where we value intellectual curiosity and uniqueness of thought. Inclusion is embedded in the very fabric of our culture of collaboration and openness. We understand that a job description only tells one part of a broader story,\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -286,7 +340,7 @@
       "company": "Plains",
       "location": "Crestwood, Houston",
       "posted": "2026-08-26T18:46:29Z",
-      "url": "https://www.adzuna.com/land/ad/5857486387?se=JPP7ZV-i8RGfx5bEd-nhPg&utm_medium=api&utm_source=9f1063e3&v=EA8DDFBE9CB36B78C01380B397CA61AEE463D6F3",
+      "url": "https://www.adzuna.com/land/ad/5857486387?se=lFF9mami8RG9fOraeINOfQ&utm_medium=api&utm_source=9f1063e3&v=EA8DDFBE9CB36B78C01380B397CA61AEE463D6F3",
       "description": "Plains All American Pipeline is seeking a Senior Maximo Business Analyst to optimize our Maximo EAM platform supporting pipeline and terminal operations. In this role, you will partner with operations, maintenance, and IT to gather requirements, design and configure Maximo workflows, and improve asset, work, and inventory management processes. You will lead enhancements, testing, and integrations with related systems, develop dashboards and reports, and support user training and issue resolutio\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -295,7 +349,7 @@
       "company": "Sittercity",
       "location": "Middle West, Philadelphia County",
       "posted": "2026-08-26T18:44:46Z",
-      "url": "https://www.adzuna.com/land/ad/5857485511?se=mJvtYV-i8RGJ35lZBgd8oQ&utm_medium=api&utm_source=9f1063e3&v=1A682AB1984D67E3A9834206DBD64AC931D7483A",
+      "url": "https://www.adzuna.com/land/ad/5857485511?se=DofWlami8RGcCMO1kgn3BA&utm_medium=api&utm_source=9f1063e3&v=1A682AB1984D67E3A9834206DBD64AC931D7483A",
       "description": "Sittercity is seeking a part-time IT Support Specialist to help power our online childcare marketplace. In this role, you\u2019ll provide technical support for internal teams, troubleshoot software and system issues, and ensure tools run smoothly for our caregivers and families. You\u2019ll assist with user account management, basic data and reporting tasks, and documentation of processes. Collaborating with engineers and product teams, you\u2019ll escalate complex issues, contribute feedback to improve our p\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -304,7 +358,7 @@
       "company": "Sittercity",
       "location": "Santa Clara, Santa Clara County",
       "posted": "2026-08-26T18:39:36Z",
-      "url": "https://www.adzuna.com/land/ad/5857482861?se=mJvtYV-i8RGJ35lZBgd8oQ&utm_medium=api&utm_source=9f1063e3&v=03CE982A88416A757E7214225DABD12A884139AC",
+      "url": "https://www.adzuna.com/land/ad/5857482861?se=DofWlami8RGcCMO1kgn3BA&utm_medium=api&utm_source=9f1063e3&v=03CE982A88416A757E7214225DABD12A884139AC",
       "description": "Sittercity is seeking a part-time IT Support Specialist to help keep our online marketplace for families and caregivers running smoothly. In this role, you\u2019ll troubleshoot user and internal technical issues, support web and mobile applications, and escalate complex problems to senior engineers. You\u2019ll collaborate with cross-functional teams to resolve bugs, document common fixes, and improve support processes. Ideal candidates bring strong problem-solving skills, experience with ticketing syste\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -313,17 +367,8 @@
       "company": "Sittercity",
       "location": "Temple Terrace, Hillsborough County",
       "posted": "2026-08-26T18:37:48Z",
-      "url": "https://www.adzuna.com/land/ad/5857482026?se=mJvtYV-i8RGJ35lZBgd8oQ&utm_medium=api&utm_source=9f1063e3&v=AD22ADEEA2C718D9B8B8B6F337414867CF72FD5D",
+      "url": "https://www.adzuna.com/land/ad/5857482026?se=DofWlami8RGcCMO1kgn3BA&utm_medium=api&utm_source=9f1063e3&v=AD22ADEEA2C718D9B8B8B6F337414867CF72FD5D",
       "description": "Sittercity, a leading online marketplace for trusted childcare, is seeking a Junior IT Support Specialist to help maintain and improve our tech-enabled platform. In this entry-level role, you\u2019ll assist in troubleshooting user issues, configuring workstations and software, and supporting internal tools that help families and caregivers connect safely and efficiently. Working closely with senior engineers and product teams, you\u2019ll learn best practices in IT operations, security, and customer-focu\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "LIMS Data Analyst",
-      "company": "Lonza",
-      "location": "Portsmouth, Rockingham County",
-      "posted": "2026-08-26T18:20:47Z",
-      "url": "https://www.adzuna.com/land/ad/5857420845?se=vpPqZF-i8RG9Pc28-W9g6w&utm_medium=api&utm_source=9f1063e3&v=610EDE805429AA5E358B82525D3AE3A3E91B47EC",
-      "description": "Lonza is seeking a LIMS Data Analyst 2 to support biotechnology and pharmaceutical manufacturing through expert management of laboratory data. In this role, you will configure, maintain, and optimize LIMS to ensure accurate, compliant sample and test data across QC and development labs. You will design and maintain master data, build reports and dashboards, and troubleshoot data integrity issues. Working closely with scientists, quality, and IT, you\u2019ll translate lab workflows into robust LIMS s\u2026",
       "source": "Adzuna (redirect link)"
     },
     {
@@ -331,7 +376,7 @@
       "company": "Ledgent Technology",
       "location": "Lauderdale, Ramsey County",
       "posted": "2026-08-26T14:04:25Z",
-      "url": "https://www.adzuna.com/land/ad/5857206026?se=mJvtYV-i8RGJ35lZBgd8oQ&utm_medium=api&utm_source=9f1063e3&v=97FF9565BF249E1D11439E8FE78D7F621336D6B3",
+      "url": "https://www.adzuna.com/land/ad/5857206026?se=DofWlami8RGcCMO1kgn3BA&utm_medium=api&utm_source=9f1063e3&v=97FF9565BF249E1D11439E8FE78D7F621336D6B3",
       "description": "IT Support Specialist Type : Contract (3 months) , W2, no C2C, 1099 or 3 rd Parities Location: Minneapolis, MN (5 days a week onsite) Pay: $24/hr - $26/hr Position Summary The IT Support Specialist provides first-level technical support for end users, ensuring the effective operation of hardware, software, and network-based systems. This role is responsible for troubleshooting technical issues, supporting day-to-day IT operations, configuring applications, and maintaining end-user equipment. Th\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -340,7 +385,7 @@
       "company": "TEKsystems c/o Allegis Group",
       "location": "Times Square, King County",
       "posted": "2026-08-26T10:11:28Z",
-      "url": "https://www.adzuna.com/land/ad/5856875539?se=3APHXl-i8RGfx5bEd-nhPg&utm_medium=api&utm_source=9f1063e3&v=3C0814B767DB6E19274A0B0F7F364995D70A0723",
+      "url": "https://www.adzuna.com/land/ad/5856875539?se=dDUGk6mi8RGudLSg-frChQ&utm_medium=api&utm_source=9f1063e3&v=3C0814B767DB6E19274A0B0F7F364995D70A0723",
       "description": "Description We are seeking a Technical Support Specialist to provide onsite IT support at its Seattle manufacturing facility. This individual will serve as the primary onsite IT resource, supporting end users with desktop, laptop, Microsoft 365, and hardware/software issues while partnering with remote L2/L3 support teams for escalations. Key Responsibilities Provide onsite desktop and technical support for end users Troubleshoot Windows 11, Microsoft 365, Outlook, Teams, OneDrive, and hardware\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -349,7 +394,7 @@
       "company": "TEKsystems c/o Allegis Group",
       "location": "Florin, Sacramento County",
       "posted": "2026-08-26T10:11:28Z",
-      "url": "https://www.adzuna.com/land/ad/5856875552?se=DCDnYF-i8RGRQuEASXEi3g&utm_medium=api&utm_source=9f1063e3&v=9B84215548FCFC39E1D0F26CA2EE9493DCB83244",
+      "url": "https://www.adzuna.com/land/ad/5856875552?se=3J_mlKmi8RGEGvDUMCr61w&utm_medium=api&utm_source=9f1063e3&v=9B84215548FCFC39E1D0F26CA2EE9493DCB83244",
       "description": "Description Job Duties Provides Tier 2 deskside and remote end user support including imaging, deployment, asset management, Windows 11 with strong user interaction skills. Provides Tier 2 and Tier 3 deskside end user support including imaging, deployment, asset management, Windows 11 with strong user interaction skills. Deployment of customer hardware and software. Installation and configuration of new machines in a Windows environment. Perform IMAC procedures and lifecycle refresh activities.\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -358,7 +403,7 @@
       "company": "Quali Tech LLC",
       "location": "County Market, Anoka County",
       "posted": "2026-08-26T07:44:13Z",
-      "url": "https://www.adzuna.com/land/ad/5856772866?se=ZN_hYl-i8RGhLffPfv7Txw&utm_medium=api&utm_source=9f1063e3&v=BAB134EC54F3C0DDA9B0F52C5D840E23A2F00642",
+      "url": "https://www.adzuna.com/land/ad/5856772866?se=kM7Alqmi8RGAZ_C7iRr_XQ&utm_medium=api&utm_source=9f1063e3&v=BAB134EC54F3C0DDA9B0F52C5D840E23A2F00642",
       "description": "Job Description Job Description Quali Tech, LLC is a manufacturer of plant nutrition, animal nutrition, and food ingredients products and services. Found in 1967, Quali Tech has been developing new techniques to formulate specialized combinations of ingredients resulting in high quality, cost-effective and innovative products and services guided by our values. World Class Customer Service Uncompromising Quality Family Feel/Professionally Run Qualitech is seeking experienced Quality Assurance Te\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -367,7 +412,7 @@
       "company": "TEKsystems c/o Allegis Group",
       "location": "Pittsboro, Hendricks County",
       "posted": "2026-08-25T21:57:36Z",
-      "url": "https://www.adzuna.com/land/ad/5856184819?se=mJvtYV-i8RGJ35lZBgd8oQ&utm_medium=api&utm_source=9f1063e3&v=33A15062F011099CBC20B37DCC218E43F62BFAE4",
+      "url": "https://www.adzuna.com/land/ad/5856184819?se=DofWlami8RGcCMO1kgn3BA&utm_medium=api&utm_source=9f1063e3&v=33A15062F011099CBC20B37DCC218E43F62BFAE4",
       "description": "IT Support Specialist Overview We are seeking an IT Support Specialist to provide frontline technical support for end users in a fast-paced environment. This role combines Level 1 and Level 2 support responsibilities, focusing on issue resolution, user assistance, and maintaining a high standard of customer service. The ideal candidate is a proactive problem solver who enjoys learning new technologies and collaborating with team members across the organization. Key Responsibilities Provide tech\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -376,7 +421,7 @@
       "company": "Iapetus Holdings",
       "location": "Fort Worth, Tarrant County",
       "posted": "2026-08-25T21:55:00Z",
-      "url": "https://www.adzuna.com/land/ad/5856179822?se=vpPqZF-i8RG9Pc28-W9g6w&utm_medium=api&utm_source=9f1063e3&v=EE7D6B701DD935D2A8D57E284690A177FAE9A6FB",
+      "url": "https://www.adzuna.com/land/ad/5856179822?se=aGWWmKmi8RGhLffPfv7Txw&utm_medium=api&utm_source=9f1063e3&v=EE7D6B701DD935D2A8D57E284690A177FAE9A6FB",
       "description": "Job Title: Data Analyst Who we are Iapetus Infrastructure oversees a portfolio of specialized field services companies, operating under one IIS umbrella. At IIS, our strength lies in the connective tissue that ties our operating companies together and allows us to best serve our clients. We are a team of thinkers, problem solvers, and industry experts who collectively deliver the right solution for our clients. Who you are You appreciate the client relationship and understand that delivering an\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -385,7 +430,7 @@
       "company": "Quali Tech LLC",
       "location": "County Market, Anoka County",
       "posted": "2026-08-25T18:39:17Z",
-      "url": "https://www.adzuna.com/land/ad/5856000403?se=ZN_hYl-i8RGhLffPfv7Txw&utm_medium=api&utm_source=9f1063e3&v=8B3971E935EB8639F5FBF658AD1E57A777B6A073",
+      "url": "https://www.adzuna.com/land/ad/5856000403?se=kM7Alqmi8RGAZ_C7iRr_XQ&utm_medium=api&utm_source=9f1063e3&v=8B3971E935EB8639F5FBF658AD1E57A777B6A073",
       "description": "Quali Tech LLC, a Minnesota-based manufacturer of specialty ingredients, is hiring a QA Technician to support quality and safety in a fast-paced manufacturing environment. In this role, you will perform routine lab testing, in-process and finished product inspections, and environmental checks to verify conformance to specifications, GMPs, and regulatory requirements. You\u2019ll document and analyze data, support root cause investigations, and collaborate with production to resolve quality issues, d\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -394,7 +439,7 @@
       "company": "Vantor",
       "location": "Herndon, Fairfax County",
       "posted": "2026-08-25T18:32:19Z",
-      "url": "https://www.adzuna.com/land/ad/5855990667?se=vpPqZF-i8RG9Pc28-W9g6w&utm_medium=api&utm_source=9f1063e3&v=8E38F8DF6F76E6E14DF16C0AC92CAFBA9B6A6629",
+      "url": "https://www.adzuna.com/land/ad/5855990667?se=aGWWmKmi8RGhLffPfv7Txw&utm_medium=api&utm_source=9f1063e3&v=8E38F8DF6F76E6E14DF16C0AC92CAFBA9B6A6629",
       "description": "Vantor seeks a Big Data Analyst to join our Data Science & AI team supporting Defense & Aerospace clients. You will design scalable data pipelines, integrate diverse mission datasets, and enable advanced analytics and AI for critical programs. Responsibilities include building secure ETL workflows, optimizing big data platforms (e.g., Hadoop/Spark), and collaborating with AI engineers to productionize models. You\u2019ll develop dashboards and visualizations that drive operational decisions. At Vant\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -403,7 +448,7 @@
       "company": "Sherwin Williams",
       "location": "Mc Kees Rocks, Allegheny County",
       "posted": "2026-08-25T18:30:14Z",
-      "url": "https://www.adzuna.com/land/ad/5855987935?se=YIbYX1-i8RG9Pc28-W9g6w&utm_medium=api&utm_source=9f1063e3&v=B35599AD935526761033AD7BB5E06D87F76BEA41",
+      "url": "https://www.adzuna.com/land/ad/5855987935?se=tNwElKmi8RGhLffPfv7Txw&utm_medium=api&utm_source=9f1063e3&v=B35599AD935526761033AD7BB5E06D87F76BEA41",
       "description": "Sherwin-Williams is seeking a Branch Specialist Technical Support professional to deliver front-line technical assistance to branch and store teams across our manufacturing-focused network. In this role, you will diagnose and resolve hardware, software, and network issues, support POS and inventory systems, and coordinate escalations with IT and operations. You\u2019ll document incidents, train users on best practices, and help ensure uptime for critical store technologies. You\u2019ll work in a safety- \u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -412,7 +457,7 @@
       "company": "Sherwin Williams",
       "location": "Randolph, Norfolk County",
       "posted": "2026-08-25T18:24:17Z",
-      "url": "https://www.adzuna.com/land/ad/5855976645?se=YIbYX1-i8RG9Pc28-W9g6w&utm_medium=api&utm_source=9f1063e3&v=2DD041AB4C20326C166FCC7D64B07295E04F87DD",
+      "url": "https://www.adzuna.com/land/ad/5855976645?se=tNwElKmi8RGhLffPfv7Txw&utm_medium=api&utm_source=9f1063e3&v=2DD041AB4C20326C166FCC7D64B07295E04F87DD",
       "description": "Sherwin-Williams is seeking a Branch Specialist Technical Support professional to deliver front-line technical assistance to branch and store teams across our manufacturing-focused network. In this role, you will diagnose and resolve hardware, software, and network issues, support POS and inventory systems, and coordinate escalations with IT and operations. You\u2019ll document incidents, train users on best practices, and help ensure uptime for critical store technologies. You\u2019ll work in a safety- \u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -421,7 +466,7 @@
       "company": "Kforce Technology Staffing",
       "location": "Bee Cave, Travis County",
       "posted": "2026-08-25T18:11:07Z",
-      "url": "https://www.adzuna.com/land/ad/5855904780?se=3APHXl-i8RGfx5bEd-nhPg&utm_medium=api&utm_source=9f1063e3&v=E356D4BA99FD628D2C527E022C3BBC33E7D18E0E",
+      "url": "https://www.adzuna.com/land/ad/5855904780?se=dDUGk6mi8RGudLSg-frChQ&utm_medium=api&utm_source=9f1063e3&v=E356D4BA99FD628D2C527E022C3BBC33E7D18E0E",
       "description": "RESPONSIBILITIES: Kforce's client in Austin, TX is seeking a Help Desk Technician with a minimum of 3 years of hands-on technical support experience to provide end-user support in a fast-paced environment. Responsibilities: * Provide first-level technical support to end users * Troubleshoot hardware, software, printer, and connectivity issues * Resolve incidents and service requests through a ticketing system * Escalate complex issues to appropriate support teams when necessary * Document troub\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -430,17 +475,8 @@
       "company": "Sherwin Williams",
       "location": "South Erie, Erie County",
       "posted": "2026-08-25T18:06:53Z",
-      "url": "https://www.adzuna.com/land/ad/5855853073?se=YIbYX1-i8RG9Pc28-W9g6w&utm_medium=api&utm_source=9f1063e3&v=07B19FF0383D12595954095020D6B5D650ECFBD3",
+      "url": "https://www.adzuna.com/land/ad/5855853073?se=tNwElKmi8RGhLffPfv7Txw&utm_medium=api&utm_source=9f1063e3&v=07B19FF0383D12595954095020D6B5D650ECFBD3",
       "description": "Sherwin-Williams is seeking a Branch Specialist Technical Support professional to deliver front-line technical assistance to branch and store teams across our manufacturing-focused network. In this role, you will diagnose and resolve hardware, software, and network issues, support POS and inventory systems, and coordinate escalations with IT and operations. You\u2019ll document incidents, train users on best practices, and help ensure uptime for critical store technologies. You\u2019ll work in a safety- \u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Senior Desktop Support Technician",
-      "company": "Leidos",
-      "location": "Norco, Riverside County",
-      "posted": "2026-08-25T18:01:41Z",
-      "url": "https://www.adzuna.com/land/ad/5855800601?se=DCDnYF-i8RGRQuEASXEi3g&utm_medium=api&utm_source=9f1063e3&v=5481A0DFF38559166844F38ED692246B5408DBD3",
-      "description": "Leidos is seeking a Senior Desktop Support Technician to deliver high-quality, customer-focused IT support in a mission-critical environment. In this role, you will provide advanced troubleshooting for Windows and Mac systems, peripherals, and collaboration tools, ensuring secure and reliable operations. Responsibilities include software and OS deployment, patching, endpoint security, and account administration. You\u2019ll collaborate with cybersecurity and infrastructure teams, document solutions,\u2026",
       "source": "Adzuna (redirect link)"
     },
     {
@@ -448,7 +484,7 @@
       "company": "Stone Search",
       "location": "West End, Dauphin County",
       "posted": "2026-08-25T11:58:30Z",
-      "url": "https://www.adzuna.com/land/ad/5855578630?se=mJvtYV-i8RGJ35lZBgd8oQ&utm_medium=api&utm_source=9f1063e3&v=6EC19A4EA2BA59182DD8535843FDC856B73AB12E",
+      "url": "https://www.adzuna.com/land/ad/5855578630?se=DofWlami8RGcCMO1kgn3BA&utm_medium=api&utm_source=9f1063e3&v=6EC19A4EA2BA59182DD8535843FDC856B73AB12E",
       "description": "Local - full time only - permanent residents only On-site that may transition to 3 days on-site 2 days WFH after 60 days We are seeking a hands-on IT Support Specialist to provide end-user support across warehouse and office environments. This posiiton will serve as the primary technical resource supporting warehouse technology including PCs, printers, RF scanners, handheld devices, Wi-Fi connectivity, and user workstations while assisting with basic network administration and infrastructure tr\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -457,7 +493,7 @@
       "company": "TEKsystems c/o Allegis Group",
       "location": "Pittsboro, Hendricks County",
       "posted": "2026-08-25T09:54:53Z",
-      "url": "https://www.adzuna.com/land/ad/5855404877?se=mJvtYV-i8RGJ35lZBgd8oQ&utm_medium=api&utm_source=9f1063e3&v=CDCE4D1856B6F6947512CBD04B3D7E587C493A8E",
+      "url": "https://www.adzuna.com/land/ad/5855404877?se=DofWlami8RGcCMO1kgn3BA&utm_medium=api&utm_source=9f1063e3&v=CDCE4D1856B6F6947512CBD04B3D7E587C493A8E",
       "description": "IT SUPPORT SPECIALIST Onsite-PITTSBORO, IN Customer Sercice IT Support Active Directory Printers Hardware Software Ticketing DESCRIPTION Our technical engineering partner is hiring an IT SUPPORT SPECIALIST to join the rapidly growing business. The IT SUPPORT SPECIALIST will work Tier 1/2 duties as help desk and desktop support. Work is managed via tickets and user inquires. The IT SUPPORT SPECIALIST will have strong customer service skills along with advanced IT knowledge. The daily outlook of \u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -466,7 +502,7 @@
       "company": "Quali Tech LLC",
       "location": "County Market, Anoka County",
       "posted": "2026-08-25T04:16:42Z",
-      "url": "https://www.adzuna.com/land/ad/5855089817?se=ZN_hYl-i8RGhLffPfv7Txw&utm_medium=api&utm_source=9f1063e3&v=2DD51F43CF17C9CEB4F6E877B4D38C1E339B59E5",
+      "url": "https://www.adzuna.com/land/ad/5855089817?se=kM7Alqmi8RGAZ_C7iRr_XQ&utm_medium=api&utm_source=9f1063e3&v=2DD51F43CF17C9CEB4F6E877B4D38C1E339B59E5",
       "description": "Quali Tech, LLC is a manufacturer of plant nutrition, animal nutrition, and food ingredients products and services. Found in 1967, Quali Tech has been developing new techniques to formulate specialized combinations of ingredients resulting in high quality, cost-effective and innovative products and services guided by our values. World Class Customer Service Uncompromising Quality Family Feel/Professionally Run Qualitech is seeking experienced Quality Assurance Tech for 3rd shift to ensure produ\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -475,7 +511,7 @@
       "company": "TEKsystems c/o Allegis Group",
       "location": "San Diego, San Diego County",
       "posted": "2026-08-24T22:01:45Z",
-      "url": "https://www.adzuna.com/land/ad/5854873360?se=DCDnYF-i8RGRQuEASXEi3g&utm_medium=api&utm_source=9f1063e3&v=6F7B165C810D845773402DC07D4353DBE73D6F5E",
+      "url": "https://www.adzuna.com/land/ad/5854873360?se=3J_mlKmi8RGEGvDUMCr61w&utm_medium=api&utm_source=9f1063e3&v=6F7B165C810D845773402DC07D4353DBE73D6F5E",
       "description": "Description We are seeking a customer-focused Deskside Support Technician to join our IT support team in San Diego, CA. This position will provide Level I & II support for desktops, laptops, and related hardware/software, working directly with end users to troubleshoot and resolve issues quickly. Key Responsibilities: - Provide Level I & II desktop support for Windows 10/11 and Mac OS - Troubleshoot hardware, software, VPN, and peripheral issues - Manage imaging and deployment of new systems - \u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -484,7 +520,7 @@
       "company": "PrimCorp",
       "location": "Reston, Fairfax County",
       "posted": "2026-08-24T21:55:27Z",
-      "url": "https://www.adzuna.com/land/ad/5854862184?se=vpPqZF-i8RG9Pc28-W9g6w&utm_medium=api&utm_source=9f1063e3&v=E76B57798569C39363FA1AEA433ED1E265BEE340",
+      "url": "https://www.adzuna.com/land/ad/5854862184?se=aGWWmKmi8RGhLffPfv7Txw&utm_medium=api&utm_source=9f1063e3&v=E76B57798569C39363FA1AEA433ED1E265BEE340",
       "description": "Description Job Description Minimum 2-3 years in related field; Bachelors degree in related field. The following experience/abilities are desired for all data analysts supporting this contract Using the hardware/software/tools, to include analysis and reporting tools (required) Experience in data management, analysis, predictive analysis, modeling, analyzing and visualization of current and future readiness data Designing and building data warehouses. Extracting, transforming, and loading data \u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -493,7 +529,7 @@
       "company": "DaBella",
       "location": "Austin, Travis County",
       "posted": "2026-08-24T21:54:36Z",
-      "url": "https://www.adzuna.com/land/ad/5854859335?se=vpPqZF-i8RG9Pc28-W9g6w&utm_medium=api&utm_source=9f1063e3&v=7652BD390E05A94EC2703BF5D2FEC57D7272CA04",
+      "url": "https://www.adzuna.com/land/ad/5854859335?se=aGWWmKmi8RGhLffPfv7Txw&utm_medium=api&utm_source=9f1063e3&v=7652BD390E05A94EC2703BF5D2FEC57D7272CA04",
       "description": "THIS ROLE IS FULLY ON-SITE IN AUSTIN TEXAS Job Overview DaBella is one of the fastest-growing home improvement companies in the country. We are seeking a Data Analyst to support business growth through metrics, reporting, and data-driven insights. This role supports leadership and cross-functional teams by delivering accurate reporting, trend analysis, and scalable analytics solutions. Location : On-Site, Austin, TX Full Time: Monday \u2013 Friday, 8am - 5pm Compensation: $75,000 \u2013 90,000K Job Respo\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -502,7 +538,7 @@
       "company": "Tapcheck",
       "location": "Plano, Collin County",
       "posted": "2026-08-24T21:53:58Z",
-      "url": "https://www.adzuna.com/land/ad/5854857127?se=vpPqZF-i8RG9Pc28-W9g6w&utm_medium=api&utm_source=9f1063e3&v=68CBCAB35B9D324558977F49F8E33A73BD59B5A0",
+      "url": "https://www.adzuna.com/land/ad/5854857127?se=aGWWmKmi8RGhLffPfv7Txw&utm_medium=api&utm_source=9f1063e3&v=68CBCAB35B9D324558977F49F8E33A73BD59B5A0",
       "description": "About the job: You will own the analytics function for Tapcheck's Customer Support organization. Your job is to make sure Support leadership always has a clear, credible picture of how the team is performing and what the data says they should do about it. That means maintaining the standards for what gets measured, keeping the dashboards and frameworks that surface those metrics accurate, and producing the analyses that drive real decisions on strategy, investment, and priorities. The right can\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -511,7 +547,7 @@
       "company": "Acro Service Corp.",
       "location": "Carson Meadows, Carson City",
       "posted": "2026-08-24T19:49:04Z",
-      "url": "https://www.adzuna.com/land/ad/5854711771?se=mJvtYV-i8RGJ35lZBgd8oQ&utm_medium=api&utm_source=9f1063e3&v=0BDDF52A04904087FBA065964C2F6203F7D8F1E2",
+      "url": "https://www.adzuna.com/land/ad/5854711771?se=DofWlami8RGcCMO1kgn3BA&utm_medium=api&utm_source=9f1063e3&v=0BDDF52A04904087FBA065964C2F6203F7D8F1E2",
       "description": "Job Title: Help Desk Service Specialist Duration: 12-month contract Location: Carson City, NV 89712- ONSITE Pay Rate: $22-24/hr on W2 without any benefits. Job Description : RESPONSIBILITIES Responsible for providing tier-one network and systems support by answering, responding, and solving customer s technical requests in a non-scripted environment. Establishing new users including network, email accounts, and maintaining accurate and complete user information in Active Directory. Maintaining \u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -520,7 +556,7 @@
       "company": "Kforce Technology Staffing",
       "location": "Doral, Miami-Dade County",
       "posted": "2026-08-24T19:46:57Z",
-      "url": "https://www.adzuna.com/land/ad/5854710678?se=mJvtYV-i8RGJ35lZBgd8oQ&utm_medium=api&utm_source=9f1063e3&v=5F823DD28FFBBDF84D1EDA2E5BC844E2BD9DB837",
+      "url": "https://www.adzuna.com/land/ad/5854710678?se=DofWlami8RGcCMO1kgn3BA&utm_medium=api&utm_source=9f1063e3&v=5F823DD28FFBBDF84D1EDA2E5BC844E2BD9DB837",
       "description": "RESPONSIBILITIES: Kforce has a client seeking an IT Support Specialist in Miami, FL (Florida). Responsibilities: * Set up and maintain customer records across various internal systems * Coordinate with Credit, Dispatch, Sales, Billing, and Customer Experience teams to resolve customer and operational issues * Research and troubleshoot discrepancies related to freight, haulers, customer setup, system mapping, billing, and data integrity * Monitor and resolve daily exceptions, holds, and system-r\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -529,7 +565,7 @@
       "company": "Vaco by Highspring",
       "location": "West Indianapolis, Marion County",
       "posted": "2026-08-24T13:47:19Z",
-      "url": "https://www.adzuna.com/land/ad/5854528853?se=YIbYX1-i8RG9Pc28-W9g6w&utm_medium=api&utm_source=9f1063e3&v=F407FED82CFBA1472B8CC3F5563A296E34B1737E",
+      "url": "https://www.adzuna.com/land/ad/5854528853?se=tNwElKmi8RGhLffPfv7Txw&utm_medium=api&utm_source=9f1063e3&v=F407FED82CFBA1472B8CC3F5563A296E34B1737E",
       "description": "Vaco Technology is currently recruiting for a Tier 2 Help Desk Specialist for a full-time role located on the north side of Indianapolis. This is a 100% on-site role, Monday\u2013Friday, 9am\u20136pm. The team supports multiple locations, users, applications, and hardware. Responsibilities Troubleshoot and resolve desktop, server, and network hardware/software issues Provide in-person, phone, email, and ticket-based support Escalate urgent issues as needed Stay current on system updates across servers, a\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -538,7 +574,7 @@
       "company": "ThermoFisher Scientific",
       "location": "Portsmouth, Rockingham County",
       "posted": "2026-08-23T23:30:03Z",
-      "url": "https://www.adzuna.com/land/ad/5854128281?se=YIbYX1-i8RG9Pc28-W9g6w&utm_medium=api&utm_source=9f1063e3&v=51822DD1121DB79D6AD353AC9469C46B62521955",
+      "url": "https://www.adzuna.com/land/ad/5854128281?se=tNwElKmi8RGhLffPfv7Txw&utm_medium=api&utm_source=9f1063e3&v=51822DD1121DB79D6AD353AC9469C46B62521955",
       "description": "Work Schedule Standard (Mon-Fri) Environmental Conditions Some degree of PPE (Personal Protective Equipment) required (safety glasses, gowning, gloves, lab coat, ear plugs etc.) Job Description As part of the Thermo Fisher Scientific team, you'll discover meaningful work that makes a positive impact on a global scale. Join our colleagues in bringing our Mission to life every day-enabling our customers to make the world healthier, cleaner, and safer. We provide our global teams with the resource\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -547,17 +583,8 @@
       "company": "ThermoFisher Scientific",
       "location": "Grand Island, Erie County",
       "posted": "2026-08-23T22:54:54Z",
-      "url": "https://www.adzuna.com/land/ad/5854113288?se=YIbYX1-i8RG9Pc28-W9g6w&utm_medium=api&utm_source=9f1063e3&v=2B70ECC8B62DC6B984F60AE53F9FBCF0331D6677",
+      "url": "https://www.adzuna.com/land/ad/5854113288?se=tNwElKmi8RGhLffPfv7Txw&utm_medium=api&utm_source=9f1063e3&v=2B70ECC8B62DC6B984F60AE53F9FBCF0331D6677",
       "description": "Work Schedule Standard (Mon-Fri) Environmental Conditions Some degree of PPE (Personal Protective Equipment) required (safety glasses, gowning, gloves, lab coat, ear plugs etc.) Job Description As part of the Thermo Fisher Scientific team, you'll discover meaningful work that makes a positive impact on a global scale. Join our colleagues in bringing our Mission to life every day-enabling our customers to make the world healthier, cleaner, and safer. We provide our global teams with the resource\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Data Analyst, Specialist",
-      "company": "Vanguard",
-      "location": "Frazer, Chester County",
-      "posted": "2026-08-23T19:29:27Z",
-      "url": "https://www.adzuna.com/land/ad/5853960496?se=vpPqZF-i8RG9Pc28-W9g6w&utm_medium=api&utm_source=9f1063e3&v=57977DD8EE631B8FCF42381DBE4C6D81E9F5A98F",
-      "description": "hackajob is collaborating with Vanguard to connect them with exceptional professionals for this role. Analyzes data, assesses trends and develops actionable insights and recommendations in support of business objectives. Trains and develops junior analysts. Analyzes data, assesses trends and develops actionable insights and recommendations in support of business objectives. Trains and develops junior analysts. Core Responsibilities 1. Engages with internal partners to understand business strate\u2026",
       "source": "Adzuna (redirect link)"
     },
     {
@@ -565,7 +592,7 @@
       "company": "TEKsystems c/o Allegis Group",
       "location": "Elsmere, Albany County",
       "posted": "2026-08-23T09:54:39Z",
-      "url": "https://www.adzuna.com/land/ad/5853661982?se=DCDnYF-i8RGRQuEASXEi3g&utm_medium=api&utm_source=9f1063e3&v=ECF2E7008CC022F7FE9D50280CDA638D11BBA1F9",
+      "url": "https://www.adzuna.com/land/ad/5853661982?se=3J_mlKmi8RGEGvDUMCr61w&utm_medium=api&utm_source=9f1063e3&v=ECF2E7008CC022F7FE9D50280CDA638D11BBA1F9",
       "description": "Description Seeking technicians to support a large-scale laptop migration and workstation deployment program. Candidates will deploy Windows laptops, assist users during device transitions, validate application functionality, provide in-person technical support, manage asset inventory, and support migration events. Experience with Microsoft 365, Windows 11, device deployments, hardware refresh projects, and customer-facing support required. Travel between office locations may be required. Job D\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -576,33 +603,6 @@
       "posted": "2026-08-23T07:11:39Z",
       "url": "https://www.adzuna.com/details/5853596194?utm_medium=api&utm_source=9f1063e3",
       "description": "Debug Technician Contract Position \u2013 Temp-to-Hire Locations: Houston (IB4) Business Units: CESBG Job Classification: Non-Exempt Summary Foxconn Industrial Internet (FII) is seeking a Debug Technician to troubleshoot and repair failures; diagnose the root cause and recommend corrective action. Once a part of the team, you will be responsible for a wide variety of tasks within the DEPT in an [office/production] environment and have the opportunity to display critical thinking skills to expand you\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "QA Technician",
-      "company": "Insight Global",
-      "location": "Clinton, Sampson County",
-      "posted": "2026-08-22T22:56:09Z",
-      "url": "https://www.adzuna.com/land/ad/5853249636?se=ZN_hYl-i8RGhLffPfv7Txw&utm_medium=api&utm_source=9f1063e3&v=5C663C138B53461998BA4A25B7B1D77F38D687E7",
-      "description": "Job Description Day-to-Day: - Perform incoming, in-process, and final quality inspections - Conduct process control checks throughout manufacturing operations - Support final acceptance testing activities - Perform quality audits and ensure compliance with established procedures - Utilize calipers, tape measures, micrometers, and other measurement tools to inspect components - Process and review sample inspection reports - Manage material rejection processes and documentation - Review and close\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Help Desk Technician",
-      "company": "Insight Global",
-      "location": "Farmington, Hartford County",
-      "posted": "2026-08-22T22:52:50Z",
-      "url": "https://www.adzuna.com/land/ad/5853238519?se=3APHXl-i8RGfx5bEd-nhPg&utm_medium=api&utm_source=9f1063e3&v=F9A5E667C40139DDF2FA35C94EC6EB6753E091B8",
-      "description": "Job Description Support the flow of inbound help desk tickets throughout a Windows 10/11 upgrade for a major healthcare client Contribute to clearing ServiceNow ticket backlog while also taking 35-40 service desk calls per day Troubleshoot Office 365 and user access points (2FA, MFA) Work on a team of 15 other help desk resources to support long-term growth and maintenance of Windows environment lifecycle We are a company committed to creating diverse and inclusive environments where people can\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Team Hornet Data Analyst",
-      "company": "DCS Corp",
-      "location": "Ridgecrest, Kern County",
-      "posted": "2026-08-22T21:41:35Z",
-      "url": "https://www.adzuna.com/land/ad/5853163255?se=vpPqZF-i8RG9Pc28-W9g6w&utm_medium=api&utm_source=9f1063e3&v=00AF6070C3AAA2A8A9931B19970853BCD61F4811",
-      "description": "Job Description Job Description Salary Range: $73,160 - $92,500 The F-18 Integrated Product Team (IPT) at NAWCWD China Lake has an opening for a Data Analyst (DA). The team member will be working in a dynamic environment and will be responsible for analyzing data, creating analysis tools, and reporting test results of F/A-18 C/D integration testing. Essential Job Functions: System Engineering functions: The DA will support technical engineering reviews, understand system requirements, learn the\u2026",
       "source": "Adzuna (redirect link)"
     }
   ]
