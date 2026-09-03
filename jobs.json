@@ -1,14 +1,41 @@
 {
-  "last_updated": "2026-09-02T15:49:42.831733+00:00",
+  "last_updated": "2026-09-03T00:54:30.626246+00:00",
   "freshness_window_days": 5,
   "jobs": [
     {
       "title": "Desktop Support Technician",
-      "company": "TEKsystems c/o Allegis Group",
-      "location": "South Boston, Suffolk County",
-      "posted": "2026-09-02T10:27:57Z",
-      "url": "https://www.adzuna.com/land/ad/5867167639?se=euV85OWm8RG5FtUw0eF-8g&utm_medium=api&utm_source=9f1063e3&v=A93BF57054425786DE2B676EED373BAF4BAA3B62",
-      "description": "Position Summary We are seeking a Desktop Support Technician to provide onsite end-user support and technical assistance in a fast-paced corporate environment. This role will be responsible for deskside support, laptop deployments, imaging and device lifecycle activities, conference room technology support, and general IT support initiatives. The ideal candidate will have strong troubleshooting skills, excellent customer service abilities, and experience supporting end users in an enterprise se\u2026",
+      "company": "Year Up United",
+      "location": "East Case, Baltimore",
+      "posted": "2026-09-02T20:29:00Z",
+      "url": "https://www.adzuna.com/land/ad/5867917429?se=wDplADKn8RG2HomFYOMXfQ&utm_medium=api&utm_source=9f1063e3&v=A7C35180F11185CC2050086DBFFEE2AA72AE1DD9",
+      "description": "Join Year Up as part of our Desktop Support Job Training Program, designed to bridge the opportunity gap for young adults. This empowering initiative combines targeted education in information technology with hands-on internship experience at leading companies. Participants will gain valuable real-world exposure to the technical support and IT fields, developing key skills in software, hardware, and customer support. Our program not only equips you with technical know-how but also nurtures crit\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "Lab IT Support Specialist",
+      "company": "TEKsystems",
+      "location": "North Chicago, Lake County",
+      "posted": "2026-09-02T19:33:53Z",
+      "url": "https://www.adzuna.com/land/ad/5867759598?se=XqQ-ATKn8RG2HomFYOMXfQ&utm_medium=api&utm_source=9f1063e3&v=2C2708150072D25C9EFDDA5ACCE26FEF0F61C2F7",
+      "description": "Job Description Job Description Description As a Lab Computing Analyst, beneficiary would perform following key responsibilities: Requirements Management and onsite Validation/Compliance support IT Consulting Customer Liaison Onsite Lab IT Support Requirements Management Understand problem statement/challenges Define scope Gather requirements. Assist with Validation/Compliance activities (IOPQ) as required. Analyze current state business processes and requirements. Assist in building plans for \u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "Debug Technician",
+      "company": "Foxconn Industrial Internet - FII",
+      "location": "Houston, Harris County",
+      "posted": "2026-09-02T12:48:30Z",
+      "url": "https://www.adzuna.com/land/ad/5867385912?se=MB3jAjKn8RG9hZZomVLVEQ&utm_medium=api&utm_source=9f1063e3&v=92E202EC9C57A06EFBF6E5746291A0435FFDE810",
+      "description": "Job Description Job Description Overview: Foxconn Industrial Internet (FII) is seeking a Debug Technician to troubleshoot and repair failures; diagnose the root cause and recommend corrective action. Once a part of the team, you will be responsible for a wide variety of tasks within the DEPT in an [office/production] environment and have the opportunity to display critical thinking skills to expand your career in Smart Manufacturing. Reporting to the Failure Analysis Engineering Manager, the De\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "Test & Debug Technician (Swing Shift)",
+      "company": "Unigen",
+      "location": "Newark, Alameda County",
+      "posted": "2026-09-02T12:47:57Z",
+      "url": "https://www.adzuna.com/land/ad/5867384106?se=MB3jAjKn8RG9hZZomVLVEQ&utm_medium=api&utm_source=9f1063e3&v=14A652077FA757EA883F378A20D33FC7ECFCD831",
+      "description": "Job Description Job Description About Unigen Unigen is a global technology company providing innovative electronics manufacturing and product solutions to customers across diverse industries. With decades of industry experience and operations in key global markets, we combine engineering expertise, advanced manufacturing capabilities, and responsive customer service to deliver reliable, high-quality solutions\u2014from product development through production and fulfillment. Location and Work Arrange\u2026",
       "source": "Adzuna (redirect link)"
     },
     {
@@ -16,8 +43,26 @@
       "company": "Total Loan Services LLC",
       "location": "Kettering, Montgomery County",
       "posted": "2026-09-02T10:19:08Z",
-      "url": "https://www.adzuna.com/land/ad/5867163670?se=tsAu6eWm8RGR76ZbJB6pOg&utm_medium=api&utm_source=9f1063e3&v=4DC8CF9C2B2C62B7CD6A4F97B624A86A3914379D",
+      "url": "https://www.adzuna.com/land/ad/5867163670?se=JjSdBDKn8RG1TLE4tw1AEA&utm_medium=api&utm_source=9f1063e3&v=4DC8CF9C2B2C62B7CD6A4F97B624A86A3914379D",
       "description": "Job Description Job Description Position Summary The Operations Business Analyst serves as a key liaison between business stakeholders and technical teams to support operational initiatives, regulatory reporting, compliance activities, and business process improvements. This role is responsible for gathering and documenting business requirements, coordinating cross-functional projects, analyzing existing processes, and helping implement solutions that improve operational efficiency and regulato\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Erie Home",
+      "location": "Holland, Lucas County",
+      "posted": "2026-09-02T07:55:17Z",
+      "url": "https://www.adzuna.com/land/ad/5867070858?se=kuSzAzKn8RGVXraSihnW_w&utm_medium=api&utm_source=9f1063e3&v=439027D34FBDCEEA8CC451AA03BBFEA6DA3C7834",
+      "description": "Erie Home, a national leader in premium residential roofing and exterior remodeling, is seeking a Data Analyst to turn construction and home improvement data into actionable insights. In this role, you\u2019ll collect, clean, and analyze sales, operations, and marketing data from multiple systems to improve forecasting, project performance, and customer experience. You\u2019ll build dashboards and reports, identify trends and KPIs, and partner with leadership and field teams to support data-driven decisi\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "Senior Data Analyst",
+      "company": "Grubhub",
+      "location": "New York City, New York",
+      "posted": "2026-09-02T07:52:40Z",
+      "url": "https://www.adzuna.com/land/ad/5867068421?se=kuSzAzKn8RGVXraSihnW_w&utm_medium=api&utm_source=9f1063e3&v=BFE2FAB497FD6D6EBC64ACD625124BFECA154E4D",
+      "description": "hackajob is collaborating with Grubhub to connect them with exceptional professionals for this role. About Wonder Everything\u2019s on the menu at Wonder. Except compromise. Wonder is the mealtime platform built to feed every craving in one order. With Wonder, you can mix and match hundreds of dishes from 20 exclusive restaurants in a single order, so everyone gets exactly what they\u2019re craving. Enjoy everything from tacos to Thai with $0 delivery fees, plus dine-in or pick up at a Wonder location ne\u2026",
       "source": "Adzuna (redirect link)"
     },
     {
@@ -25,8 +70,17 @@
       "company": "Johns Hopkins Applied Physics Laboratory ",
       "location": "North Laurel, Prince George's County",
       "posted": "2026-09-02T05:10:45Z",
-      "url": "https://www.adzuna.com/land/ad/5866782107?se=tsAu6eWm8RGR76ZbJB6pOg&utm_medium=api&utm_source=9f1063e3&v=9C7CF0B8E5353D4A8602E3A2A88409F63863DE89",
+      "url": "https://www.adzuna.com/land/ad/5866782107?se=JjSdBDKn8RG1TLE4tw1AEA&utm_medium=api&utm_source=9f1063e3&v=9C7CF0B8E5353D4A8602E3A2A88409F63863DE89",
       "description": "Description Are you seeking meaningful work in a team and collaborative environment focused on delivering quality results to our sponsors and making critical contributions to the nation? Are you organized, able to manage multiple tasks, and pay attention to details? Do you have strong computer skills, love working with numbers, and handling day-to-day financial related tasks (i.e. forecasting and planning resources, financial reporting, and analysis)? If so, we're looking for someone like you t\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "Sr. IT Business Systems Analyst - Scheduling (Primavera P6 EPPM)",
+      "company": "CF Industries",
+      "location": "Lincolnshire Woods, Lake County",
+      "posted": "2026-09-02T05:09:46Z",
+      "url": "https://www.adzuna.com/land/ad/5866780906?se=JjSdBDKn8RG1TLE4tw1AEA&utm_medium=api&utm_source=9f1063e3&v=1164EF9B49367F909F3C52C8DD8B1806C009F0CB",
+      "description": "At CF Industries, our mission is to provide clean energy to feed and fuel the world sustainably. Our employees are focused on safe and reliable operations, environmental stewardship, and disciplined capital and corporate management. By joining CF, you will be part of a team that brings their varied experiences, wide-ranging knowledge and diverse talents together to deliver important work and you'll be able to pursue complex, exciting opportunities that help you continue to grow and achieve your\u2026",
       "source": "Adzuna (redirect link)"
     },
     {
@@ -34,7 +88,7 @@
       "company": "Elevance Health",
       "location": "Schiller Park, Cook County",
       "posted": "2026-09-02T05:09:25Z",
-      "url": "https://www.adzuna.com/land/ad/5866780479?se=tsAu6eWm8RGR76ZbJB6pOg&utm_medium=api&utm_source=9f1063e3&v=C5E6DCEEAABD95051D9FC9929C4919E4A04BE25A",
+      "url": "https://www.adzuna.com/land/ad/5866780479?se=JjSdBDKn8RG1TLE4tw1AEA&utm_medium=api&utm_source=9f1063e3&v=C5E6DCEEAABD95051D9FC9929C4919E4A04BE25A",
       "description": "Business Analyst III \u2013 340B - BioPlus Specialty Pharmacy Location: IL-CHICAGO, 233 S WACKER DR, STE 3700 Hybrid: This role requires associates to be in-office 1 - 2 days per week, fostering collaboration and connectivity, while providing flexibility to support productivity and work-life balance. This approach combines structured office engagement with the autonomy of virtual work, promoting a dynamic and adaptable workplace. Alternate locations may be considered if candidates reside within a co\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -43,7 +97,7 @@
       "company": "Elevance Health",
       "location": "South Norfolk, Chesapeake City",
       "posted": "2026-09-02T05:08:50Z",
-      "url": "https://www.adzuna.com/land/ad/5866779831?se=tsAu6eWm8RGR76ZbJB6pOg&utm_medium=api&utm_source=9f1063e3&v=78BE16026DD9266E24F1D320E43BADE5F37EE05D",
+      "url": "https://www.adzuna.com/land/ad/5866779831?se=JjSdBDKn8RG1TLE4tw1AEA&utm_medium=api&utm_source=9f1063e3&v=78BE16026DD9266E24F1D320E43BADE5F37EE05D",
       "description": "Be Part of an Extraordinary Team Title : Business Analyst II- Capitation Hybrid: This role requires associates to be in-office 1 - 2 days per week, fostering collaboration and connectivity, while providing flexibility to support productivity and work-life balance. This approach combines structured office engagement with the autonomy of virtual work, promoting a dynamic and adaptable workplace. Alternate locations may be considered if candidates reside within a commuting distance from an office.\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -52,7 +106,7 @@
       "company": "Elevance Health",
       "location": "South Norfolk, Chesapeake City",
       "posted": "2026-09-02T05:08:26Z",
-      "url": "https://www.adzuna.com/land/ad/5866779363?se=tsAu6eWm8RGR76ZbJB6pOg&utm_medium=api&utm_source=9f1063e3&v=B70CE53EA8E9FFDB0306655C85967BCCAEA63113",
+      "url": "https://www.adzuna.com/land/ad/5866779363?se=JjSdBDKn8RG1TLE4tw1AEA&utm_medium=api&utm_source=9f1063e3&v=B70CE53EA8E9FFDB0306655C85967BCCAEA63113",
       "description": "Provider Outreach Business Analyst II Hybrid : This role requires associates to be in-office 1 - 2 days per week, fostering collaboration and connectivity, while providing flexibility to support productivity and work-life balance. This approach combines structured office engagement with the autonomy of virtual work, promoting a dynamic and adaptable workplace. Alternate locations may be considered if candidates reside within a commuting distance from an office . Schedule: This position will wor\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -61,7 +115,7 @@
       "company": "CAI",
       "location": "Wyoming, Kent County",
       "posted": "2026-09-01T23:42:33Z",
-      "url": "https://www.adzuna.com/land/ad/5866404555?se=tsAu6eWm8RGR76ZbJB6pOg&utm_medium=api&utm_source=9f1063e3&v=C9E08EB24C3237F728BB89B9C404B1FCF719CF7F",
+      "url": "https://www.adzuna.com/land/ad/5866404555?se=JjSdBDKn8RG1TLE4tw1AEA&utm_medium=api&utm_source=9f1063e3&v=C9E08EB24C3237F728BB89B9C404B1FCF719CF7F",
       "description": "Senior Financials ERP Business Analyst Req number: R8222 Employment type: Full time Worksite flexibility: Hybrid Who we are CAI is a global services firm with over 9,000 associates worldwide and a yearly revenue of $1.3 billion. We have over 40 years of excellence in uniting talent and technology to power the possible for our clients, colleagues, and communities. As a privately held company, we have the freedom and focus to do what is right\u2014whatever it takes. Our tailor-made solutions create la\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -70,7 +124,7 @@
       "company": "HCA Healthcare",
       "location": "Murfreesboro, Rutherford County",
       "posted": "2026-09-01T23:42:32Z",
-      "url": "https://www.adzuna.com/land/ad/5866404548?se=3P846OWm8RG5FtUw0eF-8g&utm_medium=api&utm_source=9f1063e3&v=94287A657A1D8345C8C7D627CC90CEB7DC71B85A",
+      "url": "https://www.adzuna.com/land/ad/5866404548?se=kuSzAzKn8RGVXraSihnW_w&utm_medium=api&utm_source=9f1063e3&v=94287A657A1D8345C8C7D627CC90CEB7DC71B85A",
       "description": "Introduction Last year our HCA Healthcare colleagues invested over 156,000 hours volunteering in our communities. As a Senior Data Usability Analyst with HCA Healthcare you can be a part of an organization that is devoted to giving back! Benefits HCA Healthcare offers a total rewards package that supports the health, life, career and retirement of our colleagues. The available plans and programs include: Comprehensive medical coverage that covers many common services at no cost or for a low cop\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -79,7 +133,7 @@
       "company": "HCA Healthcare",
       "location": "Franklin, Williamson County",
       "posted": "2026-09-01T23:42:32Z",
-      "url": "https://www.adzuna.com/land/ad/5866404547?se=3P846OWm8RG5FtUw0eF-8g&utm_medium=api&utm_source=9f1063e3&v=ED52245CFB612BEB1704DC353FF718375DEE943B",
+      "url": "https://www.adzuna.com/land/ad/5866404547?se=kuSzAzKn8RGVXraSihnW_w&utm_medium=api&utm_source=9f1063e3&v=ED52245CFB612BEB1704DC353FF718375DEE943B",
       "description": "Introduction Last year our HCA Healthcare colleagues invested over 156,000 hours volunteering in our communities. As a Senior Data Usability Analyst with HCA Healthcare you can be a part of an organization that is devoted to giving back! Benefits HCA Healthcare offers a total rewards package that supports the health, life, career and retirement of our colleagues. The available plans and programs include: Comprehensive medical coverage that covers many common services at no cost or for a low cop\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -88,7 +142,7 @@
       "company": "HCA Healthcare",
       "location": "Norene, Wilson County",
       "posted": "2026-09-01T23:42:28Z",
-      "url": "https://www.adzuna.com/land/ad/5866404461?se=3P846OWm8RG5FtUw0eF-8g&utm_medium=api&utm_source=9f1063e3&v=7377980F4B7286ACB5B90A12FB4ECC7C23D13DB7",
+      "url": "https://www.adzuna.com/land/ad/5866404461?se=kuSzAzKn8RGVXraSihnW_w&utm_medium=api&utm_source=9f1063e3&v=7377980F4B7286ACB5B90A12FB4ECC7C23D13DB7",
       "description": "Introduction Last year our HCA Healthcare colleagues invested over 156,000 hours volunteering in our communities. As a Senior Data Usability Analyst with HCA Healthcare you can be a part of an organization that is devoted to giving back! Benefits HCA Healthcare offers a total rewards package that supports the health, life, career and retirement of our colleagues. The available plans and programs include: Comprehensive medical coverage that covers many common services at no cost or for a low cop\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -97,7 +151,7 @@
       "company": "CAI",
       "location": "Schiller Park, Cook County",
       "posted": "2026-09-01T23:42:28Z",
-      "url": "https://www.adzuna.com/land/ad/5866404467?se=tsAu6eWm8RGR76ZbJB6pOg&utm_medium=api&utm_source=9f1063e3&v=47C1D0BB19A607FE7755C5864BD2D742906D1A37",
+      "url": "https://www.adzuna.com/land/ad/5866404467?se=JjSdBDKn8RG1TLE4tw1AEA&utm_medium=api&utm_source=9f1063e3&v=47C1D0BB19A607FE7755C5864BD2D742906D1A37",
       "description": "Business/Product Analyst Req number: R8406 Employment type: Full time Worksite flexibility: Hybrid Who we are CAI is a global services firm with over 9,000 associates worldwide and a yearly revenue of $1.3 billion. We have over 40 years of excellence in uniting talent and technology to power the possible for our clients, colleagues, and communities. As a privately held company, we have the freedom and focus to do what is right\u2014whatever it takes. Our tailor-made solutions create lasting results \u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -106,7 +160,7 @@
       "company": "HCA Healthcare",
       "location": "Nashville, Davidson County",
       "posted": "2026-09-01T23:42:26Z",
-      "url": "https://www.adzuna.com/land/ad/5866404449?se=3P846OWm8RG5FtUw0eF-8g&utm_medium=api&utm_source=9f1063e3&v=E4162683C19564425749FE42AA6A31A4DDE37702",
+      "url": "https://www.adzuna.com/land/ad/5866404449?se=kuSzAzKn8RGVXraSihnW_w&utm_medium=api&utm_source=9f1063e3&v=E4162683C19564425749FE42AA6A31A4DDE37702",
       "description": "Introduction Last year our HCA Healthcare colleagues invested over 156,000 hours volunteering in our communities. As a Senior Data Usability Analyst with HCA Healthcare you can be a part of an organization that is devoted to giving back! Benefits HCA Healthcare offers a total rewards package that supports the health, life, career and retirement of our colleagues. The available plans and programs include: Comprehensive medical coverage that covers many common services at no cost or for a low cop\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -115,17 +169,8 @@
       "company": "Robert Half",
       "location": "Jacksonville, Duval County",
       "posted": "2026-09-01T22:34:02Z",
-      "url": "https://www.adzuna.com/land/ad/5866190590?se=JNKc4uWm8RGR76ZbJB6pOg&utm_medium=api&utm_source=9f1063e3&v=470AAECBE5F404BB259F7D93DFA9EE2FD9EBF27E",
+      "url": "https://www.adzuna.com/land/ad/5866190590?se=xpmx_jGn8RG2HomFYOMXfQ&utm_medium=api&utm_source=9f1063e3&v=470AAECBE5F404BB259F7D93DFA9EE2FD9EBF27E",
       "description": "Description We are looking for a Help Desk Technician to provide front-line technical support for end users. This contract position focuses on resolving everyday desktop and account-related issues, supporting user onboarding activities, and helping maintain a reliable technology environment. The ideal candidate is comfortable working with Windows-based systems, managing user access, and delivering responsive service with a detail-oriented approach. Responsibilities: Provide first-level technica\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Data Analyst",
-      "company": "Erie Home",
-      "location": "Holland, Lucas County",
-      "posted": "2026-09-01T20:09:53Z",
-      "url": "https://www.adzuna.com/details/5865883718?utm_medium=api&utm_source=9f1063e3",
-      "description": "About Leaf Home At Leaf Home, we are powered by people on a single mission to make homeownership easy. We\u2019ve crafted a team of the very best to ensure we make a difference by winning every day. In addition to serving our customers, Leaf Home strives to build a welcoming and inclusive workplace. We are proud to be a certified Great Place to Work\u00ae as well as a multi-year recipient of Top Workplaces recognition. From competitive medical benefits to people-focused committees like the Women\u2019s Commit\u2026",
       "source": "Adzuna (redirect link)"
     },
     {
@@ -133,8 +178,17 @@
       "company": "Year Up United",
       "location": "Highland Park, Dallas",
       "posted": "2026-09-01T20:05:42Z",
-      "url": "https://www.adzuna.com/land/ad/5865869784?se=euV85OWm8RG5FtUw0eF-8g&utm_medium=api&utm_source=9f1063e3&v=EE55018A9A29410EE116A9B078E85E44F6E3D4A4",
+      "url": "https://www.adzuna.com/land/ad/5865869784?se=wDplADKn8RG2HomFYOMXfQ&utm_medium=api&utm_source=9f1063e3&v=EE55018A9A29410EE116A9B078E85E44F6E3D4A4",
       "description": "Join Year Up as part of our Desktop Support Job Training Program, designed to bridge the opportunity gap for young adults. This empowering initiative combines targeted education in information technology with hands-on internship experience at leading companies. Participants will gain valuable real-world exposure to the technical support and IT fields, developing key skills in software, hardware, and customer support. Our program not only equips you with technical know-how but also nurtures crit\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "Scientific Data Analyst",
+      "company": "National Radio Astronomy Observatory",
+      "location": "Cass, Pocahontas County",
+      "posted": "2026-09-01T19:48:34Z",
+      "url": "https://www.adzuna.com/land/ad/5865810589?se=kuSzAzKn8RGVXraSihnW_w&utm_medium=api&utm_source=9f1063e3&v=C1A9A0FB88B174E0418B78292954DDE98B117D1E",
+      "description": "The National Radio Astronomy Observatory seeks a Scientific Data Analyst I or II to support cutting-edge radio astronomy in the telecommunications and media domain. In this role, you will clean, transform, and analyze large observational and telemetry datasets from world-class radio telescopes, building robust pipelines and tools for scientific workflows. You will collaborate with astronomers, engineers, and software developers, create visualizations and reports, and document reproducible metho\u2026",
       "source": "Adzuna (redirect link)"
     },
     {
@@ -142,8 +196,17 @@
       "company": "Chesapeake Containment",
       "location": "Mountain View, Catawba County",
       "posted": "2026-09-01T19:35:12Z",
-      "url": "https://www.adzuna.com/land/ad/5865781630?se=JNKc4uWm8RGR76ZbJB6pOg&utm_medium=api&utm_source=9f1063e3&v=4078B985750816197ACB211B31CDF4F967AE131D",
+      "url": "https://www.adzuna.com/land/ad/5865781630?se=xpmx_jGn8RG2HomFYOMXfQ&utm_medium=api&utm_source=9f1063e3&v=4078B985750816197ACB211B31CDF4F967AE131D",
       "description": "Chesapeake Containment seeks a Help Desk Technician to support our IT & Technical Support team in Albany, NY. In this role, you\u2019ll provide front-line assistance for hardware, software, and network issues, ensuring fast, friendly, and accurate resolution for end users. Using our ticketing system, you\u2019ll diagnose problems, escalate when needed, and document solutions. You\u2019ll also assist with device setup, user onboarding, and basic account administration. We offer comprehensive training, clear gr\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Aquent Talent",
+      "location": "Foster City, San Mateo County",
+      "posted": "2026-09-01T19:06:19Z",
+      "url": "https://www.adzuna.com/land/ad/5865727613?se=kuSzAzKn8RGVXraSihnW_w&utm_medium=api&utm_source=9f1063e3&v=7DB7A0A6D68D8D26859F776DD832204CB948560E",
+      "description": "Aquent Talent is seeking a Data Analyst to turn complex data into clear insights that power decisions across creative, marketing, and digital staffing solutions. In this role, you will collect, clean, and analyze large data sets, build dashboards and reports, and partner with stakeholders to define KPIs and measurement frameworks. You will support forecasting, pipeline, and performance analytics, while improving data quality, documentation, and governance. In our people-first, inclusive, and gr\u2026",
       "source": "Adzuna (redirect link)"
     },
     {
@@ -151,7 +214,7 @@
       "company": "Chesapeake Containment",
       "location": "Doolie, Iredell County",
       "posted": "2026-09-01T18:58:46Z",
-      "url": "https://www.adzuna.com/land/ad/5865696932?se=JNKc4uWm8RGR76ZbJB6pOg&utm_medium=api&utm_source=9f1063e3&v=7763D0FC667DC91C95E59A5CCB4562B4162D3580",
+      "url": "https://www.adzuna.com/land/ad/5865696932?se=xpmx_jGn8RG2HomFYOMXfQ&utm_medium=api&utm_source=9f1063e3&v=7763D0FC667DC91C95E59A5CCB4562B4162D3580",
       "description": "Chesapeake Containment seeks a Help Desk Technician to support our IT & Technical Support team in Albany, NY. In this role, you\u2019ll provide front-line assistance for hardware, software, and network issues, ensuring fast, friendly, and accurate resolution for end users. Using our ticketing system, you\u2019ll diagnose problems, escalate when needed, and document solutions. You\u2019ll also assist with device setup, user onboarding, and basic account administration. We offer comprehensive training, clear gr\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -160,7 +223,7 @@
       "company": "Year Up United",
       "location": "Fountainebleau, Miami-Dade County",
       "posted": "2026-09-01T18:40:44Z",
-      "url": "https://www.adzuna.com/land/ad/5865620410?se=euV85OWm8RG5FtUw0eF-8g&utm_medium=api&utm_source=9f1063e3&v=2C6B4B2FA60BCC6C97C690AC77138C4ECFECDB10",
+      "url": "https://www.adzuna.com/land/ad/5865620410?se=wDplADKn8RG2HomFYOMXfQ&utm_medium=api&utm_source=9f1063e3&v=2C6B4B2FA60BCC6C97C690AC77138C4ECFECDB10",
       "description": "Join Year Up as part of our Desktop Support Job Training Program, designed to bridge the opportunity gap for young adults. This empowering initiative combines targeted education in information technology with hands-on internship experience at leading companies. Participants will gain valuable real-world exposure to the technical support and IT fields, developing key skills in software, hardware, and customer support. Our program not only equips you with technical know-how but also nurtures crit\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -169,7 +232,7 @@
       "company": "Chesapeake Containment",
       "location": "Statesville West, Iredell County",
       "posted": "2026-09-01T18:36:54Z",
-      "url": "https://www.adzuna.com/land/ad/5865611544?se=JNKc4uWm8RGR76ZbJB6pOg&utm_medium=api&utm_source=9f1063e3&v=07B072B562D3178EA34231604B1CC7E7D7B5EDA5",
+      "url": "https://www.adzuna.com/land/ad/5865611544?se=xpmx_jGn8RG2HomFYOMXfQ&utm_medium=api&utm_source=9f1063e3&v=07B072B562D3178EA34231604B1CC7E7D7B5EDA5",
       "description": "Chesapeake Containment seeks a Help Desk Technician to support our IT & Technical Support team in Albany, NY. In this role, you\u2019ll provide front-line assistance for hardware, software, and network issues, ensuring fast, friendly, and accurate resolution for end users. Using our ticketing system, you\u2019ll diagnose problems, escalate when needed, and document solutions. You\u2019ll also assist with device setup, user onboarding, and basic account administration. We offer comprehensive training, clear gr\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -178,7 +241,7 @@
       "company": "Grifols",
       "location": "Clayton, Johnston County",
       "posted": "2026-09-01T18:32:58Z",
-      "url": "https://www.adzuna.com/land/ad/5865601021?se=tsAu6eWm8RGR76ZbJB6pOg&utm_medium=api&utm_source=9f1063e3&v=A72FFCD6B78CD69523F6F14F39A483AA52D88897",
+      "url": "https://www.adzuna.com/land/ad/5865601021?se=JjSdBDKn8RG1TLE4tw1AEA&utm_medium=api&utm_source=9f1063e3&v=A72FFCD6B78CD69523F6F14F39A483AA52D88897",
       "description": "ABC Healthcare, a leader in healthcare services, is seeking a Logistics Business Analyst to optimize supply chain operations across our Grifols-affiliated facilities. In this role, you will analyze procurement, inventory, and distribution data to improve availability of medical supplies, reduce costs, and support high-quality patient care. Responsibilities include developing dashboards and reports, documenting requirements, supporting system implementations, and collaborating with clinical, pro\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -187,7 +250,7 @@
       "company": "Aquent Talent",
       "location": "South Boston, Suffolk County",
       "posted": "2026-09-01T18:25:02Z",
-      "url": "https://www.adzuna.com/land/ad/5865530747?se=tsAu6eWm8RGR76ZbJB6pOg&utm_medium=api&utm_source=9f1063e3&v=AE58DF7E73902463C9194A9A13B2FC6D44EAEE93",
+      "url": "https://www.adzuna.com/land/ad/5865530747?se=JjSdBDKn8RG1TLE4tw1AEA&utm_medium=api&utm_source=9f1063e3&v=AE58DF7E73902463C9194A9A13B2FC6D44EAEE93",
       "description": "Aquent Talent seeks a Business Analyst 2 for Global Partner Stores to turn complex data into clear, actionable insights. In this role, you will analyze performance across global partner store programs, build dashboards and reports, and support forecasting and scenario planning. You\u2019ll collaborate with cross-functional stakeholders to define requirements, optimize processes, and present findings that guide strategic decisions. Ideal candidates bring strong SQL/Excel skills, experience with BI to\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -196,7 +259,7 @@
       "company": "Surya Carpet",
       "location": "White, Bartow County",
       "posted": "2026-09-01T18:21:58Z",
-      "url": "https://www.adzuna.com/land/ad/5865507749?se=LJ905eWm8RG9hZZomVLVEQ&utm_medium=api&utm_source=9f1063e3&v=EC9A541819F0BED0FA724BC2CC55F2DBBCBFA6AD",
+      "url": "https://www.adzuna.com/land/ad/5865507749?se=XqQ-ATKn8RG2HomFYOMXfQ&utm_medium=api&utm_source=9f1063e3&v=EC9A541819F0BED0FA724BC2CC55F2DBBCBFA6AD",
       "description": "Surya Carpet is seeking an IT Support Specialist to keep our fast-paced manufacturing and office teams running smoothly. You will provide hands-on support for end users, troubleshooting hardware, software, and network issues across our White, GA headquarters and production areas. Responsibilities include managing tickets, configuring Windows devices, supporting Microsoft 365, maintaining user accounts, and documenting solutions. You\u2019ll collaborate closely with cross-functional teams in a creati\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -205,7 +268,7 @@
       "company": "Link Technologies",
       "location": "Enterprise, Clark County",
       "posted": "2026-09-01T14:16:54Z",
-      "url": "https://www.adzuna.com/land/ad/5865170919?se=euV85OWm8RG5FtUw0eF-8g&utm_medium=api&utm_source=9f1063e3&v=1DF77037A834C62F3A56156937C8AF9974149628",
+      "url": "https://www.adzuna.com/land/ad/5865170919?se=wDplADKn8RG2HomFYOMXfQ&utm_medium=api&utm_source=9f1063e3&v=1DF77037A834C62F3A56156937C8AF9974149628",
       "description": "JOB-7741 Desktop Support Technician Las Vegas, Nevada Link Technologies (LinkTechConsulting.com), a Las Vegas-based IT consulting firm, is currently seeking a Desktop Support Technician to join our team in Las Vegas, NV for contract opportunity. Essential Responsibilities: Deliver, replace, and upgrade Team Members asset(s) including Windows 11 endpoints and iOS devices. Coordinating with project leads and leadership to complete Team Members new device provisioning both in person and remotely. \u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -214,7 +277,7 @@
       "company": "Contact Government Services, LLC",
       "location": "Hayes Valley, San Francisco",
       "posted": "2026-09-01T14:01:30Z",
-      "url": "https://www.adzuna.com/land/ad/5865137112?se=JNKc4uWm8RGR76ZbJB6pOg&utm_medium=api&utm_source=9f1063e3&v=5918695FB73052DCA79CB39287B78F30986F2984",
+      "url": "https://www.adzuna.com/land/ad/5865137112?se=xpmx_jGn8RG2HomFYOMXfQ&utm_medium=api&utm_source=9f1063e3&v=5918695FB73052DCA79CB39287B78F30986F2984",
       "description": "Senior Help Desk Technician II Employment Type: Full Time Department: Help Desk CGS seeks a Senior Help Desk Technician to fulfill the requirements of Level 1 & 2 Help Desk (PC Assist) support services to end users consisting of senior management, attorneys, support staff, contractors, and associated systems for the Executive Office for the United States Attorneys (EOUSA). CGS brings motivated, highly skilled, and creative people together to solve the government\u2019s most dynamic problems with cut\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -223,7 +286,7 @@
       "company": "Grifols",
       "location": "Durham, Durham County",
       "posted": "2026-09-01T11:46:22Z",
-      "url": "https://www.adzuna.com/land/ad/5864952486?se=tsAu6eWm8RGR76ZbJB6pOg&utm_medium=api&utm_source=9f1063e3&v=CFBB2846000F196473CD1B48974ABFA1F1F5F44B",
+      "url": "https://www.adzuna.com/land/ad/5864952486?se=JjSdBDKn8RG1TLE4tw1AEA&utm_medium=api&utm_source=9f1063e3&v=CFBB2846000F196473CD1B48974ABFA1F1F5F44B",
       "description": "Would you like to join an international team working to improve the future of healthcare? Do you want to enhance the lives of millions of people? Grifols is a global healthcare company that since 1909 has been working to improve the health and well-being of people around the world. We are leaders in plasma-derived medicines and transfusion medicine and develop, produce and market innovative medicines, solutions and services in more than 110 countries and regions. The Plasma Strategy Sr. Analyst\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -232,16 +295,34 @@
       "company": "Grifols",
       "location": "Clayton, Johnston County",
       "posted": "2026-09-01T11:44:33Z",
-      "url": "https://www.adzuna.com/land/ad/5864933425?se=tsAu6eWm8RGR76ZbJB6pOg&utm_medium=api&utm_source=9f1063e3&v=8444D29AE928BF097525E3E42E1E9087108EECAD",
+      "url": "https://www.adzuna.com/land/ad/5864933425?se=JjSdBDKn8RG1TLE4tw1AEA&utm_medium=api&utm_source=9f1063e3&v=8444D29AE928BF097525E3E42E1E9087108EECAD",
       "description": "Would you like to join an international team working to improve the future of healthcare? Do you want to enhance the lives of millions of people? Grifols is a global healthcare company that since 1909 has been working to improve the health and well-being of people around the world. We are leaders in plasma-derived medicines and transfusion medicine and develop, produce and market innovative medicines, solutions and services in more than 110 countries and regions. Hybrid Schedule - 3 days office\u2026",
       "source": "Adzuna (redirect link)"
     },
     {
       "title": "QA Technician",
       "company": "Cargill",
-      "location": "Alvo, Cass County",
-      "posted": "2026-09-01T11:42:08Z",
-      "url": "https://www.adzuna.com/land/ad/5864901080?se=yMNd5uWm8RG0EZwAuiqdnw&utm_medium=api&utm_source=9f1063e3&v=043FBCCAC862D07618AF33DE8D0E3D0C1445574F",
+      "location": "Murdock, Cass County",
+      "posted": "2026-09-01T11:42:05Z",
+      "url": "https://www.adzuna.com/land/ad/5864900359?se=Ou0JAjKn8RG9hZZomVLVEQ&utm_medium=api&utm_source=9f1063e3&v=DE506101C030BBA9DA25B8FC408845AD20C5B4CA",
+      "description": "New, easy-to-apply options are available for this role: chat with our recruiting assistant Ana at careers.cargill.com or text CargillJobs to 60196. Want to build a stronger, more sustainable future and cultivate your career? Join Cargill's global team of 160,000 employees who are committed to safe, responsible and sustainable ways to nourish the world. This position is in Cargill\u2019s protein and salt business, where we provide wholesome, high-quality food products to a wide range of customers, fr\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "QA Technician",
+      "company": "Cargill",
+      "location": "Murray, Cass County",
+      "posted": "2026-09-01T11:42:04Z",
+      "url": "https://www.adzuna.com/land/ad/5864900310?se=Ou0JAjKn8RG9hZZomVLVEQ&utm_medium=api&utm_source=9f1063e3&v=2133283600A91895C6298EB30AE485DEF0AA589B",
+      "description": "New, easy-to-apply options are available for this role: chat with our recruiting assistant Ana at careers.cargill.com or text CargillJobs to 60196. Want to build a stronger, more sustainable future and cultivate your career? Join Cargill's global team of 160,000 employees who are committed to safe, responsible and sustainable ways to nourish the world. This position is in Cargill\u2019s protein and salt business, where we provide wholesome, high-quality food products to a wide range of customers, fr\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "QA Technician",
+      "company": "Cargill",
+      "location": "Percival, Fremont County",
+      "posted": "2026-09-01T11:42:02Z",
+      "url": "https://www.adzuna.com/land/ad/5864899801?se=Ou0JAjKn8RG9hZZomVLVEQ&utm_medium=api&utm_source=9f1063e3&v=0C795DA3BACECEB85229D1DFF26D73918E782011",
       "description": "New, easy-to-apply options are available for this role: chat with our recruiting assistant Ana at careers.cargill.com or text CargillJobs to 60196. Want to build a stronger, more sustainable future and cultivate your career? Join Cargill's global team of 160,000 employees who are committed to safe, responsible and sustainable ways to nourish the world. This position is in Cargill\u2019s protein and salt business, where we provide wholesome, high-quality food products to a wide range of customers, fr\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -250,7 +331,16 @@
       "company": "Cargill",
       "location": "Sidney, Fremont County",
       "posted": "2026-09-01T11:41:47Z",
-      "url": "https://www.adzuna.com/land/ad/5864896462?se=yMNd5uWm8RG0EZwAuiqdnw&utm_medium=api&utm_source=9f1063e3&v=FD88B50E4B2CC9C8EC757F4FD0EBA8DAD936D89B",
+      "url": "https://www.adzuna.com/land/ad/5864896462?se=Ou0JAjKn8RG9hZZomVLVEQ&utm_medium=api&utm_source=9f1063e3&v=FD88B50E4B2CC9C8EC757F4FD0EBA8DAD936D89B",
+      "description": "New, easy-to-apply options are available for this role: chat with our recruiting assistant Ana at careers.cargill.com or text CargillJobs to 60196. Want to build a stronger, more sustainable future and cultivate your career? Join Cargill's global team of 160,000 employees who are committed to safe, responsible and sustainable ways to nourish the world. This position is in Cargill\u2019s protein and salt business, where we provide wholesome, high-quality food products to a wide range of customers, fr\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "QA Technician",
+      "company": "Cargill",
+      "location": "Shenandoah, Page County",
+      "posted": "2026-09-01T11:41:45Z",
+      "url": "https://www.adzuna.com/land/ad/5864896093?se=Ou0JAjKn8RG9hZZomVLVEQ&utm_medium=api&utm_source=9f1063e3&v=E8494925BC577CB8BA30446764FE1FC0BB8F86D4",
       "description": "New, easy-to-apply options are available for this role: chat with our recruiting assistant Ana at careers.cargill.com or text CargillJobs to 60196. Want to build a stronger, more sustainable future and cultivate your career? Join Cargill's global team of 160,000 employees who are committed to safe, responsible and sustainable ways to nourish the world. This position is in Cargill\u2019s protein and salt business, where we provide wholesome, high-quality food products to a wide range of customers, fr\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -259,7 +349,16 @@
       "company": "Cargill",
       "location": "Lincoln, Lancaster County",
       "posted": "2026-09-01T11:41:38Z",
-      "url": "https://www.adzuna.com/land/ad/5864894898?se=yMNd5uWm8RG0EZwAuiqdnw&utm_medium=api&utm_source=9f1063e3&v=0B1F3E8080467F403F6881AA8AFAB930408FEA8F",
+      "url": "https://www.adzuna.com/land/ad/5864894898?se=Ou0JAjKn8RG9hZZomVLVEQ&utm_medium=api&utm_source=9f1063e3&v=0B1F3E8080467F403F6881AA8AFAB930408FEA8F",
+      "description": "New, easy-to-apply options are available for this role: chat with our recruiting assistant Ana at careers.cargill.com or text CargillJobs to 60196. Want to build a stronger, more sustainable future and cultivate your career? Join Cargill's global team of 160,000 employees who are committed to safe, responsible and sustainable ways to nourish the world. This position is in Cargill\u2019s protein and salt business, where we provide wholesome, high-quality food products to a wide range of customers, fr\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "QA Technician",
+      "company": "Cargill",
+      "location": "Sterling, Johnson County",
+      "posted": "2026-09-01T11:41:32Z",
+      "url": "https://www.adzuna.com/land/ad/5864894191?se=Ou0JAjKn8RG9hZZomVLVEQ&utm_medium=api&utm_source=9f1063e3&v=7DB34004B6368022041094E19B920D3B48D6B112",
       "description": "New, easy-to-apply options are available for this role: chat with our recruiting assistant Ana at careers.cargill.com or text CargillJobs to 60196. Want to build a stronger, more sustainable future and cultivate your career? Join Cargill's global team of 160,000 employees who are committed to safe, responsible and sustainable ways to nourish the world. This position is in Cargill\u2019s protein and salt business, where we provide wholesome, high-quality food products to a wide range of customers, fr\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -268,16 +367,16 @@
       "company": "Cargill",
       "location": "Malvern, Mills County",
       "posted": "2026-09-01T11:41:30Z",
-      "url": "https://www.adzuna.com/land/ad/5864893822?se=yMNd5uWm8RG0EZwAuiqdnw&utm_medium=api&utm_source=9f1063e3&v=C430AFDC02660566FC792D503CBDACC93567AA45",
+      "url": "https://www.adzuna.com/land/ad/5864893822?se=Ou0JAjKn8RG9hZZomVLVEQ&utm_medium=api&utm_source=9f1063e3&v=C430AFDC02660566FC792D503CBDACC93567AA45",
       "description": "New, easy-to-apply options are available for this role: chat with our recruiting assistant Ana at careers.cargill.com or text CargillJobs to 60196. Want to build a stronger, more sustainable future and cultivate your career? Join Cargill's global team of 160,000 employees who are committed to safe, responsible and sustainable ways to nourish the world. This position is in Cargill\u2019s protein and salt business, where we provide wholesome, high-quality food products to a wide range of customers, fr\u2026",
       "source": "Adzuna (redirect link)"
     },
     {
       "title": "QA Technician",
       "company": "Cargill",
-      "location": "Syracuse, Otoe County",
-      "posted": "2026-09-01T11:41:29Z",
-      "url": "https://www.adzuna.com/land/ad/5864893706?se=yMNd5uWm8RG0EZwAuiqdnw&utm_medium=api&utm_source=9f1063e3&v=39FFF5265EC242B73327EFA9497CC2A1AD282206",
+      "location": "Thurman, Fremont County",
+      "posted": "2026-09-01T11:41:11Z",
+      "url": "https://www.adzuna.com/land/ad/5864890385?se=Ou0JAjKn8RG9hZZomVLVEQ&utm_medium=api&utm_source=9f1063e3&v=00D69EFA2681FB7411DB445757327A0C9C8F6F07",
       "description": "New, easy-to-apply options are available for this role: chat with our recruiting assistant Ana at careers.cargill.com or text CargillJobs to 60196. Want to build a stronger, more sustainable future and cultivate your career? Join Cargill's global team of 160,000 employees who are committed to safe, responsible and sustainable ways to nourish the world. This position is in Cargill\u2019s protein and salt business, where we provide wholesome, high-quality food products to a wide range of customers, fr\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -286,43 +385,16 @@
       "company": "Cargill",
       "location": "Nehawka, Cass County",
       "posted": "2026-09-01T11:41:11Z",
-      "url": "https://www.adzuna.com/land/ad/5864890496?se=yMNd5uWm8RG0EZwAuiqdnw&utm_medium=api&utm_source=9f1063e3&v=4CC24AEED7B59A7790083D41521D47CC3F97B156",
+      "url": "https://www.adzuna.com/land/ad/5864890496?se=Ou0JAjKn8RG9hZZomVLVEQ&utm_medium=api&utm_source=9f1063e3&v=4CC24AEED7B59A7790083D41521D47CC3F97B156",
       "description": "New, easy-to-apply options are available for this role: chat with our recruiting assistant Ana at careers.cargill.com or text CargillJobs to 60196. Want to build a stronger, more sustainable future and cultivate your career? Join Cargill's global team of 160,000 employees who are committed to safe, responsible and sustainable ways to nourish the world. This position is in Cargill\u2019s protein and salt business, where we provide wholesome, high-quality food products to a wide range of customers, fr\u2026",
       "source": "Adzuna (redirect link)"
     },
     {
       "title": "QA Technician",
       "company": "Cargill",
-      "location": "Dunbar, Otoe County",
-      "posted": "2026-09-01T11:41:09Z",
-      "url": "https://www.adzuna.com/land/ad/5864890109?se=yMNd5uWm8RG0EZwAuiqdnw&utm_medium=api&utm_source=9f1063e3&v=369CE25EFC117807B12D20EE5CCFF092B750D2AA",
-      "description": "New, easy-to-apply options are available for this role: chat with our recruiting assistant Ana at careers.cargill.com or text CargillJobs to 60196. Want to build a stronger, more sustainable future and cultivate your career? Join Cargill's global team of 160,000 employees who are committed to safe, responsible and sustainable ways to nourish the world. This position is in Cargill\u2019s protein and salt business, where we provide wholesome, high-quality food products to a wide range of customers, fr\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "QA Technician",
-      "company": "Cargill",
-      "location": "Nebraska City, Otoe County",
-      "posted": "2026-09-01T11:40:51Z",
-      "url": "https://www.adzuna.com/land/ad/5864886545?se=yMNd5uWm8RG0EZwAuiqdnw&utm_medium=api&utm_source=9f1063e3&v=14FF47894C936FD4EE1FD96266B1A68D7DE54746",
-      "description": "New, easy-to-apply options are available for this role: chat with our recruiting assistant Ana at careers.cargill.com or text CargillJobs to 60196. Want to build a stronger, more sustainable future and cultivate your career? Join Cargill's global team of 160,000 employees who are committed to safe, responsible and sustainable ways to nourish the world. This position is in Cargill\u2019s protein and salt business, where we provide wholesome, high-quality food products to a wide range of customers, fr\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "QA Technician",
-      "company": "Cargill",
-      "location": "Brock, Nemaha County",
-      "posted": "2026-09-01T11:40:51Z",
-      "url": "https://www.adzuna.com/land/ad/5864886527?se=yMNd5uWm8RG0EZwAuiqdnw&utm_medium=api&utm_source=9f1063e3&v=01B0410B27C8B207A798937F0A29A1FA86DC5BFD",
-      "description": "New, easy-to-apply options are available for this role: chat with our recruiting assistant Ana at careers.cargill.com or text CargillJobs to 60196. Want to build a stronger, more sustainable future and cultivate your career? Join Cargill's global team of 160,000 employees who are committed to safe, responsible and sustainable ways to nourish the world. This position is in Cargill\u2019s protein and salt business, where we provide wholesome, high-quality food products to a wide range of customers, fr\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "QA Technician",
-      "company": "Cargill",
-      "location": "Ashland, Saunders County",
+      "location": "Hamburg, Fremont County",
       "posted": "2026-09-01T11:40:48Z",
-      "url": "https://www.adzuna.com/land/ad/5864885809?se=yMNd5uWm8RG0EZwAuiqdnw&utm_medium=api&utm_source=9f1063e3&v=84EE46AB805FF973DBF6958F31D825651E620D4F",
+      "url": "https://www.adzuna.com/land/ad/5864885899?se=Ou0JAjKn8RG9hZZomVLVEQ&utm_medium=api&utm_source=9f1063e3&v=275A32E827F3FE209DE32B6E0113F249232AF1D9",
       "description": "New, easy-to-apply options are available for this role: chat with our recruiting assistant Ana at careers.cargill.com or text CargillJobs to 60196. Want to build a stronger, more sustainable future and cultivate your career? Join Cargill's global team of 160,000 employees who are committed to safe, responsible and sustainable ways to nourish the world. This position is in Cargill\u2019s protein and salt business, where we provide wholesome, high-quality food products to a wide range of customers, fr\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -331,16 +403,7 @@
       "company": "Cargill",
       "location": "Glenwood, Mills County",
       "posted": "2026-09-01T11:40:44Z",
-      "url": "https://www.adzuna.com/land/ad/5864885082?se=yMNd5uWm8RG0EZwAuiqdnw&utm_medium=api&utm_source=9f1063e3&v=BFDE88B53AE7E0906A361E1B73F745725A45C6B1",
-      "description": "New, easy-to-apply options are available for this role: chat with our recruiting assistant Ana at careers.cargill.com or text CargillJobs to 60196. Want to build a stronger, more sustainable future and cultivate your career? Join Cargill's global team of 160,000 employees who are committed to safe, responsible and sustainable ways to nourish the world. This position is in Cargill\u2019s protein and salt business, where we provide wholesome, high-quality food products to a wide range of customers, fr\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "QA Technician",
-      "company": "Cargill",
-      "location": "Springfield, Sarpy County",
-      "posted": "2026-09-01T11:40:38Z",
-      "url": "https://www.adzuna.com/land/ad/5864884143?se=yMNd5uWm8RG0EZwAuiqdnw&utm_medium=api&utm_source=9f1063e3&v=1EA770BA26A4E3B86741571A74C6F085D0DE4482",
+      "url": "https://www.adzuna.com/land/ad/5864885082?se=Ou0JAjKn8RG9hZZomVLVEQ&utm_medium=api&utm_source=9f1063e3&v=BFDE88B53AE7E0906A361E1B73F745725A45C6B1",
       "description": "New, easy-to-apply options are available for this role: chat with our recruiting assistant Ana at careers.cargill.com or text CargillJobs to 60196. Want to build a stronger, more sustainable future and cultivate your career? Join Cargill's global team of 160,000 employees who are committed to safe, responsible and sustainable ways to nourish the world. This position is in Cargill\u2019s protein and salt business, where we provide wholesome, high-quality food products to a wide range of customers, fr\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -349,16 +412,7 @@
       "company": "Cargill",
       "location": "Crab Orchard, Johnson County",
       "posted": "2026-09-01T11:40:33Z",
-      "url": "https://www.adzuna.com/land/ad/5864883258?se=yMNd5uWm8RG0EZwAuiqdnw&utm_medium=api&utm_source=9f1063e3&v=089B581381701C61964F49CB4509E266495C9085",
-      "description": "New, easy-to-apply options are available for this role: chat with our recruiting assistant Ana at careers.cargill.com or text CargillJobs to 60196. Want to build a stronger, more sustainable future and cultivate your career? Join Cargill's global team of 160,000 employees who are committed to safe, responsible and sustainable ways to nourish the world. This position is in Cargill\u2019s protein and salt business, where we provide wholesome, high-quality food products to a wide range of customers, fr\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "QA Technician",
-      "company": "Cargill",
-      "location": "Rock Port, Atchison County",
-      "posted": "2026-09-01T11:40:32Z",
-      "url": "https://www.adzuna.com/land/ad/5864883096?se=yMNd5uWm8RG0EZwAuiqdnw&utm_medium=api&utm_source=9f1063e3&v=D7575A53F3E70DDFF543D6E6C9D3070F30141F90",
+      "url": "https://www.adzuna.com/land/ad/5864883258?se=Ou0JAjKn8RG9hZZomVLVEQ&utm_medium=api&utm_source=9f1063e3&v=089B581381701C61964F49CB4509E266495C9085",
       "description": "New, easy-to-apply options are available for this role: chat with our recruiting assistant Ana at careers.cargill.com or text CargillJobs to 60196. Want to build a stronger, more sustainable future and cultivate your career? Join Cargill's global team of 160,000 employees who are committed to safe, responsible and sustainable ways to nourish the world. This position is in Cargill\u2019s protein and salt business, where we provide wholesome, high-quality food products to a wide range of customers, fr\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -367,7 +421,16 @@
       "company": "Cargill",
       "location": "Farragut, Fremont County",
       "posted": "2026-09-01T11:40:32Z",
-      "url": "https://www.adzuna.com/land/ad/5864883097?se=yMNd5uWm8RG0EZwAuiqdnw&utm_medium=api&utm_source=9f1063e3&v=C01EA7EF8A373CA1366214AF53F61EE42BD5552A",
+      "url": "https://www.adzuna.com/land/ad/5864883097?se=Ou0JAjKn8RG9hZZomVLVEQ&utm_medium=api&utm_source=9f1063e3&v=C01EA7EF8A373CA1366214AF53F61EE42BD5552A",
+      "description": "New, easy-to-apply options are available for this role: chat with our recruiting assistant Ana at careers.cargill.com or text CargillJobs to 60196. Want to build a stronger, more sustainable future and cultivate your career? Join Cargill's global team of 160,000 employees who are committed to safe, responsible and sustainable ways to nourish the world. This position is in Cargill\u2019s protein and salt business, where we provide wholesome, high-quality food products to a wide range of customers, fr\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "QA Technician",
+      "company": "Cargill",
+      "location": "Rock Port, Atchison County",
+      "posted": "2026-09-01T11:40:32Z",
+      "url": "https://www.adzuna.com/land/ad/5864883096?se=Ou0JAjKn8RG9hZZomVLVEQ&utm_medium=api&utm_source=9f1063e3&v=D7575A53F3E70DDFF543D6E6C9D3070F30141F90",
       "description": "New, easy-to-apply options are available for this role: chat with our recruiting assistant Ana at careers.cargill.com or text CargillJobs to 60196. Want to build a stronger, more sustainable future and cultivate your career? Join Cargill's global team of 160,000 employees who are committed to safe, responsible and sustainable ways to nourish the world. This position is in Cargill\u2019s protein and salt business, where we provide wholesome, high-quality food products to a wide range of customers, fr\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -376,7 +439,7 @@
       "company": "Cargill",
       "location": "Elmwood, Cass County",
       "posted": "2026-09-01T11:40:29Z",
-      "url": "https://www.adzuna.com/land/ad/5864882574?se=yMNd5uWm8RG0EZwAuiqdnw&utm_medium=api&utm_source=9f1063e3&v=74EBC8763524663DD47606663B760999E24B25C4",
+      "url": "https://www.adzuna.com/land/ad/5864882574?se=Ou0JAjKn8RG9hZZomVLVEQ&utm_medium=api&utm_source=9f1063e3&v=74EBC8763524663DD47606663B760999E24B25C4",
       "description": "New, easy-to-apply options are available for this role: chat with our recruiting assistant Ana at careers.cargill.com or text CargillJobs to 60196. Want to build a stronger, more sustainable future and cultivate your career? Join Cargill's global team of 160,000 employees who are committed to safe, responsible and sustainable ways to nourish the world. This position is in Cargill\u2019s protein and salt business, where we provide wholesome, high-quality food products to a wide range of customers, fr\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -385,7 +448,7 @@
       "company": "Cargill",
       "location": "Brownville, Nemaha County",
       "posted": "2026-09-01T11:40:27Z",
-      "url": "https://www.adzuna.com/land/ad/5864882110?se=yMNd5uWm8RG0EZwAuiqdnw&utm_medium=api&utm_source=9f1063e3&v=E55F195079A1E6783AC66DD497903DDC7B484FB6",
+      "url": "https://www.adzuna.com/land/ad/5864882110?se=Ou0JAjKn8RG9hZZomVLVEQ&utm_medium=api&utm_source=9f1063e3&v=E55F195079A1E6783AC66DD497903DDC7B484FB6",
       "description": "New, easy-to-apply options are available for this role: chat with our recruiting assistant Ana at careers.cargill.com or text CargillJobs to 60196. Want to build a stronger, more sustainable future and cultivate your career? Join Cargill's global team of 160,000 employees who are committed to safe, responsible and sustainable ways to nourish the world. This position is in Cargill\u2019s protein and salt business, where we provide wholesome, high-quality food products to a wide range of customers, fr\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -394,7 +457,7 @@
       "company": "Cargill",
       "location": "Omaha, Douglas County",
       "posted": "2026-09-01T11:40:13Z",
-      "url": "https://www.adzuna.com/land/ad/5864879773?se=yMNd5uWm8RG0EZwAuiqdnw&utm_medium=api&utm_source=9f1063e3&v=8999D6C0B5CF0CDE99AFA02511DC3A95F9AD90E9",
+      "url": "https://www.adzuna.com/land/ad/5864879773?se=Ou0JAjKn8RG9hZZomVLVEQ&utm_medium=api&utm_source=9f1063e3&v=8999D6C0B5CF0CDE99AFA02511DC3A95F9AD90E9",
       "description": "New, easy-to-apply options are available for this role: chat with our recruiting assistant Ana at careers.cargill.com or text CargillJobs to 60196. Want to build a stronger, more sustainable future and cultivate your career? Join Cargill's global team of 160,000 employees who are committed to safe, responsible and sustainable ways to nourish the world. This position is in Cargill\u2019s protein and salt business, where we provide wholesome, high-quality food products to a wide range of customers, fr\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -403,43 +466,25 @@
       "company": "Cargill",
       "location": "Otoe, Otoe County",
       "posted": "2026-09-01T11:40:08Z",
-      "url": "https://www.adzuna.com/land/ad/5864878954?se=yMNd5uWm8RG0EZwAuiqdnw&utm_medium=api&utm_source=9f1063e3&v=A45661A493EADF75E49D7A97A11D08E7FE23A965",
+      "url": "https://www.adzuna.com/land/ad/5864878954?se=Ou0JAjKn8RG9hZZomVLVEQ&utm_medium=api&utm_source=9f1063e3&v=A45661A493EADF75E49D7A97A11D08E7FE23A965",
       "description": "New, easy-to-apply options are available for this role: chat with our recruiting assistant Ana at careers.cargill.com or text CargillJobs to 60196. Want to build a stronger, more sustainable future and cultivate your career? Join Cargill's global team of 160,000 employees who are committed to safe, responsible and sustainable ways to nourish the world. This position is in Cargill\u2019s protein and salt business, where we provide wholesome, high-quality food products to a wide range of customers, fr\u2026",
       "source": "Adzuna (redirect link)"
     },
     {
       "title": "QA Technician",
       "company": "Cargill",
-      "location": "South Bend, Cass County",
-      "posted": "2026-09-01T11:39:54Z",
-      "url": "https://www.adzuna.com/land/ad/5864876718?se=yMNd5uWm8RG0EZwAuiqdnw&utm_medium=api&utm_source=9f1063e3&v=330178BE51286912C84F0ED70676F3513C04C81C",
+      "location": "Pacific Junction, Mills County",
+      "posted": "2026-09-01T11:40:05Z",
+      "url": "https://www.adzuna.com/land/ad/5864878539?se=Ou0JAjKn8RG9hZZomVLVEQ&utm_medium=api&utm_source=9f1063e3&v=D8F67A21D870CF311AB2EF4FA79F7E6E2C4DA6B4",
       "description": "New, easy-to-apply options are available for this role: chat with our recruiting assistant Ana at careers.cargill.com or text CargillJobs to 60196. Want to build a stronger, more sustainable future and cultivate your career? Join Cargill's global team of 160,000 employees who are committed to safe, responsible and sustainable ways to nourish the world. This position is in Cargill\u2019s protein and salt business, where we provide wholesome, high-quality food products to a wide range of customers, fr\u2026",
       "source": "Adzuna (redirect link)"
     },
     {
-      "title": "Quality Data Analyst",
-      "company": "Stellantis",
-      "location": "Warren, Macomb County",
-      "posted": "2026-09-01T11:39:34Z",
-      "url": "https://www.adzuna.com/land/ad/5864872789?se=3P846OWm8RG5FtUw0eF-8g&utm_medium=api&utm_source=9f1063e3&v=44F1C257B335962A02666A7532DEFBB27698C2CF",
-      "description": "The Quality team is currently seeking a solutions-oriented Quality Data Analyst to join the Quality team at the Sterling Heights Assembly Plant. The Quality Data Analyst is responsible for supporting in the identification of warranty issues from the field and clearly defining the problem or issue. The Quality Analyst will research warranty data for issue identification, and document and communicate appropriate communications to the support teams responsible. They will work with Engineering and \u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Dealer Audit - Data Analyst & AI Solutions",
-      "company": "Stellantis",
-      "location": "Auburn Hills, Oakland County",
-      "posted": "2026-09-01T11:39:22Z",
-      "url": "https://www.adzuna.com/land/ad/5864870778?se=3P846OWm8RG5FtUw0eF-8g&utm_medium=api&utm_source=9f1063e3&v=2799DD9FCCDFAE90C4A504EF4B0F4F35EF346A52",
-      "description": "The role requires a creative and detail-oriented individual. In this role, you will develop and respond to requests for data analysis to present a coherent vision of business activities, assisting the Dealer Audit teams and key stakeholders in making data-driven decisions. The selected candidate will provide a blend of technical and functional expertise . AI Solutions: The role drives the identification, design, pilot, and scaling of AI and automation solutions across Dealer Audit. The role wor\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
       "title": "Business & Data Analyst",
       "company": "Stellantis",
       "location": "Auburn Hills, Oakland County",
       "posted": "2026-09-01T11:38:37Z",
-      "url": "https://www.adzuna.com/land/ad/5864868259?se=3P846OWm8RG5FtUw0eF-8g&utm_medium=api&utm_source=9f1063e3&v=1C2E5D2D98EB028CA0D6C40275845D2FC6862ABA",
+      "url": "https://www.adzuna.com/land/ad/5864868259?se=kuSzAzKn8RGVXraSihnW_w&utm_medium=api&utm_source=9f1063e3&v=1C2E5D2D98EB028CA0D6C40275845D2FC6862ABA",
       "description": "The Commercial Analytics team is looking for a Business and Data Analyst to join our team. Your mission is to build and scale trusted data products that power performance measurement across sales, incentives, and payments while promoting best practices, strong governance, and a high bar for data quality and reliability. As a Business and Data Analyst you will be gathering requirements, developing a rich understanding of required data, facilitating the design of deliverables, partnering with tec\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -448,89 +493,17 @@
       "company": "Stellantis",
       "location": "Auburn Hills, Oakland County",
       "posted": "2026-09-01T11:38:37Z",
-      "url": "https://www.adzuna.com/land/ad/5864868259?se=tsAu6eWm8RGR76ZbJB6pOg&utm_medium=api&utm_source=9f1063e3&v=1C2E5D2D98EB028CA0D6C40275845D2FC6862ABA",
+      "url": "https://www.adzuna.com/land/ad/5864868259?se=JjSdBDKn8RG1TLE4tw1AEA&utm_medium=api&utm_source=9f1063e3&v=1C2E5D2D98EB028CA0D6C40275845D2FC6862ABA",
       "description": "The Commercial Analytics team is looking for a Business and Data Analyst to join our team. Your mission is to build and scale trusted data products that power performance measurement across sales, incentives, and payments while promoting best practices, strong governance, and a high bar for data quality and reliability. As a Business and Data Analyst you will be gathering requirements, developing a rich understanding of required data, facilitating the design of deliverables, partnering with tec\u2026",
       "source": "Adzuna (redirect link)"
     },
     {
-      "title": "ICT Business Systems Analyst Pricing & Promotions",
+      "title": "AI & Data Solutions Analyst \u2013 Technical Safety & Regulatory Compliance",
       "company": "Stellantis",
       "location": "Auburn Hills, Oakland County",
-      "posted": "2026-09-01T11:37:17Z",
-      "url": "https://www.adzuna.com/land/ad/5864864856?se=tsAu6eWm8RGR76ZbJB6pOg&utm_medium=api&utm_source=9f1063e3&v=5E3A83BEB29A9776FF1B0FA697CAE481CBB996DC",
-      "description": "The ICT Business Analyst plays a critical role in bridging business stakeholders and ICT delivery teams to ensure that business needs are accurately captured, translated into actionable system requirements, and delivered successfully. The role supports digital platforms, operational systems, and data flows across Aftersales, eCommerce, Dealer Experience, Accessories, Pricing, Warranty, Fleet, IAM, and related domains. The analyst partners closely with Product Owners, business teams, and technic\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "ICT Business Systems Analyst Demand Planning / Forecasting",
-      "company": "Stellantis",
-      "location": "Auburn Hills, Oakland County",
-      "posted": "2026-09-01T11:36:12Z",
-      "url": "https://www.adzuna.com/land/ad/5864861846?se=tsAu6eWm8RGR76ZbJB6pOg&utm_medium=api&utm_source=9f1063e3&v=10AD0F78641B1B2F892BF7D51D9A1FC9ABF37667",
-      "description": "The ICT Business Systems Analyst Demand Planning/Forecasting plays a critical role in bridging business stakeholders and ICT delivery teams to ensure that business needs are accurately captured, translated into actionable system requirements, and delivered successfully. The role supports digital platforms, operational systems, and data flows across Aftersales, eCommerce, Dealer Experience, Accessories, Pricing, Warranty, Fleet, IAM, Demand Planning and Forecasting, and related domains. The anal\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "ICT Business Systems Analyst - Fleet",
-      "company": "Stellantis",
-      "location": "Auburn Hills, Oakland County",
-      "posted": "2026-09-01T11:34:59Z",
-      "url": "https://www.adzuna.com/land/ad/5864859329?se=tsAu6eWm8RGR76ZbJB6pOg&utm_medium=api&utm_source=9f1063e3&v=C9B08A9C5B631B166CFEED0B8505887AECF4B3C4",
-      "description": "The ICT Business Systems Analyst plays a critical role in bridging business stakeholders and ICT delivery teams to ensure that business needs are accurately captured, translated into actionable system requirements, and delivered successfully. The role supports digital platforms, operational systems, and data flows across Aftersales, eCommerce, Dealer Experience, Accessories, Pricing, Warranty, Fleet, IAM, and related domains. The analyst partners closely with Product Owners, business teams, and\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Scientific Data Analyst I or II",
-      "company": "National Radio Astronomy Observatory",
-      "location": "Cass, Pocahontas County",
-      "posted": "2026-09-01T10:32:24Z",
-      "url": "https://www.adzuna.com/land/ad/5864686589?se=3P846OWm8RG5FtUw0eF-8g&utm_medium=api&utm_source=9f1063e3&v=A781525E600C2E0E204A86DD16DCB0597563E487",
-      "description": "National Radio Astronomy Observatory Title: Scientific Data Analyst I or II Location: NRAO, PO Box 2, GREEN BANK, West Virginia, United States of America Requisition Number: 256 Job Family: Scientific Data Analyst Pay Type: Salary Required Education: EXT Position Description: Position Summary The National Radio Astronomy Observatory (NRAO) is a prestigious research and development organization that plays a vital role in the study of the universe. Associated Universities, Inc. (AUI) is a nonprof\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "IT Support Specialist",
-      "company": "Surya Carpet",
-      "location": "White, Bartow County",
-      "posted": "2026-09-01T10:32:14Z",
-      "url": "https://www.adzuna.com/land/ad/5864685689?se=LJ905eWm8RG9hZZomVLVEQ&utm_medium=api&utm_source=9f1063e3&v=C88997D827E31200990202F6291FF9E1BD3E4A00",
-      "description": "About Surya Inc. Surya Inc. is an innovative home furnishings company catering to a variety of lifestyles. Surya Inc.\u2019s thoughtfully curated design-forward furniture, rugs, textiles, lighting, wall decor and accents are available worldwide through leading retailers, interior designers, and online stores. The Surya Inc. family of brands includes Surya, Global Views, Mitchell Gold  Bob Williams, Livabliss, and RST Brands. Surya Inc. has been named to the Inc. 5000 annual list of America's fastest\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Help Desk Technician",
-      "company": "Chesapeake Containment",
-      "location": "Mountain View, Catawba County",
-      "posted": "2026-09-01T10:31:48Z",
-      "url": "https://www.adzuna.com/land/ad/5864684068?se=JNKc4uWm8RGR76ZbJB6pOg&utm_medium=api&utm_source=9f1063e3&v=343505B15F61AF418C51457C215C71D6009D1714",
-      "description": "Entry-Level Help Desk Technician Are you a problem-solver with a passion for technology? Do you enjoy helping others? If so, then this entry-level Help Desk Technician position is for you! In this role, you will be the first line of defense for our users' technical needs. You will provide exceptional customer service while troubleshooting and resolving a variety of IT issues. Responsibilities for Help Desk Technician Respond to user inquiries by phone, email, chat, or in person Troubleshoot com\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Help Desk Technician",
-      "company": "Chesapeake Containment",
-      "location": "Doolie, Iredell County",
-      "posted": "2026-09-01T10:31:25Z",
-      "url": "https://www.adzuna.com/land/ad/5864682596?se=JNKc4uWm8RGR76ZbJB6pOg&utm_medium=api&utm_source=9f1063e3&v=CAC7CF543C4A61C246EACF7E1DD5C531A9ACB2CC",
-      "description": "Entry-Level Help Desk Technician Are you a problem-solver with a passion for technology? Do you enjoy helping others? If so, then this entry-level Help Desk Technician position is for you! In this role, you will be the first line of defense for our users' technical needs. You will provide exceptional customer service while troubleshooting and resolving a variety of IT issues. Responsibilities for Help Desk Technician Respond to user inquiries by phone, email, chat, or in person Troubleshoot com\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "AI Operations & Data Analyst",
-      "company": "Canon U.S.A., Inc.",
-      "location": "Melville, Suffolk County",
-      "posted": "2026-09-01T10:31:18Z",
-      "url": "https://www.adzuna.com/land/ad/5864682154?se=3P846OWm8RG5FtUw0eF-8g&utm_medium=api&utm_source=9f1063e3&v=7123BE13A2592B3C28ED990879A2EBD0B52C8D92",
-      "description": "AI Operations & Data Analyst US-NY-Melville Job ID: 34723 Type: Full-Time  of Openings: 1 Category: Customer Service/Support CUSA Melville Headquarters About the Role Canon USA in Melville, NY is currently seeking a AI Operations & Data Analyst (Analyst, Data Analytics). In this role, you will sit at the intersection of data engineering, business strategy, and AI validation, to ensure our machine learning models and automated workflows deliver measurable value. You will be expected to develop a\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Help Desk Technician",
-      "company": "Chesapeake Containment",
-      "location": "Statesville West, Iredell County",
-      "posted": "2026-09-01T10:30:50Z",
-      "url": "https://www.adzuna.com/land/ad/5864680264?se=JNKc4uWm8RGR76ZbJB6pOg&utm_medium=api&utm_source=9f1063e3&v=DB58F4A240637447CF96C0161E45A6360C36291A",
-      "description": "Entry-Level Help Desk Technician Are you a problem-solver with a passion for technology? Do you enjoy helping others? If so, then this entry-level Help Desk Technician position is for you! In this role, you will be the first line of defense for our users' technical needs. You will provide exceptional customer service while troubleshooting and resolving a variety of IT issues. Responsibilities for Help Desk Technician Respond to user inquiries by phone, email, chat, or in person Troubleshoot com\u2026",
+      "posted": "2026-09-01T11:38:07Z",
+      "url": "https://www.adzuna.com/land/ad/5864866899?se=kuSzAzKn8RGVXraSihnW_w&utm_medium=api&utm_source=9f1063e3&v=AAE5C99870922FFFE7698EB51E22F179C2BF29D9",
+      "description": "Overview: The AI & Data Solutions Analyst supports the Technical Safety and Regulatory Compliance (TSRC) organization by executing AI and data-driven initiatives that enhance safety investigations, regulatory reporting, and operational decision-making. This role combines data ownership, analytics execution, and AI use case delivery, acting as a key contributor in translating business needs into scalable AI and data solutions. Key Responsibilities: AI Use Case Delivery: - Support identification,\u2026",
       "source": "Adzuna (redirect link)"
     },
     {
@@ -538,7 +511,7 @@
       "company": "TEKsystems c/o Allegis Group",
       "location": "Buffalo Grove, Lake County",
       "posted": "2026-09-01T10:26:14Z",
-      "url": "https://www.adzuna.com/land/ad/5864677378?se=xgib4-Wm8RG2HomFYOMXfQ&utm_medium=api&utm_source=9f1063e3&v=AACC7E8B6275AAB4AAECCC43248A0956D435E8D3",
+      "url": "https://www.adzuna.com/land/ad/5864677378?se=vFCQ_zGn8RGVXraSihnW_w&utm_medium=api&utm_source=9f1063e3&v=AACC7E8B6275AAB4AAECCC43248A0956D435E8D3",
       "description": "Description TEKsystems is looking for a technical support rep who has 5 year's of experience in a blended role. We would like to have someone with some CCTV or security system support knowledge as well. Skills Technical support, Customer service, Troubleshooting, CCTV, Security system, Service desk, Hardware, Desktop, Help desk support, Support, Windows 10, Active directory, Application support, Phone support, Windows, Office 365 Top Skills Details Technical support,Customer service,Troubleshoo\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -547,7 +520,7 @@
       "company": "TEKsystems c/o Allegis Group",
       "location": "Buffalo Grove, Lake County",
       "posted": "2026-09-01T10:26:14Z",
-      "url": "https://www.adzuna.com/land/ad/5864677383?se=xgib4-Wm8RG2HomFYOMXfQ&utm_medium=api&utm_source=9f1063e3&v=66DFBB3A3ABCC02F097453A26E388B65F40F8762",
+      "url": "https://www.adzuna.com/land/ad/5864677383?se=vFCQ_zGn8RGVXraSihnW_w&utm_medium=api&utm_source=9f1063e3&v=66DFBB3A3ABCC02F097453A26E388B65F40F8762",
       "description": "Job Title: Technical Support Analyst Skills: Technical Support, Customer Service, CCVT, Configurations, CAD Understanding Skills Details: Strong customer service and communication abilities. Advanced troubleshooting skills in CCTV, access control, intrusion systems, and networking. Ability to read technical diagrams and understand CAD-based designs. Strong organizational, analytical, and documentation skills. Ability to manage multiple tasks independently in a fast-paced environment. Descriptio\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -556,8 +529,17 @@
       "company": "Sittercity",
       "location": "Penn Ctr, Philadelphia County",
       "posted": "2026-09-01T06:19:35Z",
-      "url": "https://www.adzuna.com/land/ad/5864311055?se=LJ905eWm8RG9hZZomVLVEQ&utm_medium=api&utm_source=9f1063e3&v=B4C4069A18F3C2D6D0E96DBA352628C84FAF7F2C",
+      "url": "https://www.adzuna.com/land/ad/5864311055?se=XqQ-ATKn8RG2HomFYOMXfQ&utm_medium=api&utm_source=9f1063e3&v=B4C4069A18F3C2D6D0E96DBA352628C84FAF7F2C",
       "description": "Sittercity is seeking a part-time IT Support Specialist to help power our online childcare marketplace. In this role, you\u2019ll provide technical support for internal teams, troubleshoot software and system issues, and ensure tools run smoothly for our caregivers and families. You\u2019ll assist with user account management, basic data and reporting tasks, and documentation of processes. Collaborating with engineers and product teams, you\u2019ll escalate complex issues, contribute feedback to improve our p\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Eliassen Group",
+      "location": "Jacks Cabin, Gunnison County",
+      "posted": "2026-09-01T04:25:25Z",
+      "url": "https://www.adzuna.com/land/ad/5864098400?se=kuSzAzKn8RGVXraSihnW_w&utm_medium=api&utm_source=9f1063e3&v=4F828C5C3A8D97D87908E7A0A9EDA50305832FB0",
+      "description": "Description: Remote Our client seeks a Data Analyst with strong backend data engineering capabilities to connect diverse data sources and modernize analytics. The role focuses on building and maintaining data pipelines, orchestration, and APIs, while partnering with a front-end developer and senior team member. The team will revamp advanced Power BI dashboards and enable reliable analytics for clinical research initiatives, including continuous glucose monitoring studies. Due to client requirem\u2026",
       "source": "Adzuna (redirect link)"
     },
     {
@@ -565,7 +547,7 @@
       "company": "TEKsystems c/o Allegis Group",
       "location": "Auburn, Gloucester County",
       "posted": "2026-08-31T22:22:03Z",
-      "url": "https://www.adzuna.com/land/ad/5863715550?se=xgib4-Wm8RG2HomFYOMXfQ&utm_medium=api&utm_source=9f1063e3&v=4C534A44E5DEB584BC537215D01BFBFFA44A1F09",
+      "url": "https://www.adzuna.com/land/ad/5863715550?se=vFCQ_zGn8RGVXraSihnW_w&utm_medium=api&utm_source=9f1063e3&v=4C534A44E5DEB584BC537215D01BFBFFA44A1F09",
       "description": "TEKsystems is currently supporting a manufacturing client in Swedesboro, NJ hiring for a spare parts technical support specialist. This position will be supporting customers in their spare parts department with order processing and product information. Applicants with strong communication skills and a technical experience are encouraged to apply. Description Answering customer inquiries about spare parts and products Preparation of spare part quotations Taking orders from customers and processi\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -574,7 +556,7 @@
       "company": "AE Business Solutions",
       "location": "Fitchburg, Dane County",
       "posted": "2026-08-31T20:09:50Z",
-      "url": "https://www.adzuna.com/land/ad/5863502192?se=LJ905eWm8RG9hZZomVLVEQ&utm_medium=api&utm_source=9f1063e3&v=917AE66323457CBBDDA57ECCFAB7CD8A4B7BCBDC",
+      "url": "https://www.adzuna.com/land/ad/5863502192?se=XqQ-ATKn8RG2HomFYOMXfQ&utm_medium=api&utm_source=9f1063e3&v=917AE66323457CBBDDA57ECCFAB7CD8A4B7BCBDC",
       "description": "IT Support Specialist Life at AE We have over 75 years under our belt and have secured Madison's Top Workplaces award every year since 2021 so we're pretty proud of where we're at and we're looking forward to sharing it with you. It all starts with our culture and that is driven by our 10 core values. These aren't just words to us. We live them. Client First Mentality Care For Your Family Engage Locally Embrace Diversity Practice Honesty & Integrity Work Hard & Work Smart Laugh & Have Fun Propo\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -583,7 +565,7 @@
       "company": "TEKsystems c/o Allegis Group",
       "location": "Fitchburg, Dane County",
       "posted": "2026-08-31T10:05:18Z",
-      "url": "https://www.adzuna.com/land/ad/5862952471?se=euV85OWm8RG5FtUw0eF-8g&utm_medium=api&utm_source=9f1063e3&v=CD3361DC89838BFA78B2985BA5C3B63F703080ED",
+      "url": "https://www.adzuna.com/land/ad/5862952471?se=wDplADKn8RG2HomFYOMXfQ&utm_medium=api&utm_source=9f1063e3&v=CD3361DC89838BFA78B2985BA5C3B63F703080ED",
       "description": "Desktop Support Technician III Location: Remote with occasional onsite visits for troubleshooting, equipment support, and project work Overview Our client is seeking an experienced Desktop Support Technician III to provide advanced desktop support within a large enterprise environment supporting more than 10,000 users and 9,000 devices. This role combines high-level technical support responsibilities with project-based work and requires someone who can effectively manage both day-to-day support\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -592,7 +574,7 @@
       "company": "Robert Half",
       "location": "Plant City, Hillsborough County",
       "posted": "2026-08-29T22:15:56Z",
-      "url": "https://www.adzuna.com/land/ad/5861797819?se=JNKc4uWm8RGR76ZbJB6pOg&utm_medium=api&utm_source=9f1063e3&v=A95E231993A23F58DF3D323C9F2829CC6613F154",
+      "url": "https://www.adzuna.com/land/ad/5861797819?se=xpmx_jGn8RG2HomFYOMXfQ&utm_medium=api&utm_source=9f1063e3&v=A95E231993A23F58DF3D323C9F2829CC6613F154",
       "description": "Description We are looking for a skilled Help Desk Technician to join a growing IT support team in Florida. This contract opportunity with permanent potential is ideal for someone who brings strong technical troubleshooting experience, a customer-focused approach, and the ability to guide escalated support issues through resolution. In this role, you will provide advanced assistance across end-user systems, infrastructure, and cloud-based tools while helping maintain high service standards for \u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -601,7 +583,7 @@
       "company": "TEKsystems c/o Allegis Group",
       "location": "Richmond, Richmond County",
       "posted": "2026-08-29T10:15:38Z",
-      "url": "https://www.adzuna.com/land/ad/5861173602?se=euV85OWm8RG5FtUw0eF-8g&utm_medium=api&utm_source=9f1063e3&v=92DD511093DF936AD897F210B94162B3D41EE882",
+      "url": "https://www.adzuna.com/land/ad/5861173602?se=wDplADKn8RG2HomFYOMXfQ&utm_medium=api&utm_source=9f1063e3&v=92DD511093DF936AD897F210B94162B3D41EE882",
       "description": "3 years of professional experience as a Desktop Support Technician Ability to provide hands on and remote troubleshooting, repair, maintenance, and upgrade of IT hardware to include: laptops, desktops, printers, phones, cameras etc. 1. Knowledge and ability to troubleshoot issues surrounding Windows 11, MS Office O365, Mobile devices, VPN, and Networking/LAN/WAN connections. 2. Strong understanding of basic networking concepts including TCP/IP and managed switches 3. Proficiency in Microsoft Of\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -610,7 +592,7 @@
       "company": "TEKsystems c/o Allegis Group",
       "location": "Appleton, Outagamie County",
       "posted": "2026-08-29T10:12:48Z",
-      "url": "https://www.adzuna.com/land/ad/5861172390?se=JNKc4uWm8RGR76ZbJB6pOg&utm_medium=api&utm_source=9f1063e3&v=61ACB98B3ED8044E569C1CD63604C9251FA87E49",
+      "url": "https://www.adzuna.com/land/ad/5861172390?se=xpmx_jGn8RG2HomFYOMXfQ&utm_medium=api&utm_source=9f1063e3&v=61ACB98B3ED8044E569C1CD63604C9251FA87E49",
       "description": "Copilot said: Service Desk Analyst Overview We are seeking a customer-focused Service Desk Analyst to join a growing IT support team. This role is ideal for someone who enjoys troubleshooting technical issues, helping end users, and building a long-term career in IT support. The Service Desk Analyst will provide Level 1 technical support for a wide range of hardware, software, and business applications while delivering excellent customer service. The ideal candidate is organized, detail-oriente\u2026",
       "source": "Adzuna (redirect link)"
     }
