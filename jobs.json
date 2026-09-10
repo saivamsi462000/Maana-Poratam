@@ -1,23 +1,59 @@
 {
-  "last_updated": "2026-09-10T00:46:15.983556+00:00",
+  "last_updated": "2026-09-10T15:41:40.943215+00:00",
   "freshness_window_days": 5,
   "jobs": [
+    {
+      "title": "Business Analyst",
+      "company": "Eliassen Group",
+      "location": "Jacks Cabin, Gunnison County",
+      "posted": "2026-09-10T08:00:49Z",
+      "url": "https://www.adzuna.com/land/ad/5878426940?se=gJtNHS6t8RGmbN0M_CnU8w&utm_medium=api&utm_source=9f1063e3&v=8D8868C8CCE978E89F4A3CBE64ADF27E4C9A229B",
+      "description": "Description: Remote Our client seeks a Business Analyst with strong product and delivery skills to support backlog development and stakeholder alignment. The role partners closely with a Systems Analyst and a Product Owner to facilitate clear communication between business and technical teams and to advance sprint planning, refinement, and delivery. Due to client requirements, applicants must be willing and able to work on a w2 basis. For our w2 consultants, we offer a great benefits package th\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "Technical Support Specialist",
+      "company": "Skanska",
+      "location": "Charlotte, Mecklenburg County",
+      "posted": "2026-09-10T07:53:47Z",
+      "url": "https://www.adzuna.com/land/ad/5878406459?se=-thfFy6t8RGSrbcLysA9yQ&utm_medium=api&utm_source=9f1063e3&v=35277CA419630D87D23D787F5329DAD16A4BC5B1",
+      "description": "Skanska is searching for a Technical Support Specialist to provide excellent customer service and support to customers on a variety of tier 1 incidents and requests. This is a hybrid position based in Charlotte, North Carolina. The Technical Support Specialist effectively triages, troubleshoots and resolves incidents and requests related to client OS (Win10, O365), Microsoft Office Suite, VPN Client, network issues, identity management, various on premise and cloud based applications, and compu\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "Desktop Support Technician",
+      "company": "Leidos",
+      "location": "Lexington Park, St. Mary's County",
+      "posted": "2026-09-10T06:37:28Z",
+      "url": "https://www.adzuna.com/land/ad/5878272775?se=oGNvGC6t8RGtcuui-C0MYA&utm_medium=api&utm_source=9f1063e3&v=D943C94BEB2EFDCB99FE3489DDFE505946448057",
+      "description": "Job Description Description \\n NGEN is the largest IT services program for the Navy. Under the Service Management, Integration, and Transport (SMIT) portion of NGEN, the Leidos team will deliver the core backbone of the Navy-Marine Corps Intranet, including cybersecurity services, network operations, service desk, and data transport. Ultimately, Leidos will support the Navy in unifying its shore-based networks and data management to improve capability and service while also saving significant d\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "Senior Business Analyst",
+      "company": "Celerity Consulting Group, LLC",
+      "location": "Concord, Contra Costa County",
+      "posted": "2026-09-10T06:28:40Z",
+      "url": "https://www.adzuna.com/land/ad/5878267172?se=gJtNHS6t8RGmbN0M_CnU8w&utm_medium=api&utm_source=9f1063e3&v=752FA75830A4A14DDE3A272104A29CB6D23CCF31",
+      "description": "Job Description Job Description Job Title: Senior Business Analyst - Utilities | FSM / ERP Implementations (Multiple positions available) Company: Celerity Consulting Group Location : Remote (work from home eligible) with the ability to travel for client meetings and workshops Salary: $100,000 - $120,000 annually DOE Company Overview: Celerity is a consulting firm specializing in the utilities and energy sectors. We empower organizations by converting complex data into actionable intelligence t\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "L1 Help Desk Technician",
+      "company": "Robert Half",
+      "location": "Upper Dublin, Montgomery County",
+      "posted": "2026-09-09T21:29:32Z",
+      "url": "https://www.adzuna.com/land/ad/5877820646?se=5tQoFi6t8RGSrbcLysA9yQ&utm_medium=api&utm_source=9f1063e3&v=B445AD5CB51C01B05BF014C0DA26092567AC94C6",
+      "description": "Description We are looking for an L1 Help Desk Technician to provide dependable front-line technical support for both onsite employees and a large remote workforce in Pennsylvania. This contract position is ideal for someone who enjoys resolving everyday IT issues, supporting end users directly, and working in a Microsoft-centered environment. The role combines hands-on desktop support with remote assistance, ticket management, and routine device setup while helping maintain a smooth day-to-day\u2026",
+      "source": "Adzuna (redirect link)"
+    },
     {
       "title": "Data Analyst",
       "company": "Bet365",
       "location": "Denver, Colorado",
       "posted": "2026-09-09T19:49:00Z",
-      "url": "https://www.adzuna.com/land/ad/5877658057?se=tmTKBbGs8RGxZL2A1S_I0Q&utm_medium=api&utm_source=9f1063e3&v=2B2D77C0DB38B0C76F35884A8F84CD245DB89005",
+      "url": "https://www.adzuna.com/land/ad/5877658057?se=rgpcHC6t8RGbHoM6FqnLHA&utm_medium=api&utm_source=9f1063e3&v=2B2D77C0DB38B0C76F35884A8F84CD245DB89005",
       "description": "hackajob is collaborating with Bet365 to connect them with exceptional professionals for this role. As a Data Analyst, you will turn complex data into clear insight that supports better decisions across our business Within our AI and Automation department, the Data Team transforms large and complex datasets into practical reporting, clear insight and visual stories that support both operational and strategic decisions. This role focuses on building dashboards, responding to analytical requests \u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Business Analyst",
-      "company": "Experis",
-      "location": "Houston Acres, Jefferson County",
-      "posted": "2026-09-09T19:35:34Z",
-      "url": "https://www.adzuna.com/land/ad/5877652655?se=tC_EBrGs8RGFO65rE6RLxQ&utm_medium=api&utm_source=9f1063e3&v=11414084BCBDF8842FA2ED0EC7C22BF85FF7E4D0",
-      "description": "Experis, a ManpowerGroup company, is seeking a Business Analyst to support clients across professional, scientific, and technical services. In this role, you will work with cross-functional teams to gather and document requirements, map end-to-end business processes, and translate complex business problems into data-driven solutions. You will analyze data, develop reports and dashboards, and support solution design, testing, and implementation. Working in Experis\u2019 people-first, project-driven c\u2026",
       "source": "Adzuna (redirect link)"
     },
     {
@@ -25,7 +61,7 @@
       "company": "Sherwin Williams",
       "location": "Mobile, Mobile County",
       "posted": "2026-09-09T19:02:40Z",
-      "url": "https://www.adzuna.com/land/ad/5877649262?se=7AhZAbGs8RGLWNueJPgGLw&utm_medium=api&utm_source=9f1063e3&v=F748248B661F427CFCB1374CE5F2017D6DD0E018",
+      "url": "https://www.adzuna.com/land/ad/5877649262?se=-thfFy6t8RGSrbcLysA9yQ&utm_medium=api&utm_source=9f1063e3&v=F748248B661F427CFCB1374CE5F2017D6DD0E018",
       "description": "Sherwin-Williams is seeking a Branch Specialist Technical Support professional to deliver front-line technical assistance to branch and store teams across our manufacturing-focused network. In this role, you will diagnose and resolve hardware, software, and network issues, support POS and inventory systems, and coordinate escalations with IT and operations. You\u2019ll document incidents, train users on best practices, and help ensure uptime for critical store technologies. You\u2019ll work in a safety- \u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -34,17 +70,17 @@
       "company": "Canon U.S.A",
       "location": "Cleveland, Cuyahoga County",
       "posted": "2026-09-09T18:52:35Z",
-      "url": "https://www.adzuna.com/land/ad/5877646946?se=7AhZAbGs8RGLWNueJPgGLw&utm_medium=api&utm_source=9f1063e3&v=5BA7BCA7094769A6437ACD69A02FE98987AB395F",
+      "url": "https://www.adzuna.com/land/ad/5877646946?se=-thfFy6t8RGSrbcLysA9yQ&utm_medium=api&utm_source=9f1063e3&v=5BA7BCA7094769A6437ACD69A02FE98987AB395F",
       "description": "Canon U.S.A. seeks a National Technical Support Specialist to support imaging and printing technologies for manufacturing customers. In this role you\u2019ll diagnose hardware/software issues, manage escalations, and guide field teams to resolution. You will analyze recurring problems, document best practices, and collaborate with engineering and operations to improve reliability and customer satisfaction. Join a culture built on Kyosei, innovation, and integrity, with growth opportunities in a glob\u2026",
       "source": "Adzuna (redirect link)"
     },
     {
       "title": "Business Intelligence Analyst",
-      "company": "Beck Technology Inc",
+      "company": "Beck Technology",
       "location": "Highland Park, Dallas",
       "posted": "2026-09-09T15:03:19Z",
       "url": "https://www.adzuna.com/details/5877442722?utm_medium=api&utm_source=9f1063e3",
-      "description": "The Business Intelligence Analyst plays a critical role in transforming organizational data and customer deliverables into meaningful insights that guide strategic decisions. This role requires strong analytical skills, mastery of data visualization, and collaboration across departments. The analyst will build dashboards, conduct data modeling, and support the organization with actionable intelligence. Although this position is based in Dallas, Texas, we have a hybrid work environment and suppo\u2026",
+      "description": "Description: The Business Intelligence Analyst plays a critical role in transforming organizational data and customer deliverables into meaningful insights that guide strategic decisions. This role requires strong analytical skills, mastery of data visualization, and collaboration across departments. The analyst will build dashboards, conduct data modeling, and support the organization with actionable intelligence. Although this position is based in Dallas, Texas, we have a hybrid work environm\u2026",
       "source": "Adzuna (redirect link)"
     },
     {
@@ -57,20 +93,11 @@
       "source": "Adzuna (redirect link)"
     },
     {
-      "title": "Business Systems Analyst",
-      "company": "PNC Financial Services Group",
-      "location": "Birmingham, Jefferson County",
-      "posted": "2026-09-09T08:08:39Z",
-      "url": "https://www.adzuna.com/land/ad/5877092595?se=tC_EBrGs8RGFO65rE6RLxQ&utm_medium=api&utm_source=9f1063e3&v=B2FFB3D9F10407EA9414AF969C6B9864B7D452BA",
-      "description": "Job Description Position Overview \\n \\n \\nAt PNC, our people are our greatest differentiator and competitive advantage in the markets we serve. We are all united in delivering the best experience for our customers. We work together each day to foster an inclusive workplace culture where all of our employees feel respected, valued and have an opportunity to contribute to the company\u2019s success. As a(n) [position title] within PNC's [name of division] organization, you will be based in [city/state\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
       "title": "Business Analyst",
       "company": "MANTECH",
       "location": "Springfield, Effingham County",
       "posted": "2026-09-09T07:33:54Z",
-      "url": "https://www.adzuna.com/land/ad/5877037051?se=tC_EBrGs8RGFO65rE6RLxQ&utm_medium=api&utm_source=9f1063e3&v=4D7E0CEE6C87974622E49E3707A6063082EB1196",
+      "url": "https://www.adzuna.com/land/ad/5877037051?se=gJtNHS6t8RGmbN0M_CnU8w&utm_medium=api&utm_source=9f1063e3&v=4D7E0CEE6C87974622E49E3707A6063082EB1196",
       "description": "hackajob is collaborating with MANTECH to connect them with exceptional professionals for this role. MANTECH seeks a motivated, career and customer-oriented Business Analyst to join our team in Springfield, VA. This role is 100% on-site. The Business Analyst is a subject matter expert and program leader responsible for analyzing organizational needs, managing complex initiatives, and driving significant improvements across the enterprise. This role blends hands-on analytical and staff support f\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -79,8 +106,17 @@
       "company": "Kaiser Permanente",
       "location": "Fort Shafter, Honolulu",
       "posted": "2026-09-09T07:09:53Z",
-      "url": "https://www.adzuna.com/land/ad/5877025140?se=0CQWA7Gs8RGnuL6Fc8YS3w&utm_medium=api&utm_source=9f1063e3&v=BE3D5109B2A51AC3D0D758D165CA76B63FC1320F",
+      "url": "https://www.adzuna.com/land/ad/5877025140?se=KC13GS6t8RGSrbcLysA9yQ&utm_medium=api&utm_source=9f1063e3&v=BE3D5109B2A51AC3D0D758D165CA76B63FC1320F",
       "description": "Kaiser Permanente seeks a Short Hour IT Support Specialist to help maintain and support Systeme.io\u2019s all\u2011in\u2011one marketing platform. In this hybrid role, you\u2019ll troubleshoot user issues, manage tickets, and resolve incidents across SaaS tools, networks, and devices. You\u2019ll collaborate with developers and product teams to escalate complex problems, document solutions, and improve processes. Join a culture of innovation and support, contributing to reliable, user\u2011friendly software for entrepreneur\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "Debug Trainer Technician - 403 Shift - CVG100",
+      "company": "Jabil",
+      "location": "Florence, Boone County",
+      "posted": "2026-09-09T02:11:48Z",
+      "url": "https://www.adzuna.com/details/5876741646?utm_medium=api&utm_source=9f1063e3",
+      "description": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world's top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of over 100 sites worldwide, Jabil combines global reach with local expertise to deliver both scalable and customized solutions. Our commitment extends beyond business success as we strive to build sustainable processes that minimize environmental impact and foster vi\u2026",
       "source": "Adzuna (redirect link)"
     },
     {
@@ -88,7 +124,7 @@
       "company": "DatamanUSA, LLC",
       "location": "Nashville, Davidson County",
       "posted": "2026-09-08T20:26:58Z",
-      "url": "https://www.adzuna.com/land/ad/5876305942?se=NCR-ALGs8RGnuL6Fc8YS3w&utm_medium=api&utm_source=9f1063e3&v=B5D6C2EBD8DC64E76F2808503AA856807CDE126B",
+      "url": "https://www.adzuna.com/land/ad/5876305942?se=5tQoFi6t8RGSrbcLysA9yQ&utm_medium=api&utm_source=9f1063e3&v=B5D6C2EBD8DC64E76F2808503AA856807CDE126B",
       "description": "DatamanUSA has an exciting opportunity for a talented Help Desk Technician to work with one of our direct clients in Nashville, TN. We love referrals! Please refer us to your friends, family and colleagues for this opportunity. DatamanUSA gives referral bonuses (up to $500) if they get selected and perform well for our clients. Job Details: Title: Help Desk Technician Duration: 12 Months Location: Nashville, TN Required/desired skills: *) Provide Tier 1 technical support by phone, email, and se\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -97,17 +133,8 @@
       "company": "Top Prospect Group",
       "location": "Millbury, Worcester County",
       "posted": "2026-09-08T13:36:56Z",
-      "url": "https://www.adzuna.com/land/ad/5875835423?se=0CQWA7Gs8RGnuL6Fc8YS3w&utm_medium=api&utm_source=9f1063e3&v=9D94E8A5C351C3C95B1E1EA8B92F8ADE6B70525D",
+      "url": "https://www.adzuna.com/land/ad/5875835423?se=KC13GS6t8RGSrbcLysA9yQ&utm_medium=api&utm_source=9f1063e3&v=9D94E8A5C351C3C95B1E1EA8B92F8ADE6B70525D",
       "description": "oin a collaborative IT team where you\u2019ll tackle complex technical challenges, support diverse client environments, and build hands-on experience with servers, networks, and cloud technologies. Onsite 50-60K plus benefits and mileage reimbursement Windows, AD, O365, networking, O365 Admin, system administration, MSP experience, technical support, tickets, troubleshooting Seeking a Level 2 IT Support Specialist. You\u2019ll handle escalated tickets, troubleshoot infrastructure issues, and partner with\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Operations Business Analyst",
-      "company": "Total Loan Services LLC",
-      "location": "Kettering, Montgomery County",
-      "posted": "2026-09-08T09:58:10Z",
-      "url": "https://www.adzuna.com/details/5875611056?utm_medium=api&utm_source=9f1063e3",
-      "description": "Position Summary The Operations Business Analyst serves as a key liaison between business stakeholders and technical teams to support operational initiatives, regulatory reporting, compliance activities, and business process improvements. This role is responsible for gathering and documenting business requirements, coordinating cross-functional projects, analyzing existing processes, and helping implement solutions that improve operational efficiency and regulatory compliance. This role also se\u2026",
       "source": "Adzuna (redirect link)"
     },
     {
@@ -115,7 +142,7 @@
       "company": "Harris",
       "location": "Alabama, US",
       "posted": "2026-09-08T08:12:04Z",
-      "url": "https://www.adzuna.com/land/ad/5875581074?se=7AhZAbGs8RGLWNueJPgGLw&utm_medium=api&utm_source=9f1063e3&v=9CC1BAAF47F741D5D02A0582E734CC33908FE1F9",
+      "url": "https://www.adzuna.com/land/ad/5875581074?se=-thfFy6t8RGSrbcLysA9yQ&utm_medium=api&utm_source=9f1063e3&v=9CC1BAAF47F741D5D02A0582E734CC33908FE1F9",
       "description": "Reports to the Director of Operations. Fulfills tasks based on direct manager assignment Deploys Company's Customer Support activities: Assists in the response to customer technical queries and service calls to the Customer Support. Answers customer queries to support telephone out of office hours as and when required. Plans, manages and performs version upgrades, on site and remotely. Be available for On-call support on rotation, evening, weekends and holidays as necessary",
       "source": "Adzuna (redirect link)"
     },
@@ -124,7 +151,7 @@
       "company": "Leidos",
       "location": "Lexington Park, St. Mary's County",
       "posted": "2026-09-07T21:14:01Z",
-      "url": "https://www.adzuna.com/land/ad/5875057561?se=5Hw3ArGs8RGxxJIBlTg-jQ&utm_medium=api&utm_source=9f1063e3&v=1AB48F4A231E8861867736002ABDDFA240429100",
+      "url": "https://www.adzuna.com/land/ad/5875057561?se=oGNvGC6t8RGtcuui-C0MYA&utm_medium=api&utm_source=9f1063e3&v=1AB48F4A231E8861867736002ABDDFA240429100",
       "description": "Leidos is seeking a Desktop Support Technician to provide hands-on IT support for end users in a mission-driven environment. Responsibilities include installing and configuring workstations, troubleshooting hardware, software, and peripheral issues, managing user accounts, and resolving tickets within defined SLAs. You will support Windows and Microsoft 365 environments, use remote tools, and document solutions. Collaborating closely with engineers and analysts, you\u2019ll help maintain secure, rel\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -133,7 +160,7 @@
       "company": "Leidos",
       "location": "Indian Head, Charles County",
       "posted": "2026-09-07T20:19:36Z",
-      "url": "https://www.adzuna.com/land/ad/5874951208?se=5Hw3ArGs8RGxxJIBlTg-jQ&utm_medium=api&utm_source=9f1063e3&v=E785CC1B85880A2029F44FCB1CBA04B10E75DB5B",
+      "url": "https://www.adzuna.com/land/ad/5874951208?se=oGNvGC6t8RGtcuui-C0MYA&utm_medium=api&utm_source=9f1063e3&v=E785CC1B85880A2029F44FCB1CBA04B10E75DB5B",
       "description": "Leidos is seeking a Senior Desktop Support Technician to deliver high-quality, customer-focused IT support in a mission-critical environment. In this role, you will provide advanced troubleshooting for Windows and Mac systems, peripherals, and collaboration tools, ensuring secure and reliable operations. Responsibilities include software and OS deployment, patching, endpoint security, and account administration. You\u2019ll collaborate with cybersecurity and infrastructure teams, document solutions,\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -142,7 +169,7 @@
       "company": "Leidos",
       "location": "Virginia Beach, Virginia Beach City",
       "posted": "2026-09-07T19:40:32Z",
-      "url": "https://www.adzuna.com/land/ad/5874890906?se=5Hw3ArGs8RGxxJIBlTg-jQ&utm_medium=api&utm_source=9f1063e3&v=C0FF8A29602DE2205054B1706F6D880CC05390D0",
+      "url": "https://www.adzuna.com/land/ad/5874890906?se=oGNvGC6t8RGtcuui-C0MYA&utm_medium=api&utm_source=9f1063e3&v=C0FF8A29602DE2205054B1706F6D880CC05390D0",
       "description": "Leidos is seeking a Desktop Support Technician to provide hands-on IT support for end users in a mission-driven environment. Responsibilities include installing and configuring workstations, troubleshooting hardware, software, and peripheral issues, managing user accounts, and resolving tickets within defined SLAs. You will support Windows and Microsoft 365 environments, use remote tools, and document solutions. Collaborating closely with engineers and analysts, you\u2019ll help maintain secure, rel\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -151,17 +178,8 @@
       "company": "Koniag Government Services",
       "location": "Wheaton, Montgomery County",
       "posted": "2026-09-07T06:47:23Z",
-      "url": "https://www.adzuna.com/land/ad/5874004672?se=NCR-ALGs8RGnuL6Fc8YS3w&utm_medium=api&utm_source=9f1063e3&v=876D0F017D5AA193A2E32BDEE5033A3AEA99D685",
+      "url": "https://www.adzuna.com/land/ad/5874004672?se=5tQoFi6t8RGSrbcLysA9yQ&utm_medium=api&utm_source=9f1063e3&v=876D0F017D5AA193A2E32BDEE5033A3AEA99D685",
       "description": "Arlluk Technology Solutions (ATS), a Koniag Government Services company, is seeking an experienced Help Desk Technician to support ATS and our government customer in Silver Spring, Maryland. This is an onsite position. We offer competitive compensation and an extraordinary benefits package including health, dental and vision insurance, 401K with company matching, flexible spending accounts, paid holidays, three weeks paid time off, and more. Essential Functions, Responsibilities & Duties may in\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Data Analyst",
-      "company": "Guidehouse",
-      "location": "Madison, Madison County",
-      "posted": "2026-09-07T04:46:56Z",
-      "url": "https://www.adzuna.com/land/ad/5873908789?se=tmTKBbGs8RGxZL2A1S_I0Q&utm_medium=api&utm_source=9f1063e3&v=78A7B3E878BABA31685679929EC9E37A52449B72",
-      "description": "Job Family : Data Science Consulting Travel Required : Up to 10% Clearance Required : Active Secret What You Will Do : Guidehouse is seeking a Data Analyst who will provide data solutions (analysis, data engineering, data science etc.) to a Department of War client. You will be a part of a multi-disciplinary, high-impact team. The ideal candidate will perform technical tasks that include, but are not limited to, building data pipelines and developing visualizations. These tasks will involve usi\u2026",
       "source": "Adzuna (redirect link)"
     },
     {
@@ -169,17 +187,8 @@
       "company": "Beacon Systems, Inc",
       "location": "Jackson, Hinds County",
       "posted": "2026-09-05T21:25:26Z",
-      "url": "https://www.adzuna.com/land/ad/5872517039?se=0CQWA7Gs8RGnuL6Fc8YS3w&utm_medium=api&utm_source=9f1063e3&v=018693F2E8DEB5FAA838D0F091A50FA7CE1EB556",
+      "url": "https://www.adzuna.com/land/ad/5872517039?se=KC13GS6t8RGSrbcLysA9yQ&utm_medium=api&utm_source=9f1063e3&v=018693F2E8DEB5FAA838D0F091A50FA7CE1EB556",
       "description": "Position Title: IT Support Specialist Location: Jackson, MS 39201 Work Arrangement: Onsite Mode of Interview: Video and In Person Position Description and Job Skill Set Provides a full range of on-site and remote end-user support for the DAH network. Repair desktop PCs, laptops, printers, monitors, and mobile devices. Install, configure, and update operating systems and office applications. Respond to help desk requests via phone, chat, or in person. Log, track, and resolve issues using ticketi\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Technical Support Specialist",
-      "company": "ThermoFisher Scientific",
-      "location": "Suwanee, Gwinnett County",
-      "posted": "2026-09-05T07:53:57Z",
-      "url": "https://www.adzuna.com/land/ad/5871929407?se=7AhZAbGs8RGLWNueJPgGLw&utm_medium=api&utm_source=9f1063e3&v=5CCCAC8D99F4362FA2D6EAEC44A93D5DD9E1DCFD",
-      "description": "Work Schedule First Shift (Days) Environmental Conditions Office Job Description As part of the Thermo Fisher Scientific team, you'll discover meaningful work that makes a positive impact on a global scale. Join our colleagues in bringing our Mission to life every single day to enable our customers to make the world healthier, cleaner and safer. We provide our global teams with the resources needed to achieve individual career goals while helping to take science a step beyond by developing solu\u2026",
       "source": "Adzuna (redirect link)"
     }
   ]
