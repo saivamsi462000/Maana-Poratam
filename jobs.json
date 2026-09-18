@@ -1,13 +1,31 @@
 {
-  "last_updated": "2026-09-17T16:03:57.204861+00:00",
+  "last_updated": "2026-09-18T00:57:31.387381+00:00",
   "freshness_window_days": 5,
   "jobs": [
+    {
+      "title": "Technical Support Specialist Level 1",
+      "company": "Continuum Advantage LLC",
+      "location": "Waukee, Dallas County",
+      "posted": "2026-09-17T14:49:15Z",
+      "url": "https://www.adzuna.com/details/5888110022?utm_medium=api&utm_source=9f1063e3",
+      "description": "Technical Support Specialist Level 1 The Technical Support Specialist \u2013 Level 1 is an entry-level position that provides professional technical support to all clients of Myriad Advisor Solutions. The Level 1 Specialists must possess strong analytical and strategic thinking, as well as planning, organizing and problem-solving skills: a high degree of technical expertise, sound professional and technical judgment, and a commitment to exceptional customer service and teamwork. This role is in offi\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "Lab IT Support Specialist / IS Engineer",
+      "company": "Stellent IT LLC",
+      "location": "West Indianapolis, Marion County",
+      "posted": "2026-09-17T14:10:11Z",
+      "url": "https://www.adzuna.com/land/ad/5888091084?se=OP-D6Puy8RG-HvXocs6iYQ&utm_medium=api&utm_source=9f1063e3&v=05110B977A8CFCAC1243EDE38092CBF8770AD1BD",
+      "description": "TITLE - Lab IT Support Specialist / IS Engineer Interview:PhoneSkype Job Description: updated job title is Lab IT Support Specialist. We are looking for someone with more of an information systems/IT background in the laboratory space within pharma. Knowledge of validation is required, but this is not a heavy validation role. Please submit candidates that are more IT/IS engineers Validation Engineer Responsibilities: Support day-to-day operation of laboratory and quality systems, instrument wor\u2026",
+      "source": "Adzuna (redirect link)"
+    },
     {
       "title": "Technical Support Specialist",
       "company": "Aegis Therapies",
       "location": "Fort Smith, Sebastian County",
       "posted": "2026-09-17T06:46:10Z",
-      "url": "https://www.adzuna.com/land/ad/5887536114?se=GkO3XLGy8RGCp960tjXR7g&utm_medium=api&utm_source=9f1063e3&v=063C1B476CEE5373DF3C74F1081F1FA95C827634",
+      "url": "https://www.adzuna.com/land/ad/5887536114?se=qFx35vuy8RG-HvXocs6iYQ&utm_medium=api&utm_source=9f1063e3&v=063C1B476CEE5373DF3C74F1081F1FA95C827634",
       "description": "At Aegis Therapies, you'll be part of a team that truly makes a difference in the lives of others. Here, your contributions are as meaningful to us as to those we serve. You don't have to be a caregiver to want to help improve lives. No matter your skills, you can help fulfill Aegis' mission to inspire change, impact lives and innovate to drive success. By joining our corporate team, you'll work with others who share your passion, and you'll receive support from a team that appreciates your uni\u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -16,7 +34,7 @@
       "company": "Insight Global",
       "location": "Eldorado Springs, Boulder County",
       "posted": "2026-09-17T06:46:10Z",
-      "url": "https://www.adzuna.com/land/ad/5887536158?se=GkO3XLGy8RGCp960tjXR7g&utm_medium=api&utm_source=9f1063e3&v=CD0ECA1D01C52235C8F166E02C8DD15172164173",
+      "url": "https://www.adzuna.com/land/ad/5887536158?se=qFx35vuy8RG-HvXocs6iYQ&utm_medium=api&utm_source=9f1063e3&v=CD0ECA1D01C52235C8F166E02C8DD15172164173",
       "description": "Job Description Insight Global is looking to hire 10 technical support individuals to support polling stations in Boulder County and surrounding areas during the 2026 Election. This person will be responsible for setting up polling station equipment, maintaining and troubleshooting equipment during the election period, and tearing down and decommissioning equipment post-election. Equipment includes Windows laptops, soft-phones, and peripheral devices including label printers, network printers, \u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -25,8 +43,26 @@
       "company": "Jobot",
       "location": "Brisbane, San Mateo County",
       "posted": "2026-09-17T06:28:39Z",
-      "url": "https://www.adzuna.com/land/ad/5887496022?se=jki6XbGy8RGFcf6CuUYj3g&utm_medium=api&utm_source=9f1063e3&v=636C009EEAA3D885B2B552FFD859CB745F902BBF",
+      "url": "https://www.adzuna.com/land/ad/5887496022?se=aIV-5_uy8RGv64qE4zjWDA&utm_medium=api&utm_source=9f1063e3&v=636C009EEAA3D885B2B552FFD859CB745F902BBF",
       "description": "Jobot is seeking a Desktop Support Technician to keep our fast-growing, tech-forward team productive and secure. In this role, you\u2019ll deliver hands-on and remote support for Windows and Mac workstations, peripherals, and mobile devices, resolving hardware, software, and connectivity issues in a professional services environment. You\u2019ll manage tickets, user accounts, and Office 365 tools while ensuring endpoints meet security and patching standards. Collaborating closely with a people-centric IT\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "Business Analyst",
+      "company": "Na Oiwi Kane",
+      "location": "Mount Rainier, Prince George's County",
+      "posted": "2026-09-17T06:14:11Z",
+      "url": "https://www.adzuna.com/land/ad/5887486587?se=qjGQ7Puy8RGv64qE4zjWDA&utm_medium=api&utm_source=9f1063e3&v=9E50C11F39B46138808B0F5D399364CBCFD0A9F9",
+      "description": "Overview Job Title: Business Analyst Location: National Capital Region (Washington DC and surrounding areas) Rivet Operations Company is looking for a Business Analyst to aid in gathering requirements and analyze data for the Cybersecurity and Infrastructure Security Agency (CISA) in the National Capital Region. The Business Analyst role is responsible for bridging the gap between business stakeholders and technical teams to ensure software and systems meet operational needs. This position anal\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "Senior Commercial Data Analyst",
+      "company": "Cerapedics Inc",
+      "location": "Superior, Boulder County",
+      "posted": "2026-09-17T01:00:01Z",
+      "url": "https://www.adzuna.com/land/ad/5887180224?se=Fs6D6_uy8RG-HvXocs6iYQ&utm_medium=api&utm_source=9f1063e3&v=BAD0AEDE0CB5EBA3F2C513457D5A9056FA61CA2F",
+      "description": "Job Description Job Description Description: ABOUT US Cerapedics is a global, commercial-stage orthopedics company that is dedicated to redefining the path to bone repair by healing bones faster and at higher rates, so all patients can get back to living their fullest lives. Bone grafts, including Cerapedics\u2019 products, are used in over four million annual spine, orthopedics, trauma, and interventional procedures worldwide. Cerapedics has two drug-device products approved by the FDA powered by C\u2026",
       "source": "Adzuna (redirect link)"
     },
     {
@@ -39,246 +75,48 @@
       "source": "Adzuna (redirect link)"
     },
     {
-      "title": "Technical Support Specialist-Police",
-      "company": "City of Philadelphia",
-      "location": "Philadelphia, Philadelphia County",
-      "posted": "2026-09-16T21:00:06Z",
-      "url": "https://www.adzuna.com/land/ad/5886911001?se=GkO3XLGy8RGCp960tjXR7g&utm_medium=api&utm_source=9f1063e3&v=412C9501E27F99B0E4C5DF7951D2584D0C99C958",
-      "description": "Company Description A best-in-class city that attracts best-in-class talent, Philadelphia is an incredible place to build a career. From our thriving arts scene and rich history to our culture of passion and grit, there are countless reasons to love living and working here. With a workforce of over 30,000 people, and more than 1,000 different job categories, the City of Philadelphia offers boundless opportunities to make an impact. As an employer, the City of Philadelphia values inclusion, inte\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Technical Customer Support Specialist",
-      "company": "Jarraff Industries LLC",
-      "location": "Saint Peter, Nicollet County",
-      "posted": "2026-09-16T21:00:06Z",
-      "url": "https://www.adzuna.com/land/ad/5886911131?se=GkO3XLGy8RGCp960tjXR7g&utm_medium=api&utm_source=9f1063e3&v=1AD77481F56A5E47909D6332466A7C4BF0D871CE",
-      "description": "Description Jarraff by Prinoth provides high-quality, specialized right-of-way maintenance, land clearing, and tree care equipment. Products include the Jarraff All-Terrain Tree Trimmers, Mini-Jarraff Urban Tree Trimmer and T-Rex Carrier Vehicles. Located in St. Peter, MN, our facilities are a hub for all vegetation management products offered in North America. With Customer success fueling our passion, our values align with Prinoth's as we work on becoming the best partner and employer. The co\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "HR Data Analyst",
-      "company": "Federal Reserve System",
-      "location": "Richmond, Richmond County",
-      "posted": "2026-09-16T21:00:05Z",
-      "url": "https://www.adzuna.com/land/ad/5886910819?se=gsDCYbGy8RG2D9vMuepRVA&utm_medium=api&utm_source=9f1063e3&v=949FF28FE1DAF6515826D6CA5CF390736A92DA67",
-      "description": "Company Federal Reserve Bank of Kansas CityWhen you join the Federal Reserve\u2014the nation's central bank\u2014you\u2019ll play a key role, collaborating with leading professionals to strengthen and protect our economic, financial and payments systems. We invest in contemporary and emerging technology each year to support the Federal Reserve and our economy, and we\u2019re building a dynamic and diverse team for our future. The HR Product Strategy Center is seeking an HR Business Intelligence Data Analyst. You\u2019l\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Sr. Data Analyst",
-      "company": "H1",
-      "location": "Ny State Campus, Albany County",
-      "posted": "2026-09-16T21:00:04Z",
-      "url": "https://www.adzuna.com/land/ad/5886910727?se=gsDCYbGy8RG2D9vMuepRVA&utm_medium=api&utm_source=9f1063e3&v=744F5504674508DAE7FCBAE0EF565C9E89C3D871",
-      "description": "At H1, we believe access to the best healthcare information is a basic human right. Our mission is to provide a platform that can optimally inform every doctor interaction globally. This promotes health equity and builds needed trust in healthcare systems. To accomplish this our teams harness the power of data and AI-technology to unlock groundbreaking medical insights and convert those insights into action that result in optimal patient outcomes and accelerates an equitable and inclusive drug \u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Help Desk Technician I - Information Technology",
-      "company": "LifeWorks Austin",
-      "location": "Austin, Travis County",
-      "posted": "2026-09-16T20:58:18Z",
-      "url": "https://www.adzuna.com/land/ad/5886897385?se=_nG-W7Gy8RGc5KgkGQlIJw&utm_medium=api&utm_source=9f1063e3&v=7DA06D6C80AE7F3FFD875B06E677242E13F21F0D",
-      "description": "LifeWorks of Austin, TX is looking for a Help Desk Technician I to join our Information Technology team! The Help Desk Technician I provides frontline technical support for LifeWorks employees and technology systems across multiple locations. This position supports end users, deploys and maintains technology equipment, assists with user account administration, and performs the day-to-day operational activities that keep agency technology running efficiently. The role is the primary point of con\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "HR Data Analyst",
-      "company": "Federal Reserve System",
-      "location": "Minneapolis, Hennepin County",
-      "posted": "2026-09-16T20:57:48Z",
-      "url": "https://www.adzuna.com/land/ad/5886895508?se=gsDCYbGy8RG2D9vMuepRVA&utm_medium=api&utm_source=9f1063e3&v=A44C28CD0FF3B451CF6AC863C7C9DD7F37E86134",
-      "description": "Company Federal Reserve Bank of Kansas CityWhen you join the Federal Reserve\u2014the nation's central bank\u2014you\u2019ll play a key role, collaborating with leading professionals to strengthen and protect our economic, financial and payments systems. We invest in contemporary and emerging technology each year to support the Federal Reserve and our economy, and we\u2019re building a dynamic and diverse team for our future. The HR Product Strategy Center is seeking an HR Business Intelligence Data Analyst. You\u2019l\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Data Analyst V",
-      "company": "Texas Health & Human Services Commission",
-      "location": "Austin, Travis County",
-      "posted": "2026-09-16T20:57:46Z",
-      "url": "https://www.adzuna.com/land/ad/5886895196?se=gsDCYbGy8RG2D9vMuepRVA&utm_medium=api&utm_source=9f1063e3&v=F2804BCE05CA2F52CD1C9B88411591CF742A49A4",
-      "description": "Join the Texas Health and Human Services Commission (HHSC) and be part of a team committed to creating a positive impact in the lives of fellow Texans. At HHSC, your contributions matter, and we support you at each stage of your life and work journey. Our comprehensive benefits package includes 100% paid employee health insurance for full-time eligible employees, a defined benefit pension plan, generous time off benefits, numerous opportunities for career advancement and more. Explore more deta\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Help Desk Technician (On-Site)",
-      "company": "Oneida Technology Services",
-      "location": "San Fernando, Los Angeles County",
-      "posted": "2026-09-16T20:53:20Z",
-      "url": "https://www.adzuna.com/land/ad/5886871478?se=_nG-W7Gy8RGc5KgkGQlIJw&utm_medium=api&utm_source=9f1063e3&v=D0605D559BA2958E29932317B66EEA91CDF3C5BE",
-      "description": "Description Oneida Technology Services (OTS) is actively seeking a highly motivated, full-time Help Desk Technician in San Fernando, CA . This is a fully on-site position. Key Responsibilities: Monitor, triage, and respond to user support requests through the ticketing system. Troubleshoot hardware and software issues for desktops, laptops, and mobile devices. Perform desk-side support tasks, including device reimaging, OS reinstalls, and equipment configuration. Provide after-hours support for\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Business Analyst",
-      "company": "RAPID EAGLE INC",
-      "location": "Las Vegas, Clark County",
-      "posted": "2026-09-16T20:49:36Z",
-      "url": "https://www.adzuna.com/land/ad/5886862172?se=AE6xYrGy8RG51dr89L8inQ&utm_medium=api&utm_source=9f1063e3&v=CA8C61622AFBAB07F58D0FC9637BD9167664F38F",
-      "description": "Benefits: 401(k) matching Dental insurance Health insurance Business Analyst Las Vegas NV Onsite We are looking for an experienced Business Analyst to work closely with business stakeholders, product owners, developers, QA teams, and technology teams to analyze business requirements and translate them into clear technical and functional solutions. The ideal candidate will have strong experience with requirements gathering, process analysis, system integration, data analysis, SQL, API understand\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "QA Technician",
-      "company": "Excelitas Technologies",
-      "location": "Colorado, US",
-      "posted": "2026-09-16T20:35:03Z",
-      "url": "https://www.adzuna.com/land/ad/5886839996?se=EnanX7Gy8RGFcf6CuUYj3g&utm_medium=api&utm_source=9f1063e3&v=11F565EFB84D1567FF6EFE8B9801CA074F287ED6",
-      "description": "ENABLE your future through light. Excelitas is a global technology leader with more than 7,500 employees, focused on delivering market-driven solutions to fulfill the illumination, optical, detection and imaging needs of OEMs and end-users across the biomedical, semiconductor, industrial, consumer products, scientific, security, defense and aerospace sectors. ENGAGE with us today and make your contribution to the future! Join the team that leading technology companies turn to for cutting-edge p\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "IT Support Specialist II (Atwater)",
-      "company": "Golden Valley Health Centers",
-      "location": "Atwater, Merced County",
-      "posted": "2026-09-16T20:35:02Z",
-      "url": "https://www.adzuna.com/land/ad/5886839821?se=mjG6XrGy8RGeX64IzcI5Jg&utm_medium=api&utm_source=9f1063e3&v=F1671C6623A5203E5EB0921B8F002532A748F76C",
-      "description": "Provide technical support to end users, aid in the administration of the GVHC computing environment and assist with the general operations of the IT Department. Schedule is Monday \u2013 Friday, 8:00am \u2013 4:30pm This position will work at our Atwater Administrative site. Compensation: $26.93 - $28.28 per hour Golden Valley Health Centers offers excellent benefits including Medical: (0 Deductible / $2,000 Individual; $4,000 Family Out-of-Pocket Max), excellent PPO coverages; Dental; Vision; 403(b) wit\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Senior IT Support Specialist",
-      "company": "Instacart",
-      "location": "South San Francisco, San Mateo County",
-      "posted": "2026-09-16T20:34:52Z",
-      "url": "https://www.adzuna.com/land/ad/5886839029?se=mjG6XrGy8RGeX64IzcI5Jg&utm_medium=api&utm_source=9f1063e3&v=37A7826B39BFA2B396A3744EF4D67126A4356E52",
-      "description": "We're transforming the grocery industry At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless opportunity to serve the varied needs of our community. We work to deliver an essential service that customers rely on to get their groceries and household goods, while also offering safe and flexible \u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Senior IT Support Specialist",
-      "company": "NetGain Technologies LLC",
-      "location": "Chattanooga, Hamilton County",
-      "posted": "2026-09-16T20:34:49Z",
-      "url": "https://www.adzuna.com/land/ad/5886838692?se=mjG6XrGy8RGeX64IzcI5Jg&utm_medium=api&utm_source=9f1063e3&v=75C5FA8D5E88AE20132CD29D981F7ABFAF8D1E26",
-      "description": "Description Solve the Toughest Problems. Lead Through Expertise. NetGain Technologies is looking for a Senior IT Support Specialist to join our engineering team. This role is designed for experienced engineers who enjoy tackling complex technical challenges, mentoring others, and serving as the escalation point when standard troubleshooting isn't enough. If you're the person other engineers call when they're stuck, enjoy digging into root causes, and take pride in solving problems others can't,\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Data Analyst II",
-      "company": "Shirley Ryan AbilityLab",
-      "location": "Chicago, Cook County",
-      "posted": "2026-09-16T20:34:49Z",
-      "url": "https://www.adzuna.com/land/ad/5886838698?se=gsDCYbGy8RG2D9vMuepRVA&utm_medium=api&utm_source=9f1063e3&v=55DC69259833E77E50B51246EB29CDCC0F682870",
-      "description": "Shirley Ryan AbilityLab is the global leader in physical medicine and rehabilitation for adults and children with the most severe, complex conditions. By joining our team, you\u2019ll be part of our life-changing mission and vision. You\u2019ll contribute to an innovative, multifaceted culture that is second to none \u2014 one that embraces collaboration, excellence, discovery and compassion. You\u2019ll play a role in something that\u2019s never been done before as we integrate science and clinical care to help patien\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "HR Data Analyst",
-      "company": "Federal Reserve System",
-      "location": "Atlanta, Fulton County",
-      "posted": "2026-09-16T20:34:49Z",
-      "url": "https://www.adzuna.com/land/ad/5886838656?se=gsDCYbGy8RG2D9vMuepRVA&utm_medium=api&utm_source=9f1063e3&v=0FCAD1645C01A5CD13811086ED7654C4E2EEB0B2",
-      "description": "Company Federal Reserve Bank of Kansas CityWhen you join the Federal Reserve\u2014the nation's central bank\u2014you\u2019ll play a key role, collaborating with leading professionals to strengthen and protect our economic, financial and payments systems. We invest in contemporary and emerging technology each year to support the Federal Reserve and our economy, and we\u2019re building a dynamic and diverse team for our future. The HR Product Strategy Center is seeking an HR Business Intelligence Data Analyst. You\u2019l\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "IT Support Specialist",
-      "company": "AP MAX INC",
-      "location": "Houston, Harris County",
-      "posted": "2026-09-16T20:32:47Z",
-      "url": "https://www.adzuna.com/land/ad/5886837015?se=mjG6XrGy8RGeX64IzcI5Jg&utm_medium=api&utm_source=9f1063e3&v=D05D5ECC0980D9EE3CCCCA94BE5F3F9B4F3A0AEB",
-      "description": "Company Overview At Allia Health Group, the umbrella organization for Southend Pharmacy, Brello Health, and Woven, we don\u2019t just follow industry trends\u2014we redefine them. Our mission is to commoditize anti-aging solutions, making them affordable and accessible to the average consumer\u2014not just the wealthy. By offering customized and cost-effective wellness products that follow cost-containment models, we aim to improve people\u2019s quality of life and meet them wherever they are on their health journ\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Senior Data Analyst",
-      "company": "Clair",
-      "location": "Ny State Campus, Albany County",
-      "posted": "2026-09-16T20:30:13Z",
-      "url": "https://www.adzuna.com/land/ad/5886832286?se=gsDCYbGy8RG2D9vMuepRVA&utm_medium=api&utm_source=9f1063e3&v=7165683CE39642F2D4F35A282B757E888E6A5908",
-      "description": "About Clair If you can send your friends money in seconds, why does it still take your employer two weeks to send your paycheck? At Clair, we are on a mission to create financial freedom for America's workers by giving them a digital banking platform that allows them to get paid as soon as they clock out of work. But we're not just another digital bank or on-demand pay provider. We meet Americans at their place of work by embedding our products within the scheduling, workforce management, and p\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Technical Support Specialist",
-      "company": "LeanData",
-      "location": "Utah, US",
-      "posted": "2026-09-16T20:30:10Z",
-      "url": "https://www.adzuna.com/land/ad/5886832211?se=GkO3XLGy8RGCp960tjXR7g&utm_medium=api&utm_source=9f1063e3&v=3B21C90ED553025F34A06C3FD16897C890888189",
-      "description": "The Technical Support Specialist is an experienced second-level technical resource who owns complex customer escalations and serves as a key liaison between Support and our Development, QA, and Product teams. This person works directly with LeanData and Salesforce configuration and APIs to diagnose issues across our product suite, including Orchestration, Scheduling, and Journeys; partners with Engineering and QA on reproducible bug reports, and translates customer-reported symptoms into clear \u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "IT Support Specialist",
-      "company": "OWL Services",
-      "location": "Manchester, Hillsborough County",
-      "posted": "2026-09-16T20:17:05Z",
-      "url": "https://www.adzuna.com/land/ad/5886807995?se=mjG6XrGy8RGeX64IzcI5Jg&utm_medium=api&utm_source=9f1063e3&v=531F8083B96FD96516DF6E532F4503E4D04F0E0B",
-      "description": "Who We Are OWL Services is the premier sales, installation, program management and service provider to retail, commercial, fleet, aviation and marine, and emergency power generation companies across the U.S. With 33 offices and distribution centers and more than 1,400 field service professionals, OWL delivers on a service platform that includes construction, compliance and testing, maintenance and repair, modernization and re-imaging, and EV charging solutions to keep businesses and people movi\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "HR Data Analyst",
-      "company": "Federal Reserve System",
-      "location": "Ny State Campus, Albany County",
-      "posted": "2026-09-16T19:27:04Z",
-      "url": "https://www.adzuna.com/land/ad/5886756354?se=gsDCYbGy8RG2D9vMuepRVA&utm_medium=api&utm_source=9f1063e3&v=5605180489FAE82E68F0B4E03AE590679884B3C1",
-      "description": "Company Federal Reserve Bank of Kansas CityWhen you join the Federal Reserve\u2014the nation's central bank\u2014you\u2019ll play a key role, collaborating with leading professionals to strengthen and protect our economic, financial and payments systems. We invest in contemporary and emerging technology each year to support the Federal Reserve and our economy, and we\u2019re building a dynamic and diverse team for our future. The HR Product Strategy Center is seeking an HR Business Intelligence Data Analyst. You\u2019l\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Data Analyst",
-      "company": "Northwell",
+      "title": "Data Analyst Intern",
+      "company": "CAI",
       "location": "US",
-      "posted": "2026-09-16T19:24:41Z",
-      "url": "https://www.adzuna.com/land/ad/5886748675?se=gsDCYbGy8RG2D9vMuepRVA&utm_medium=api&utm_source=9f1063e3&v=6E91E053CA6192C0D4DFC7D25697A43D25AAC0CE",
-      "description": "Job Description Analyzes, verifies, tracks and reports on department related databases and software. Serves as a liaison between department\u2019s analytical needs and technical data storage systems and files; collaborates with stakeholders to document requirements for reporting. Develop analytic reports and dashboards utilizing various databases and third party data files. Job Responsibility Executive Reporting and Dashboards Creates and maintains executive reporting and dashboards using Epic repor\u2026",
+      "posted": "2026-09-16T22:30:16Z",
+      "url": "https://www.adzuna.com/land/ad/5887016767?se=Fs6D6_uy8RG-HvXocs6iYQ&utm_medium=api&utm_source=9f1063e3&v=6ED82F9E3540443E5AF377096596749ED54A1468",
+      "description": "hackajob is collaborating with CAI to connect them with exceptional professionals for this role. Data Analyst Intern Req number: R8452 Employment type: Full time Worksite flexibility: Remote Who we are CAI is a global technology services firm with over 8,500 associates worldwide and a yearly revenue of $1 billion. We have over 40 years of excellence in uniting talent and technology to power the possible for our clients, colleagues, and communities. As a privately held company, we have the freed\u2026",
       "source": "Adzuna (redirect link)"
     },
     {
-      "title": "IT Support Specialist - Remote",
-      "company": "AP MAX INC",
-      "location": "Houston, Harris County",
-      "posted": "2026-09-16T19:24:33Z",
-      "url": "https://www.adzuna.com/land/ad/5886748294?se=mjG6XrGy8RGeX64IzcI5Jg&utm_medium=api&utm_source=9f1063e3&v=8C530C6FAC127BA21E11F005BF536ADC753BBB59",
-      "description": "At Allia Health Group, the umbrella organization for Southend Pharmacy, Brello Health, and Woven, we don\u2019t just follow industry trends\u2014we redefine them. By offering customized and cost-effective wellness products that follow cost-containment models, we aim to improve people\u2019s quality of life and meet them wherever they are on their health journey. Allia Health Group is seeking a IT Support Specialist to Provide front-line and hands-on support for roughly 75 on-site administrative employees and \u2026",
+      "title": "IT Support Specialist II",
+      "company": "Robert Half",
+      "location": "Bee Cave, Travis County",
+      "posted": "2026-09-16T22:06:15Z",
+      "url": "https://www.adzuna.com/land/ad/5886997621?se=OP-D6Puy8RG-HvXocs6iYQ&utm_medium=api&utm_source=9f1063e3&v=0BAAE8E5F682579048EA9D23AE1A444BA59D6ED3",
+      "description": "Description We are looking actively partnering with an Austin-based client to identify an IT support specialist II. This contract opportunity is ideal for someone who thrives in a predominantly Mac-based environment, enjoys solving Level 2 support issues, and can create a smooth technology experience for both employees and leadership. The role will play a key part in endpoint support, collaboration tools, onboarding activities, and conference room technology while delivering effective, user-fri\u2026",
       "source": "Adzuna (redirect link)"
     },
     {
-      "title": "HR Data Analyst",
-      "company": "Federal Reserve System",
-      "location": "South San Francisco, San Mateo County",
-      "posted": "2026-09-16T19:24:29Z",
-      "url": "https://www.adzuna.com/land/ad/5886748076?se=gsDCYbGy8RG2D9vMuepRVA&utm_medium=api&utm_source=9f1063e3&v=87A714A41BC083E72206838714E54E64091FD641",
-      "description": "Company Federal Reserve Bank of Kansas CityWhen you join the Federal Reserve\u2014the nation's central bank\u2014you\u2019ll play a key role, collaborating with leading professionals to strengthen and protect our economic, financial and payments systems. We invest in contemporary and emerging technology each year to support the Federal Reserve and our economy, and we\u2019re building a dynamic and diverse team for our future. The HR Product Strategy Center is seeking an HR Business Intelligence Data Analyst. You\u2019l\u2026",
+      "title": "Desktop Support Technician",
+      "company": "Harris Corporation",
+      "location": "Camden, Ouachita County",
+      "posted": "2026-09-16T20:38:37Z",
+      "url": "https://www.adzuna.com/land/ad/5886845525?se=aIV-5_uy8RGv64qE4zjWDA&utm_medium=api&utm_source=9f1063e3&v=23567F3A2D2E64A6A732CF2AD310EB0FA4C2038A",
+      "description": "L3Harris is dedicated to recruiting and developing high-performing talent who are passionate about what they do. Our employees are unified in a shared dedication to our customers' mission and quest for professional growth. L3Harris provides an inclusive, engaging environment designed to empower employees and promote work-life success. Fundamental to our culture is an unwavering focus on values, dedication to our communities, and commitment to excellence in everything we do. L3Harris is the Trus\u2026",
       "source": "Adzuna (redirect link)"
     },
     {
-      "title": "HR Data Analyst",
-      "company": "Federal Reserve System",
-      "location": "Saint Louis, Saint Louis County",
-      "posted": "2026-09-16T19:24:29Z",
-      "url": "https://www.adzuna.com/land/ad/5886748068?se=gsDCYbGy8RG2D9vMuepRVA&utm_medium=api&utm_source=9f1063e3&v=DC6D68775ECEE47AEF4D6F01817DBB21821F31D8",
-      "description": "Company Federal Reserve Bank of Kansas CityWhen you join the Federal Reserve\u2014the nation's central bank\u2014you\u2019ll play a key role, collaborating with leading professionals to strengthen and protect our economic, financial and payments systems. We invest in contemporary and emerging technology each year to support the Federal Reserve and our economy, and we\u2019re building a dynamic and diverse team for our future. The HR Product Strategy Center is seeking an HR Business Intelligence Data Analyst. You\u2019l\u2026",
+      "title": "FIU Fraud Data Analyst (Remote)",
+      "company": "SouthState Bank",
+      "location": "Colorado, US",
+      "posted": "2026-09-16T20:32:53Z",
+      "url": "https://www.adzuna.com/land/ad/5886837168?se=Fs6D6_uy8RG-HvXocs6iYQ&utm_medium=api&utm_source=9f1063e3&v=2DD6882AB1DEF31D359200CECEFD9638D6344A8B",
+      "description": "The SouthState story is one of steady growth, deep community roots, and an unwavering commitment to helping our customers move forward. Since our beginnings in the 1930s to becoming a trusted financial partner across the South and beyond - we are known for combining personal relationships with forward-thinking solutions. We are committed to helping our team members find their success while maintaining the integrity of our values: building trust, fostering lasting relationships and pursuing exce\u2026",
       "source": "Adzuna (redirect link)"
     },
     {
-      "title": "HR Data Analyst",
-      "company": "Federal Reserve System",
-      "location": "Chicago, Cook County",
-      "posted": "2026-09-16T19:23:37Z",
-      "url": "https://www.adzuna.com/land/ad/5886744324?se=gsDCYbGy8RG2D9vMuepRVA&utm_medium=api&utm_source=9f1063e3&v=EF6B29E29E179FF3EEAEA9B1A5572C314F639CB5",
-      "description": "Company Federal Reserve Bank of Kansas CityWhen you join the Federal Reserve\u2014the nation's central bank\u2014you\u2019ll play a key role, collaborating with leading professionals to strengthen and protect our economic, financial and payments systems. We invest in contemporary and emerging technology each year to support the Federal Reserve and our economy, and we\u2019re building a dynamic and diverse team for our future. The HR Product Strategy Center is seeking an HR Business Intelligence Data Analyst. You\u2019l\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "QA Technician II",
-      "company": "SK FOOD GROUP",
-      "location": "Tolleson, Maricopa County",
-      "posted": "2026-09-16T19:22:51Z",
-      "url": "https://www.adzuna.com/land/ad/5886742692?se=EnanX7Gy8RGFcf6CuUYj3g&utm_medium=api&utm_source=9f1063e3&v=12588E71A97512F8BC851C859B3DA5AD1F6C61D7",
-      "description": "Reports To: Quality Assurance Supervisor FLSA Status: Hourly ROLE SUMMARY Hungry for a new career? Imagineworking for a company that knows that its people are the key to its success in the marketplace. A company in which achieving extraordinary results and having a stimulating work experience are part of the same process. We cultivate and embrace a diverse employee population. We recognize that people with diverse backgrounds, experiences and perspectives fuel our growth and enrich our global c\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Technical Support Specialist",
-      "company": "Chadwell Supply",
-      "location": "Tampa, Hillsborough County",
-      "posted": "2026-09-16T19:22:50Z",
-      "url": "https://www.adzuna.com/land/ad/5886742327?se=GkO3XLGy8RGCp960tjXR7g&utm_medium=api&utm_source=9f1063e3&v=200A7137EEE25A0A300C90219AA4280EA9F6A292",
-      "description": "Smart, Innovative, and Hard-working? Perfect! We are growing and need the right people with the right mindset. Join our family and find a home where you will enjoy working with your peers, be challenged to work hard, and have some fun in the midst of it all. We are proud to have been named 2026 National Apartment Association Supplier Company of The Year! Benefits that drive themselves Hourly rate of $20.00 - $22.00 Based on Experience! Full Time, Monday-Friday, 8am - 5pm. Work from home options\u2026",
+      "title": "Human Resources Data Analyst",
+      "company": "Arnold Porter",
+      "location": "Washington, Washington, D.C.",
+      "posted": "2026-09-16T16:12:22Z",
+      "url": "https://www.adzuna.com/land/ad/5886631734?se=Fs6D6_uy8RG-HvXocs6iYQ&utm_medium=api&utm_source=9f1063e3&v=85097F6DCA7401CD7EA345DBCFFC55E7731DAA7E",
+      "description": "Arnold & Porter is an international law firm with offices across the United States, Europe, and Asia. The firm provides sophisticated regulatory, litigation, and transactional services to clients across a broad range of industries, including more than half of the Fortune 100. We are seeking a detail-oriented Human Resources Data Analyst to support critical compensation, pay-equity, and compliance initiatives for professional staff. This role will partner closely with the Chief Human Resources O\u2026",
       "source": "Adzuna (redirect link)"
     },
     {
@@ -286,7 +124,7 @@
       "company": "TATA Consultancy Services Limited",
       "location": "Santa Clara, Santa Clara County",
       "posted": "2026-09-16T15:55:46Z",
-      "url": "https://www.adzuna.com/land/ad/5886626405?se=GkO3XLGy8RGCp960tjXR7g&utm_medium=api&utm_source=9f1063e3&v=8066A3E8F799A37A10801D1E6DCFDE1D9C1EEDFF",
+      "url": "https://www.adzuna.com/land/ad/5886626405?se=qFx35vuy8RG-HvXocs6iYQ&utm_medium=api&utm_source=9f1063e3&v=8066A3E8F799A37A10801D1E6DCFDE1D9C1EEDFF",
       "description": "Technical Support Specialist Santa Clara, CA | 8 - 10 years of experience Job Description Must Have Technical/Functional Skills Linux systems Command-line / CLI tools Databases and basic database concepts Networking beyond basic desktop connectivity Scripting and/or automation Remote system troubleshooting Roles & Responsibilities \u2022 Enjoys troubleshooting and figuring out why something isn't working. \u2022 Approaches unfamiliar problems logically and methodically. \u2022 Learns new technologies quickly \u2026",
       "source": "Adzuna (redirect link)"
     },
@@ -304,8 +142,26 @@
       "company": "Masterapp Labs",
       "location": "Dimondale, Eaton County",
       "posted": "2026-09-16T14:08:05Z",
-      "url": "https://www.adzuna.com/land/ad/5886573485?se=_nG-W7Gy8RGc5KgkGQlIJw&utm_medium=api&utm_source=9f1063e3&v=00983566DDE9499D42385C2E66352339AE654369",
+      "url": "https://www.adzuna.com/land/ad/5886573485?se=gs9x5fuy8RG-HvXocs6iYQ&utm_medium=api&utm_source=9f1063e3&v=00983566DDE9499D42385C2E66352339AE654369",
       "description": "Job Title: IT Help Desk Technician Location: Dimondale as well Lansing, MI, (Hybrid)- O nsite from day 1, two days a week Position Type: Contract Interview Mode : In person interviews will be conducted in Dimondale as well Lansing. Responsibilities Answer incoming calls and emails, meeting identified response standards. Log requests for technical assistance received via the Hot Seat phone, or email into ticketing system. Monitor open cases for resolution within established timeframes and escala\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "Operations Business Analyst",
+      "company": "CONN-SELMER INC",
+      "location": "Elkhart, Elkhart County",
+      "posted": "2026-09-16T13:28:41Z",
+      "url": "https://www.adzuna.com/land/ad/5886525593?se=qjGQ7Puy8RGv64qE4zjWDA&utm_medium=api&utm_source=9f1063e3&v=67E1C0009E5C736A4213ECAF4B14F0BA899AC758",
+      "description": "Job Description Job Description Description: This is an onsite position located in Elkhart, IN At Conn Selmer, we're passionate about music and dedicated to producing the highest-quality instruments for musicians of all skill levels. As a member of our organization, we seek candidates who possess the following values: Integrity, Excellence, Teamwork, Inclusivity, and Innovation. Please see our Conn Selmer website (www.connselmer.com) for more information about who we are. The Operations Busines\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Planet",
+      "location": "State Farm, Arlington County",
+      "posted": "2026-09-16T10:53:02Z",
+      "url": "https://www.adzuna.com/land/ad/5886327638?se=Fs6D6_uy8RG-HvXocs6iYQ&utm_medium=api&utm_source=9f1063e3&v=39ECE6B731C46E7FCB645B73EF4FA69D3F495CBC",
+      "description": "Planet designs, builds, and operates the largest constellation of imaging satellites in history. This constellation delivers an unprecedented dataset of empirical information via a revolutionary cloud-based platform to authoritative figures in commercial, environmental, and humanitarian sectors. We are both a space company and data company all rolled into one. Customers and users across the globe use Planets data to develop new technologies, drive revenue, power research, and solve our world\u2019s \u2026",
       "source": "Adzuna (redirect link)"
     },
     {
@@ -327,345 +183,84 @@
       "source": "Adzuna (redirect link)"
     },
     {
+      "title": "Business Analyst",
+      "company": "Eden Red Payment Solutions",
+      "location": "Boston, Thomas County",
+      "posted": "2026-09-15T22:27:49Z",
+      "url": "https://www.adzuna.com/land/ad/5885498865?se=qjGQ7Puy8RGv64qE4zjWDA&utm_medium=api&utm_source=9f1063e3&v=60B2932DE15BB2682BC75A1B2B1513352E40CBCB",
+      "description": "hackajob is collaborating with Eden Red Payment Solutions to connect them with exceptional professionals for this role. Take a step forward and let Edenred surprise you. Every day, we deliver innovative solutions to improve the life of millions of people, connecting employees, companies, and merchants all around the world. We know there are hundred ways for you to grow. With us, you will expand your skills in a multicultural, challenging, and dynamic environment. Dare to join Edenred and get re\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
       "title": "Technical Support Specialist - Immediate Placement",
       "company": "Inteliblue LLC",
       "location": "Pineridge, Lexington County",
       "posted": "2026-09-15T20:18:07Z",
-      "url": "https://www.adzuna.com/land/ad/5885302226?se=GkO3XLGy8RGCp960tjXR7g&utm_medium=api&utm_source=9f1063e3&v=2E23E78DF049D0146201A4E6BBBCD408FFB8C6C5",
+      "url": "https://www.adzuna.com/land/ad/5885302226?se=qFx35vuy8RG-HvXocs6iYQ&utm_medium=api&utm_source=9f1063e3&v=2E23E78DF049D0146201A4E6BBBCD408FFB8C6C5",
       "description": "Technical Support Specialist - Immediate Placement This is a very urgent requirement with immediate placement, please apply for immediate consideration. Job Title:: Technical Support Specialist Location:: Columbia, South Carolina Interview:: Both Web Cam and In Person Interview Duration:: Long Term Required Qualifications 1 to 4 years of relevant IT support or service desk experience. Knowledge of Windows 10/11, Microsoft Office 365, Azure/Active Directory, basic networking (DNS, DHCP, TCP/IP),\u2026",
       "source": "Adzuna (redirect link)"
     },
     {
-      "title": "SENIOR BUSINESS ANALYST",
-      "company": "MESSERLI KRAMER P.A.",
-      "location": "Medicine Lake, Hennepin County",
-      "posted": "2026-09-15T16:40:06Z",
-      "url": "https://www.adzuna.com/details/5885123685?utm_medium=api&utm_source=9f1063e3",
-      "description": "Summary: Messerli Kramer, a trusted Twin Cities law firm since 1965, is looking for a full-time, SENIOR BUSINESS ANALYST to join our team in Plymouth, MN to serve as a critical liaison between business stakeholders and technology teams. This role is responsible for identifying business needs, analyzing processes, gathering requirements, and supporting the successful implementation of technology solutions that improve operational efficiency, client service, compliance, and business performance. \u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Business Analyst",
-      "company": "Autodesk",
-      "location": "US",
-      "posted": "2026-09-15T12:26:33Z",
-      "url": "https://www.adzuna.com/land/ad/5884921018?se=AE6xYrGy8RG51dr89L8inQ&utm_medium=api&utm_source=9f1063e3&v=0546949920BCE66EEDE44BD0C78DAC79A4D233A4",
-      "description": "Job Requisition ID  26WD100763 Position Overview You will contribute to Strategic Programs and Offerings by aligning our requirements with program objectives, driving business model changes, and ensuring offering standardization. You will collaborate with teams, including partners, business architecture, technical product management, and engineering teams, to ensure the successful launch of new initiatives. You will help build strategic initiatives, improve business processes, and facilitate co\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Quality Assurance (QA) Technicians",
-      "company": "Izzio Artisan Bakery LLC",
-      "location": "Louisville, Boulder County",
-      "posted": "2026-09-15T12:25:48Z",
-      "url": "https://www.adzuna.com/land/ad/5884912560?se=EnanX7Gy8RGFcf6CuUYj3g&utm_medium=api&utm_source=9f1063e3&v=28D7C8793EF39F356C349340B8AA06DCED826C43",
-      "description": "Description Izzio Artisan Bakery is America\u2019s 1 Sourdough Artisan Bakery. We are spotlighting the innovation in our market, making us the fastest growing brand. At Izzio we are focused on providing our customers with great bread created using traditional methods and the best possible ingredients. We have expanded to our second Izzio Artisan Bakery facility in Louisville, CO. We are looking to hire experienced Quality Assurance Technicians (Food Production). Quality Assurance (QA) Technicians wo\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "QA Technician - 1st shift",
-      "company": "OSI Group",
-      "location": "Rancho California, Riverside County",
-      "posted": "2026-09-15T12:21:52Z",
-      "url": "https://www.adzuna.com/land/ad/5884894982?se=EnanX7Gy8RGFcf6CuUYj3g&utm_medium=api&utm_source=9f1063e3&v=E858402CE46FE19A3CCA667DD5E178B83B61349E",
-      "description": "Principal Duties & Responsibilities: \u00b7 Job is an individual contributor. \u00b7 Job is an individual contributor and has no direct reports. \u00b7 Review QA/HACCP paperwork used in all production departments and fill out correctly. \u00b7 Be able to interact with and communicate with various team members in management, QA, and production as well as government officials, and 3rd party contractors. \u00b7 Perform all QA Tech responsibilities for routine quality checks, and audits on production, the dock, and the fac\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Business Analyst",
-      "company": "Autodesk",
-      "location": "Denver, Colorado",
-      "posted": "2026-09-15T12:21:00Z",
-      "url": "https://www.adzuna.com/land/ad/5884887297?se=AE6xYrGy8RG51dr89L8inQ&utm_medium=api&utm_source=9f1063e3&v=72DFBEA74B57EEFC3DEC1A0CD48CF3705B1B552A",
-      "description": "Job Requisition ID  26WD100763 Position Overview You will contribute to Strategic Programs and Offerings by aligning our requirements with program objectives, driving business model changes, and ensuring offering standardization. You will collaborate with teams, including partners, business architecture, technical product management, and engineering teams, to ensure the successful launch of new initiatives. You will help build strategic initiatives, improve business processes, and facilitate co\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "IT Support Specialist",
-      "company": "Dark Horse Tech",
-      "location": "Tampa, Hillsborough County",
-      "posted": "2026-09-15T12:20:58Z",
-      "url": "https://www.adzuna.com/land/ad/5884886871?se=mjG6XrGy8RGeX64IzcI5Jg&utm_medium=api&utm_source=9f1063e3&v=5A5DCC4BCA7BBC0F86D6663ADC0DB838E9C94591",
-      "description": "TAP Program & IT Support Specialist Location: MacDill Air Force Base, Tampa, FL \u2013 On-site Employment Type: Full-Time Schedule: Monday\u2013Friday, approximately 7:30 a.m.\u20134:30 p.m.; maximum 40 hours per week Salary Range: $55,000\u2013$58,000 annually Clearance: No security clearance required; must be eligible to obtain a DoD Common Access Card (CAC) Anticipated Start: Upon Government contract award and funding availability Position Overview Dark Horse Technologies LLC is seeking a versatile, customer-fo\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "IT Help Desk Technician",
-      "company": "Flash",
-      "location": "Austin, Travis County",
-      "posted": "2026-09-15T12:20:45Z",
-      "url": "https://www.adzuna.com/land/ad/5884884865?se=_nG-W7Gy8RGc5KgkGQlIJw&utm_medium=api&utm_source=9f1063e3&v=E91B5BC12422F86E19EAA3C99A1A9124B55C52F9",
-      "description": "Help us change the way the world parks Parking isn\u2019t just about spaces \u2013 it\u2019s about creating seamless experiences, sustainable solutions, and smarter cities. At Flash, we\u2019re not just thinking about today\u2019s parking challenges; we\u2019re actively shaping the future of parking  charging. Join us in transforming the way the world parks. Join our Flash Team as an IT Help Desk Technician! Join Flash as a full-time IT Help Desk Technician and become an essential part of our internal success! You\u2019ll work a\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Marketing Data Analyst",
-      "company": "Second Harvest Heartland",
-      "location": "Brooklyn Park, Hennepin County",
-      "posted": "2026-09-15T12:09:52Z",
-      "url": "https://www.adzuna.com/land/ad/5884848975?se=gsDCYbGy8RG2D9vMuepRVA&utm_medium=api&utm_source=9f1063e3&v=FBC32FAD0268921BABA4381D06C5BBC9491DBAC2",
-      "description": "JOB TITLE: Marketing Data Analyst DEPARTMENT: External Relations Team - Marketing LED BY: Director of Marketing FSLA STATUS: Hourly HOURS: Part-time; 20-30 hours/week, six month temporary assignment LOCATION: Brooklyn Park, MN / Hybrid ABOUT SECOND HARVEST HEARTLAND Second Harvest Heartland is the second-largest food bank in the United States, sourcing and delivering food to nearly 1,000 food shelves and food distribution partners throughout 59 counties across central and southern Minnesota and\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Denver Human Services IT Desktop Support Technician",
-      "company": "City and County of Denver",
-      "location": "Denver, Colorado",
-      "posted": "2026-09-15T12:09:49Z",
-      "url": "https://www.adzuna.com/land/ad/5884848767?se=jki6XbGy8RGFcf6CuUYj3g&utm_medium=api&utm_source=9f1063e3&v=8FEB7F0758855AF0DB840B47D402D1CEFAAE6706",
-      "description": "About Our Job Who We Are With competitive pay, great benefits, and endless opportunities, working for the City and County of Denver means seeing yourself working with purpose \u2014 for you, and those who benefit from your passion, skills and expertise. Join our diverse, inclusive and talented workforce of more than 13,000 team members who are at the heart of what makes Denver, Denver. We value diversity of ethnicity, race, socioeconomic status, sexual identity, gender, religion, language, ability, \u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "IT Support Specialist",
-      "company": "Holt Logistics Corp.",
-      "location": "Gloucester City, Camden County",
-      "posted": "2026-09-15T12:09:10Z",
-      "url": "https://www.adzuna.com/land/ad/5884846943?se=mjG6XrGy8RGeX64IzcI5Jg&utm_medium=api&utm_source=9f1063e3&v=CFD114C0177668696EB2F0405F81510CC1B0D9F9",
-      "description": "Holt Logistics Corp. is a family owned, single-source service provider of commercial, accounting, marketing and technology services to marine terminal operators, warehouses and logistics companies. Position Summary An IT Support Specialist Level I provides technical assistance and support to users experiencing hardware, software, or network issues. This role is critical for ensuring the smooth operation of an organization\u2019s IT systems and empowering employees to use technology efficiently. Key \u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Business Analyst",
-      "company": "Guidehouse",
-      "location": "Washington, Washington, D.C.",
-      "posted": "2026-09-15T12:04:09Z",
-      "url": "https://www.adzuna.com/land/ad/5884841280?se=AE6xYrGy8RG51dr89L8inQ&utm_medium=api&utm_source=9f1063e3&v=26D2B1753701DCDB55DF7B313B2D7C1B25EB3DA6",
-      "description": "Job Family : Operational Effectiveness Consulting Travel Required : None Clearance Required : Active Secret What You Will Do : We are seeking a highly motivated Business Analyst to support the design, development, deployment, adoption, and measurement of innovative AI and technology solutions. Working within a cross-functional team, this individual will help identify and evaluate opportunities for AI, automation, data analytics, and digital transformation initiatives. They will partner with cli\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "CPQ Business Analyst",
-      "company": "RELX",
-      "location": "Georgia, US",
-      "posted": "2026-09-15T12:04:05Z",
-      "url": "https://www.adzuna.com/land/ad/5884840983?se=AE6xYrGy8RG51dr89L8inQ&utm_medium=api&utm_source=9f1063e3&v=B9430AC16EAA6BF33335CC0832055315FE7320DD",
-      "description": "About the Business LexisNexis Risk Solutions is the essential partner in the assessment of risk. Within our Business Services vertical, we offer a multitude of solutions focused on helping businesses of all sizes drive higher revenue growth, maximize operational efficiencies, and improve customer experience. Our solutions help our customers solve difficult problems in the areas of Anti-Money Laundering/Counter Terrorist Financing, Identity Authentication & Verification, Fraud and Credit Risk mi\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Business Analyst Job",
-      "company": "Tripoint Solutions LLC",
-      "location": "North Carolina, US",
-      "posted": "2026-09-15T12:03:57Z",
-      "url": "https://www.adzuna.com/land/ad/5884840581?se=AE6xYrGy8RG51dr89L8inQ&utm_medium=api&utm_source=9f1063e3&v=C50D2F962A7B2B4B32827B1AAC7537B5C9CE104A",
-      "description": "We are technology innovators, partnered with state-of-the-art providers, such as AWS, ServiceNow, and UiPath, to drive digital transformation in the federal space. TPS teams are bringing automation and data science into areas of the government that are crying out for fresh tech\u2014making positive impacts felt by tens of thousands of users, countless citizens, and all six branches of the military each day. Our Agile teams are responsible for envisioning, launching, and operating the massive data sy\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "IT Support Specialist - Gardener's Supply Company Burlington, VT",
-      "company": "Gardens Alive Inc",
-      "location": "Burlington, Chittenden County",
-      "posted": "2026-09-15T12:03:20Z",
-      "url": "https://www.adzuna.com/land/ad/5884836677?se=mjG6XrGy8RGeX64IzcI5Jg&utm_medium=api&utm_source=9f1063e3&v=0012493BFC968AFC0D1EA1E9E86277E74BD06686",
-      "description": "Description The IT Support Specialist provides hands-on technology support across the Gardener\u2019s Supply retail garden center fleet. This position is responsible for maintaining reliable technology systems and providing responsive support for retail stores, offices, and operational teams. The IT Support Specialist serves as a key resource for troubleshooting hardware, software, networking, connectivity, and other technology needs across multiple garden center locations. This role requires regula\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Data Analyst",
-      "company": "CACI International",
-      "location": "Norfolk, Norfolk City",
-      "posted": "2026-09-15T12:03:19Z",
-      "url": "https://www.adzuna.com/land/ad/5884836533?se=gsDCYbGy8RG2D9vMuepRVA&utm_medium=api&utm_source=9f1063e3&v=4D098562746FD1418DE8C4695EEB3121B0F34EFD",
-      "description": "Job Title: Data AnalystJob Category: Information TechnologyTime Type: Full timeMinimum Clearance Required to Start: SecretEmployee Type: RegularPercentage of Travel Required: Up to 10%Type of Travel: Local* * * The Opportunity: CACI has an immediate opening for a Data Analyst / Data Scientist supporting the United States Fleet Forces Command (USFFC) under the Naval Forces Logistics (NFL) II contract, on-site at the NSA Hampton Roads location. In this role, you will bridge the gap between comple\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Data Analyst",
-      "company": "Darkstar Intelligence LLC",
-      "location": "Washington, Washington, D.C.",
-      "posted": "2026-09-15T12:03:14Z",
-      "url": "https://www.adzuna.com/land/ad/5884836150?se=gsDCYbGy8RG2D9vMuepRVA&utm_medium=api&utm_source=9f1063e3&v=8B34D2C4DC3B66089A0059274CE164A9DF8A8025",
-      "description": "Description DATA ANALYST Location: Washington, DC | Type: Full-Time | Clearance: TS/SCI  CI Polygraph Overview DarkStar Intelligence is seeking a highly qualified Data Analyst to support mission-driven analytic operations in Washington, DC. The selected candidate will provide advanced data exploitation, analytic tradecraft, and visualization support to enable informed decision-making for government stakeholders. This position requires the ability to collect, fuse, and analyze structured and uns\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Data Analyst V",
-      "company": "Texas Health & Human Services Commission",
-      "location": "Austin, Travis County",
-      "posted": "2026-09-15T11:54:08Z",
-      "url": "https://www.adzuna.com/land/ad/5884800680?se=gsDCYbGy8RG2D9vMuepRVA&utm_medium=api&utm_source=9f1063e3&v=EE02BE2987F5FA35F356D24682C145742589BECA",
-      "description": "Join the Texas Health and Human Services Commission (HHSC) and be part of a team committed to creating a positive impact in the lives of fellow Texans. At HHSC, your contributions matter, and we support you at each stage of your life and work journey. Our comprehensive benefits package includes 100% paid employee health insurance for full-time eligible employees, a defined benefit pension plan, generous time off benefits, numerous opportunities for career advancement and more. Explore more deta\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Business Analyst",
-      "company": "Tripoint Solutions LLC",
-      "location": "Alabama, US",
-      "posted": "2026-09-15T11:53:42Z",
-      "url": "https://www.adzuna.com/land/ad/5884795887?se=AE6xYrGy8RG51dr89L8inQ&utm_medium=api&utm_source=9f1063e3&v=DE0747631D9AEA712243D80CA95D7CF626689768",
-      "description": "About Company: About Tripoint Solutions We are technology innovators, partnered with state-of-the-art providers, such as AWS, ServiceNow, and UiPath, to drive digital transformation in the federal space. TPS teams are bringing automation and data science into areas of the government that are crying out for fresh tech\u2014making positive impacts felt by tens of thousands of users, countless citizens, and all six branches of the military each day. Our Agile teams are responsible for envisioning, laun\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Business Analyst",
-      "company": "Perfected Claims",
-      "location": "Nevada, US",
-      "posted": "2026-09-15T11:53:17Z",
-      "url": "https://www.adzuna.com/land/ad/5884791801?se=AE6xYrGy8RG51dr89L8inQ&utm_medium=api&utm_source=9f1063e3&v=1E1C562166B494B97C3949B27B69F5B18239A6ED",
-      "description": "We are looking for two Business Analysts to join our team! About Perfected When corporations cause harm, someone has to answer for it. At Perfected, we guide people through complex legal journeys with one clear goal: to hold corporations accountable and help communities reclaim their power. We start with people\u2014their stories, their pain, their hope\u2014and we stand with them every step of the way. Our work is rooted in transparency, empathy, and advocacy. We partner with law firms across the countr\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Business Analyst",
-      "company": "Perfected Claims",
-      "location": "Kentucky, US",
-      "posted": "2026-09-15T11:53:17Z",
-      "url": "https://www.adzuna.com/land/ad/5884791728?se=AE6xYrGy8RG51dr89L8inQ&utm_medium=api&utm_source=9f1063e3&v=205633139BD82A9498FA62EB547A9B2A6656CDE0",
-      "description": "We are looking for two Business Analysts to join our team! About Perfected When corporations cause harm, someone has to answer for it. At Perfected, we guide people through complex legal journeys with one clear goal: to hold corporations accountable and help communities reclaim their power. We start with people\u2014their stories, their pain, their hope\u2014and we stand with them every step of the way. Our work is rooted in transparency, empathy, and advocacy. We partner with law firms across the countr\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Conflicts Data Analyst",
-      "company": "Troutman Pepper",
-      "location": "Atlanta, Fulton County",
-      "posted": "2026-09-15T11:49:54Z",
-      "url": "https://www.adzuna.com/land/ad/5884782692?se=gsDCYbGy8RG2D9vMuepRVA&utm_medium=api&utm_source=9f1063e3&v=846D9BE65835ACA4463100B2D30DB148DE8B2B8B",
-      "description": "We are always seeking talented, motivated, growth-minded, and creative individuals. Our firm is committed to providing employee support and advancement, while embracing inclusion and innovation as keys to a stronger future. We invite you to explore the position below and to submit your application to join our team! The Conflicts Data Analyst plays a critical role within the Intake & Conflict Services department, supporting the firm's risk management and conflicts clearance processes. The Confli\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Business Analyst",
-      "company": "Tripoint Solutions LLC",
-      "location": "Mississippi, US",
-      "posted": "2026-09-15T11:49:51Z",
-      "url": "https://www.adzuna.com/land/ad/5884782400?se=AE6xYrGy8RG51dr89L8inQ&utm_medium=api&utm_source=9f1063e3&v=4C177E18A2C02D116BADD2D62683C2ECC5548131",
-      "description": "About Company: About Tripoint Solutions We are technology innovators, partnered with state-of-the-art providers, such as AWS, ServiceNow, and UiPath, to drive digital transformation in the federal space. TPS teams are bringing automation and data science into areas of the government that are crying out for fresh tech\u2014making positive impacts felt by tens of thousands of users, countless citizens, and all six branches of the military each day. Our Agile teams are responsible for envisioning, laun\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Business Analyst",
-      "company": "Perfected Claims",
-      "location": "Florida",
-      "posted": "2026-09-15T11:49:44Z",
-      "url": "https://www.adzuna.com/land/ad/5884781635?se=AE6xYrGy8RG51dr89L8inQ&utm_medium=api&utm_source=9f1063e3&v=8D114019F84419A39FEA353FD90B12617A4F2C4F",
-      "description": "We are looking for two Business Analysts to join our team! About Perfected When corporations cause harm, someone has to answer for it. At Perfected, we guide people through complex legal journeys with one clear goal: to hold corporations accountable and help communities reclaim their power. We start with people\u2014their stories, their pain, their hope\u2014and we stand with them every step of the way. Our work is rooted in transparency, empathy, and advocacy. We partner with law firms across the countr\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "IT Support Specialist and Systems Administrator",
-      "company": "Booz Allen Hamilton",
-      "location": "Pearl Harbor, Honolulu County",
-      "posted": "2026-09-15T11:49:38Z",
-      "url": "https://www.adzuna.com/land/ad/5884781038?se=mjG6XrGy8RGeX64IzcI5Jg&utm_medium=api&utm_source=9f1063e3&v=095C38EB63F3B53CDE9DA0BBF8DCEE491393783A",
-      "description": "IT Support Specialist and Systems Administrator The Opportunity: Provides in-depth support and leads problem solving and implementation efforts for specific technology products or applications. Applies specific functional and working general industry knowledge. Develops or contributes to solutions to a variety of problems of moderate scope and complexity. Works independently with some guidance. May review or guide activities of more junior employees. You Have: 4 years of experience supporting s\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Business Analyst",
-      "company": "Tripoint Solutions LLC",
-      "location": "Kansas, Wyandotte County",
-      "posted": "2026-09-15T11:49:38Z",
-      "url": "https://www.adzuna.com/land/ad/5884781069?se=AE6xYrGy8RG51dr89L8inQ&utm_medium=api&utm_source=9f1063e3&v=4D7FC7E42E46F9AA99237347EA0ED9F57852AC98",
-      "description": "About Company: About Tripoint Solutions We are technology innovators, partnered with state-of-the-art providers, such as AWS, ServiceNow, and UiPath, to drive digital transformation in the federal space. TPS teams are bringing automation and data science into areas of the government that are crying out for fresh tech\u2014making positive impacts felt by tens of thousands of users, countless citizens, and all six branches of the military each day. Our Agile teams are responsible for envisioning, laun\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Business Analyst",
-      "company": "Accenture Federal Services",
-      "location": "Washington, Washington, D.C.",
-      "posted": "2026-09-15T11:49:20Z",
-      "url": "https://www.adzuna.com/land/ad/5884779725?se=AE6xYrGy8RG51dr89L8inQ&utm_medium=api&utm_source=9f1063e3&v=BCB4F91EC90F49C005A7814B7A88B783F363F388",
-      "description": "At Accenture Federal Services, nothing matters more than helping the US federal government make the nation stronger and safer and life better for people. Our 13,000 people are united in a shared purpose to pursue the limitless potential of technology and ingenuity for clients across defense, national security, public safety, civilian, and military health organizations. Join Accenture Federal Services, a technology company within global Accenture. Recognized as a Glassdoor Top 100 Best Place to \u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Part-Time Help Desk Technician",
-      "company": "Koniag Government Services, LLC",
-      "location": "Arlington, Arlington County",
-      "posted": "2026-09-15T11:49:06Z",
-      "url": "https://www.adzuna.com/land/ad/5884778528?se=_nG-W7Gy8RGc5KgkGQlIJw&utm_medium=api&utm_source=9f1063e3&v=1303F3E329DBC98DEFFC311135D97B4E05BF6C59",
-      "description": "This position may be filled prior to the posted deadline. Interested candidates are encouraged to apply as soon as possible. Koniag Data Solutions, LLC a Koniag Government Services company, is seeking a Part-Time Help Desk Technician with a TS/SCI Security clearance to support KDS and our government customer in Arlington, VA. Benefits include medical, dental, and vision insurance, 401(k) retirement plan, paid time off, paid parental leave, life and disability insurance, flexible spending accoun\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Institutional Data Analyst",
-      "company": "Weill Cornell Medical College",
-      "location": "Ny State Campus, Albany County",
-      "posted": "2026-09-15T11:48:43Z",
-      "url": "https://www.adzuna.com/land/ad/5884776924?se=gsDCYbGy8RG2D9vMuepRVA&utm_medium=api&utm_source=9f1063e3&v=7FD8C73F4260C9855BEB7C92326C0F36B05AC3E8",
-      "description": "Title: Institutional Data Analyst Location: Midtown Org Unit: Institutional Reporting Work Days: Weekly Hours: 35.00 Exemption Status: Exempt Salary Range: $83,400.00 - $94,800.00 *As required under NYC Human Rights Law Int 1208-2018 - Salary range for this role when Hired for NYC Offices Position Summary The Office of Analytics & Institutional Reporting supports the strategic mission of Weill Cornell Medicine by providing key stakeholders with valuable information, interpreting a high volume a\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Business Analyst",
-      "company": "IQUASAR LLC",
-      "location": "Ny State Campus, Albany County",
-      "posted": "2026-09-15T11:48:33Z",
-      "url": "https://www.adzuna.com/land/ad/5884776249?se=AE6xYrGy8RG51dr89L8inQ&utm_medium=api&utm_source=9f1063e3&v=AA01306F8D6B75CAD429F654DC5FA00C852A6561",
-      "description": "Position: Business Analyst Location: Brooklyn, NY Position Type: Full-Time. Work Authorization : U.S Citizen Job Summary We are seeking a Business Analyst with at least 4 years of experience in business and data analysis to support IT development and management initiatives. The ideal candidate will work closely with business stakeholders and technical teams to gather, analyze, and document business and functional requirements, oversee project deliverables, and ensure successful project executio\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Business Analyst",
-      "company": "Tripoint Solutions LLC",
-      "location": "Tennessee, Drew County",
-      "posted": "2026-09-15T11:19:44Z",
-      "url": "https://www.adzuna.com/land/ad/5884748757?se=AE6xYrGy8RG51dr89L8inQ&utm_medium=api&utm_source=9f1063e3&v=15D973C639718594776B0B49FAA38C04DFB9A8D2",
-      "description": "About Company: About Tripoint Solutions We are technology innovators, partnered with state-of-the-art providers, such as AWS, ServiceNow, and UiPath, to drive digital transformation in the federal space. TPS teams are bringing automation and data science into areas of the government that are crying out for fresh tech\u2014making positive impacts felt by tens of thousands of users, countless citizens, and all six branches of the military each day. Our Agile teams are responsible for envisioning, laun\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Data Analyst, Marketing",
-      "company": "Current",
-      "location": "Ny State Campus, Albany County",
-      "posted": "2026-09-15T11:18:25Z",
-      "url": "https://www.adzuna.com/land/ad/5884742894?se=gsDCYbGy8RG2D9vMuepRVA&utm_medium=api&utm_source=9f1063e3&v=04061B390D3730B61CA0B07EC9853CC5AD92C67F",
-      "description": "DATA ANALYST, MARKETING Current is a leading consumer fintech platform transforming financial access for everyday Americans with over 6 million members. We provide access to financial solutions that seamlessly work together to solve the needs of our members and enable all Americans to build better financial futures. Based in NYC, our results-driven environment drives us to build better products, grow faster and empower everyone on our team to have an impact on our business and mission to improv\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Business Analyst",
-      "company": "Tripoint Solutions LLC",
-      "location": "Virginia, US",
-      "posted": "2026-09-15T11:18:21Z",
-      "url": "https://www.adzuna.com/land/ad/5884742020?se=AE6xYrGy8RG51dr89L8inQ&utm_medium=api&utm_source=9f1063e3&v=A3DEED4BBC0F7E150B9B4082B67FE5B67F83BE35",
-      "description": "About Company: About Tripoint Solutions We are technology innovators, partnered with state-of-the-art providers, such as AWS, ServiceNow, and UiPath, to drive digital transformation in the federal space. TPS teams are bringing automation and data science into areas of the government that are crying out for fresh tech\u2014making positive impacts felt by tens of thousands of users, countless citizens, and all six branches of the military each day. Our Agile teams are responsible for envisioning, laun\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Business Analyst",
-      "company": "Tripoint Solutions LLC",
-      "location": "Washington, Washington, D.C.",
-      "posted": "2026-09-15T10:57:09Z",
-      "url": "https://www.adzuna.com/land/ad/5884698617?se=AE6xYrGy8RG51dr89L8inQ&utm_medium=api&utm_source=9f1063e3&v=86BF8BD16AE94FC6D4CA5C8B57BD3F15BE238EC8",
-      "description": "About Company: About Tripoint Solutions We are technology innovators, partnered with state-of-the-art providers, such as AWS, ServiceNow, and UiPath, to drive digital transformation in the federal space. TPS teams are bringing automation and data science into areas of the government that are crying out for fresh tech\u2014making positive impacts felt by tens of thousands of users, countless citizens, and all six branches of the military each day. Our Agile teams are responsible for envisioning, laun\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "IT Support Specialist",
-      "company": "RH Wine & Co LLC",
-      "location": "Illinois, US",
-      "posted": "2026-09-15T10:55:13Z",
-      "url": "https://www.adzuna.com/land/ad/5884693003?se=mjG6XrGy8RGeX64IzcI5Jg&utm_medium=api&utm_source=9f1063e3&v=90E4710B6AB06699A11F2AFFF6A705A659A6CF1C",
-      "description": "Under the direction of the IT Support Manager, the IT Support Specialist provides responsive, customer-focused technical support to employees and contractors. The position supports onboarding and offboarding, account administration, workstation deployment, endpoint and software support, inventory management, vendor coordination, and issue documentation. The role is intended for an individual who can build technical knowledge and assume broader responsibilities as the organization grows. This is\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Business Analyst",
-      "company": "Tripoint Solutions LLC",
-      "location": "Georgia, US",
-      "posted": "2026-09-15T10:54:59Z",
-      "url": "https://www.adzuna.com/land/ad/5884691747?se=AE6xYrGy8RG51dr89L8inQ&utm_medium=api&utm_source=9f1063e3&v=E90A57C640E4181D1179A1BE90B90763C9175E59",
-      "description": "About Company: About Tripoint Solutions We are technology innovators, partnered with state-of-the-art providers, such as AWS, ServiceNow, and UiPath, to drive digital transformation in the federal space. TPS teams are bringing automation and data science into areas of the government that are crying out for fresh tech\u2014making positive impacts felt by tens of thousands of users, countless citizens, and all six branches of the military each day. Our Agile teams are responsible for envisioning, laun\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "Business Analyst",
-      "company": "Tripoint Solutions LLC",
-      "location": "North Carolina, US",
-      "posted": "2026-09-15T10:54:56Z",
-      "url": "https://www.adzuna.com/land/ad/5884691475?se=AE6xYrGy8RG51dr89L8inQ&utm_medium=api&utm_source=9f1063e3&v=32E2FC96C591AADBFFF66BD9BEC1A4486AFB2062",
-      "description": "About Company: About Tripoint Solutions We are technology innovators, partnered with state-of-the-art providers, such as AWS, ServiceNow, and UiPath, to drive digital transformation in the federal space. TPS teams are bringing automation and data science into areas of the government that are crying out for fresh tech\u2014making positive impacts felt by tens of thousands of users, countless citizens, and all six branches of the military each day. Our Agile teams are responsible for envisioning, laun\u2026",
-      "source": "Adzuna (redirect link)"
-    },
-    {
-      "title": "IT Support Specialist",
-      "company": "thatgamecompany",
+      "title": "Business Operations Analyst",
+      "company": "RedCircle",
       "location": "Los Angeles, Los Angeles County",
-      "posted": "2026-09-15T10:54:05Z",
-      "url": "https://www.adzuna.com/land/ad/5884688091?se=mjG6XrGy8RGeX64IzcI5Jg&utm_medium=api&utm_source=9f1063e3&v=CF659371D6FC1677C6320BA89DF0A0B5540903A1",
-      "description": "IT Support Specialist Onsite/hybrid \u2014 Los Angeles area, within commuting distance of El Segundo, CA About the role You are the first point of contact when technology gets in the way of someone's work. You'll own tier-1 support end to end \u2014 triaging requests, resolving what you can on the spot, and escalating cleanly to Technical Support Operations when you can't. It's a hands-on role on a small, high-trust team, and the quality of your work is felt studio-wide every day. You'll support artists,\u2026",
+      "posted": "2026-09-15T11:08:33Z",
+      "url": "https://www.adzuna.com/land/ad/5884724475?se=qjGQ7Puy8RGv64qE4zjWDA&utm_medium=api&utm_source=9f1063e3&v=0A08884DE2ADA9650B5B206A7103B64183DA2424",
+      "description": "Los Angeles or Boston (hybrid) RedCircle is helping creators to turn their podcast into a business. As an Analyst, you\u2019ll play an integral part in our mission as you work with our finance, product, and growth teams to make sure we have the data, systems, and processes we need in order to grow the business. This role will work end-to-end across our data lifecycle, split between platform work (ensuring all of our data sources are connected to the team\u2019s tools, checked for quality, and modeled to \u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "Senior Healthcare Data Analyst - Remote",
+      "company": "Sentara Health",
+      "location": "West Virginia, US",
+      "posted": "2026-09-15T10:57:00Z",
+      "url": "https://www.adzuna.com/land/ad/5884697668?se=Fs6D6_uy8RG-HvXocs6iYQ&utm_medium=api&utm_source=9f1063e3&v=E372FAF35FA2FE2537AA8BE5619427FF2A96C865",
+      "description": "City/State Virginia Beach, VA Work Shift First (Days) Overview: Sentara is hiring a Senior Healthcare Data Analyst! This position is fully remote. Overview The Healthcare Data Analyst Senior provides data analysis support to the customer by assisting with the development of reports and/or dashboards to monitor program and operational performance. Promotes self-service analytics for customer adoption, understanding and use of data. Supports design of programmatic analyses and reporting capabilit\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "RHTP Workforce Data Analyst",
+      "company": "HCH ENTERPRISES LLC",
+      "location": "Cranston, Providence County",
+      "posted": "2026-09-15T10:54:58Z",
+      "url": "https://www.adzuna.com/land/ad/5884691603?se=Fs6D6_uy8RG-HvXocs6iYQ&utm_medium=api&utm_source=9f1063e3&v=6A11F6FCB44A317F87B4CCAA9269CE09C66A74BA",
+      "description": "HCH Enterprises, LLC is seeking a Workforce Data Analyst . This is a full-time position with HCH Enterprises, LLC, contract position with the state of Rhode Island. RHTP Workforce Data Analyst Job Description General Statement of Duties: At a professional working level, perform analytical assignments related to workforce initiatives within Rhode Island\u2019s federally funded Rural Health Transformation Program (RHTP). Responsibilities shall include data collection, management, analysis, visualizati\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "Principal Data Analyst",
+      "company": "Oracle",
+      "location": "US",
+      "posted": "2026-09-15T07:46:14Z",
+      "url": "https://www.adzuna.com/land/ad/5884583770?se=Fs6D6_uy8RG-HvXocs6iYQ&utm_medium=api&utm_source=9f1063e3&v=0FC115C8096A827901AC5C601AE7C781CB559A1A",
+      "description": "hackajob is collaborating with Oracle to connect them with exceptional professionals for this role. Description It's an exciting time to join Oracle Health! Our Government Services team is hiring a Principal Data Analyst, where you will analyze, prepare, and process data sets to be consumed for direct insights, statistical modeling or other analytical exploration for internal and external clients. In this role, some of your responsibilities will include to compile complex data sets from various\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "Senior Business Analyst",
+      "company": "Oracle",
+      "location": "Nashville, Howard County",
+      "posted": "2026-09-15T07:46:05Z",
+      "url": "https://www.adzuna.com/land/ad/5884583673?se=qjGQ7Puy8RGv64qE4zjWDA&utm_medium=api&utm_source=9f1063e3&v=312CDF098E9A58BB6F559F6BF878F533DBC792C8",
+      "description": "hackajob is collaborating with Oracle to connect them with exceptional professionals for this role. Description We are seeking a Business Analyst to improve business visibility, streamline reporting, and enable data-driven decision-making. This role will focus on centralizing business intelligence, supporting the Monthly Business Review (MBR) process, and automating recurring reporting and analytics. Responsibilities Key Responsibilities Business Intelligence Centralization: Consolidate data, m\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "Principal Business Analyst",
+      "company": "Oracle",
+      "location": "Nashville, Howard County",
+      "posted": "2026-09-15T07:46:04Z",
+      "url": "https://www.adzuna.com/land/ad/5884583602?se=qjGQ7Puy8RGv64qE4zjWDA&utm_medium=api&utm_source=9f1063e3&v=723B3E68A85F0637022A220FB2F4B391A5D26491",
+      "description": "hackajob is collaborating with Oracle to connect them with exceptional professionals for this role. Description We are seeking a Business Analyst to improve business visibility, streamline reporting, and enable data-driven decision-making. This role will focus on centralizing business intelligence, supporting the Monthly Business Review (MBR) process, and automating recurring reporting and analytics. Responsibilities Key Responsibilities Business Intelligence Centralization: Consolidate data, m\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "Business Analyst",
+      "company": "Randstad Digital",
+      "location": "Five Corners, Hudson County",
+      "posted": "2026-09-14T15:59:37Z",
+      "url": "https://www.adzuna.com/land/ad/5883863318?se=qjGQ7Puy8RGv64qE4zjWDA&utm_medium=api&utm_source=9f1063e3&v=0339D75E8FBE58561B3E866B4137179F77FE0441",
+      "description": "job summary: Looking to hire a business analyst to help support the banks progress towards business agility. This person will work closely with software development teams that are responsible for building & maintaining our technical applications. The candidate will be responsible for gathering & understanding business requirements, design, implementation, testing, and support of various projects. Candidate will also assist with general project duties such as creating JIRA work items, test scrip\u2026",
       "source": "Adzuna (redirect link)"
     },
     {
@@ -673,8 +268,17 @@
       "company": "Koniag Government Services",
       "location": "Wheaton, Montgomery County",
       "posted": "2026-09-14T06:55:50Z",
-      "url": "https://www.adzuna.com/land/ad/5883524318?se=_nG-W7Gy8RGc5KgkGQlIJw&utm_medium=api&utm_source=9f1063e3&v=751A5E6274888497C12E7300F3502B4462918135",
+      "url": "https://www.adzuna.com/land/ad/5883524318?se=gs9x5fuy8RG-HvXocs6iYQ&utm_medium=api&utm_source=9f1063e3&v=751A5E6274888497C12E7300F3502B4462918135",
       "description": "This position may be filled prior to the posted deadline. Interested candidates are encouraged to apply as soon as possible. Arlluk Technology Solutions (ATS), a Koniag Government Services company, is seeking an experienced Help Desk Technician to support ATS and our government customer in Silver Spring, Maryland. This is an onsite position. Benefits include medical, dental, and vision insurance, 401(k) retirement plan, paid time off, paid parental leave, life and disability insurance, flexible\u2026",
+      "source": "Adzuna (redirect link)"
+    },
+    {
+      "title": "Help Desk Technician",
+      "company": "TEKsystems",
+      "location": "Tularosa, Otero County",
+      "posted": "2026-09-13T06:55:10Z",
+      "url": "https://www.adzuna.com/land/ad/5882538254?se=gs9x5fuy8RG-HvXocs6iYQ&utm_medium=api&utm_source=9f1063e3&v=57CDFB0DDBA2CAD7CA794BD41D443C7E673E2C25",
+      "description": "Description SUMMARY: Responsible for providing technical assistance via the telephone and in-person. Support computer systems, hardware, and software in both a local and remote environment for business customers. ESSENTIAL DUTIES AND RESPONSIBILITIES INCLUDE THE FOLLOWING: - Serve as the first point of contact for customers, both internal and external, seeking technical assistance over the telephone, email or via a Help Desk ticketing system. - Perform remote troubleshooting through diagnostic \u2026",
       "source": "Adzuna (redirect link)"
     }
   ]
